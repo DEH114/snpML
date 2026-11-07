@@ -1,7 +1,7 @@
-# GWAS Catalog dataset for the QIAGEN 20-rsID panel
+# GWAS Catalog dataset for a 20-rsID panel
 
 This folder is a reproducible snapshot of literature-curated top associations
-from the NHGRI-EBI GWAS Catalog for the exact 20 public test rsIDs. It contains
+from the NHGRI-EBI GWAS Catalog for the supplied public rsIDs. It contains
 no patient genotypes.
 
 - Metadata-reported current release: 2026-10-29
@@ -20,7 +20,7 @@ retains every matching official row and all original strings without numeric
 coercion; its TSV copy adds only provenance and match columns. A source row can
 produce more than one relationship when it contains multiple panel rsIDs.
 
-`panel_status.tsv` always contains all 20 inputs in their original order.
+`panel_status.tsv` always contains all inputs in their original order.
 `dbsnp_resolution.tsv` records current identifiers used during matching.
 `gwas_catalog_metadata.json`, `archive_provenance.json`, and `run_manifest.json`
 capture metadata and file provenance. The metadata release is recorded
