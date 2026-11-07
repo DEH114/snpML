@@ -94,6 +94,13 @@ normalizes the input, invokes all seven scripts, captures their logs, and runs
 sources succeed. `generate_all_datasets.py` remains a generic compatibility
 entry point for the same seven-source workflow.
 
+The seven-source runner also performs one shared dbSNP enrichment step. It
+normalizes the dbSNP ESummary `genes` and `fxn_class` values once, then writes
+the same byte-identical `dbsnp_gene_consequences.json` into every one of the
+seven dataset folders before combination. This avoids seven independent dbSNP
+lookups while giving every source folder the same ordered, panel-complete
+annotation.
+
 The execution order is:
 
 1. ClinVar
@@ -187,6 +194,8 @@ UniProt features, and an existing AlphaFold reference-protein model.
 
 Important outputs include:
 
+- `dbsnp_gene_consequences.json`: the ordered, shared dbSNP record-level
+  gene/consequence annotation added by `generate_seven_datasets.py`.
 - `dataset_summary.json/.tsv`: one ordered row per input rsID.
 - `resolution_details.json`: Ensembl resolution evidence for every input.
 - `resolved_snvs.tsv`: one row per supported GRCh38 SNV allele.
@@ -218,6 +227,8 @@ window and strand against the selected PFM collection.
 
 Important outputs include:
 
+- `dbsnp_gene_consequences.json`: the ordered, shared dbSNP record-level
+  gene/consequence annotation added by `generate_seven_datasets.py`.
 - `dataset_summary.json/.tsv` and `resolution_details.json`.
 - `resolved_snvs.tsv` and `unsupported_or_unresolved.tsv`.
 - `variant_status.json`: one row per scanned allele.
@@ -244,6 +255,8 @@ direct variant records from haplotype, genotype, and other set-level records.
 
 Important outputs include:
 
+- `dbsnp_gene_consequences.json`: the ordered, shared dbSNP record-level
+  gene/consequence annotation added by `generate_seven_datasets.py`.
 - `dbsnp_resolution.json/.tsv`: supplied-to-current identifier mapping.
 - `rsid_clinvar_links.json/.tsv`: auditable rsID-to-ClinVar relationships.
 - `clinvar_records.json/.tsv`: direct variant records.
@@ -270,6 +283,8 @@ each panel rsID.
 
 Important outputs include:
 
+- `dbsnp_gene_consequences.json`: the ordered, shared dbSNP record-level
+  gene/consequence annotation added by `generate_seven_datasets.py`.
 - `dbsnp_resolution.json/.tsv` and `panel_status.json/.tsv`.
 - `rsid_associations.json/.tsv`: one panel-rsID-to-source-row relationship.
 - `matched_source_records.json/.tsv`: lossless official source rows.
@@ -300,6 +315,8 @@ view, but not an independent replication of GWAS Catalog evidence.
 
 Important outputs include:
 
+- `dbsnp_gene_consequences.json`: the ordered, shared dbSNP record-level
+  gene/consequence annotation added by `generate_seven_datasets.py`.
 - `dbsnp_resolution.json/.tsv` and `panel_status.json/.tsv`.
 - `phegeni_associations.json/.tsv`: normalized panel-rsID-to-source-row
   relationships.
@@ -330,6 +347,8 @@ cross-reference verifies the resolved current rsID.
 
 Important outputs include:
 
+- `dbsnp_gene_consequences.json`: the ordered, shared dbSNP record-level
+  gene/consequence annotation added by `generate_seven_datasets.py`.
 - `dbsnp_resolution.json/.tsv` and `panel_status.json/.tsv`.
 - `rsid_gnomad_links.json/.tsv`: verified rsID-to-variant relationships.
 - `gnomad_variants.json/.tsv`: normalized allele identity.
@@ -360,6 +379,8 @@ summaries while retaining the query-to-test relationship.
 
 Important outputs include:
 
+- `dbsnp_gene_consequences.json`: the ordered, shared dbSNP record-level
+  gene/consequence annotation added by `generate_seven_datasets.py`.
 - `dbsnp_resolution.json/.tsv` and `panel_status.json/.tsv`.
 - `gtr_test_matches.json/.tsv`: input-rsID-to-test relationships.
 - `gtr_tests.json/.tsv`: one normalized row per unique registered test.
@@ -387,6 +408,36 @@ registered test targets only the matched SNP.
 - Raw-response folders make retrieval and normalization auditable.
 - A nonzero exit can still leave useful partial output. Always inspect the
   manifest, status table, and `errors.json` before using a dataset.
+
+### Shared dbSNP gene/consequence annotation
+
+Each of the seven source folders contains
+`dbsnp_gene_consequences.json`. The seven copies are deliberately
+byte-identical and contain one ordered record per supplied rsID. Each record
+keeps `genes` and `functional_consequences` as separate arrays, along with the
+supplied/current rsID identity and dbSNP provenance.
+
+These arrays are record-level aggregates from dbSNP ESummary. They do **not**
+state which consequence belongs to which gene, allele, or transcript. In
+particular, consumers must not construct a gene-by-consequence Cartesian
+product or describe the values as exact gene:consequence pairs. Use an
+allele- and transcript-specific source such as VEP when that precision is
+required.
+
+The eight primary enriched JSON files are:
+
+1. `alpha_fold_dataset/dbsnp_gene_consequences.json`
+2. `jaspar_dataset/dbsnp_gene_consequences.json`
+3. `clinvar_dataset/dbsnp_gene_consequences.json`
+4. `gwas_catalog_dataset/dbsnp_gene_consequences.json`
+5. `phegeni_dataset/dbsnp_gene_consequences.json`
+6. `gnomad_dataset/dbsnp_gene_consequences.json`
+7. `gtr_dataset/dbsnp_gene_consequences.json`
+8. `combined_dataset/combined_data.json`
+
+Run `generate_seven_datasets.py` to create all eight as part of the normal
+workflow. Directly running only one source generator does not perform this
+suite-level shared enrichment.
 
 ## 14. Cache, refresh, and offline reproduction
 
@@ -426,6 +477,7 @@ rsID with these source sections:
 rank
 rsid
 identity
+dbsnp_gene_consequence
 alpha_fold
 jaspar
 clinvar
@@ -434,6 +486,10 @@ gnomad
 gtr
 phegeni
 ```
+
+The top-level `dbsnp_gene_consequence` object is the canonical combined copy
+for that rsID. Its `genes` and `functional_consequences` remain separate
+record-level aggregates; it does not assert exact gene/consequence pairing.
 
 One-to-many data remain nested by allele, transcript, ClinVar record, GWAS or
 PheGenI source row, gnomAD callset/population, motif hit, or GTR test. This
