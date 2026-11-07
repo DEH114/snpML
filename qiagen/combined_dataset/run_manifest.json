@@ -1,0 +1,2727 @@
+{
+  "schema_version": "1.0",
+  "generator": "combine_six_datasets.py",
+  "finished_at_utc": "2026-11-07T19:05:33.434002+00:00",
+  "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+  "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
+  "dataset_root": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset",
+  "output": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\combined_dataset",
+  "allow_partial": false,
+  "n_input_rsids": 20,
+  "input_rsids": [
+    "rs9807334",
+    "rs121913529",
+    "rs72921001",
+    "rs17822931",
+    "rs334",
+    "rs987870",
+    "rs429358",
+    "rs3827760",
+    "rs113993960",
+    "rs4988235",
+    "rs28934578",
+    "rs17004038",
+    "rs12913832",
+    "rs6025",
+    "rs713598",
+    "rs7412",
+    "rs80357713",
+    "rs1426654",
+    "rs1799963",
+    "rs1801133"
+  ],
+  "present_sources": [
+    "alpha_fold",
+    "jaspar",
+    "clinvar",
+    "gwas_catalog",
+    "gnomad",
+    "gtr"
+  ],
+  "missing_sources": [],
+  "source_provenance": {
+    "alpha_fold": {
+      "directory": "alpha_fold_dataset",
+      "manifests": {
+        "dataset_manifest": {
+          "finished_at_utc": "2026-11-07T19:04:47.990988+00:00",
+          "generator": "generate_alphafold_dataset.py",
+          "dataset_type": "VEP + UniProt + AlphaFold reference-protein context",
+          "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+          "n_input_rsids": 20,
+          "n_resolved_snv_alleles": 34,
+          "n_rsids_with_resolved_snv": 18,
+          "n_unsupported_or_unresolved": 2,
+          "branch_exit_status": 0,
+          "preparation_source_provenance": [
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs9807334?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:25.035876+00:00",
+              "sha256_utf8": "009ccbc14b27fd44cfd81343a094cb091c07f142cd9e2948f390eb14979e3f80",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/18:50997791..50997791:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:25.164869+00:00",
+              "sha256_utf8": "cde6a158e8107c2d98901072904a10193010cccdd5ad4f3c22513f954b342f13",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs121913529?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:25.722910+00:00",
+              "sha256_utf8": "93d080b2fbebc0eb2648cc85bb33cfcd2274ec63261ea65929069198c926ed62",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/12:25245350..25245350:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:25.878608+00:00",
+              "sha256_utf8": "bdc67f8de2c77461075fcf18299b2d92460f5c9a1e831c33bda09ea810d45960",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs72921001?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:26.100455+00:00",
+              "sha256_utf8": "53639757bdd2c6e9f05ab519230cecb788f4e27063731e8453f0791975c7d583",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:6868417..6868417:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:27.087575+00:00",
+              "sha256_utf8": "0cd1e4f579003fee22c6546f1ca1c09835871272d10cf40d5e79227bf436157f",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs17822931?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:29.489338+00:00",
+              "sha256_utf8": "22268b64088c1ed578f9ad80405376a380d7e945d89c9fa8ab448f81e518bfd9",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/16:48224287..48224287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:29.665498+00:00",
+              "sha256_utf8": "48d181367a09484a17792193d6da7ff7d1e9cc7ab9503f32e14b3dddad1a671a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs334?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:30.698226+00:00",
+              "sha256_utf8": "13b5d8f17238b4a15cb5169154408590b21d4c827a77f87633a90cee54679752",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:5227002..5227002:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:31.282399+00:00",
+              "sha256_utf8": "62addf6504854c63ac61ecaeda55bac7e6cd642739707e00b83577561a2b4795",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs987870?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:31.457589+00:00",
+              "sha256_utf8": "5bdbd852bf3a3ff5bff9193ee8a5b4e9ce710efec3b05afa59da1af013d25197",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/6:33075103..33075103:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:31.907375+00:00",
+              "sha256_utf8": "a541f16cce8e092602a26a24278284193f4e28f90bf403e89950ad1ae8eb9aed",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs429358?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:33.353989+00:00",
+              "sha256_utf8": "24591277aea3e3c77b8c5a361da1ec745440b4951999cf1e24adb671f033cd7c",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908684..44908684:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:33.586933+00:00",
+              "sha256_utf8": "041089d9ccdd5311735249e861aee7f5c5b4b14b4a91c6de016b0cec30f2a510",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs3827760?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:34.192194+00:00",
+              "sha256_utf8": "40ffc1c59ddf139ee5f08cce0aec6a8b4f49611eeea11e1ebe1588de56b739f0",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:108897145..108897145:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:34.422274+00:00",
+              "sha256_utf8": "3de19c7c57c7222f882178742b234693010794f1892835f1232bff8c5775aa84",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs113993960?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:35.509638+00:00",
+              "sha256_utf8": "271eff594dd5430671b8bba3fa51b8f8d192a0dc18b02ffc4b2f22019746943d",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/id/rs113993960?content-type=application%2Fjson&canonical=1&mane=1",
+              "retrieved_at_utc": "2026-11-07T15:40:36.491335+00:00",
+              "sha256_utf8": "4060171f091a8d0a905eb30c1cf536e17e553eb8ecd9bce3835a976de20e7a67",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs4988235?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:37.369108+00:00",
+              "sha256_utf8": "71093e39fa1c8593bb127bc2993fc035ea1b2650756a5860eedf7db89ad46fc0",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:135851076..135851076:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:37.613146+00:00",
+              "sha256_utf8": "50652572f05f9658c2845ff4899c40c3193997f11b3fed223a06b0394cb7f536",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs28934578?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:37.827471+00:00",
+              "sha256_utf8": "f1ab1f2acfa14d9ccca7f02749598be92a83241f30308fb6ef5fe09d50c6ab37",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/17:7675088..7675088:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:38.042987+00:00",
+              "sha256_utf8": "edca6e557d4ce674b761a483cbfd9552173eac0133c703ecc3ed6decec96403b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs17004038?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:39.938668+00:00",
+              "sha256_utf8": "6fd9fad98b59d8084a0729304ffceb007178931652d5be8128bcc524fc4cebb5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/22:23894404..23894404:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:40.152538+00:00",
+              "sha256_utf8": "641573696553d225bee18c05c279c28235ae833208eae38aeabac13aadd914ff",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs12913832?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:41.872243+00:00",
+              "sha256_utf8": "59d0a1098e18cfdc7301d303c112d7d45c003f728da7775623f310a0ba50267d",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:28120472..28120472:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:42.212082+00:00",
+              "sha256_utf8": "afef377b944ec7409a52714e719cad737e80e79f770627b81e0fda563aaa1767",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs6025?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:42.622174+00:00",
+              "sha256_utf8": "9a37368e21dd929e20696fbf9a54b65c6a6e30868f2710785a79b7defd9abce6",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:169549811..169549811:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:42.978497+00:00",
+              "sha256_utf8": "75249176e3479758a881f03c8ca4541d5d812355ad504626aa4f786684f69faa",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs713598?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:44.107809+00:00",
+              "sha256_utf8": "6d069259ca714d928d5d1f9479e0a45ef24a6a8b937118f89e374df1155e08d5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/7:141973545..141973545:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:44.439442+00:00",
+              "sha256_utf8": "3c7aa28e465586655a83734163d30dee2fac173ca3368f878311bb385cd1c829",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs7412?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:46.604778+00:00",
+              "sha256_utf8": "2b48a0f04b58389f79cd4ad8bbeb5c6faf31023c28eac4a00505d233c21abdc1",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908822..44908822:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:46.723587+00:00",
+              "sha256_utf8": "0fc2ca7af8d922ae178964b802b94da09a589649cf616d36d7388b9c34a21948",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs80357713?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:41:16.569629+00:00",
+              "sha256_utf8": "379148cb90f32fbafa73b61ec096bc7eeb01f49eac5450a0925a6ce2d360e65b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/id/rs80357713?content-type=application%2Fjson&canonical=1&mane=1",
+              "retrieved_at_utc": "2026-11-07T15:41:17.333935+00:00",
+              "sha256_utf8": "040366fd5402657c0251747f29b3d60177fb355e2f23c2d4b5c75d0b52a72d39",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs1426654?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:41:18.193066+00:00",
+              "sha256_utf8": "a4b43380ce9563232c068929e1764e6220559996da9e0ef24c86991edc8d45c1",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:48134287..48134287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:18.456130+00:00",
+              "sha256_utf8": "2195e9122dee0f4300bc552b6714bf6d62e3a434b019751781e5bfe216804659",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs1799963?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:41:21.798393+00:00",
+              "sha256_utf8": "79207623591ee98c01e37917230c6fee3cd9f845b0f8c5f21ecc88a03355eae6",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:46739505..46739505:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:21.925189+00:00",
+              "sha256_utf8": "66d4d3824db7f4773b4f66cbcb15721e73b7c82bfd16670b39306bc9a40b74e5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs1801133?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:41:22.974495+00:00",
+              "sha256_utf8": "748d77752bec6db6c4810b3e5d3a1bc352d1ef17a05ae97640f585b6350af323",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:11796321..11796321:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:23.119555+00:00",
+              "sha256_utf8": "6d15cff4b58aa63119491ac982a4ac6bc47972e0964024d92e07ee4735249fbe",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            }
+          ],
+          "notes": [
+            "AlphaFold files are existing reference-protein models, not mutant predictions",
+            "pLDDT is local model confidence, not variant pathogenicity",
+            "The input contains public loci, not an individual's genotype"
+          ]
+        },
+        "branch_run_manifest": {
+          "finished_at_utc": "2026-11-07T19:04:47.978329+00:00",
+          "assembly": "GRCh38",
+          "arguments": {
+            "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\alpha_fold_dataset\\resolved_snvs.tsv",
+            "out": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\alpha_fold_dataset",
+            "cache": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\.cache",
+            "offline": true,
+            "refresh": false,
+            "all_transcripts": false,
+            "vep_only": false,
+            "no_alphamissense": false
+          },
+          "input_sha256": "4d5a7da584c07abbd78c01610986880cab2182680082983bedf973254cf1e75f",
+          "sources": [
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/18:50997791..50997791:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:25.164869+00:00",
+              "sha256_utf8": "cde6a158e8107c2d98901072904a10193010cccdd5ad4f3c22513f954b342f13",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/18:50997791-50997791:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:44.164420+00:00",
+              "sha256_utf8": "d70d6f417a6f6d29ab394fbab249954e98a412ea8b4baa064927a6ec7c0008c2",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/12:25245350..25245350:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:25.878608+00:00",
+              "sha256_utf8": "bdc67f8de2c77461075fcf18299b2d92460f5c9a1e831c33bda09ea810d45960",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/12:25245350-25245350:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:45.003247+00:00",
+              "sha256_utf8": "0ead760c5f3ed143567c3030a7690cf60e613afe2d594b913193b7cff99fc46f",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000308495?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:43:44.760478+00:00",
+              "sha256_utf8": "b1ff15d68f2dbe985282d9c0dca0701a9f575df40980b5a8e250d981255b81f6",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/P01116.json",
+              "retrieved_at_utc": "2026-11-07T15:43:47.511126+00:00",
+              "sha256_utf8": "f5859c0632f543b103a6a5c64f86f78cdc88950bdcd010d0a11ecd215bf5929a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/A0ABF7PHA5.json",
+              "retrieved_at_utc": "2026-11-07T15:43:47.658901+00:00",
+              "sha256_utf8": "9c95ef67ac343d05492e9880fe075d377ed8e1091a5c650d3e7d9e08222463e6",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/A0ABF7PHA5",
+              "retrieved_at_utc": "2026-11-07T15:43:47.920354+00:00",
+              "sha256_utf8": "15e7bafcc1b516f76c0348c9ab0a0fc885aa26adc4922fcdd56b1e4286719492",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-A0ABF7PHA5-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:43:48.275257+00:00",
+              "sha256_utf8": "e7651558e7d43a8ad81a583a985c94bb2e6a076e16de0b002176cdf119a02906",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 13:54:51 GMT",
+              "etag": "\"caa5ba2e12dc5f9e9c14a0c4d8847c3f\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/12:25245350-25245350:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:45.746370+00:00",
+              "sha256_utf8": "216c06e60882addddbf6fa23f34914d8e606ab720454c9f22ba9956f59721686",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/12:25245350-25245350:1/T?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:46.406556+00:00",
+              "sha256_utf8": "ba177f787a08e79cd8d11a93620c9816813d7eb4a2219552275b79c9ab1bb389",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:6868417..6868417:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:27.087575+00:00",
+              "sha256_utf8": "0cd1e4f579003fee22c6546f1ca1c09835871272d10cf40d5e79227bf436157f",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/11:6868417-6868417:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:47.320626+00:00",
+              "sha256_utf8": "e499b427ce9b82323895c6181b33e60dd52a9b25eb4357bfe9504920395e9b8b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/16:48224287..48224287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:29.665498+00:00",
+              "sha256_utf8": "48d181367a09484a17792193d6da7ff7d1e9cc7ab9503f32e14b3dddad1a671a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/16:48224287-48224287:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:48.265446+00:00",
+              "sha256_utf8": "84cd877b11a50e88b4ed9226673e94d8136a5bab423c2434d9590118e07bb620",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000349017?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:43:49.775561+00:00",
+              "sha256_utf8": "44a93a032bb4fb4348188b575a56ee9682c7a19fd0952847e46a81187c42e9d6",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/Q96J66.json",
+              "retrieved_at_utc": "2026-11-07T15:43:54.045255+00:00",
+              "sha256_utf8": "fdeb037579eac4de387018eb37c846305f7baacf94a149aa1b2b9c66cfdba1ab",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/Q96J66",
+              "retrieved_at_utc": "2026-11-07T15:43:54.160406+00:00",
+              "sha256_utf8": "66fa75471d58095f2e5a25a79e49184686648752f559d9d8aeb0c354df5c664a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-Q96J66-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:43:54.805249+00:00",
+              "sha256_utf8": "f0d60f5a3957ccd0af12376b570a1fc362448cecfec8a1583e9969408b2f65d7",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 15:52:19 GMT",
+              "etag": "\"ba96761780e3fcd93af2a0e3ab5663c9\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/16:48224287-48224287:1/T?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:48.682625+00:00",
+              "sha256_utf8": "cc3e0112357366bb0be831975702a71412718f9606fe8468b5cbad5b6cc8e774",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:5227002..5227002:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:31.282399+00:00",
+              "sha256_utf8": "62addf6504854c63ac61ecaeda55bac7e6cd642739707e00b83577561a2b4795",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/11:5227002-5227002:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:50.155693+00:00",
+              "sha256_utf8": "ddbcd863e78464f49c72b3074d602714aa5e204a936786003755a03441badd1a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000333994?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:43:56.231392+00:00",
+              "sha256_utf8": "3aaadb1c7e62c3edbf153b2a9ae5880e582579aa8ea182bd452f9f1bb3b2e61d",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/P68871.json",
+              "retrieved_at_utc": "2026-11-07T15:44:15.236459+00:00",
+              "sha256_utf8": "3571d2af3020f81cb7dc3c7dcb757dfe294dd04e683ff1314b4be314a24d7a63",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/P68871",
+              "retrieved_at_utc": "2026-11-07T15:44:15.338846+00:00",
+              "sha256_utf8": "7a4ab449f01a2d36cac886f2f3d360552f52a1d1147c4525b4765b9324704078",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-P68871-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:44:15.713547+00:00",
+              "sha256_utf8": "37b411f5eaa2ff2e6f51774da344f1bd7b54e78c98ce67d9ffb02d8a3dbdf32a",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 12:37:57 GMT",
+              "etag": "\"a4fac0d28bb7f4a5c04d06e226ddd8f4\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/11:5227002-5227002:1/C?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:51.560992+00:00",
+              "sha256_utf8": "f8da805a85e3724006eefa875859226cf3efbbc990f36b48699f707558f06084",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/11:5227002-5227002:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:52.984214+00:00",
+              "sha256_utf8": "12fe2a2ef40ddf10836cf68649787448f0c9b897496112c74aa1f678aa4bb0b7",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/6:33075103..33075103:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:31.907375+00:00",
+              "sha256_utf8": "a541f16cce8e092602a26a24278284193f4e28f90bf403e89950ad1ae8eb9aed",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/6:33075103-33075103:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:53.929667+00:00",
+              "sha256_utf8": "b095dd4ed5c7ffcac87ca2c8c8f5e08628a035e5d90d0bdac60bce2bda9d04b1",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908684..44908684:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:33.586933+00:00",
+              "sha256_utf8": "041089d9ccdd5311735249e861aee7f5c5b4b14b4a91c6de016b0cec30f2a510",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/19:44908684-44908684:1/C?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:55.843097+00:00",
+              "sha256_utf8": "a521d373fa07cfab94f6ee33f555f7d7b07dce3df85b1dff42fe90085bba605d",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000252486?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:44:17.049049+00:00",
+              "sha256_utf8": "9f7e0fce4222265cce5c26f27cae419fcc70cf937264a3d6f5014d925982a269",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/P02649.json",
+              "retrieved_at_utc": "2026-11-07T15:44:25.280581+00:00",
+              "sha256_utf8": "092114effe4244e54e48c0e220b17dd15e96d65ded46d384238a193a29a83203",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/P02649",
+              "retrieved_at_utc": "2026-11-07T15:44:25.385720+00:00",
+              "sha256_utf8": "f788ea101ac847b0cb33336680d1c0e0d4861d8c357db1f7ac80ac74e564302e",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-P02649-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:44:25.753007+00:00",
+              "sha256_utf8": "71e53a341103c27e4425965517fde47df4120e1a61c69c2e538b3ee64e5408ec",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 15:17:11 GMT",
+              "etag": "\"1907c9583562b585e597a32d61733732\""
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:108897145..108897145:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:34.422274+00:00",
+              "sha256_utf8": "3de19c7c57c7222f882178742b234693010794f1892835f1232bff8c5775aa84",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/2:108897145-108897145:1/C?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:56.468060+00:00",
+              "sha256_utf8": "9c3841f2b9f1907023e61612521f3608b5aa40ac5e0e38aab41b69401b83ad35",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000258443?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:44:26.295735+00:00",
+              "sha256_utf8": "4c170fa9e60553f535e89b4945fd47945926a6951566b9d88c67846af5f1534c",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/Q9UNE0.json",
+              "retrieved_at_utc": "2026-11-07T15:44:26.435107+00:00",
+              "sha256_utf8": "34093a352ca84c556f49e1796741d2cda9ed992e45647166b0471e4f6ea6e47b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/Q9UNE0",
+              "retrieved_at_utc": "2026-11-07T15:44:26.536965+00:00",
+              "sha256_utf8": "86752eeab0c88f4fa4b3b0d8c2d6a9ffa91514bb9751e068f2223789ce467791",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UNE0-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:44:26.938549+00:00",
+              "sha256_utf8": "cb78ebc8bacf598cbe3c509871f944ce2c33c28f0d14593d79240f5a25951167",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 16:51:06 GMT",
+              "etag": "\"7fbad514206d1e3fb621d3e9c662fb0f\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/2:108897145-108897145:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:57.274642+00:00",
+              "sha256_utf8": "a03a6a4ddb532f5466ef650738d4310b98e7b34d75e9a040c814985c3ba1cc7c",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:135851076..135851076:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:37.613146+00:00",
+              "sha256_utf8": "50652572f05f9658c2845ff4899c40c3193997f11b3fed223a06b0394cb7f536",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/2:135851076-135851076:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:58.380037+00:00",
+              "sha256_utf8": "bdfed56782ce766dece31bda29be89aa57ad7dc0d4d4cacc789bacfaed664333",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/2:135851076-135851076:1/C?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:58.958598+00:00",
+              "sha256_utf8": "6b301390b3a978325c6a768413516a071f75282414455103c3792fcb09a421d9",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/2:135851076-135851076:1/T?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:41:59.797340+00:00",
+              "sha256_utf8": "dfbd5d5811f6490f94b692ca61eadef2e78fdc8d6d15036cfc7e00947486760d",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/17:7675088..7675088:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:38.042987+00:00",
+              "sha256_utf8": "edca6e557d4ce674b761a483cbfd9552173eac0133c703ecc3ed6decec96403b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/17:7675088-7675088:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:01.037021+00:00",
+              "sha256_utf8": "89686222379b64717910e31619e596fee7e35a25905e64d8dc8c037e2ca2e170",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000269305?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:44:27.328799+00:00",
+              "sha256_utf8": "1071f866edc95b19d576ea7450dbf35ce581144c36eece276948938fe5efe731",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/P04637.json",
+              "retrieved_at_utc": "2026-11-07T15:45:19.265754+00:00",
+              "sha256_utf8": "7951d14e182511ea11d2a0991fee9c2f6a6bbf9475d8b7a2aca5247e615e17cb",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/P04637",
+              "retrieved_at_utc": "2026-11-07T15:45:22.512709+00:00",
+              "sha256_utf8": "1ef436288de2bfd9dbc9a24147b758fbe09bd4a1e27db56d0ced3e5bac215589",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-P04637-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:45:23.304780+00:00",
+              "sha256_utf8": "5a7051e8f97848d43b3747268825b29cafb5fa99d2e3fff6f58efcdb74e74cc3",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 12:43:02 GMT",
+              "etag": "\"32e3ec7f63c19d5c3629cbf083e10cd6\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/17:7675088-7675088:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:02.247348+00:00",
+              "sha256_utf8": "e04e2a25946411f71065f2705730a646fce077b996a8cb892df6742894838fea",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/17:7675088-7675088:1/T?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:11.287526+00:00",
+              "sha256_utf8": "5a33b3b0af408232626b752231f034d2bc3a1071454c938272968d16e9205cdd",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/22:23894404..23894404:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:40.152538+00:00",
+              "sha256_utf8": "641573696553d225bee18c05c279c28235ae833208eae38aeabac13aadd914ff",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/22:23894404-23894404:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:11.954671+00:00",
+              "sha256_utf8": "4779e4eb0c8731c74cf9368fbf9f2ee1e55d4ec2acd5e75ae1b0b6959af5c487",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:28120472..28120472:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:42.212082+00:00",
+              "sha256_utf8": "afef377b944ec7409a52714e719cad737e80e79f770627b81e0fda563aaa1767",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/15:28120472-28120472:1/C?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:12.757509+00:00",
+              "sha256_utf8": "4f9682f3de09ad5a657a76a02024e80676db9102db41e7267c2a0723d16936ed",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/15:28120472-28120472:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:13.291445+00:00",
+              "sha256_utf8": "a9f34e1f183cb90ac1eb02c53d57e44d9d25432f3b6cceced4609c0f58c28c01",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:169549811..169549811:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:42.978497+00:00",
+              "sha256_utf8": "75249176e3479758a881f03c8ca4541d5d812355ad504626aa4f786684f69faa",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/1:169549811-169549811:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:15.685108+00:00",
+              "sha256_utf8": "f57a19719f96f52cca16a49acb8a7aa10850b0556cbb6c84d0c427414ded1d7a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000356771?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:45:24.716758+00:00",
+              "sha256_utf8": "8ca11fa3b6fe21db9b87cbb53926c45e48871b07b74b2196da10401750e14aa6",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/P12259.json",
+              "retrieved_at_utc": "2026-11-07T15:45:43.971951+00:00",
+              "sha256_utf8": "33685aa013174b42582404a23eef07fe972b9e3f8649ae45c4f44038453c2f8b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/P12259",
+              "retrieved_at_utc": "2026-11-07T15:45:44.082207+00:00",
+              "sha256_utf8": "99465f6b734fcb7c9f7205f0154ac5995cb26917e3403ad48445a3d67929d12c",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-P12259-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:45:44.816704+00:00",
+              "sha256_utf8": "f5a75b8c2eb8117806d15f316d46c772969ebf67ae401d78382297f04010c3bb",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 13:47:40 GMT",
+              "etag": "\"232e5ddc65f8843579f32183b944b838\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/1:169549811-169549811:1/T?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:16.372784+00:00",
+              "sha256_utf8": "3a93753789e27e10d8b4a007a5346ca20584246f90dc48616435672d6e6fc3ea",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/7:141973545..141973545:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:44.439442+00:00",
+              "sha256_utf8": "3c7aa28e465586655a83734163d30dee2fac173ca3368f878311bb385cd1c829",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/7:141973545-141973545:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:17.079649+00:00",
+              "sha256_utf8": "ba0a80ca013315ade1fd57b5d5dcee67663799798f6f460b5fa97bfecbea5b5d",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000448219?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:45:46.425996+00:00",
+              "sha256_utf8": "764cdc9dff183f30660558ee3eabf4fb564b349eba19b6e0f9d63e9d083cd6f1",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/P59533.json",
+              "retrieved_at_utc": "2026-11-07T15:45:46.547404+00:00",
+              "sha256_utf8": "1588e1d372e21e06e6fb3a02ea83cbc4aae473e443235ea62ad199203345d275",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/P59533",
+              "retrieved_at_utc": "2026-11-07T15:45:46.657230+00:00",
+              "sha256_utf8": "11203c1f6f4e8045d71fb66a897f6d15c2ec5d18658ca7c757355cefb6fb6c7f",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-P59533-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:45:47.040272+00:00",
+              "sha256_utf8": "225d5fe203741da2b719520fb2340a8e99c5c0e0659deeb38c1f8d219948a099",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 15:42:05 GMT",
+              "etag": "\"1e03ac12a5c16f8bf3d9a0a350652039\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/7:141973545-141973545:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:18.100460+00:00",
+              "sha256_utf8": "eb51277ab4a686b5d1a59ca0be4a5ae23edfb0df8ba4a3262c381f5e39b9017b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/7:141973545-141973545:1/T?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:19.042732+00:00",
+              "sha256_utf8": "559071da0667c83a1001dfd8a2efcd7146ca590bdcd140112187600f389090bd",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908822..44908822:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:46.723587+00:00",
+              "sha256_utf8": "0fc2ca7af8d922ae178964b802b94da09a589649cf616d36d7388b9c34a21948",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/19:44908822-44908822:1/T?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:20.233030+00:00",
+              "sha256_utf8": "5efcb1ca8e478fe1c3be0e0b2be7dcb1a60fe2217ca8231221a0e914fa496ebc",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:48134287..48134287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:18.456130+00:00",
+              "sha256_utf8": "2195e9122dee0f4300bc552b6714bf6d62e3a434b019751781e5bfe216804659",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/15:48134287-48134287:1/G?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:21.049910+00:00",
+              "sha256_utf8": "f9470c5022469d5bf4aa1b9cd935ade6510e6d2dabe7eda836b4c1cbe55f4d83",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000341550?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:45:47.888844+00:00",
+              "sha256_utf8": "499c24c1610ace4c7cc8cfa7f51dc7338027f6ca10accfbe763b773d70791a9e",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/Q71RS6.json",
+              "retrieved_at_utc": "2026-11-07T15:45:53.909211+00:00",
+              "sha256_utf8": "f59c23a34cadcf2627d6ae38c44acc5d0fda26d7c03654afdee9ed490d93bb20",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/Q71RS6",
+              "retrieved_at_utc": "2026-11-07T15:45:54.014485+00:00",
+              "sha256_utf8": "291cdd930f3e899a1ab9d979e27e31e07a5a78a5ab1cc974d5710ba27bc73166",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-Q71RS6-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:45:54.899012+00:00",
+              "sha256_utf8": "71300b0ce6ea1abfef93b206c4c7619f28db80560244e8e24bf180021d927bf4",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 14:44:33 GMT",
+              "etag": "\"9b434e20a7c073f2549e773f0d534230\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/15:48134287-48134287:1/T?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:21.640534+00:00",
+              "sha256_utf8": "7075f09d342cef93f0e04849b04605704180faeeef696489d016f1adcba0538f",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:46739505..46739505:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:21.925189+00:00",
+              "sha256_utf8": "66d4d3824db7f4773b4f66cbcb15721e73b7c82bfd16670b39306bc9a40b74e5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/11:46739505-46739505:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:22.564370+00:00",
+              "sha256_utf8": "ed2c32b19f3674b9ae9ca5b1844c46ffb2a15fce2c25ddb78d1b7916c43ce8d5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:11796321..11796321:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:23.119555+00:00",
+              "sha256_utf8": "6d15cff4b58aa63119491ac982a4ac6bc47972e0964024d92e07ee4735249fbe",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/1:11796321-11796321:1/A?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:25.552160+00:00",
+              "sha256_utf8": "633f76050a302fb7896281ffaf8f831e608e46663e8268b77174b0477318fdc7",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/id/ENSP00000365775?content-type=application%2Fjson&type=protein",
+              "retrieved_at_utc": "2026-11-07T15:45:55.356841+00:00",
+              "sha256_utf8": "07f6d31ebdb9c963ce844a8d4f2d6a8a560f613a2939d68100a9f488f1e94779",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.uniprot.org/uniprotkb/P42898.json",
+              "retrieved_at_utc": "2026-11-07T15:46:06.884017+00:00",
+              "sha256_utf8": "2b806f4177138bd0a3c827a1a2fb79ba4bfc44861d626fb07f723c7feee6c499",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/api/prediction/P42898",
+              "retrieved_at_utc": "2026-11-07T15:46:06.991114+00:00",
+              "sha256_utf8": "4abd1dedbe8e7306ba4d35c0f17377237c65b743473cb2adc5e0965e4d79ca57",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://alphafold.ebi.ac.uk/files/AF-P42898-F1-model_v6.pdb",
+              "retrieved_at_utc": "2026-11-07T15:46:07.517387+00:00",
+              "sha256_utf8": "01bc429c79ba52b97f0dddf37aa5900c70cf42fdfbddefb4fe5bcb7b4c22c1c8",
+              "content_type": "application/octet-stream",
+              "last_modified": "Thu, 18 Sep 2025 15:57:42 GMT",
+              "etag": "\"a048d9cca58037390066d018f57e535b\""
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/region/1:11796321-11796321:1/C?content-type=application%2Fjson&mane=1&canonical=1&protein=1&uniprot=1&hgvs=1&domains=1&AlphaMissense=1",
+              "retrieved_at_utc": "2026-11-07T15:42:26.836056+00:00",
+              "sha256_utf8": "2b82b6ce38550b53fcd95a6332612e0845b7e6e00c0a10fefb1a5fdf905d74c5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            }
+          ],
+          "n_resolved_variants": 34,
+          "n_missense_rows": 377,
+          "n_errors": 0,
+          "note": "Research prototype; no mutant structure or phenotype prediction"
+        }
+      },
+      "reported_errors": [],
+      "input_files": [
+        {
+          "relative_path": "alpha_fold_dataset/dataset_manifest.json",
+          "size_bytes": 16083,
+          "sha256": "bfd2ceb064209f3986f1904ba3b41bdb7d22c0c30663053f472d8ee5e9464b67"
+        },
+        {
+          "relative_path": "alpha_fold_dataset/run_manifest.json",
+          "size_bytes": 38179,
+          "sha256": "b063ccbaf99d272daf61b27a38160ce0bb53c737f29b594cafdebe07e7c7e516"
+        },
+        {
+          "relative_path": "alpha_fold_dataset/errors.json",
+          "size_bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "relative_path": "alpha_fold_dataset/dataset_summary.json",
+          "size_bytes": 10710,
+          "sha256": "62eb33b8a3bc183b8b3505a6c2e00c735282da178cb428ec6b8a7176e37a0ce2"
+        },
+        {
+          "relative_path": "alpha_fold_dataset/resolution_details.json",
+          "size_bytes": 14695,
+          "sha256": "e718452f285a148ff86f0fd6b79e3b9ae3ad8e49e632609d2c63a9063ff931cc"
+        },
+        {
+          "relative_path": "alpha_fold_dataset/variant_status.json",
+          "size_bytes": 12413,
+          "sha256": "2d26e5d8fa7f708082e9304296c8c801127d85498f7bcf2252ac20d7c28d7c19"
+        },
+        {
+          "relative_path": "alpha_fold_dataset/protein_results.json",
+          "size_bytes": 1915098,
+          "sha256": "f35c9878284ce4a892fad19d75da15e752284e4fb09f7b9f11acc2dd048688a5"
+        }
+      ]
+    },
+    "jaspar": {
+      "directory": "jaspar_dataset",
+      "manifests": {
+        "dataset_manifest": {
+          "finished_at_utc": "2026-11-07T19:05:31.507799+00:00",
+          "generator": "generate_jaspar_dataset.py",
+          "dataset_type": "JASPAR allele-specific motif score changes",
+          "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+          "pfm_file": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\jaspar_dataset\\vertebrates.jaspar",
+          "n_input_rsids": 20,
+          "n_resolved_snv_alleles": 34,
+          "n_rsids_with_resolved_snv": 18,
+          "n_unsupported_or_unresolved": 2,
+          "branch_exit_status": 0,
+          "preparation_source_provenance": [
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs9807334?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:25.035876+00:00",
+              "sha256_utf8": "009ccbc14b27fd44cfd81343a094cb091c07f142cd9e2948f390eb14979e3f80",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/18:50997791..50997791:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:25.164869+00:00",
+              "sha256_utf8": "cde6a158e8107c2d98901072904a10193010cccdd5ad4f3c22513f954b342f13",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs121913529?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:25.722910+00:00",
+              "sha256_utf8": "93d080b2fbebc0eb2648cc85bb33cfcd2274ec63261ea65929069198c926ed62",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/12:25245350..25245350:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:25.878608+00:00",
+              "sha256_utf8": "bdc67f8de2c77461075fcf18299b2d92460f5c9a1e831c33bda09ea810d45960",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs72921001?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:26.100455+00:00",
+              "sha256_utf8": "53639757bdd2c6e9f05ab519230cecb788f4e27063731e8453f0791975c7d583",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:6868417..6868417:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:27.087575+00:00",
+              "sha256_utf8": "0cd1e4f579003fee22c6546f1ca1c09835871272d10cf40d5e79227bf436157f",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs17822931?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:29.489338+00:00",
+              "sha256_utf8": "22268b64088c1ed578f9ad80405376a380d7e945d89c9fa8ab448f81e518bfd9",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/16:48224287..48224287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:29.665498+00:00",
+              "sha256_utf8": "48d181367a09484a17792193d6da7ff7d1e9cc7ab9503f32e14b3dddad1a671a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs334?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:30.698226+00:00",
+              "sha256_utf8": "13b5d8f17238b4a15cb5169154408590b21d4c827a77f87633a90cee54679752",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:5227002..5227002:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:31.282399+00:00",
+              "sha256_utf8": "62addf6504854c63ac61ecaeda55bac7e6cd642739707e00b83577561a2b4795",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs987870?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:31.457589+00:00",
+              "sha256_utf8": "5bdbd852bf3a3ff5bff9193ee8a5b4e9ce710efec3b05afa59da1af013d25197",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/6:33075103..33075103:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:31.907375+00:00",
+              "sha256_utf8": "a541f16cce8e092602a26a24278284193f4e28f90bf403e89950ad1ae8eb9aed",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs429358?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:33.353989+00:00",
+              "sha256_utf8": "24591277aea3e3c77b8c5a361da1ec745440b4951999cf1e24adb671f033cd7c",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908684..44908684:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:33.586933+00:00",
+              "sha256_utf8": "041089d9ccdd5311735249e861aee7f5c5b4b14b4a91c6de016b0cec30f2a510",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs3827760?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:34.192194+00:00",
+              "sha256_utf8": "40ffc1c59ddf139ee5f08cce0aec6a8b4f49611eeea11e1ebe1588de56b739f0",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:108897145..108897145:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:34.422274+00:00",
+              "sha256_utf8": "3de19c7c57c7222f882178742b234693010794f1892835f1232bff8c5775aa84",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs113993960?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:35.509638+00:00",
+              "sha256_utf8": "271eff594dd5430671b8bba3fa51b8f8d192a0dc18b02ffc4b2f22019746943d",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/id/rs113993960?content-type=application%2Fjson&canonical=1&mane=1",
+              "retrieved_at_utc": "2026-11-07T15:40:36.491335+00:00",
+              "sha256_utf8": "4060171f091a8d0a905eb30c1cf536e17e553eb8ecd9bce3835a976de20e7a67",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs4988235?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:37.369108+00:00",
+              "sha256_utf8": "71093e39fa1c8593bb127bc2993fc035ea1b2650756a5860eedf7db89ad46fc0",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:135851076..135851076:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:37.613146+00:00",
+              "sha256_utf8": "50652572f05f9658c2845ff4899c40c3193997f11b3fed223a06b0394cb7f536",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs28934578?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:37.827471+00:00",
+              "sha256_utf8": "f1ab1f2acfa14d9ccca7f02749598be92a83241f30308fb6ef5fe09d50c6ab37",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/17:7675088..7675088:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:38.042987+00:00",
+              "sha256_utf8": "edca6e557d4ce674b761a483cbfd9552173eac0133c703ecc3ed6decec96403b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs17004038?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:39.938668+00:00",
+              "sha256_utf8": "6fd9fad98b59d8084a0729304ffceb007178931652d5be8128bcc524fc4cebb5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/22:23894404..23894404:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:40.152538+00:00",
+              "sha256_utf8": "641573696553d225bee18c05c279c28235ae833208eae38aeabac13aadd914ff",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs12913832?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:41.872243+00:00",
+              "sha256_utf8": "59d0a1098e18cfdc7301d303c112d7d45c003f728da7775623f310a0ba50267d",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:28120472..28120472:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:42.212082+00:00",
+              "sha256_utf8": "afef377b944ec7409a52714e719cad737e80e79f770627b81e0fda563aaa1767",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs6025?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:42.622174+00:00",
+              "sha256_utf8": "9a37368e21dd929e20696fbf9a54b65c6a6e30868f2710785a79b7defd9abce6",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:169549811..169549811:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:42.978497+00:00",
+              "sha256_utf8": "75249176e3479758a881f03c8ca4541d5d812355ad504626aa4f786684f69faa",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs713598?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:44.107809+00:00",
+              "sha256_utf8": "6d069259ca714d928d5d1f9479e0a45ef24a6a8b937118f89e374df1155e08d5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/7:141973545..141973545:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:44.439442+00:00",
+              "sha256_utf8": "3c7aa28e465586655a83734163d30dee2fac173ca3368f878311bb385cd1c829",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs7412?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:40:46.604778+00:00",
+              "sha256_utf8": "2b48a0f04b58389f79cd4ad8bbeb5c6faf31023c28eac4a00505d233c21abdc1",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908822..44908822:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:46.723587+00:00",
+              "sha256_utf8": "0fc2ca7af8d922ae178964b802b94da09a589649cf616d36d7388b9c34a21948",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs80357713?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:41:16.569629+00:00",
+              "sha256_utf8": "379148cb90f32fbafa73b61ec096bc7eeb01f49eac5450a0925a6ce2d360e65b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/vep/human/id/rs80357713?content-type=application%2Fjson&canonical=1&mane=1",
+              "retrieved_at_utc": "2026-11-07T15:41:17.333935+00:00",
+              "sha256_utf8": "040366fd5402657c0251747f29b3d60177fb355e2f23c2d4b5c75d0b52a72d39",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs1426654?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:41:18.193066+00:00",
+              "sha256_utf8": "a4b43380ce9563232c068929e1764e6220559996da9e0ef24c86991edc8d45c1",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:48134287..48134287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:18.456130+00:00",
+              "sha256_utf8": "2195e9122dee0f4300bc552b6714bf6d62e3a434b019751781e5bfe216804659",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs1799963?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:41:21.798393+00:00",
+              "sha256_utf8": "79207623591ee98c01e37917230c6fee3cd9f845b0f8c5f21ecc88a03355eae6",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:46739505..46739505:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:21.925189+00:00",
+              "sha256_utf8": "66d4d3824db7f4773b4f66cbcb15721e73b7c82bfd16670b39306bc9a40b74e5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/variation/human/rs1801133?content-type=application%2Fjson",
+              "retrieved_at_utc": "2026-11-07T15:41:22.974495+00:00",
+              "sha256_utf8": "748d77752bec6db6c4810b3e5d3a1bc352d1ef17a05ae97640f585b6350af323",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:11796321..11796321:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:23.119555+00:00",
+              "sha256_utf8": "6d15cff4b58aa63119491ac982a4ac6bc47972e0964024d92e07ee4735249fbe",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            }
+          ],
+          "notes": [
+            "Motif scores are heuristic hypotheses, not measured TF binding",
+            "No motif hit does not establish absence of regulatory function",
+            "The input contains public loci, not an individual's genotype"
+          ]
+        },
+        "branch_run_manifest": {
+          "finished_at_utc": "2026-11-07T19:05:31.495399+00:00",
+          "assembly": "GRCh38",
+          "arguments": {
+            "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\jaspar_dataset\\resolved_snvs.tsv",
+            "out": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\jaspar_dataset",
+            "cache": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\.cache",
+            "offline": true,
+            "refresh": false,
+            "motif_names": null,
+            "matrix_ids": null,
+            "pfm_file": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\jaspar_dataset\\vertebrates.jaspar",
+            "flank": 40,
+            "threshold": 0.8,
+            "min_delta": 0.1,
+            "pseudocount": 0.5
+          },
+          "input_sha256": "4d5a7da584c07abbd78c01610986880cab2182680082983bedf973254cf1e75f",
+          "sources": [
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/18:50997791..50997791:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:25.164869+00:00",
+              "sha256_utf8": "cde6a158e8107c2d98901072904a10193010cccdd5ad4f3c22513f954b342f13",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/18:50997751..50997831:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:27.646670+00:00",
+              "sha256_utf8": "69509970c525d978b9e657da0587818c2a644db1f94aefd99d2924f83b8a95df",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/12:25245350..25245350:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:25.878608+00:00",
+              "sha256_utf8": "bdc67f8de2c77461075fcf18299b2d92460f5c9a1e831c33bda09ea810d45960",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/12:25245310..25245390:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:27.803838+00:00",
+              "sha256_utf8": "135997a5a4a030d5a049c6deff585414b0f05bbef63c8f87b397fc745f72ddb2",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:6868417..6868417:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:27.087575+00:00",
+              "sha256_utf8": "0cd1e4f579003fee22c6546f1ca1c09835871272d10cf40d5e79227bf436157f",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:6868377..6868457:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:31.106382+00:00",
+              "sha256_utf8": "f05aefbf86d9e63f107b27c25550d31d236e0709beb5bed2ef70d5b088591900",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/16:48224287..48224287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:29.665498+00:00",
+              "sha256_utf8": "48d181367a09484a17792193d6da7ff7d1e9cc7ab9503f32e14b3dddad1a671a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/16:48224247..48224327:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:31.321784+00:00",
+              "sha256_utf8": "a59c333eb7bfcabff0af209b6bcee4ed399e5242754921afca29d6978e9a83c2",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:5227002..5227002:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:31.282399+00:00",
+              "sha256_utf8": "62addf6504854c63ac61ecaeda55bac7e6cd642739707e00b83577561a2b4795",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:5226962..5227042:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:31.539522+00:00",
+              "sha256_utf8": "5c4af342638eedcbee87072ee71cea21e26c81f008fb5d742a192515fbe4d8bf",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/6:33075103..33075103:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:31.907375+00:00",
+              "sha256_utf8": "a541f16cce8e092602a26a24278284193f4e28f90bf403e89950ad1ae8eb9aed",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/6:33075063..33075143:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:31.745148+00:00",
+              "sha256_utf8": "55fe9fe3b7dfd8796a9f2ff829cafbf20f5a81e810ed3bf8423ce1a898f73b35",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908684..44908684:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:33.586933+00:00",
+              "sha256_utf8": "041089d9ccdd5311735249e861aee7f5c5b4b14b4a91c6de016b0cec30f2a510",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908644..44908724:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:31.991282+00:00",
+              "sha256_utf8": "13148a3581fbe03f4e37d113a7a3a1b6cc200ca6ebc5e17855e3a1176dc3b4ca",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:108897145..108897145:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:34.422274+00:00",
+              "sha256_utf8": "3de19c7c57c7222f882178742b234693010794f1892835f1232bff8c5775aa84",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:108897105..108897185:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:32.374772+00:00",
+              "sha256_utf8": "d080135fa26bf0b837383284a15df8cc8db3893ab626c10adc693ecfb4855386",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:135851076..135851076:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:37.613146+00:00",
+              "sha256_utf8": "50652572f05f9658c2845ff4899c40c3193997f11b3fed223a06b0394cb7f536",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/2:135851036..135851116:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:42.343260+00:00",
+              "sha256_utf8": "baadd0e69a49dca07de3b3264fbac687999110ff5bc7471669b38af328cbfbae",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/17:7675088..7675088:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:38.042987+00:00",
+              "sha256_utf8": "edca6e557d4ce674b761a483cbfd9552173eac0133c703ecc3ed6decec96403b",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/17:7675048..7675128:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:42.487233+00:00",
+              "sha256_utf8": "70193ee4e33de571a2db974f4bfcbe59be50ae7c8d604f55993d009f15c5b77a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/22:23894404..23894404:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:40.152538+00:00",
+              "sha256_utf8": "641573696553d225bee18c05c279c28235ae833208eae38aeabac13aadd914ff",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/22:23894364..23894444:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:43.413325+00:00",
+              "sha256_utf8": "5ee20115c1cd13cb85825fb366223074fc17c00d1b359d43c5672b21cb5dd7d8",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:28120472..28120472:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:42.212082+00:00",
+              "sha256_utf8": "afef377b944ec7409a52714e719cad737e80e79f770627b81e0fda563aaa1767",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:28120432..28120512:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:43.752692+00:00",
+              "sha256_utf8": "4e10875cc080032aa204c5da1c9ba9606b34c675cefa432f3f5fce49f4385d05",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:169549811..169549811:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:42.978497+00:00",
+              "sha256_utf8": "75249176e3479758a881f03c8ca4541d5d812355ad504626aa4f786684f69faa",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:169549771..169549851:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:43.882533+00:00",
+              "sha256_utf8": "12fe3e06ecb8e90bcc39f19668d5f840a3c2b59231ce84a24543ef2a8565868a",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/7:141973545..141973545:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:44.439442+00:00",
+              "sha256_utf8": "3c7aa28e465586655a83734163d30dee2fac173ca3368f878311bb385cd1c829",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/7:141973505..141973585:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:44.420794+00:00",
+              "sha256_utf8": "a3472762fa968cb37e928deb463d0c76649f97a4891d30c1a1928395bda22681",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908822..44908822:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:40:46.723587+00:00",
+              "sha256_utf8": "0fc2ca7af8d922ae178964b802b94da09a589649cf616d36d7388b9c34a21948",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/19:44908782..44908862:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:44.570017+00:00",
+              "sha256_utf8": "30f9654c22e9598838170e398b8d43cf41b4207fa0526c478e0870509fc7b919",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:48134287..48134287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:18.456130+00:00",
+              "sha256_utf8": "2195e9122dee0f4300bc552b6714bf6d62e3a434b019751781e5bfe216804659",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/15:48134247..48134327:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:45.099091+00:00",
+              "sha256_utf8": "e74067279dfb7ae5abfbe507b64387a8fb659688286fdda72c7137ab2678d575",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:46739505..46739505:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:21.925189+00:00",
+              "sha256_utf8": "66d4d3824db7f4773b4f66cbcb15721e73b7c82bfd16670b39306bc9a40b74e5",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/11:46739465..46739545:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:45.249065+00:00",
+              "sha256_utf8": "ca8d0bd9bfa40041b1b86f3d0316edb4e86563bd15f38d8e4664dcb782d2bdcb",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:11796321..11796321:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:41:23.119555+00:00",
+              "sha256_utf8": "6d15cff4b58aa63119491ac982a4ac6bc47972e0964024d92e07ee4735249fbe",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://rest.ensembl.org/sequence/region/human/1:11796281..11796361:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+              "retrieved_at_utc": "2026-11-07T15:42:46.164466+00:00",
+              "sha256_utf8": "0820d49334a230637d7236b8eeffd47ee8f8eda67c2fbd637adea52b1d8f1c20",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            }
+          ],
+          "n_variants": 34,
+          "n_motifs": 1019,
+          "n_hits": 1644,
+          "n_errors": 0,
+          "effective_flank": 40,
+          "pseudocount_per_base": 0.5,
+          "background": {
+            "A": 0.25,
+            "C": 0.25,
+            "G": 0.25,
+            "T": 0.25
+          },
+          "multiple_testing": "not performed; no inferential p-values claimed",
+          "screen_scope": "exactly the matrix IDs listed in motif_profiles.json; not necessarily comprehensive"
+        }
+      },
+      "reported_errors": [],
+      "input_files": [
+        {
+          "relative_path": "jaspar_dataset/dataset_manifest.json",
+          "size_bytes": 16207,
+          "sha256": "12e4526ac0b35ca6b8bc974df15cb33ad98d80761aab93c31a289c9ed78d14c9"
+        },
+        {
+          "relative_path": "jaspar_dataset/run_manifest.json",
+          "size_bytes": 16026,
+          "sha256": "6245ca46bc4bf947918a93a5f26c5b5db08ae20f9f34f113b8b25d7bd36e8d17"
+        },
+        {
+          "relative_path": "jaspar_dataset/errors.json",
+          "size_bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "relative_path": "jaspar_dataset/dataset_summary.json",
+          "size_bytes": 10538,
+          "sha256": "5e1945b7ec77886ce7a43c1db3139810e5522ca26fc7ff02d6631dfeafbe06c1"
+        },
+        {
+          "relative_path": "jaspar_dataset/resolution_details.json",
+          "size_bytes": 14695,
+          "sha256": "e718452f285a148ff86f0fd6b79e3b9ae3ad8e49e632609d2c63a9063ff931cc"
+        },
+        {
+          "relative_path": "jaspar_dataset/variant_status.json",
+          "size_bytes": 11974,
+          "sha256": "493fc79395a57f04fb9270d91ac2ee9f3c4d054def5c1ad99877915d012c7b05"
+        },
+        {
+          "relative_path": "jaspar_dataset/motif_results.json",
+          "size_bytes": 1682200,
+          "sha256": "527c33e37c044bf2deee55a55b11c35b880e1df1795043f556f9e20acf0937ea"
+        },
+        {
+          "relative_path": "jaspar_dataset/motif_profiles.json",
+          "size_bytes": 990927,
+          "sha256": "40626b5a80f8b3dd0f55ddfad428124bf4ecda971a6ebdf7bf5e51c7c09efd73"
+        }
+      ]
+    },
+    "clinvar": {
+      "directory": "clinvar_dataset",
+      "manifests": {
+        "run_manifest": {
+          "finished_at_utc": "2026-11-07T19:03:50.281585+00:00",
+          "generator": "generate_clinvar_dataset.py",
+          "source_databases": [
+            "NCBI dbSNP",
+            "NCBI ClinVar"
+          ],
+          "api": "NCBI E-utilities dbSNP ESummary -> ELink -> ClinVar ESummary",
+          "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+          "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
+          "n_input_rsids": 20,
+          "n_merged_input_rsids": 1,
+          "n_clinvar_links": 42,
+          "n_unique_clinvar_records": 41,
+          "n_rsids_with_direct_records": 16,
+          "n_direct_records": 23,
+          "n_related_set_records": 19,
+          "n_linked_sets_without_component_xref": 2,
+          "n_trait_rows": 135,
+          "n_lookup_errors": 0,
+          "source_provenance": [
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=snp&id=9807334%2C121913529%2C72921001%2C17822931%2C334%2C987870%2C429358%2C3827760%2C113993960%2C4988235%2C28934578%2C17004038%2C12913832%2C6025%2C713598%2C7412%2C80357713%2C1426654%2C1799963%2C1801133&retmode=json&version=2.0&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:13.806753+00:00",
+              "sha256_utf8": "ce24b2231cefdf47e7dca7eedf7fe80ed8efaf21b839d35043bb0efbaef7e008",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=9807334&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:14.009351+00:00",
+              "sha256_utf8": "0b97ca9f7113febea9e7109a82fbe5a66d1e08b548f297ac1700857259622d6c",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=121913529&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:14.405721+00:00",
+              "sha256_utf8": "71283181c9f9bf591498aced6deab611a6ff32b3955b5c3a8463bf65c5bb5012",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=72921001&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:16.834501+00:00",
+              "sha256_utf8": "82e9a2375f40d039ca3d6997d895d95651722a4604a58e9c73dbc901a426c51c",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=17822931&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:17.110733+00:00",
+              "sha256_utf8": "a0be8ceef26a0583592ba1d8ffb85267d4d0639e557a64dbe4c21af4a43cf976",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=334&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:17.554228+00:00",
+              "sha256_utf8": "32965821b72216c3b873c997a6d945be95399f2e9c10af837872e2ffa8241fd6",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=987870&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:19.891260+00:00",
+              "sha256_utf8": "ec919947be20cfe35bc6c3241d6d06c29184d19d79871a2a7ade129b299da1ad",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=429358&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:20.154890+00:00",
+              "sha256_utf8": "92604e97ded776c5306260f75269d044be92279a847dd573a4e054b79734cc4a",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=3827760&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:20.441536+00:00",
+              "sha256_utf8": "80b221784ff247020da9f474aa5c00fd237caab36993e682bc9d33dcceb95f21",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=113993960&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:22.932679+00:00",
+              "sha256_utf8": "533627cde055560b3ebe85113ffd40539898a51b04856e91888cb3b41365d62c",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=4988235&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:23.187442+00:00",
+              "sha256_utf8": "f26c9ba5d8565c49ec80beb75cd5e3773d7987a7741a1715ef9a68e2229338fc",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=28934578&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:23.565034+00:00",
+              "sha256_utf8": "6af33418ded2ecb2f41bd14d2f077edee4743ebeec1a6a4b5e6c81154449d9c1",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=17004038&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:25.923058+00:00",
+              "sha256_utf8": "8ce77c06509cccb8d1cd2fb0cd2b80af955f9daabbf0c62fd52cc020defd9a00",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=12913832&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:26.168214+00:00",
+              "sha256_utf8": "ece67f18c53a6c90c44bbff5c0fd6dec36471c7ec8fc53cf223fad6d18fbaf7b",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=6025&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:26.471805+00:00",
+              "sha256_utf8": "036d717fda41b7423200fd4ef2557bddd22ec612f139d1bd13e0374e07a3fbd8",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=713598&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:28.928158+00:00",
+              "sha256_utf8": "b570db24c87ba2a1683a69a5324b9907872c84d26920b8c0c9d0a5105307b0b0",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=7412&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:29.152792+00:00",
+              "sha256_utf8": "5ee16a46806446fd8e0896340dd145c2a9bc4fb7f0e95e60edc3a75402b4085e",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=80357783&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:29.471281+00:00",
+              "sha256_utf8": "e916d1af7208331b987cc4bbcbeea906dfc7fa63bddb4a340eae121f0d7a2485",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=1426654&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:31.861130+00:00",
+              "sha256_utf8": "f7e1b19c99918760acb70996b05d7c3459483615967ca154cc52e12457f83a04",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=1799963&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:32.147899+00:00",
+              "sha256_utf8": "79486762e8057a06bf8ad3c22d3eb002ee1deac3586b9c169404fe96811275fa",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=1801133&retmode=json&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:32.413250+00:00",
+              "sha256_utf8": "9ce1c85d5909c040b6dfb6d0140b7d463810feb8f358c6514d0d3f9f20354b17",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=45122%2C12583%2C12582%2C3558%2C446748%2C446747%2C446738%2C446737%2C446736%2C446735%2C446731%2C446730%2C15333%2C15175%2C694742%2C694585%2C666796%2C441269%2C441268%2C441267%2C440870%2C17864%2C17863%2C5858%2C634837%2C7105%2C7685%2C182963%2C12374%2C4745%2C226007%2C642%2C2904%2C441265%2C441262%2C17848%2C37691%2C263273%2C1487%2C13310%2C3520&retmode=json&version=2.0&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:35.015909+00:00",
+              "sha256_utf8": "da202cbf179041bf5bac1635d098e20591d1340d0036ca2ade2f4b698eedf25d",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            }
+          ],
+          "notes": [
+            "Supplied rsIDs are preserved while dbSNP merged/current IDs are recorded separately",
+            "Only explicit dbSNP-to-ClinVar links are downloaded",
+            "Exact component xrefs are verified; explicitly linked sets without returned components are labeled unverified",
+            "Direct records and multi-variant set records are deliberately separated",
+            "Identity/reference alleles are retained and explicitly marked",
+            "Germline, clinical-impact, and oncogenicity classifications remain separate",
+            "Trait rows repeat VCV-level aggregate classifications and are not RCV-level assertions",
+            "The input contains public loci, not an individual's genotype"
+          ]
+        }
+      },
+      "reported_errors": [],
+      "input_files": [
+        {
+          "relative_path": "clinvar_dataset/run_manifest.json",
+          "size_bytes": 11268,
+          "sha256": "731416177af6ab8fb5af45cb10692ea74169b96c6121841747e100571ed91a87"
+        },
+        {
+          "relative_path": "clinvar_dataset/errors.json",
+          "size_bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "relative_path": "clinvar_dataset/dbsnp_resolution.json",
+          "size_bytes": 7733,
+          "sha256": "4d1913accac1ebbe4d90db506bfc823e9f8cf3ba51bee99284f6ba40952351d3"
+        },
+        {
+          "relative_path": "clinvar_dataset/panel_status.json",
+          "size_bytes": 14671,
+          "sha256": "668564a1a20f6be2b57d24ca1b3043464646f9025734a5be7ca1d35a2d4a8636"
+        },
+        {
+          "relative_path": "clinvar_dataset/rsid_clinvar_links.json",
+          "size_bytes": 22424,
+          "sha256": "886eacda37189c1d5eeb69faa1a875b5991b524db8289efeae7bf341dfec801e"
+        },
+        {
+          "relative_path": "clinvar_dataset/clinvar_records.json",
+          "size_bytes": 116171,
+          "sha256": "eabae4645cd6b6b2f91086229e26fa451dfb2dc3886cc51242880ceac1a180d8"
+        },
+        {
+          "relative_path": "clinvar_dataset/related_set_records.json",
+          "size_bytes": 45661,
+          "sha256": "940bd21f6f75d8ef1f55c52ee002243621620983182b8768764d676e892639f9"
+        },
+        {
+          "relative_path": "clinvar_dataset/traits.json",
+          "size_bytes": 84487,
+          "sha256": "ba32fbe67029b4508a3116725d418a089b866e02e5a38a0308daeadd19db5997"
+        }
+      ]
+    },
+    "gwas_catalog": {
+      "directory": "gwas_catalog_dataset",
+      "manifests": {
+        "run_manifest": {
+          "finished_at_utc": "2026-11-07T19:04:37.947517+00:00",
+          "generator": "generate_gwas_catalog_dataset.py",
+          "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+          "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
+          "source_database": "NHGRI-EBI GWAS Catalog",
+          "source_archive_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-catalog-associations_ontology-annotated-full.zip",
+          "gwas_catalog_data_release": "2026-10-29",
+          "gwas_catalog_release_scope": "REST metadata snapshot; not cryptographically bound to the archive",
+          "gwas_catalog_genome_build": "GRCh38.p14",
+          "gwas_catalog_dbsnp_build": "156",
+          "dbsnp_resolution_source": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\clinvar_dataset\\dbsnp_resolution.json",
+          "n_input_rsids": 20,
+          "n_merged_input_rsids": 1,
+          "n_source_rows_scanned": 1205644,
+          "n_matched_source_rows": 3318,
+          "n_association_relations": 3318,
+          "n_multi_variant_relations": 1,
+          "n_rsids_with_associations": 15,
+          "n_warnings": 0,
+          "source_header": [
+            "DATE ADDED TO CATALOG",
+            "PUBMEDID",
+            "FIRST AUTHOR",
+            "DATE",
+            "JOURNAL",
+            "LINK",
+            "STUDY",
+            "DISEASE/TRAIT",
+            "INITIAL SAMPLE SIZE",
+            "REPLICATION SAMPLE SIZE",
+            "REGION",
+            "CHR_ID",
+            "CHR_POS",
+            "REPORTED GENE(S)",
+            "MAPPED_GENE",
+            "UPSTREAM_GENE_ID",
+            "DOWNSTREAM_GENE_ID",
+            "SNP_GENE_IDS",
+            "UPSTREAM_GENE_DISTANCE",
+            "DOWNSTREAM_GENE_DISTANCE",
+            "STRONGEST SNP-RISK ALLELE",
+            "SNPS",
+            "MERGED",
+            "SNP_ID_CURRENT",
+            "CONTEXT",
+            "INTERGENIC",
+            "RISK ALLELE FREQUENCY",
+            "P-VALUE",
+            "PVALUE_MLOG",
+            "P-VALUE (TEXT)",
+            "OR or BETA",
+            "95% CI (TEXT)",
+            "PLATFORM [SNPS PASSING QC]",
+            "CNV",
+            "MAPPED_TRAIT",
+            "MAPPED_TRAIT_URI",
+            "STUDY ACCESSION",
+            "GENOTYPING TECHNOLOGY"
+          ],
+          "archive_provenance": {
+            "source_mode": "cache",
+            "requested_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-catalog-associations_ontology-annotated-full.zip",
+            "resolved_url": "https://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-catalog-associations_ontology-annotated-full.zip",
+            "retrieved_at_utc": "2026-11-07T18:15:49.194916+00:00",
+            "downloaded_bytes": 72739430,
+            "download_sha256": "d24750b05a62aafee399616b068286054d2fae4713d53003725e565910bd9a23",
+            "content_type": "application/zip",
+            "last_modified": "Mon, 02 Nov 2026 11:33:30 GMT",
+            "etag": "\"455ea66-65f4983eea17f\"",
+            "download_crc_check": "ok",
+            "download_member_name": "gwas-catalog-download-associations-alt-full.tsv",
+            "archive_path": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\.cache\\gwas_catalog\\gwas-catalog-associations_ontology-annotated-full.zip",
+            "archive_bytes": 72739430,
+            "archive_sha256": "d24750b05a62aafee399616b068286054d2fae4713d53003725e565910bd9a23",
+            "archive_crc_check": "ok",
+            "member_name": "gwas-catalog-download-associations-alt-full.tsv",
+            "member_uncompressed_bytes": 749786313,
+            "member_compressed_bytes": 72739186,
+            "member_crc32": "ef54213c"
+          },
+          "http_provenance": [
+            {
+              "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/metadata",
+              "retrieved_at_utc": "2026-11-07T18:15:54.856984+00:00",
+              "sha256_utf8": "5f80f78abd7dcd8be4a1d597c0b71c72dd1f4f960513365fa263c57737c225a2",
+              "content_type": "application/json",
+              "last_modified": null,
+              "etag": null
+            }
+          ],
+          "notes": [
+            "Exact rsID tokens are matched against supplied and current dbSNP identifiers",
+            "All original source values remain strings in matched_source_records",
+            "Multi-rsID rows are retained and explicitly labeled",
+            "Risk/effect alleles are reported values and are not assumed to be genomic ALT",
+            "A GWAS association is not evidence that the matched variant is causal",
+            "The REST metadata call is optional; the official bulk archive is the data source"
+          ]
+        }
+      },
+      "reported_errors": [],
+      "input_files": [
+        {
+          "relative_path": "gwas_catalog_dataset/run_manifest.json",
+          "size_bytes": 4147,
+          "sha256": "be986095bba4092f2f00057bdb53a619f894def01bf7d87c8ed9f71542b1227a"
+        },
+        {
+          "relative_path": "gwas_catalog_dataset/errors.json",
+          "size_bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "relative_path": "gwas_catalog_dataset/dbsnp_resolution.json",
+          "size_bytes": 7733,
+          "sha256": "4d1913accac1ebbe4d90db506bfc823e9f8cf3ba51bee99284f6ba40952351d3"
+        },
+        {
+          "relative_path": "gwas_catalog_dataset/panel_status.json",
+          "size_bytes": 8980,
+          "sha256": "1598fb92f836189f670abf55dc0dec87d9c6697bd37baa1870459614fa0f6954"
+        },
+        {
+          "relative_path": "gwas_catalog_dataset/rsid_associations.json",
+          "size_bytes": 6702580,
+          "sha256": "b3e83f2930a06af9cf1eb6c39fbc5d0529475e95a75d145ac9648d8015bbb6df"
+        },
+        {
+          "relative_path": "gwas_catalog_dataset/matched_source_records.json",
+          "size_bytes": 6163145,
+          "sha256": "290b01108d0383e77fe59668fb99e775844289ff86ce443ab4a54ab9dedfb2f2"
+        }
+      ]
+    },
+    "gnomad": {
+      "directory": "gnomad_dataset",
+      "manifests": {
+        "run_manifest": {
+          "finished_at_utc": "2026-11-07T19:04:43.513125+00:00",
+          "generator": "generate_gnomad_dataset.py",
+          "source_databases": [
+            "NCBI dbSNP",
+            "gnomAD"
+          ],
+          "gnomad_api": "https://gnomad.broadinstitute.org/api",
+          "gnomad_dataset": "gnomad_r4",
+          "reference_genome": "GRCh38",
+          "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+          "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
+          "n_input_rsids": 20,
+          "n_merged_input_rsids": 1,
+          "n_search_chunks": 1,
+          "n_search_hits": 28,
+          "n_verified_links": 28,
+          "n_variants": 28,
+          "n_rsids_with_variants": 20,
+          "n_callset_rows": 70,
+          "n_population_rows": 6347,
+          "n_duplicate_population_rows_removed": 56,
+          "n_lookup_or_verification_errors": 0,
+          "panel_status_counts": {
+            "multiple_variants_found": 6,
+            "variant_found": 14
+          },
+          "sqlite_created": true,
+          "notes": [
+            "Supplied rsIDs remain primary panel keys; merged/current dbSNP IDs are separate",
+            "variant_search discovers all gnomAD-present alleles and gnomAD-normalized indels",
+            "Every detail record must cross-reference the resolved current rsID",
+            "Exome, genome, and joint callsets remain separate",
+            "AF is calculated as AC/AN; population strata overlap and must not be summed",
+            "Absence from gnomAD is not evidence of benignity",
+            "The input contains public loci, not an individual's genotype"
+          ]
+        },
+        "source_provenance": {
+          "ncbi_dbsnp": [
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=snp&id=9807334%2C121913529%2C72921001%2C17822931%2C334%2C987870%2C429358%2C3827760%2C113993960%2C4988235%2C28934578%2C17004038%2C12913832%2C6025%2C713598%2C7412%2C80357713%2C1426654%2C1799963%2C1801133&retmode=json&version=2.0&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:13.806753+00:00",
+              "sha256_utf8": "ce24b2231cefdf47e7dca7eedf7fe80ed8efaf21b839d35043bb0efbaef7e008",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            }
+          ],
+          "gnomad_graphql": [
+            {
+              "url": "https://gnomad.broadinstitute.org/api",
+              "method": "POST",
+              "operation_name": "PanelVariantSearch",
+              "retrieved_at_utc": "2026-11-07T18:11:54.760948+00:00",
+              "request_sha256_utf8": "afb77e80972c888aec33ef90632ab49f363d21daa3c52ece6d9aa5fba2bce39f",
+              "response_sha256_utf8": "ec241befa7065022c931b87f66f43b23ec624d9e060fcc1a3e623dc8de14b246",
+              "content_type": "application/json; charset=utf-8",
+              "last_modified": null,
+              "etag": "W/\"457-CtibJVfxDkm54F4DoOXAUi0ES/I\""
+            },
+            {
+              "url": "https://gnomad.broadinstitute.org/api",
+              "method": "POST",
+              "operation_name": "PanelVariantDetails",
+              "retrieved_at_utc": "2026-11-07T18:11:55.029697+00:00",
+              "request_sha256_utf8": "b744ebc67e957be5e41e4f162bada1f8fa57a373c9d95a352bdf752e4a4cc317",
+              "response_sha256_utf8": "affcd33786235e3d977a881a34364f5eaaab758843bcbe5f6669e4c7eff58b1e",
+              "content_type": "application/json; charset=utf-8",
+              "last_modified": null,
+              "etag": "W/\"1fa9d-CnYdIdL73//AZV6KJJfPtYo0v4M\""
+            },
+            {
+              "url": "https://gnomad.broadinstitute.org/api",
+              "method": "POST",
+              "operation_name": "PanelVariantDetails",
+              "retrieved_at_utc": "2026-11-07T18:11:55.258976+00:00",
+              "request_sha256_utf8": "af9f1dea03b6186c9ffc2230d80ef3b6418894b9edc44d0f9872d310f8957dcb",
+              "response_sha256_utf8": "e6af550de8fbd44099abf3a6351cb4ed374e3e08886d1b486a0ebca254c6da21",
+              "content_type": "application/json; charset=utf-8",
+              "last_modified": null,
+              "etag": "W/\"251ad-ocnr7boFRcNkmbq2zlZin5mw088\""
+            },
+            {
+              "url": "https://gnomad.broadinstitute.org/api",
+              "method": "POST",
+              "operation_name": "PanelVariantDetails",
+              "retrieved_at_utc": "2026-11-07T18:11:55.496623+00:00",
+              "request_sha256_utf8": "d195d83023ed591a5d0558660230c2be41d843bee18c3ae8445389b6ba1ddc8f",
+              "response_sha256_utf8": "1ff45abe7cc6cad5695ed5f11098003cc828d0d9e5313a3ad16c590429a6a020",
+              "content_type": "application/json; charset=utf-8",
+              "last_modified": null,
+              "etag": "W/\"251ad-P1k5rhjyOt0Gat8WIqg0ZK7j9qM\""
+            },
+            {
+              "url": "https://gnomad.broadinstitute.org/api",
+              "method": "POST",
+              "operation_name": "PanelVariantDetails",
+              "retrieved_at_utc": "2026-11-07T18:11:55.664332+00:00",
+              "request_sha256_utf8": "f4f1a3b51e8a4a3fce4ae87938ba8be8d9bf8a00becc99feb3fdc197bf418090",
+              "response_sha256_utf8": "97be13f099e9a18c64cf1cb0b05113e1a934c86aa2fcb34bae27310029823a20",
+              "content_type": "application/json; charset=utf-8",
+              "last_modified": null,
+              "etag": "W/\"15aaa-Pj7Eh1qSX18oyodteo7bPGjKhMM\""
+            }
+          ]
+        }
+      },
+      "reported_errors": [],
+      "input_files": [
+        {
+          "relative_path": "gnomad_dataset/run_manifest.json",
+          "size_bytes": 1493,
+          "sha256": "d07e653b37033d3e23eafd33c8f3610ddac792dff7e91e919ef5754f689c9b2d"
+        },
+        {
+          "relative_path": "gnomad_dataset/source_provenance.json",
+          "size_bytes": 3400,
+          "sha256": "096ac4c96adcb72c6ba64447b0d87326e3b048702afb43fc9d352b6705484906"
+        },
+        {
+          "relative_path": "gnomad_dataset/errors.json",
+          "size_bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "relative_path": "gnomad_dataset/dbsnp_resolution.json",
+          "size_bytes": 7733,
+          "sha256": "4d1913accac1ebbe4d90db506bfc823e9f8cf3ba51bee99284f6ba40952351d3"
+        },
+        {
+          "relative_path": "gnomad_dataset/panel_status.json",
+          "size_bytes": 10096,
+          "sha256": "a81efd9945f11cd61a25f5d8daa2412e17c9e5e82e2a6c8761456cade3c5d8b9"
+        },
+        {
+          "relative_path": "gnomad_dataset/rsid_gnomad_links.json",
+          "size_bytes": 10505,
+          "sha256": "29e8b96793e9c01336de3df0aecbf98ed69095e980b4295b641a417533825e0f"
+        },
+        {
+          "relative_path": "gnomad_dataset/gnomad_variants.json",
+          "size_bytes": 9572,
+          "sha256": "196263f4ebe691efe3bf49e9a51663ecb4aba1611c1ee691a9d66df2793d406f"
+        },
+        {
+          "relative_path": "gnomad_dataset/callset_frequencies.json",
+          "size_bytes": 25211,
+          "sha256": "9ffc6ed2904a82f9916aa6d033501082dd8edc2d569f286f7a4bddbbce05dcd7"
+        },
+        {
+          "relative_path": "gnomad_dataset/population_frequencies.json",
+          "size_bytes": 1689733,
+          "sha256": "3927589022cc6620d7c5d64886c5268a074d223de2e1d751a9f062c5200c73e0"
+        }
+      ]
+    },
+    "gtr": {
+      "directory": "gtr_dataset",
+      "manifests": {
+        "run_manifest": {
+          "finished_at_utc": "2026-11-07T19:04:44.606416+00:00",
+          "generator": "generate_gtr_dataset.py",
+          "source_databases": [
+            "NCBI dbSNP",
+            "NCBI Genetic Testing Registry"
+          ],
+          "api": "NCBI E-utilities dbSNP ESummary + GTR exact WORD ESearch/ESummary",
+          "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+          "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
+          "n_input_rsids": 20,
+          "n_rsids_with_matches": 3,
+          "n_test_links": 11,
+          "n_unique_tests": 11,
+          "n_conditions": 20,
+          "n_variant_targets": 361,
+          "n_lookup_errors": 0,
+          "source_provenance": [
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=snp&id=9807334%2C121913529%2C72921001%2C17822931%2C334%2C987870%2C429358%2C3827760%2C113993960%2C4988235%2C28934578%2C17004038%2C12913832%2C6025%2C713598%2C7412%2C80357713%2C1426654%2C1799963%2C1801133&retmode=json&version=2.0&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T17:35:13.806753+00:00",
+              "sha256_utf8": "ce24b2231cefdf47e7dca7eedf7fe80ed8efaf21b839d35043bb0efbaef7e008",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs9807334%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:27.351404+00:00",
+              "sha256_utf8": "2434fcd23abd7f5e2d152f4fd4ca4863a341897ff0d6c1e6968e5db82c3986a4",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs121913529%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:27.549444+00:00",
+              "sha256_utf8": "8fb06e57d956bcd1abbeafef16728df0272fdd42c8791304332a3f97caf67e15",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs72921001%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:27.942235+00:00",
+              "sha256_utf8": "962535cd30da77e8d30c53dacc037bcb5d8a7f14c7e808cae7985dc2ab30e062",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs17822931%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:30.358138+00:00",
+              "sha256_utf8": "0e50703df5a47926ae7eefe95314e441585a21f58c7faa56c7f4fa6186345cab",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs334%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:30.601892+00:00",
+              "sha256_utf8": "af888004f94083ecf327778220dcf6e9765fa668308580c49590f15e5d4749c6",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs987870%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:30.879685+00:00",
+              "sha256_utf8": "6a11bb5effbfaa6ced401e0b889657e3c423ad8b64c820ed5cc97911f920dfd5",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs429358%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:33.172189+00:00",
+              "sha256_utf8": "3934073216584a0e1445ce8b1f8085e437ce0614885be69c7300b111cfc5e67f",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs3827760%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:33.463989+00:00",
+              "sha256_utf8": "fee67fe52ecccaff86fc90b861fda7c48ec98a9be549fee4c2b9a0f9ff44269c",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs113993960%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:33.769512+00:00",
+              "sha256_utf8": "2caf1ab867c9321942580284370aaeb9a65c037feb8ca12c9bb50d2f85e4a48c",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs4988235%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:36.117318+00:00",
+              "sha256_utf8": "8554a585e1e6f8d7588864e6d5b083ecada056c044a719fcfd22f4aca392a100",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs28934578%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:36.290278+00:00",
+              "sha256_utf8": "8dd5aa1feb7b622bebc406015ee32f1eb858c7966c65a2fd93b6223e359d6609",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs17004038%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:36.532955+00:00",
+              "sha256_utf8": "f94c37b38b006d006a33e2c14f54b617bd8fc6d61790142c147fa6bc6238c5c1",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs12913832%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:38.943421+00:00",
+              "sha256_utf8": "c6d168478d603c15b726c0e3d3f0c3ccd9d92aa427bce8d1180977dcc7eb58a0",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs6025%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:39.226650+00:00",
+              "sha256_utf8": "8a8d31cff20366920f975d71c95fb44d75440c864a5892e964d2505ee88b87c4",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs713598%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:39.501729+00:00",
+              "sha256_utf8": "4b495c2d9a6aa5ca01673e178a965bc5c3f9ae5cbe4e3163895ed20cf4f13210",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs7412%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:41.964439+00:00",
+              "sha256_utf8": "2a1ab868f627ad0002baf5170569387b2dcc2f1bde3505d5ca1b756732f65dc1",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs80357713%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:42.145184+00:00",
+              "sha256_utf8": "f772211841ce174da6393b7a2556736437c4fa58783feb24a8df513bc52026a4",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs80357783%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:42.436901+00:00",
+              "sha256_utf8": "352beaedc29f0af77bd258436bab655d729197604056d687c27f5ae4e0aae16a",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs1426654%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:44.921781+00:00",
+              "sha256_utf8": "a88c59ae05091b1938694015d6a851396c9a60e9f2449348a2fc449c342bacb3",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs1799963%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:45.140430+00:00",
+              "sha256_utf8": "315d857b1a33f4a1e10c5a31fc5cf97102a4d35959001046c3c8175c115c3617",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22rs1801133%22%5BWORD%5D&retmode=json&retstart=0&retmax=100&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:45.520060+00:00",
+              "sha256_utf8": "14b053365acc8f6e0187b266dfd3dd53ec47d31180d38542fa08d4c1cefd09af",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            },
+            {
+              "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gtr&id=591288%2C28900%2C334284%2C569929%2C619762%2C613302%2C330970%2C593372%2C500809%2C500035%2C327733&retmode=json&version=2.0&tool=BioHack_SNP_Toolkit",
+              "retrieved_at_utc": "2026-11-07T18:09:47.890827+00:00",
+              "sha256_utf8": "f4e42081b8837e818a35eddebc1fa0455e3bb560e7e20aca0573230c204417dc",
+              "content_type": "application/json; charset=UTF-8",
+              "last_modified": null,
+              "etag": null
+            }
+          ],
+          "notes": [
+            "GTR matches are registered laboratory tests, not variant evidence or patient results",
+            "Relationship provenance is an exact quoted Entrez WORD-index match",
+            "Laboratory submissions are not independently verified by NIH",
+            "A missing GTR match is not evidence that testing is unavailable"
+          ]
+        }
+      },
+      "reported_errors": [],
+      "input_files": [
+        {
+          "relative_path": "gtr_dataset/run_manifest.json",
+          "size_bytes": 11585,
+          "sha256": "9dc10e4080e1d8ec76461b253492a57c99870017fb12c79472be039ceea4aa6b"
+        },
+        {
+          "relative_path": "gtr_dataset/errors.json",
+          "size_bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "relative_path": "gtr_dataset/dbsnp_resolution.json",
+          "size_bytes": 7733,
+          "sha256": "4d1913accac1ebbe4d90db506bfc823e9f8cf3ba51bee99284f6ba40952351d3"
+        },
+        {
+          "relative_path": "gtr_dataset/panel_status.json",
+          "size_bytes": 6342,
+          "sha256": "8ddd7c2aa51653c5dc7ba324a034b7821124534a8d893ae82b24e159ce3edea4"
+        },
+        {
+          "relative_path": "gtr_dataset/gtr_test_matches.json",
+          "size_bytes": 5782,
+          "sha256": "5d769a441cec241e7564a2099f47f7046ce7ef50684530efd6a7299c9e372944"
+        },
+        {
+          "relative_path": "gtr_dataset/gtr_tests.json",
+          "size_bytes": 46667,
+          "sha256": "d5a2f945cc7ab794fa7c1e0d00e7cff94ebe6b5732e49d7df6a641fa4ffc7ac8"
+        },
+        {
+          "relative_path": "gtr_dataset/conditions.json",
+          "size_bytes": 3840,
+          "sha256": "be14f4c2ab90f333570a364055f0de55bccaae687611b78db286c35dbf594b81"
+        },
+        {
+          "relative_path": "gtr_dataset/variant_targets.json",
+          "size_bytes": 57415,
+          "sha256": "03ab678f73aa52df09b2121ed46fa65c06c678c4f5d55c6a3fc15b33bef74f0a"
+        }
+      ]
+    }
+  },
+  "output_files": {
+    "combined_data.json": {
+      "size_bytes": 24917535,
+      "sha256": "cb1a384e6fa7eb809be3d3cf1d045958988cc93cca286badf9b6c34cd93591fa"
+    },
+    "combined_summary.tsv": {
+      "size_bytes": 17561034,
+      "sha256": "51e1eb3608c35451cae14cb2a1ab827556bcd3a7e219a7d5e7a4e7c4667e6fa2"
+    },
+    "combined_data.sqlite": {
+      "size_bytes": 30060544,
+      "sha256": "f6a599ee6be48291813d48fb504092e969420612e82c91fa60d3bf4a0e827e52"
+    }
+  }
+}
