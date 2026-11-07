@@ -1,7 +1,7 @@
-# ClinVar dataset for the QIAGEN 20-rsID panel
+# ClinVar dataset for a 20-rsID panel
 
-This folder contains an NCBI dbSNP-to-ClinVar snapshot for the exact 20 public
-test rsIDs. It contains no patient genotypes.
+This folder contains an NCBI dbSNP-to-ClinVar snapshot for the supplied public
+rsIDs. It contains no patient genotypes.
 
 - Input rsIDs: 20
 - Merged input rsIDs resolved by dbSNP: 1
@@ -19,7 +19,7 @@ auditable link table from each panel ID to every linked ClinVar Variation ID.
 `clinvar_records.tsv` contains direct single-variant records.
 `related_set_records.tsv` contains multi-variant records in which the rsID is
 only one component; do not assign their set-level classifications to that SNP
-alone. `panel_status.tsv` keeps all 20 inputs in original order. JSON copies
+alone. `panel_status.tsv` keeps all inputs in original order. JSON copies
 preserve nested values, `raw/` preserves API responses, and `clinvar.sqlite`
 contains `dbsnp_resolution`, `links`, `records`, `panel_status`, `traits`, and
 `metadata` tables.
