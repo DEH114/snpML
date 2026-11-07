@@ -1,6 +1,6 @@
-# GTR registered-test matches for the QIAGEN 20-rsID panel
+# GTR registered-test matches for a 20-rsID panel
 
-This snapshot searches NCBI's Genetic Testing Registry (GTR) for the exact 20
+This snapshot searches NCBI's Genetic Testing Registry (GTR) for the supplied
 public rsIDs. It contains registered laboratory test summaries, not patient
 records or variant classifications.
 
@@ -9,7 +9,7 @@ records or variant classifications.
 - rsID-to-test relationships: 11
 - Unique registered tests: 11
 
-`panel_status.tsv` contains all 20 inputs in order. `gtr_test_matches.tsv`
+`panel_status.tsv` contains all inputs in order. `gtr_test_matches.tsv`
 preserves which exact quoted rsID search returned each test. `gtr_tests.tsv`
 contains deduplicated test summaries; `conditions.tsv` and
 `variant_targets.tsv` expand selected nested fields. JSON copies preserve
