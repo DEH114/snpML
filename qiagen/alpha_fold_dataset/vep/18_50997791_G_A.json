@@ -1,0 +1,112 @@
+[
+  {
+    "strand": 1,
+    "transcript_consequences": [
+      {
+        "strand": -1,
+        "consequence_terms": [
+          "intron_variant",
+          "non_coding_transcript_variant"
+        ],
+        "canonical": 1,
+        "gene_id": "ENSG00000289868",
+        "variant_allele": "A",
+        "biotype": "lncRNA",
+        "impact": "MODIFIER",
+        "hgvsc": "ENST00000797254.1:n.163-23280C>T",
+        "transcript_id": "ENST00000797254"
+      },
+      {
+        "variant_allele": "A",
+        "gene_id": "ENSG00000289868",
+        "consequence_terms": [
+          "intron_variant",
+          "non_coding_transcript_variant"
+        ],
+        "strand": -1,
+        "hgvsc": "ENST00000797255.1:n.181-13163C>T",
+        "impact": "MODIFIER",
+        "transcript_id": "ENST00000797255",
+        "biotype": "lncRNA"
+      },
+      {
+        "transcript_id": "ENST00000797256",
+        "impact": "MODIFIER",
+        "hgvsc": "ENST00000797256.1:n.146-8979C>T",
+        "biotype": "lncRNA",
+        "gene_id": "ENSG00000289868",
+        "variant_allele": "A",
+        "consequence_terms": [
+          "intron_variant",
+          "non_coding_transcript_variant"
+        ],
+        "strand": -1
+      },
+      {
+        "strand": 1,
+        "gene_symbol": "ELAC1",
+        "gene_symbol_source": "HGNC",
+        "uniparc": [
+          "UPI0037EAA0F3"
+        ],
+        "gene_id": "ENSG00000141642",
+        "variant_allele": "A",
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "transcript_id": "ENST00001130436",
+        "impact": "MODIFIER",
+        "hgvsc": "ENST00001130436.1:c.158-2416G>A",
+        "biotype": "protein_coding",
+        "protein_id": "ENSP00000800241",
+        "hgnc_id": "HGNC:14197"
+      }
+    ],
+    "id": "18_50997791_G/A",
+    "end": 50997791,
+    "allele_string": "G/A",
+    "start": 50997791,
+    "most_severe_consequence": "intron_variant",
+    "seq_region_name": "18",
+    "assembly_name": "GRCh38",
+    "colocated_variants": [
+      {
+        "strand": 1,
+        "pubmed": [
+          22610502,
+          19875614,
+          25616667,
+          29522453
+        ],
+        "start": 50997791,
+        "id": "rs9807334",
+        "allele_string": "G/A",
+        "seq_region_name": "18",
+        "phenotype_or_disease": 1,
+        "frequencies": {
+          "A": {
+            "gnomadg_ami": 0.09539,
+            "gnomadg_asj": 0.03314,
+            "gnomadg_remaining": 0.0421,
+            "af": 0.0254,
+            "gnomadg_nfe": 0.1051,
+            "gnomadg_fin": 0.08881,
+            "gnomadg_amr": 0.03792,
+            "sas": 0.0061,
+            "gnomadg_mid": 0.02055,
+            "gnomadg_eas": 0.0003861,
+            "gnomadg": 0.06439,
+            "eas": 0.001,
+            "gnomadg_afr": 0.01812,
+            "eur": 0.0974,
+            "gnomadg_sas": 0.01698,
+            "afr": 0.003,
+            "amr": 0.0259
+          }
+        },
+        "end": 50997791
+      }
+    ],
+    "input": "18 50997791 50997791 G/A 1"
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "colocated_variants": [
+      {
+        "start": 108897145,
+        "strand": 1,
+        "allele_string": "HGMD_MUTATION",
+        "phenotype_or_disease": 1,
+        "id": "CM081233",
+        "end": 108897145,
+        "seq_region_name": "2"
+      },
+      {
+        "seq_region_name": "2",
+        "id": "COSV51500022",
+        "var_synonyms": {
+          "COSMIC": [
+            "COSM4001128"
+          ]
+        },
+        "end": 108897145,
+        "allele_string": "COSMIC_MUTATION",
+        "phenotype_or_disease": 1,
+        "somatic": 1,
+        "start": 108897145,
+        "strand": 1
+      },
+      {
+        "phenotype_or_disease": 1,
+        "allele_string": "A/C/G",
+        "end": 108897145,
+        "var_synonyms": {
+          "ClinVar": [
+            "RCV005394125",
+            "RCV001261884",
+            "RCV001659685",
+            "RCV001659684",
+            "RCV001523395",
+            "RCV001723544",
+            "RCV001133945",
+            "RCV000382959",
+            "RCV000006216",
+            "VCV000005858",
+            "RCV000174399"
+          ],
+          "UniProt": [
+            "VAR_020011"
+          ],
+          "OMIM": [
+            604095.0011
+          ]
+        },
+        "id": "rs3827760",
+        "seq_region_name": "2",
+        "clin_sig_ref_allele": "A",
+        "clin_sig_allele": "G:benign;G:pathogenic;G:association",
+        "clin_sig": [
+          "benign",
+          "pathogenic",
+          "association"
+        ],
+        "pubmed": [
+          25741868,
+          21976407,
+          16255080,
+          19737746,
+          18817904,
+          35176104,
+          34691999,
+          29895819,
+          20807397,
+          21589938,
+          25887915,
+          31025105,
+          36035146,
+          19804850,
+          26926045,
+          27487801,
+          26105758,
+          18065779,
+          18561327,
+          18704500,
+          22749789,
+          26595274,
+          27135931,
+          27193062,
+          32499598,
+          33664401,
+          28902892,
+          27182965,
+          31332017,
+          32600054,
+          32375366,
+          35588731,
+          22648185,
+          27305980,
+          29391530,
+          26402243,
+          30573740,
+          29091727,
+          26500257,
+          31924237,
+          27657131,
+          34440458,
+          28053980,
+          28256537,
+          19855838,
+          23415220,
+          26545820,
+          29348143,
+          34922440,
+          31951611,
+          34616433,
+          21668907,
+          28749934,
+          29343290,
+          30713341,
+          23071458,
+          18493316,
+          34504517,
+          20978040,
+          31238981,
+          32511092,
+          30118524,
+          35350227,
+          32076829,
+          33157037,
+          34618839,
+          30479341,
+          32425573,
+          31518343,
+          36869755,
+          34021754,
+          34940850,
+          36832485,
+          34664660,
+          29220522,
+          29846678,
+          29198719,
+          33622384,
+          30595370,
+          34737426,
+          34265127,
+          36401782,
+          37359019,
+          37459304,
+          37603728,
+          38273256,
+          38448908,
+          36804570,
+          39202681,
+          38883821,
+          39289776,
+          38159773,
+          39685785,
+          40475634,
+          40507845,
+          40687795,
+          35561686,
+          35393595
+        ],
+        "strand": 1,
+        "start": 108897145
+      }
+    ],
+    "strand": 1,
+    "end": 108897145,
+    "most_severe_consequence": "missense_variant",
+    "id": "2_108897145_A/C",
+    "start": 108897145,
+    "input": "2 108897145 108897145 A/C 1",
+    "assembly_name": "GRCh38",
+    "transcript_consequences": [
+      {
+        "gene_symbol": "EDAR",
+        "hgvsp": "ENSP00000258443.2:p.Val370Gly",
+        "uniprot_isoform": [
+          "Q9UNE0-1"
+        ],
+        "protein_end": 370,
+        "alphamissense": {
+          "am_pathogenicity": 0.8259,
+          "am_class": "likely_pathogenic"
+        },
+        "mane_select": "NM_022336.4",
+        "cds_end": 1109,
+        "codons": "gTt/gGt",
+        "transcript_id": "ENST00000258443",
+        "variant_allele": "C",
+        "canonical": 1,
+        "swissprot": [
+          "Q9UNE0.193"
+        ],
+        "cds_start": 1109,
+        "hgnc_id": "HGNC:2895",
+        "gene_symbol_source": "HGNC",
+        "polyphen_score": 0.806,
+        "polyphen_prediction": "possibly_damaging",
+        "sift_prediction": "deleterious",
+        "hgvsc": "ENST00000258443.7:c.1109T>G",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cdna_start": 1388,
+        "cdna_end": 1388,
+        "domains": [
+          {
+            "db": "Superfamily",
+            "name": "SSF47986"
+          },
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "PF24979",
+            "db": "Pfam"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR12120"
+          },
+          {
+            "db": "Phobius",
+            "name": "NON_CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "AF",
+            "db": "ENSP_mappings"
+          }
+        ],
+        "protein_id": "ENSP00000258443",
+        "strand": -1,
+        "gene_id": "ENSG00000135960",
+        "sift_score": 0,
+        "biotype": "protein_coding",
+        "mane": [
+          "MANE_Select"
+        ],
+        "protein_start": 370,
+        "uniparc": [
+          "UPI0000129BC4"
+        ],
+        "impact": "MODERATE",
+        "amino_acids": "V/G"
+      },
+      {
+        "swissprot": [
+          "Q9UNE0.193"
+        ],
+        "uniparc": [
+          "UPI000047F9AC"
+        ],
+        "protein_start": 402,
+        "impact": "MODERATE",
+        "hgnc_id": "HGNC:2895",
+        "amino_acids": "V/G",
+        "cds_start": 1205,
+        "cds_end": 1205,
+        "strand": -1,
+        "variant_allele": "C",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000376651",
+        "codons": "gTt/gGt",
+        "sift_score": 0,
+        "gene_id": "ENSG00000135960",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "protein_end": 402,
+        "cdna_end": 1636,
+        "cdna_start": 1636,
+        "uniprot_isoform": [
+          "Q9UNE0-2"
+        ],
+        "alphamissense": {
+          "am_pathogenicity": 0.8259,
+          "am_class": "likely_pathogenic"
+        },
+        "protein_id": "ENSP00000365839",
+        "domains": [
+          {
+            "name": "SSF47986",
+            "db": "Superfamily"
+          },
+          {
+            "name": "PTHR12120",
+            "db": "PANTHER"
+          },
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "PF24979",
+            "db": "Pfam"
+          },
+          {
+            "db": "Phobius",
+            "name": "NON_CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          }
+        ],
+        "polyphen_prediction": "possibly_damaging",
+        "polyphen_score": 0.646,
+        "gene_symbol_source": "HGNC",
+        "sift_prediction": "deleterious_low_confidence",
+        "hgvsp": "ENSP00000365839.1:p.Val402Gly",
+        "hgvsc": "ENST00000376651.2:c.1205T>G",
+        "gene_symbol": "EDAR"
+      },
+      {
+        "impact": "MODERATE",
+        "cds_start": 1205,
+        "hgnc_id": "HGNC:2895",
+        "amino_acids": "V/G",
+        "protein_start": 402,
+        "swissprot": [
+          "Q9UNE0.193"
+        ],
+        "uniparc": [
+          "UPI000047F9AC"
+        ],
+        "sift_score": 0,
+        "gene_id": "ENSG00000135960",
+        "codons": "gTt/gGt",
+        "transcript_id": "ENST00000409271",
+        "biotype": "protein_coding",
+        "variant_allele": "C",
+        "strand": -1,
+        "cds_end": 1205,
+        "domains": [
+          {
+            "name": "PTHR12120",
+            "db": "PANTHER"
+          },
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "PF24979",
+            "db": "Pfam"
+          },
+          {
+            "db": "Phobius",
+            "name": "NON_CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "SSF47986",
+            "db": "Superfamily"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          }
+        ],
+        "protein_id": "ENSP00000386371",
+        "alphamissense": {
+          "am_class": "likely_pathogenic",
+          "am_pathogenicity": 0.8259
+        },
+        "uniprot_isoform": [
+          "Q9UNE0-2"
+        ],
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "protein_end": 402,
+        "cdna_start": 1752,
+        "cdna_end": 1752,
+        "gene_symbol": "EDAR",
+        "hgvsc": "ENST00000409271.6:c.1205T>G",
+        "sift_prediction": "deleterious_low_confidence",
+        "hgvsp": "ENSP00000386371.1:p.Val402Gly",
+        "gene_symbol_source": "HGNC",
+        "polyphen_score": 0.646,
+        "polyphen_prediction": "possibly_damaging"
+      },
+      {
+        "protein_id": "ENSP00000640226",
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "PF24979",
+            "db": "Pfam"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR12120"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF47986"
+          },
+          {
+            "name": "NON_CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          }
+        ],
+        "alphamissense": {
+          "am_class": "likely_pathogenic",
+          "am_pathogenicity": 0.8259
+        },
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "protein_end": 370,
+        "cdna_start": 1657,
+        "cdna_end": 1657,
+        "hgvsp": "ENSP00000640226.1:p.Val370Gly",
+        "sift_prediction": "deleterious",
+        "hgvsc": "ENST00000970167.2:c.1109T>G",
+        "gene_symbol": "EDAR",
+        "polyphen_prediction": "possibly_damaging",
+        "polyphen_score": 0.806,
+        "gene_symbol_source": "HGNC",
+        "hgnc_id": "HGNC:2895",
+        "cds_start": 1109,
+        "impact": "MODERATE",
+        "amino_acids": "V/G",
+        "protein_start": 370,
+        "uniparc": [
+          "UPI0000129BC4"
+        ],
+        "transcript_id": "ENST00000970167",
+        "codons": "gTt/gGt",
+        "sift_score": 0,
+        "gene_id": "ENSG00000135960",
+        "variant_allele": "C",
+        "biotype": "protein_coding",
+        "strand": -1,
+        "cds_end": 1109
+      },
+      {
+        "alphamissense": {
+          "am_class": "likely_pathogenic",
+          "am_pathogenicity": 0.8259
+        },
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "db": "Phobius",
+            "name": "NON_CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF24979",
+            "db": "Pfam"
+          },
+          {
+            "name": "PTHR12120",
+            "db": "PANTHER"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF47986"
+          }
+        ],
+        "protein_id": "ENSP00000802941",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cdna_start": 1540,
+        "cdna_end": 1540,
+        "protein_end": 370,
+        "gene_symbol": "EDAR",
+        "sift_prediction": "deleterious",
+        "hgvsp": "ENSP00000802941.1:p.Val370Gly",
+        "hgvsc": "ENST00001144456.1:c.1109T>G",
+        "gene_symbol_source": "HGNC",
+        "polyphen_prediction": "possibly_damaging",
+        "polyphen_score": 0.806,
+        "cds_start": 1109,
+        "amino_acids": "V/G",
+        "impact": "MODERATE",
+        "hgnc_id": "HGNC:2895",
+        "uniparc": [
+          "UPI0000129BC4"
+        ],
+        "protein_start": 370,
+        "variant_allele": "C",
+        "biotype": "protein_coding",
+        "gene_id": "ENSG00000135960",
+        "sift_score": 0,
+        "codons": "gTt/gGt",
+        "transcript_id": "ENST00001144456",
+        "strand": -1,
+        "cds_end": 1109
+      }
+    ],
+    "seq_region_name": "2",
+    "allele_string": "A/C"
+  }
+]

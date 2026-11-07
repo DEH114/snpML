@@ -1,0 +1,71 @@
+rsid	allele_string	variant_allele	gene	transcript	protein_id	protein_start	protein_end	hgvsp	consequences	note
+rs80357713	-/T	T	BRCA1	ENST00000352993		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000354071					"[""non_coding_transcript_exon_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000356906					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000357654		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000460115					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000461221		22	22		"[""frameshift_variant"", ""NMD_transcript_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000461574		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000461798		22	22		"[""frameshift_variant"", ""NMD_transcript_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000467245					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000468300		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000470026		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000471181		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000473961		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000476777		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000477152		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000478531		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000484087		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000489037		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000491747		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000492859		22	22		"[""frameshift_variant"", ""NMD_transcript_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000493795					"[""5_prime_UTR_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000493919					"[""5_prime_UTR_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000494123		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000497488					"[""intron_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000586385					"[""intron_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000591534					"[""intron_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000591849					"[""intron_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000618469		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000634433		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000642945		22	22		"[""frameshift_variant"", ""NMD_transcript_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000644379		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000644555					"[""5_prime_UTR_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000652672					"[""5_prime_UTR_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000657841					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000700182		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000700183		22	22		"[""frameshift_variant"", ""NMD_transcript_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000700184					"[""non_coding_transcript_exon_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000700185					"[""non_coding_transcript_exon_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000700186					"[""non_coding_transcript_exon_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000713676		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790195					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790196					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790197					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790198					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790199					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790200					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790201					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790202					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790203					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790204					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790205					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	NBR2	ENST00000790206					"[""upstream_gene_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000899954		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000921914		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000921915		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000921916		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000945268		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00000945269		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001010568		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001010569		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001010570		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001076718		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001076719		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001076720		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001076721		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001076722		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001076723		22	22		"[""frameshift_variant"", ""NMD_transcript_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001076724		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001076725		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted
+rs80357713	-/T	T	BRCA1	ENST00001136804		22	22		"[""frameshift_variant""]"	VEP rsID-only record: check exact allele/assembly; no mutant structure predicted

@@ -1,0 +1,296 @@
+[
+  {
+    "end": 141973545,
+    "start": 141973545,
+    "colocated_variants": [
+      {
+        "allele_string": "HGMD_MUTATION",
+        "phenotype_or_disease": 1,
+        "id": "CM031368",
+        "strand": 1,
+        "end": 141973545,
+        "start": 141973545,
+        "seq_region_name": "7"
+      },
+      {
+        "somatic": 1,
+        "var_synonyms": {
+          "COSMIC": [
+            "COSM4004331"
+          ]
+        },
+        "seq_region_name": "7",
+        "end": 141973545,
+        "start": 141973545,
+        "id": "COSV71885858",
+        "strand": 1,
+        "allele_string": "COSMIC_MUTATION",
+        "phenotype_or_disease": 1
+      },
+      {
+        "clin_sig_allele": "G:drug_response",
+        "frequencies": {
+          "T": {
+            "gnomade_nfe": 8.993e-07,
+            "gnomade_remaining": 0,
+            "gnomade_afr": 0,
+            "gnomade_eas": 0,
+            "gnomade_mid": 0,
+            "gnomade_amr": 0,
+            "gnomade_fin": 0,
+            "gnomade": 6.841e-07,
+            "gnomade_asj": 0,
+            "gnomade_sas": 0
+          }
+        },
+        "strand": 1,
+        "id": "rs713598",
+        "phenotype_or_disease": 1,
+        "allele_string": "C/A/G/T",
+        "pubmed": [
+          21467728,
+          18248681,
+          33262486,
+          19092995,
+          28858874,
+          28455260,
+          33930497,
+          24534176,
+          26268603,
+          20858777,
+          31137020,
+          30060620,
+          24000232,
+          26633761,
+          29385734,
+          30340375,
+          36070352,
+          22132133,
+          20675712,
+          19687126,
+          23166662,
+          24627758,
+          23133589,
+          29947923,
+          19782709,
+          22824251,
+          12595690,
+          15883422,
+          18834969,
+          19779476,
+          20594349,
+          20980355,
+          21557234,
+          21674048,
+          21763010,
+          21927640,
+          23900446,
+          24083639,
+          24705770,
+          25303850,
+          25832883,
+          26941429,
+          27245112,
+          27475756,
+          27515546,
+          27711175,
+          28041559,
+          28652185,
+          28738701,
+          31921309,
+          32659773,
+          33103533,
+          33582215,
+          34117880,
+          34242732,
+          34653070,
+          30301923,
+          28835712,
+          25381313,
+          25050705,
+          35057433,
+          36771415,
+          32521750,
+          33294096,
+          32121357,
+          36980937,
+          23821729,
+          36819962,
+          35425718,
+          23761681,
+          34674725,
+          24025627,
+          33170488,
+          32708215,
+          31922012,
+          36477530,
+          23878414,
+          31386148,
+          24607656,
+          22440514,
+          32846055,
+          36555636,
+          31357559,
+          29393149,
+          28587069,
+          27733510,
+          27506221,
+          33911954,
+          35301737,
+          30176005,
+          28923290,
+          32282124,
+          25257701,
+          33005019,
+          33467165,
+          24312479,
+          37266651,
+          26391354,
+          34627344,
+          36712576,
+          35565677,
+          23680431,
+          26090297,
+          36529808,
+          23516368,
+          28074885,
+          35090440,
+          26785164,
+          35223410,
+          33777105,
+          28767651,
+          17662150,
+          30137252,
+          3679377
+        ],
+        "clin_sig": [
+          "drug_response"
+        ],
+        "start": 141973545,
+        "end": 141973545,
+        "clin_sig_ref_allele": "C",
+        "seq_region_name": "7",
+        "var_synonyms": {
+          "OMIM": [
+            607751.0001
+          ],
+          "ClinVar": [
+            "RCV000003038",
+            "VCV000002904"
+          ],
+          "UniProt": [
+            "VAR_017860"
+          ]
+        }
+      }
+    ],
+    "seq_region_name": "7",
+    "allele_string": "C/T",
+    "id": "7_141973545_C/T",
+    "most_severe_consequence": "missense_variant",
+    "strand": 1,
+    "input": "7 141973545 141973545 C/T 1",
+    "transcript_consequences": [
+      {
+        "flags": [
+          "cds_end_NF"
+        ],
+        "hgvsc": "ENST00000465654.5:c.-3+27548C>T",
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "impact": "MODIFIER",
+        "biotype": "protein_coding",
+        "variant_allele": "T",
+        "trembl": [
+          "E7EW87.88"
+        ],
+        "gene_symbol_source": "HGNC",
+        "uniparc": [
+          "UPI0001B7928A"
+        ],
+        "protein_id": "ENSP00000419372",
+        "gene_id": "ENSG00000257335",
+        "gene_symbol": "MGAM",
+        "transcript_id": "ENST00000465654",
+        "strand": 1,
+        "hgnc_id": "HGNC:7043"
+      },
+      {
+        "biotype": "protein_coding",
+        "cds_start": 145,
+        "hgvsc": "ENST00000547270.1:c.145G>A",
+        "impact": "MODERATE",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "canonical": 1,
+        "polyphen_prediction": "benign",
+        "mane_select": "NM_176817.5",
+        "protein_start": 49,
+        "hgnc_id": "HGNC:9584",
+        "strand": -1,
+        "codons": "Gca/Aca",
+        "cds_end": 145,
+        "protein_end": 49,
+        "cdna_start": 229,
+        "swissprot": [
+          "P59533.175"
+        ],
+        "hgvsp": "ENSP00000448219.1:p.Ala49Thr",
+        "cdna_end": 229,
+        "variant_allele": "T",
+        "mane": [
+          "MANE_Select"
+        ],
+        "amino_acids": "A/T",
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "PF05296",
+            "db": "Pfam"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "cd15025",
+            "db": "CDD"
+          },
+          {
+            "name": "SSF81321",
+            "db": "Superfamily"
+          },
+          {
+            "name": "PTHR11394",
+            "db": "PANTHER"
+          },
+          {
+            "name": "AF",
+            "db": "ENSP_mappings"
+          }
+        ],
+        "alphamissense": {
+          "am_pathogenicity": 0.0823,
+          "am_class": "likely_benign"
+        },
+        "gene_symbol_source": "HGNC",
+        "uniparc": [
+          "UPI000000D825"
+        ],
+        "gene_symbol": "TAS2R38",
+        "polyphen_score": 0.013,
+        "transcript_id": "ENST00000547270",
+        "sift_score": 0.15,
+        "protein_id": "ENSP00000448219",
+        "gene_id": "ENSG00000257138",
+        "sift_prediction": "tolerated"
+      }
+    ],
+    "assembly_name": "GRCh38"
+  }
+]
