@@ -1,0 +1,21 @@
+input_rank,rsid,current_rsid,confidence_score,confidence_band,baseline_score,correction_booster,evidence_items,resolved_corrections,unresolved_conflicts,clinvar_status,gnomad_status,gwas_status,alphafold_status,jaspar_status,gtr_status,phegeni_status,source_issues,scoring_input,ranker_version
+1,rs9807334,rs9807334,44,Low,44.1,0,9,0,0,no_data,ok,ok,skipped,ok,no_data,ok,,supplied_snapshot,1.3.0
+2,rs121913529,rs121913529,79,Moderate,89,0,15,0,0,ok,ok,no_data,ok,ok,no_data,no_data,,supplied_snapshot,1.3.0
+3,rs72921001,rs72921001,39,Low,39.2,0,6,0,0,no_data,ok,no_data,skipped,ok,no_data,no_data,,supplied_snapshot,1.3.0
+4,rs17822931,rs17822931,79,Moderate,86,0,12,0,0,ok,ok,ok,ok,ok,no_data,no_data,,supplied_snapshot,1.3.0
+5,rs334,rs334,79,Moderate,97.4,0,25,0,0,ok,ok,ok,ok,ok,no_data,no_data,Partial gnomAD failure: Allele frequency is unavailable for this allele in the supplied gnomAD snapshot.,supplied_snapshot,1.3.0
+6,rs987870,rs987870,83,High,82.7,0,8,0,0,no_data,ok,ok,skipped,ok,no_data,ok,,supplied_snapshot,1.3.0
+7,rs429358,rs429358,97,High,96.8,0,30,0,1,ok,ok,ok,ok,ok,no_data,ok,,supplied_snapshot,1.3.0
+8,rs3827760,rs3827760,98,High,97.8,0,23,0,0,ok,ok,ok,ok,ok,no_data,ok,Partial gnomAD failure: Allele frequency is unavailable for this allele in the supplied gnomAD snapshot.,supplied_snapshot,1.3.0
+9,rs113993960,rs113993960,79,Moderate,95.9,0,14,0,0,ok,ok,ok,skipped,skipped,no_data,no_data,,supplied_snapshot,1.3.0
+10,rs4988235,rs4988235,95,High,95.5,0,22,0,0,ok,ok,ok,skipped,ok,ok,ok,Partial gnomAD failure: Allele frequency is unavailable for this allele in the supplied gnomAD snapshot.,supplied_snapshot,1.3.0
+11,rs28934578,rs28934578,79,Moderate,88.5,0,13,0,0,ok,ok,no_data,ok,ok,no_data,no_data,Partial gnomAD failure: Allele frequency is unavailable for this allele in the supplied gnomAD snapshot.,supplied_snapshot,1.3.0
+12,rs17004038,rs17004038,33,Low,32.8,0,6,0,0,no_data,ok,no_data,skipped,ok,no_data,no_data,,supplied_snapshot,1.3.0
+13,rs12913832,rs12913832,79,Moderate,97.7,0,26,0,0,ok,ok,ok,skipped,ok,no_data,ok,Partial gnomAD failure: Allele frequency is unavailable for this allele in the supplied gnomAD snapshot.,supplied_snapshot,1.3.0
+14,rs6025,rs6025,79,Moderate,98.8,0,24,0,0,ok,ok,ok,ok,ok,ok,ok,Partial gnomAD failure: Allele frequency is unavailable for this allele in the supplied gnomAD snapshot.,supplied_snapshot,1.3.0
+15,rs713598,rs713598,94,High,93.5,0,19,0,0,ok,ok,ok,ok,ok,no_data,ok,,supplied_snapshot,1.3.0
+16,rs7412,rs7412,99,High,99.5,0,29,0,0,ok,ok,ok,ok,ok,no_data,ok,,supplied_snapshot,1.3.0
+17,rs80357713,rs80357783,68,Moderate,68.1,0,2,0,0,ok,ok,no_data,skipped,skipped,no_data,no_data,,supplied_snapshot,1.3.0
+18,rs1426654,rs1426654,98,High,98.4,0,26,0,0,ok,ok,ok,ok,ok,no_data,ok,,supplied_snapshot,1.3.0
+19,rs1799963,rs1799963,98,High,98.2,0,20,0,0,ok,ok,ok,skipped,ok,no_data,ok,,supplied_snapshot,1.3.0
+20,rs1801133,rs1801133,99,High,98.6,0,24,0,0,ok,ok,ok,ok,ok,ok,ok,Partial gnomAD failure: Allele frequency is unavailable for this allele in the supplied gnomAD snapshot.,supplied_snapshot,1.3.0
