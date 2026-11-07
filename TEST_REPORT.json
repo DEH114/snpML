@@ -1,0 +1,7 @@
+{
+  "test_command": "python -m unittest discover -s tests -v",
+  "local_tests": 34,
+  "passed": 34,
+  "external_api_end_to_end_tested": false,
+  "note": "Synthetic fixtures only; real 20-rsID dataset annotations require live Ensembl/JASPAR/UniProt/AlphaFold access."
+}

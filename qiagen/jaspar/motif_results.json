@@ -1,0 +1,30 @@
+[
+  {
+    "variant_key": "GRCh38:2:108897145:A>C",
+    "chrom": "2",
+    "pos": 108897145,
+    "ref": "A",
+    "alt": "C",
+    "rsid": "rs3827760",
+    "assembly": "GRCh38",
+    "matrix_id": "MA0102.5",
+    "tf": "CEBPA",
+    "motif_start": 108897137,
+    "motif_end": 108897146,
+    "strand": "+",
+    "ref_sequence_motif_orientation": "TTTTCACAAC",
+    "alt_sequence_motif_orientation": "TTTTCACACC",
+    "snp_position_in_motif_1based": 9,
+    "ref_log2_odds": 9.655387131671507,
+    "alt_log2_odds": 3.472091742094245,
+    "delta_log2_odds": -6.183295389577262,
+    "ref_relative_score": 0.8682563193418456,
+    "alt_relative_score": 0.7615144108295469,
+    "delta_relative_score": -0.1067419085122987,
+    "effect": "loss_at_heuristic_threshold",
+    "target_gene": null,
+    "target_gene_status": "unresolved_requires_independent_evidence",
+    "evidence_type": "computational_motif_prediction",
+    "score_note": "heuristic scores; not p-values or experimentally established binding effects"
+  }
+]

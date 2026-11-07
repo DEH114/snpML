@@ -1,0 +1,1971 @@
+[
+  {
+    "start": 46739505,
+    "input": "11 46739505 46739505 G/A 1",
+    "colocated_variants": [
+      {
+        "start": 46739505,
+        "strand": 1,
+        "allele_string": "HGMD_MUTATION",
+        "phenotype_or_disease": 1,
+        "seq_region_name": "11",
+        "id": "CR961726",
+        "end": 46739505
+      },
+      {
+        "allele_string": "G/A",
+        "phenotype_or_disease": 1,
+        "seq_region_name": "11",
+        "end": 46739505,
+        "var_synonyms": {
+          "ClinVar": [
+            "RCV005419865",
+            "RCV005042047",
+            "RCV000014238",
+            "RCV000014237",
+            "VCV000013310",
+            "RCV000022729",
+            "RCV000205022",
+            "RCV002468555",
+            "RCV000826090",
+            "RCV001091960",
+            "RCV001794446"
+          ],
+          "OMIM": [
+            176930.0009
+          ],
+          "PharmGKB": [
+            "PA166154336"
+          ]
+        },
+        "id": "rs1799963",
+        "pubmed": [
+          34207366,
+          18513389,
+          19131662,
+          19330901,
+          19559392,
+          21056700,
+          21894447,
+          21919968,
+          23132613,
+          23205182,
+          25361584,
+          25474356,
+          27616475,
+          20078877,
+          21054877,
+          27589735,
+          28659664,
+          19682239,
+          20031567,
+          21463476,
+          27766050,
+          31420334,
+          33128086,
+          30112393,
+          22388798,
+          26791477,
+          24944790,
+          33170161,
+          19619703,
+          23533563,
+          29334895,
+          35873600,
+          31019283,
+          27233255,
+          10348711,
+          10477778,
+          15534175,
+          16493002,
+          16846490,
+          17107626,
+          18752569,
+          18936436,
+          19538716,
+          19591822,
+          19786296,
+          20352152,
+          20417488,
+          21291465,
+          21332313,
+          21422408,
+          21502573,
+          21659962,
+          21857382,
+          22273812,
+          22353194,
+          22403240,
+          22421107,
+          22707612,
+          23776350,
+          23820649,
+          24485400,
+          25272994,
+          25341889,
+          25897999,
+          26423325,
+          26888256,
+          26982741,
+          27018927,
+          27976734,
+          28086795,
+          28317214,
+          28345611,
+          28544373,
+          28889200,
+          29094466,
+          29190926,
+          29518638,
+          29624150,
+          30727925,
+          30773804,
+          31058051,
+          31101755,
+          31124268,
+          31615384,
+          31689458,
+          32110755,
+          32342502,
+          32402998,
+          32594420,
+          32671915,
+          32695137,
+          32731838,
+          33940655,
+          34142473,
+          34200207,
+          34263111,
+          34356593,
+          34765649,
+          34784644,
+          34958284,
+          34970867,
+          35316569,
+          33262486,
+          20691829,
+          28426651,
+          21980494,
+          26784699,
+          35264229,
+          35999432,
+          24226152,
+          26715857,
+          26228839,
+          29363996,
+          3562916
+        ],
+        "clin_sig": [
+          "likely_pathogenic",
+          "pathogenic",
+          "risk_factor",
+          "pathogenic_low_penetrance",
+          "established_risk_allele"
+        ],
+        "clin_sig_allele": "A:risk_factor;A:pathogenic/likely_pathogenic;A:pathogenic/pathogenic,_low_penetrance;A:established_risk_allele;A:pathogenic",
+        "clin_sig_ref_allele": "G",
+        "frequencies": {
+          "A": {
+            "gnomade_fin": 0.004879,
+            "gnomadg_asj": 0.02912,
+            "gnomade_mid": 0.01699,
+            "gnomade_nfe": 0.01285,
+            "gnomadg_eas": 0,
+            "gnomadg_sas": 0.001245,
+            "gnomadg_afr": 0.002357,
+            "amr": 0.0144,
+            "sas": 0,
+            "gnomadg": 0.009566,
+            "gnomade_eas": 5.128e-05,
+            "gnomade_amr": 0.01019,
+            "gnomadg_remaining": 0.0161,
+            "gnomadg_mid": 0.03061,
+            "eas": 0,
+            "gnomade_asj": 0.03579,
+            "gnomadg_fin": 0.005181,
+            "gnomadg_nfe": 0.01357,
+            "gnomade": 0.01159,
+            "af": 0.0036,
+            "gnomadg_ami": 0,
+            "gnomade_remaining": 0.01155,
+            "gnomade_afr": 0.002155,
+            "gnomadg_amr": 0.0151,
+            "gnomade_sas": 0.002028,
+            "afr": 0,
+            "eur": 0.008
+          }
+        },
+        "start": 46739505,
+        "strand": 1
+      }
+    ],
+    "strand": 1,
+    "most_severe_consequence": "3_prime_UTR_variant",
+    "end": 46739505,
+    "id": "11_46739505_G/A",
+    "seq_region_name": "11",
+    "allele_string": "G/A",
+    "assembly_name": "GRCh38",
+    "transcript_consequences": [
+      {
+        "mane_select": "NM_000506.5",
+        "strand": 1,
+        "variant_allele": "A",
+        "mane": [
+          "MANE_Select"
+        ],
+        "biotype": "protein_coding",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000311907",
+        "canonical": 1,
+        "swissprot": [
+          "P00734.287"
+        ],
+        "uniparc": [
+          "UPI0000136ECD"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "gene_symbol_source": "HGNC",
+        "gene_symbol": "F2",
+        "hgvsc": "ENST00000311907.10:c.*97G>A",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1989,
+        "cdna_end": 1989,
+        "protein_id": "ENSP00000308541"
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "uniprot_isoform": [
+          "Q14008-2"
+        ],
+        "protein_id": "ENSP00000310227",
+        "gene_symbol_source": "HGNC",
+        "gene_symbol": "CKAP5",
+        "swissprot": [
+          "Q14008.218"
+        ],
+        "uniparc": [
+          "UPI000013F255"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "distance": 3263,
+        "strand": -1,
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "transcript_id": "ENST00000312055",
+        "gene_id": "ENSG00000175216"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "gene_symbol": "CKAP5",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "uniprot_isoform": [
+          "Q14008-2"
+        ],
+        "protein_id": "ENSP00000346566",
+        "strand": -1,
+        "distance": 3263,
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000354558",
+        "swissprot": [
+          "Q14008.218"
+        ],
+        "uniparc": [
+          "UPI000013F255"
+        ],
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "gene_symbol": "CKAP5",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "protein_id": "ENSP00000434523",
+        "strand": -1,
+        "flags": [
+          "cds_start_NF"
+        ],
+        "distance": 4660,
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "trembl": [
+          "H0YDX5.69"
+        ],
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000525896",
+        "uniparc": [
+          "UPI0001F77CC4"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959"
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "uniprot_isoform": [
+          "Q14008-1"
+        ],
+        "protein_id": "ENSP00000432768",
+        "gene_symbol_source": "HGNC",
+        "gene_symbol": "CKAP5",
+        "swissprot": [
+          "Q14008.218"
+        ],
+        "uniparc": [
+          "UPI000013F21E"
+        ],
+        "canonical": 1,
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "distance": 3543,
+        "mane_select": "NM_001008938.4",
+        "strand": -1,
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "mane": [
+          "MANE_Select"
+        ],
+        "transcript_id": "ENST00000529230",
+        "gene_id": "ENSG00000175216"
+      },
+      {
+        "biotype": "protein_coding",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "trembl": [
+          "E9PIT3.98"
+        ],
+        "transcript_id": "ENST00000530231",
+        "gene_id": "ENSG00000180210",
+        "distance": 5,
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000433907",
+        "uniparc": [
+          "UPI0001F77CA9"
+        ],
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ]
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "strand": -1,
+        "distance": 4512,
+        "gene_symbol_source": "HGNC",
+        "biotype": "retained_intron",
+        "gene_symbol": "CKAP5",
+        "variant_allele": "A",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000533413"
+      },
+      {
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862093",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862093.1:c.*97G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "protein_id": "ENSP00000532152",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1985,
+        "cdna_end": 1985
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00000862094",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00000862094.2:c.*97G>A",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol": "F2",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 1907,
+        "cdna_start": 1907,
+        "protein_id": "ENSP00000532153",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535"
+      },
+      {
+        "hgvsc": "ENST00000862095.2:c.*97G>A",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000862095",
+        "gene_id": "ENSG00000180210",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532154",
+        "cdna_end": 1979,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1979
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00000862096",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00000862096.2:c.*97G>A",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2033,
+        "cdna_start": 2033,
+        "protein_id": "ENSP00000532155",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER"
+      },
+      {
+        "protein_id": "ENSP00000532156",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1793,
+        "cdna_end": 1793,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862097",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862097.2:c.*97G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000862098.2:c.*97G>A",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000862098",
+        "gene_id": "ENSG00000180210",
+        "cdna_start": 1946,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 1946,
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532157"
+      },
+      {
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1928,
+        "cdna_end": 1928,
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000532158",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862099.2:c.*97G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862099"
+      },
+      {
+        "hgvsc": "ENST00000862100.2:c.*97G>A",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol": "F2",
+        "transcript_id": "ENST00000862100",
+        "gene_id": "ENSG00000180210",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532159",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 1952,
+        "cdna_start": 1952
+      },
+      {
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862101",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862101.2:c.*97G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "protein_id": "ENSP00000532160",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 1958,
+        "cdna_start": 1958
+      },
+      {
+        "protein_id": "ENSP00000532161",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2081,
+        "cdna_start": 2081,
+        "transcript_id": "ENST00000862102",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00000862102.2:c.*97G>A",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1994,
+        "cdna_end": 1994,
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532162",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000862103.2:c.*97G>A",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "transcript_id": "ENST00000862103",
+        "gene_id": "ENSG00000180210"
+      },
+      {
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000532163",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2075,
+        "cdna_start": 2075,
+        "hgvsc": "ENST00000862104.2:c.*97G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000862104",
+        "gene_id": "ENSG00000180210",
+        "strand": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000862105.2:c.*97G>A",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "transcript_id": "ENST00000862105",
+        "gene_id": "ENSG00000180210",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2057,
+        "cdna_start": 2057,
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532164"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862106",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862106.2:c.*97G>A",
+        "cdna_start": 2132,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2132,
+        "protein_id": "ENSP00000532165",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00000862107",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00000862107.2:c.*97G>A",
+        "biotype": "protein_coding",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2024,
+        "cdna_start": 2024,
+        "protein_id": "ENSP00000532166",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535"
+      },
+      {
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1742,
+        "cdna_end": 1742,
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532167",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000862108.2:c.*97G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000862108",
+        "gene_id": "ENSG00000180210"
+      },
+      {
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862109.2:c.*97G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862109",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000532168",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2000,
+        "cdna_start": 2000
+      },
+      {
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1799,
+        "cdna_end": 1799,
+        "protein_id": "ENSP00000532169",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862110",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "hgvsc": "ENST00000862110.2:c.*97G>A"
+      },
+      {
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol": "F2",
+        "hgvsc": "ENST00000862111.2:c.*97G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862111",
+        "cdna_end": 2063,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 2063,
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532170"
+      },
+      {
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2018,
+        "cdna_start": 2018,
+        "protein_id": "ENSP00000532171",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00000862112",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00000862112.2:c.*97G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding"
+      },
+      {
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000532172",
+        "cdna_end": 1868,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1868,
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862113.2:c.*97G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862113",
+        "strand": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "transcript_id": "ENST00000862114",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00000862114.2:c.*97G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "protein_id": "ENSP00000532173",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 1973,
+        "cdna_start": 1973
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "distance": 1,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862115",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol": "F2",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "protein_id": "ENSP00000532174",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535"
+      },
+      {
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532175",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862116",
+        "strand": 1,
+        "distance": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "hgvsc": "ENST00000862117.2:c.*97G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000862117",
+        "gene_id": "ENSG00000180210",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532176",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 1985,
+        "cdna_start": 1985
+      },
+      {
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000532177",
+        "cdna_end": 2084,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 2084,
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862118.2:c.*97G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862118",
+        "strand": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "protein_id": "ENSP00000532178",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "cdna_end": 1790,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1790,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862119",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol": "F2",
+        "hgvsc": "ENST00000862119.2:c.*97G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000532179",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 1721,
+        "cdna_start": 1721,
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "hgvsc": "ENST00000862120.2:c.*97G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862120",
+        "strand": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000532180",
+        "strand": 1,
+        "distance": 1,
+        "gene_symbol_source": "HGNC",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862121"
+      },
+      {
+        "protein_id": "ENSP00000532181",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "cdna_end": 1862,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 1862,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00000862122",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000862122.2:c.*97G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "uniparc": [
+          "UPI0000EE396E"
+        ],
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "strand": 1,
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "transcript_id": "ENST00000862123",
+        "gene_id": "ENSG00000180210",
+        "cdna_end": 2015,
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_start": 2015,
+        "protein_id": "ENSP00000532182",
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000862123.2:c.*97G>A",
+        "gene_symbol": "F2"
+      },
+      {
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000544266",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "uniparc": [
+          "UPI000013F21E"
+        ],
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000874207",
+        "strand": -1,
+        "distance": 3263,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000874208",
+        "strand": -1,
+        "distance": 3263,
+        "gene_symbol_source": "HGNC",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000544267",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ]
+      },
+      {
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000544268",
+        "uniparc": [
+          "UPI000013F21E"
+        ],
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "transcript_id": "ENST00000874209",
+        "gene_id": "ENSG00000175216",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "protein_id": "ENSP00000598178",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "uniparc": [
+          "UPI0001639EEA"
+        ],
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "transcript_id": "ENST00000928119",
+        "gene_id": "ENSG00000175216",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "gene_symbol_source": "HGNC",
+        "distance": 3263,
+        "strand": -1
+      },
+      {
+        "strand": -1,
+        "distance": 3263,
+        "gene_symbol_source": "HGNC",
+        "biotype": "protein_coding",
+        "gene_symbol": "CKAP5",
+        "variant_allele": "A",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000928120",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000598179"
+      },
+      {
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "transcript_id": "ENST00000928121",
+        "gene_id": "ENSG00000175216",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000598180",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ]
+      },
+      {
+        "protein_id": "ENSP00000598181",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "uniparc": [
+          "UPI000013F21E"
+        ],
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "transcript_id": "ENST00000928122",
+        "gene_id": "ENSG00000175216",
+        "gene_symbol": "CKAP5",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol_source": "HGNC",
+        "distance": 3263,
+        "strand": -1
+      },
+      {
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000598182",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000928123",
+        "gene_id": "ENSG00000175216",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "protein_id": "ENSP00000598183",
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "gene_symbol_source": "HGNC",
+        "distance": 3263,
+        "strand": -1,
+        "transcript_id": "ENST00000928124",
+        "gene_id": "ENSG00000175216",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding"
+      },
+      {
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000928125",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "gene_symbol_source": "HGNC",
+        "strand": -1,
+        "distance": 3263,
+        "protein_id": "ENSP00000598184",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ]
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000598185",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000928126",
+        "gene_id": "ENSG00000175216"
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "protein_id": "ENSP00000598186",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "gene_symbol_source": "HGNC",
+        "strand": -1,
+        "distance": 3263,
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000928127",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol": "CKAP5"
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000598187",
+        "strand": -1,
+        "distance": 3263,
+        "gene_symbol_source": "HGNC",
+        "gene_symbol": "CKAP5",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000928128"
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000598188",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "transcript_id": "ENST00000928129",
+        "gene_id": "ENSG00000175216"
+      },
+      {
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000598189",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "transcript_id": "ENST00000928130",
+        "gene_id": "ENSG00000175216",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000598190",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "gene_symbol": "CKAP5",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000928131",
+        "strand": -1,
+        "distance": 3263,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "distance": 3263,
+        "strand": -1,
+        "transcript_id": "ENST00000928132",
+        "gene_id": "ENSG00000175216",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "protein_id": "ENSP00000598191",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959"
+      },
+      {
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000598192",
+        "uniparc": [
+          "UPI000013F21E"
+        ],
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "transcript_id": "ENST00000928133",
+        "gene_id": "ENSG00000175216",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "gene_symbol": "CKAP5",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00000928134",
+        "strand": -1,
+        "distance": 3263,
+        "gene_symbol_source": "HGNC",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000598193",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "uniparc": [
+          "UPI000013F21E"
+        ]
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000638962",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC",
+        "gene_symbol": "CKAP5",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "transcript_id": "ENST00000968903",
+        "gene_id": "ENSG00000175216"
+      },
+      {
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000638963",
+        "uniparc": [
+          "UPI000013F21E"
+        ],
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "transcript_id": "ENST00000968904",
+        "gene_id": "ENSG00000175216",
+        "distance": 3263,
+        "strand": -1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "uniparc": [
+          "UPI0000488198"
+        ],
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002912",
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "strand": 1,
+        "protein_id": "ENSP00000672729",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1941,
+        "cdna_start": 1941,
+        "gene_symbol": "F2",
+        "hgvsc": "ENST00001002912.1:c.*299G>A",
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "gene_symbol": "F2",
+        "hgvsc": "ENST00001002914.1:c.*299G>A",
+        "cdna_start": 2040,
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 2040,
+        "protein_id": "ENSP00000672731",
+        "strand": 1,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002914",
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "uniparc": [
+          "UPI0000488199"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535"
+      },
+      {
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002916",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "nonsense_mediated_decay",
+        "hgvsc": "ENST00001002916.1:c.*773G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "protein_id": "ENSP00000672733",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 2066,
+        "cdna_start": 2066
+      },
+      {
+        "transcript_id": "ENST00001002919",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001002919.1:c.*299G>A",
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "protein_id": "ENSP00000672736",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1693,
+        "cdna_start": 1693
+      },
+      {
+        "protein_id": "ENSP00000672737",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 2056,
+        "cdna_start": 2056,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002920",
+        "biotype": "nonsense_mediated_decay",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "hgvsc": "ENST00001002920.1:c.*1694G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1987,
+        "cdna_start": 1987,
+        "protein_id": "ENSP00000672739",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002922",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "hgvsc": "ENST00001002922.1:c.*1052G>A"
+      },
+      {
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000672740",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1954,
+        "cdna_start": 1954,
+        "hgvsc": "ENST00001002923.1:c.*1605G>A",
+        "variant_allele": "A",
+        "biotype": "nonsense_mediated_decay",
+        "gene_symbol": "F2",
+        "transcript_id": "ENST00001002923",
+        "gene_id": "ENSG00000180210",
+        "strand": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "protein_id": "ENSP00000672743",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "cdna_start": 1865,
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1865,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002926",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "hgvsc": "ENST00001002926.1:c.*591G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "hgvsc": "ENST00001002930.1:c.*1605G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002930",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000672747",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_start": 1919,
+        "cdna_end": 1919
+      },
+      {
+        "cdna_end": 1894,
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_start": 1894,
+        "protein_id": "ENSP00000672753",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001002936",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001002936.1:c.*416G>A",
+        "variant_allele": "A",
+        "biotype": "nonsense_mediated_decay",
+        "gene_symbol": "F2"
+      },
+      {
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00001002939.1:c.*1052G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "transcript_id": "ENST00001002939",
+        "gene_id": "ENSG00000180210",
+        "cdna_start": 1978,
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1978,
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000672756"
+      },
+      {
+        "hgvsc": "ENST00001002942.1:c.*1437G>A",
+        "variant_allele": "A",
+        "biotype": "nonsense_mediated_decay",
+        "gene_symbol": "F2",
+        "transcript_id": "ENST00001002942",
+        "gene_id": "ENSG00000180210",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000672759",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1895,
+        "cdna_start": 1895
+      },
+      {
+        "transcript_id": "ENST00001002944",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001002944.1:c.*299G>A",
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "protein_id": "ENSP00000672761",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1756,
+        "cdna_start": 1756
+      },
+      {
+        "protein_id": "ENSP00000672763",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "cdna_end": 1750,
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_start": 1750,
+        "transcript_id": "ENST00001002946",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001002946.1:c.*299G>A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "protein_id": "ENSP00000672769",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1564,
+        "cdna_start": 1564,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002952",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "hgvsc": "ENST00001002952.1:c.*299G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000672772",
+        "cdna_end": 2132,
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_start": 2132,
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "nonsense_mediated_decay",
+        "hgvsc": "ENST00001002955.1:c.*1866G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001002955",
+        "strand": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "distance": 1,
+        "strand": 1,
+        "transcript_id": "ENST00001002956",
+        "gene_id": "ENSG00000180210",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "nonsense_mediated_decay",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "protein_id": "ENSP00000672773",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER"
+      },
+      {
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1987,
+        "cdna_start": 1987,
+        "protein_id": "ENSP00000706227",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001036410",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001036410.1:c.*773G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001036411",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "hgvsc": "ENST00001036411.1:c.*1694G>A",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "cdna_end": 1960,
+        "cdna_start": 1960,
+        "protein_id": "ENSP00000706228",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER"
+      },
+      {
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000727953",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00001058136",
+        "strand": -1,
+        "distance": 4030,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "biotype": "nonsense_mediated_decay",
+        "gene_symbol": "CKAP5",
+        "variant_allele": "A",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00001058137",
+        "strand": -1,
+        "distance": 4033,
+        "gene_symbol_source": "HGNC",
+        "hgnc_id": "HGNC:28959",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000727954",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ]
+      },
+      {
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "protein_id": "ENSP00000727955",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_symbol": "CKAP5",
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00001058138",
+        "strand": -1,
+        "distance": 4037,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "distance": 4035,
+        "strand": -1,
+        "transcript_id": "ENST00001058140",
+        "gene_id": "ENSG00000175216",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "biotype": "nonsense_mediated_decay",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "protein_id": "ENSP00000727957",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959"
+      },
+      {
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "hgvsc": "ENST00001117574.1:c.*58+387G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001117574",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000787379",
+        "consequence_terms": [
+          "intron_variant",
+          "NMD_transcript_variant"
+        ],
+        "uniparc": [
+          "UPI0000488198"
+        ]
+      },
+      {
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "protein_id": "ENSP00000787380",
+        "strand": 1,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00001117575.1:c.1725+387G>A",
+        "biotype": "protein_coding",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "transcript_id": "ENST00001117575",
+        "gene_id": "ENSG00000180210"
+      },
+      {
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "protein_id": "ENSP00000787381",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001117576",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001117576.1:c.1725+387G>A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding",
+        "variant_allele": "A"
+      },
+      {
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "protein_id": "ENSP00000787382",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001117577",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001117577.1:c.1725+387G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "protein_coding"
+      },
+      {
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "protein_id": "ENSP00000787383",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001117578",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001117578.1:c.1725+387G>A",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001117579",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001117579.1:c.1725+387G>A",
+        "biotype": "protein_coding",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "protein_id": "ENSP00000787384",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535"
+      },
+      {
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000787385",
+        "consequence_terms": [
+          "intron_variant",
+          "NMD_transcript_variant"
+        ],
+        "uniparc": [
+          "UPI0000488198"
+        ],
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "nonsense_mediated_decay",
+        "hgvsc": "ENST00001117580.1:c.*58+387G>A",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001117580",
+        "strand": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "protein_id": "ENSP00000787386",
+        "consequence_terms": [
+          "intron_variant",
+          "NMD_transcript_variant"
+        ],
+        "hgvsc": "ENST00001117581.1:c.*532+387G>A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "variant_allele": "A",
+        "transcript_id": "ENST00001117581",
+        "gene_id": "ENSG00000180210",
+        "strand": 1,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001117582",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001117582.1:c.1725+387G>A",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "protein_id": "ENSP00000787387",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001117583",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001117583.1:c.*1453+387G>A",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "nonsense_mediated_decay",
+        "consequence_terms": [
+          "intron_variant",
+          "NMD_transcript_variant"
+        ],
+        "protein_id": "ENSP00000787388",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "strand": 1,
+        "transcript_id": "ENST00001117584",
+        "gene_id": "ENSG00000180210",
+        "hgvsc": "ENST00001117584.1:c.*58+387G>A",
+        "variant_allele": "A",
+        "gene_symbol": "F2",
+        "biotype": "nonsense_mediated_decay",
+        "uniparc": [
+          "UPI0000488198"
+        ],
+        "consequence_terms": [
+          "intron_variant",
+          "NMD_transcript_variant"
+        ],
+        "protein_id": "ENSP00000787389",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:3535"
+      },
+      {
+        "protein_id": "ENSP00000787390",
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2034,
+        "cdna_start": 2034,
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001117585",
+        "gene_symbol": "F2",
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00001117585.1:c.*230G>A",
+        "gene_symbol_source": "HGNC",
+        "strand": 1
+      },
+      {
+        "variant_allele": "A",
+        "biotype": "protein_coding",
+        "gene_id": "ENSG00000180210",
+        "transcript_id": "ENST00001139742",
+        "strand": 1,
+        "hgnc_id": "HGNC:3535",
+        "impact": "MODIFIER",
+        "uniparc": [
+          "UPI0000136ECD"
+        ],
+        "gene_symbol": "F2",
+        "hgvsc": "ENST00001139742.1:c.*97G>A",
+        "gene_symbol_source": "HGNC",
+        "protein_id": "ENSP00000805995",
+        "consequence_terms": [
+          "3_prime_UTR_variant"
+        ],
+        "cdna_end": 2036,
+        "cdna_start": 2036
+      },
+      {
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "uniparc": [
+          "UPI000013F21E"
+        ],
+        "protein_id": "ENSP00000813759",
+        "impact": "MODIFIER",
+        "hgnc_id": "HGNC:28959",
+        "gene_symbol_source": "HGNC",
+        "strand": -1,
+        "distance": 3263,
+        "gene_id": "ENSG00000175216",
+        "transcript_id": "ENST00001142813",
+        "variant_allele": "A",
+        "gene_symbol": "CKAP5",
+        "biotype": "protein_coding"
+      }
+    ]
+  }
+]

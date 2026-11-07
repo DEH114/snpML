@@ -1,0 +1,339 @@
+{
+  "finished_at_utc": "2026-11-07T15:42:46.201426+00:00",
+  "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\examples\\qiagen_20_rsids.tsv",
+  "n_input_rsids": 20,
+  "n_resolved_snv_alleles": 34,
+  "n_rsids_with_resolved_snv": 18,
+  "n_rsids_with_unhandled_or_missing_alleles": 2,
+  "protein_exit_status": 0,
+  "jaspar_exit_status": 0,
+  "branch_errors": [],
+  "jaspar_motif_scope": "CEBPA_MA0102.5 ONLY (demonstration)",
+  "notes": [
+    "No phenotype is inferred from AlphaFold pLDDT or motif matching alone",
+    "rsID-only inputs expand all currently resolvable single-nucleotide ALT alleles",
+    "indels and ambiguous alleles are not scored by these SNV-only branches"
+  ],
+  "source_provenance": [
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs9807334?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:25.035876+00:00",
+      "sha256_utf8": "009ccbc14b27fd44cfd81343a094cb091c07f142cd9e2948f390eb14979e3f80",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/18:50997791..50997791:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:25.164869+00:00",
+      "sha256_utf8": "cde6a158e8107c2d98901072904a10193010cccdd5ad4f3c22513f954b342f13",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs121913529?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:25.722910+00:00",
+      "sha256_utf8": "93d080b2fbebc0eb2648cc85bb33cfcd2274ec63261ea65929069198c926ed62",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/12:25245350..25245350:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:25.878608+00:00",
+      "sha256_utf8": "bdc67f8de2c77461075fcf18299b2d92460f5c9a1e831c33bda09ea810d45960",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs72921001?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:26.100455+00:00",
+      "sha256_utf8": "53639757bdd2c6e9f05ab519230cecb788f4e27063731e8453f0791975c7d583",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/11:6868417..6868417:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:27.087575+00:00",
+      "sha256_utf8": "0cd1e4f579003fee22c6546f1ca1c09835871272d10cf40d5e79227bf436157f",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs17822931?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:29.489338+00:00",
+      "sha256_utf8": "22268b64088c1ed578f9ad80405376a380d7e945d89c9fa8ab448f81e518bfd9",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/16:48224287..48224287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:29.665498+00:00",
+      "sha256_utf8": "48d181367a09484a17792193d6da7ff7d1e9cc7ab9503f32e14b3dddad1a671a",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs334?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:30.698226+00:00",
+      "sha256_utf8": "13b5d8f17238b4a15cb5169154408590b21d4c827a77f87633a90cee54679752",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/11:5227002..5227002:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:31.282399+00:00",
+      "sha256_utf8": "62addf6504854c63ac61ecaeda55bac7e6cd642739707e00b83577561a2b4795",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs987870?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:31.457589+00:00",
+      "sha256_utf8": "5bdbd852bf3a3ff5bff9193ee8a5b4e9ce710efec3b05afa59da1af013d25197",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/6:33075103..33075103:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:31.907375+00:00",
+      "sha256_utf8": "a541f16cce8e092602a26a24278284193f4e28f90bf403e89950ad1ae8eb9aed",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs429358?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:33.353989+00:00",
+      "sha256_utf8": "24591277aea3e3c77b8c5a361da1ec745440b4951999cf1e24adb671f033cd7c",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/19:44908684..44908684:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:33.586933+00:00",
+      "sha256_utf8": "041089d9ccdd5311735249e861aee7f5c5b4b14b4a91c6de016b0cec30f2a510",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs3827760?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:34.192194+00:00",
+      "sha256_utf8": "40ffc1c59ddf139ee5f08cce0aec6a8b4f49611eeea11e1ebe1588de56b739f0",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/2:108897145..108897145:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:34.422274+00:00",
+      "sha256_utf8": "3de19c7c57c7222f882178742b234693010794f1892835f1232bff8c5775aa84",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs113993960?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:35.509638+00:00",
+      "sha256_utf8": "271eff594dd5430671b8bba3fa51b8f8d192a0dc18b02ffc4b2f22019746943d",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/vep/human/id/rs113993960?content-type=application%2Fjson&canonical=1&mane=1",
+      "retrieved_at_utc": "2026-11-07T15:40:36.491335+00:00",
+      "sha256_utf8": "4060171f091a8d0a905eb30c1cf536e17e553eb8ecd9bce3835a976de20e7a67",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs4988235?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:37.369108+00:00",
+      "sha256_utf8": "71093e39fa1c8593bb127bc2993fc035ea1b2650756a5860eedf7db89ad46fc0",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/2:135851076..135851076:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:37.613146+00:00",
+      "sha256_utf8": "50652572f05f9658c2845ff4899c40c3193997f11b3fed223a06b0394cb7f536",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs28934578?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:37.827471+00:00",
+      "sha256_utf8": "f1ab1f2acfa14d9ccca7f02749598be92a83241f30308fb6ef5fe09d50c6ab37",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/17:7675088..7675088:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:38.042987+00:00",
+      "sha256_utf8": "edca6e557d4ce674b761a483cbfd9552173eac0133c703ecc3ed6decec96403b",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs17004038?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:39.938668+00:00",
+      "sha256_utf8": "6fd9fad98b59d8084a0729304ffceb007178931652d5be8128bcc524fc4cebb5",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/22:23894404..23894404:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:40.152538+00:00",
+      "sha256_utf8": "641573696553d225bee18c05c279c28235ae833208eae38aeabac13aadd914ff",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs12913832?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:41.872243+00:00",
+      "sha256_utf8": "59d0a1098e18cfdc7301d303c112d7d45c003f728da7775623f310a0ba50267d",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/15:28120472..28120472:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:42.212082+00:00",
+      "sha256_utf8": "afef377b944ec7409a52714e719cad737e80e79f770627b81e0fda563aaa1767",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs6025?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:42.622174+00:00",
+      "sha256_utf8": "9a37368e21dd929e20696fbf9a54b65c6a6e30868f2710785a79b7defd9abce6",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/1:169549811..169549811:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:42.978497+00:00",
+      "sha256_utf8": "75249176e3479758a881f03c8ca4541d5d812355ad504626aa4f786684f69faa",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs713598?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:44.107809+00:00",
+      "sha256_utf8": "6d069259ca714d928d5d1f9479e0a45ef24a6a8b937118f89e374df1155e08d5",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/7:141973545..141973545:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:44.439442+00:00",
+      "sha256_utf8": "3c7aa28e465586655a83734163d30dee2fac173ca3368f878311bb385cd1c829",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs7412?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:40:46.604778+00:00",
+      "sha256_utf8": "2b48a0f04b58389f79cd4ad8bbeb5c6faf31023c28eac4a00505d233c21abdc1",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/19:44908822..44908822:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:40:46.723587+00:00",
+      "sha256_utf8": "0fc2ca7af8d922ae178964b802b94da09a589649cf616d36d7388b9c34a21948",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs80357713?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:41:16.569629+00:00",
+      "sha256_utf8": "379148cb90f32fbafa73b61ec096bc7eeb01f49eac5450a0925a6ce2d360e65b",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/vep/human/id/rs80357713?content-type=application%2Fjson&canonical=1&mane=1",
+      "retrieved_at_utc": "2026-11-07T15:41:17.333935+00:00",
+      "sha256_utf8": "040366fd5402657c0251747f29b3d60177fb355e2f23c2d4b5c75d0b52a72d39",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs1426654?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:41:18.193066+00:00",
+      "sha256_utf8": "a4b43380ce9563232c068929e1764e6220559996da9e0ef24c86991edc8d45c1",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/15:48134287..48134287:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:41:18.456130+00:00",
+      "sha256_utf8": "2195e9122dee0f4300bc552b6714bf6d62e3a434b019751781e5bfe216804659",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs1799963?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:41:21.798393+00:00",
+      "sha256_utf8": "79207623591ee98c01e37917230c6fee3cd9f845b0f8c5f21ecc88a03355eae6",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/11:46739505..46739505:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:41:21.925189+00:00",
+      "sha256_utf8": "66d4d3824db7f4773b4f66cbcb15721e73b7c82bfd16670b39306bc9a40b74e5",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/variation/human/rs1801133?content-type=application%2Fjson",
+      "retrieved_at_utc": "2026-11-07T15:41:22.974495+00:00",
+      "sha256_utf8": "748d77752bec6db6c4810b3e5d3a1bc352d1ef17a05ae97640f585b6350af323",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://rest.ensembl.org/sequence/region/human/1:11796321..11796321:1?content-type=application%2Fjson&coord_system_version=GRCh38",
+      "retrieved_at_utc": "2026-11-07T15:41:23.119555+00:00",
+      "sha256_utf8": "6d15cff4b58aa63119491ac982a4ac6bc47972e0964024d92e07ee4735249fbe",
+      "content_type": "application/json",
+      "last_modified": null,
+      "etag": null
+    }
+  ]
+}
