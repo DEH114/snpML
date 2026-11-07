@@ -11,9 +11,14 @@ claims. There is exactly one top-level record per supplied rsID.
 `combined_data.json` is the authoritative nested representation.
 `combined_summary.tsv` has one row per rsID and keeps every source object in a
 JSON-valued column, alongside useful counts. `combined_data.sqlite` mirrors
-those rows with one JSON column per source. `run_manifest.json` records all
-consumed files, SHA-256 hashes, embedded source manifests, and source-reported
-errors.
+those rows with one JSON column per source and one shared dbSNP gene/consequence
+column. `run_manifest.json` records all consumed files, SHA-256 hashes,
+embedded source manifests, and source-reported errors.
+
+Every present source contains a validated identical copy of
+`dbsnp_gene_consequences.json`. Its `genes` and `functional_consequences` are
+independent record-level aggregates from dbSNP ESummary; they must not be read
+as gene-to-consequence, allele-specific, or transcript-specific pairs.
 
 One-to-many records are nested by their actual relation keys: genomic variant,
 ClinVar record, GWAS/PheGenI source row, gnomAD variant/callset, or GTR test.

@@ -1,7 +1,7 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "generator": "combine_seven_datasets.py",
-  "finished_at_utc": "2026-11-07T19:51:34.365446+00:00",
+  "finished_at_utc": "2026-11-07T21:02:12.011219+00:00",
   "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
   "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
   "dataset_root": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset",
@@ -40,12 +40,74 @@
     "phegeni"
   ],
   "missing_sources": [],
+  "shared_artifacts": {
+    "dbsnp_gene_consequences": {
+      "filename": "dbsnp_gene_consequences.json",
+      "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0",
+      "semantic_sha256": "05af2f6c8f53a70f0f7bfd5fc0a37bf8e7e0be484e099e3a82e3419ec639501f",
+      "size_bytes": 17579,
+      "n_records": 20,
+      "validated_copy_sources": [
+        "alpha_fold",
+        "jaspar",
+        "clinvar",
+        "gwas_catalog",
+        "gnomad",
+        "gtr",
+        "phegeni"
+      ],
+      "copies": [
+        {
+          "source": "alpha_fold",
+          "relative_path": "alpha_fold_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        },
+        {
+          "source": "jaspar",
+          "relative_path": "jaspar_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        },
+        {
+          "source": "clinvar",
+          "relative_path": "clinvar_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        },
+        {
+          "source": "gwas_catalog",
+          "relative_path": "gwas_catalog_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        },
+        {
+          "source": "gnomad",
+          "relative_path": "gnomad_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        },
+        {
+          "source": "gtr",
+          "relative_path": "gtr_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        },
+        {
+          "source": "phegeni",
+          "relative_path": "phegeni_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        }
+      ]
+    }
+  },
   "source_provenance": {
     "alpha_fold": {
       "directory": "alpha_fold_dataset",
       "manifests": {
         "dataset_manifest": {
-          "finished_at_utc": "2026-11-07T19:50:45.384007+00:00",
+          "finished_at_utc": "2026-11-07T21:01:13.180460+00:00",
           "generator": "generate_alphafold_dataset.py",
           "dataset_type": "VEP + UniProt + AlphaFold reference-protein context",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
@@ -383,7 +445,7 @@
           ]
         },
         "branch_run_manifest": {
-          "finished_at_utc": "2026-11-07T19:50:45.372180+00:00",
+          "finished_at_utc": "2026-11-07T21:01:13.158920+00:00",
           "assembly": "GRCh38",
           "arguments": {
             "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\alpha_fold_dataset\\resolved_snvs.tsv",
@@ -1153,12 +1215,12 @@
         {
           "relative_path": "alpha_fold_dataset/dataset_manifest.json",
           "size_bytes": 16083,
-          "sha256": "fe0470e334b8587788cc1325640747ddb090d31a33c5231d5f35f04a98895034"
+          "sha256": "ddb2dafa32115b9827369f4ec45e5d11a114dc2474a1b01252c0a4d580be52fc"
         },
         {
           "relative_path": "alpha_fold_dataset/run_manifest.json",
           "size_bytes": 38179,
-          "sha256": "f5f5c430440060d5c9382b5002f0774ce8ca407893e70d5cf5bb8571a1de1683"
+          "sha256": "23bcfb8599733f71402aec0eed0c76fae5cc9ac63cff7675b1cc2eec5c2baf07"
         },
         {
           "relative_path": "alpha_fold_dataset/errors.json",
@@ -1184,6 +1246,11 @@
           "relative_path": "alpha_fold_dataset/protein_results.json",
           "size_bytes": 1915098,
           "sha256": "f35c9878284ce4a892fad19d75da15e752284e4fb09f7b9f11acc2dd048688a5"
+        },
+        {
+          "relative_path": "alpha_fold_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
     },
@@ -1191,7 +1258,7 @@
       "directory": "jaspar_dataset",
       "manifests": {
         "dataset_manifest": {
-          "finished_at_utc": "2026-11-07T19:51:29.691348+00:00",
+          "finished_at_utc": "2026-11-07T21:02:05.966751+00:00",
           "generator": "generate_jaspar_dataset.py",
           "dataset_type": "JASPAR allele-specific motif score changes",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
@@ -1530,7 +1597,7 @@
           ]
         },
         "branch_run_manifest": {
-          "finished_at_utc": "2026-11-07T19:51:29.677192+00:00",
+          "finished_at_utc": "2026-11-07T21:02:05.954030+00:00",
           "assembly": "GRCh38",
           "arguments": {
             "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\jaspar_dataset\\resolved_snvs.tsv",
@@ -1858,12 +1925,12 @@
         {
           "relative_path": "jaspar_dataset/dataset_manifest.json",
           "size_bytes": 16207,
-          "sha256": "ad09d7aea3249fffdcdd39a178f3d20ad15c0f42b3f6019ad7dc46a3b3d281aa"
+          "sha256": "3f64daee50869cfd6a44adec78d8590208eeb2d491e9e83191dc9d8481504235"
         },
         {
           "relative_path": "jaspar_dataset/run_manifest.json",
           "size_bytes": 16026,
-          "sha256": "ea6acd0c1c37a86dd3ae3c79d6eb94f8eb050c6affe00dd8bcff189f38f37c05"
+          "sha256": "bbc9e500d932e9801930bee1b5a789d73570df202a2577b54a028a92bde6e94e"
         },
         {
           "relative_path": "jaspar_dataset/errors.json",
@@ -1894,6 +1961,11 @@
           "relative_path": "jaspar_dataset/motif_profiles.json",
           "size_bytes": 990927,
           "sha256": "40626b5a80f8b3dd0f55ddfad428124bf4ecda971a6ebdf7bf5e51c7c09efd73"
+        },
+        {
+          "relative_path": "jaspar_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
     },
@@ -1901,7 +1973,7 @@
       "directory": "clinvar_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:49:46.776164+00:00",
+          "finished_at_utc": "2026-11-07T21:00:16.928905+00:00",
           "generator": "generate_clinvar_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2115,7 +2187,7 @@
         {
           "relative_path": "clinvar_dataset/run_manifest.json",
           "size_bytes": 11268,
-          "sha256": "d25ea3ca3e65dcd4378c6f7fdc63decad9b3acc94a95939c383f6ccc28db1086"
+          "sha256": "54fa41e4a7027fc8f9210568f4aa5d855bc0696c66f5a9c15cf604cb92309826"
         },
         {
           "relative_path": "clinvar_dataset/errors.json",
@@ -2151,6 +2223,11 @@
           "relative_path": "clinvar_dataset/traits.json",
           "size_bytes": 84487,
           "sha256": "ba32fbe67029b4508a3116725d418a089b866e02e5a38a0308daeadd19db5997"
+        },
+        {
+          "relative_path": "clinvar_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
     },
@@ -2158,7 +2235,7 @@
       "directory": "gwas_catalog_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:50:35.029156+00:00",
+          "finished_at_utc": "2026-11-07T21:01:05.702850+00:00",
           "generator": "generate_gwas_catalog_dataset.py",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
           "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
@@ -2263,7 +2340,7 @@
         {
           "relative_path": "gwas_catalog_dataset/run_manifest.json",
           "size_bytes": 4147,
-          "sha256": "a42efdba59f340fc84689d524957c7b217aa5e31ff4d59a62fef1fc327921a9e"
+          "sha256": "a0176e4c150033d196bb7fe0ff416c10e9d15942814dbd4f0e584d6fa312aa1c"
         },
         {
           "relative_path": "gwas_catalog_dataset/errors.json",
@@ -2289,6 +2366,11 @@
           "relative_path": "gwas_catalog_dataset/matched_source_records.json",
           "size_bytes": 6163145,
           "sha256": "290b01108d0383e77fe59668fb99e775844289ff86ce443ab4a54ab9dedfb2f2"
+        },
+        {
+          "relative_path": "gwas_catalog_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
     },
@@ -2296,7 +2378,7 @@
       "directory": "gnomad_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:50:40.841631+00:00",
+          "finished_at_utc": "2026-11-07T21:01:08.299805+00:00",
           "generator": "generate_gnomad_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2408,7 +2490,7 @@
         {
           "relative_path": "gnomad_dataset/run_manifest.json",
           "size_bytes": 1493,
-          "sha256": "4d8f3a677e215894f1a28e51d1e351ef9bda176cd00bd0b59ecee7995bcd0a5b"
+          "sha256": "fa22634f5baf2f61550f9c4b81f22320fc9050f7804471794e5883da1896cbfa"
         },
         {
           "relative_path": "gnomad_dataset/source_provenance.json",
@@ -2449,6 +2531,11 @@
           "relative_path": "gnomad_dataset/population_frequencies.json",
           "size_bytes": 1689733,
           "sha256": "3927589022cc6620d7c5d64886c5268a074d223de2e1d751a9f062c5200c73e0"
+        },
+        {
+          "relative_path": "gnomad_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
     },
@@ -2456,7 +2543,7 @@
       "directory": "gtr_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:50:41.916787+00:00",
+          "finished_at_utc": "2026-11-07T21:01:09.356333+00:00",
           "generator": "generate_gtr_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2671,7 +2758,7 @@
         {
           "relative_path": "gtr_dataset/run_manifest.json",
           "size_bytes": 11585,
-          "sha256": "130f64148f7bee274491d8436752730c21562fe08866b9ceaa3021b0d29e18e5"
+          "sha256": "92e261ba8d1b8fe1bf557ae5a9f19d3612ff6671f4cb63daf28b2840f8cffcf7"
         },
         {
           "relative_path": "gtr_dataset/errors.json",
@@ -2707,6 +2794,11 @@
           "relative_path": "gtr_dataset/variant_targets.json",
           "size_bytes": 57415,
           "sha256": "03ab678f73aa52df09b2121ed46fa65c06c678c4f5d55c6a3fc15b33bef74f0a"
+        },
+        {
+          "relative_path": "gtr_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
     },
@@ -2714,7 +2806,7 @@
       "directory": "phegeni_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:51:32.461293+00:00",
+          "finished_at_utc": "2026-11-07T21:02:09.179970+00:00",
           "generator": "generate_phegeni_dataset.py",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
           "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
@@ -2799,7 +2891,7 @@
         {
           "relative_path": "phegeni_dataset/run_manifest.json",
           "size_bytes": 3011,
-          "sha256": "fbbcd7708d7a12af6e94771a7900dcddb09092d58650b9f7f8623bdeaa82e527"
+          "sha256": "feb8ce550800ad06bc5bef09c07fe3d03cca89472c1827d93237b33e19fbf62b"
         },
         {
           "relative_path": "phegeni_dataset/errors.json",
@@ -2825,22 +2917,27 @@
           "relative_path": "phegeni_dataset/matched_source_records.json",
           "size_bytes": 56950,
           "sha256": "07afea042067de58d6a29f5fbb33d8a7d32e7f4cdb16a240eff8efd802ae16bf"
+        },
+        {
+          "relative_path": "phegeni_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
     }
   },
   "output_files": {
     "combined_data.json": {
-      "size_bytes": 25106466,
-      "sha256": "70f36fc063078dad3c5ee994a7b81adbcfcaff9dc13cb1387b64c67df239fb26"
+      "size_bytes": 25125818,
+      "sha256": "2720c0ac2330f35043f9b1d8c30c690f76de8570b74e2ad793ff760eb5a68661"
     },
     "combined_summary.tsv": {
-      "size_bytes": 17701651,
-      "sha256": "2caa014394efafe9d61dbd418b1655107fd7324c9632aaa22745c988ef6c38ed"
+      "size_bytes": 17719169,
+      "sha256": "05ca03e30d7733ea4a523714fe918751512fbf66ebf95296d842dbb5af1f6b13"
     },
     "combined_data.sqlite": {
-      "size_bytes": 30289920,
-      "sha256": "09cd316ea2c07c1b30a53629527fde64c4e81a7c67dc7b09c44c7afff2153f2d"
+      "size_bytes": 30322688,
+      "sha256": "5daba1f77782cfa9d8c379f552b8e9afcf316beb46286280a88376282b459f32"
     }
   }
 }
