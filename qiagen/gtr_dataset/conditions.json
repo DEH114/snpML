@@ -1,0 +1,142 @@
+[
+  {
+    "gtr_uid": "591288",
+    "accession": "GTR000591288",
+    "condition_name": "Nonpersistence of intestinal lactase",
+    "condition_acronym": "",
+    "condition_cui": "C0268181"
+  },
+  {
+    "gtr_uid": "28900",
+    "accession": "GTR000028900",
+    "condition_name": "Nonpersistence of intestinal lactase",
+    "condition_acronym": "",
+    "condition_cui": "C0268181"
+  },
+  {
+    "gtr_uid": "334284",
+    "accession": "GTR000334284",
+    "condition_name": "Thrombophilia due to activated protein C resistance",
+    "condition_acronym": "",
+    "condition_cui": "C1861171"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "condition_name": "Drug metabolism or response",
+    "condition_acronym": "",
+    "condition_cui": "CN253927"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "condition_name": "Susceptibility to severe cutaneous adverse reaction",
+    "condition_acronym": "",
+    "condition_cui": "C1840548"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "condition_name": "Drug metabolism or response",
+    "condition_acronym": "",
+    "condition_cui": "CN253927"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "condition_name": "Abacavir response",
+    "condition_acronym": "",
+    "condition_cui": "CN297565"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "condition_name": "Allopurinol response",
+    "condition_acronym": "",
+    "condition_cui": "CN160494"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "condition_name": "Granisetron response",
+    "condition_acronym": "",
+    "condition_cui": "CN298550"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "condition_name": "Abacavir response",
+    "condition_acronym": "",
+    "condition_cui": "CN297565"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "condition_name": "Allopurinol response",
+    "condition_acronym": "",
+    "condition_cui": "CN160494"
+  },
+  {
+    "gtr_uid": "330970",
+    "accession": "GTR000330970",
+    "condition_name": "Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+    "condition_acronym": "",
+    "condition_cui": "C1856061"
+  },
+  {
+    "gtr_uid": "593372",
+    "accession": "GTR000593372",
+    "condition_name": "Hyperhomocysteinemia",
+    "condition_acronym": "",
+    "condition_cui": "C0598608"
+  },
+  {
+    "gtr_uid": "500809",
+    "accession": "GTR000500809",
+    "condition_name": "MTHFR THERMOLABILE POLYMORPHISM",
+    "condition_acronym": "",
+    "condition_cui": "C1856059"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "condition_name": "Thrombophilia due to thrombin defect",
+    "condition_acronym": "",
+    "condition_cui": "C3160733"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "condition_name": "Congenital plasminogen activator inhibitor type 1 deficiency",
+    "condition_acronym": "",
+    "condition_cui": "C2750067"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "condition_name": "MTHFR THERMOLABILE POLYMORPHISM",
+    "condition_acronym": "",
+    "condition_cui": "C1856059"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "condition_name": "GNE myopathy",
+    "condition_acronym": "",
+    "condition_cui": "C1853926"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "condition_name": "Dubin-Johnson syndrome",
+    "condition_acronym": "",
+    "condition_cui": "C0022350"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "condition_name": "G6PD deficiency",
+    "condition_acronym": "",
+    "condition_cui": "C2939465"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "status": "available",
+  "url": "https://www.ebi.ac.uk/gwas/rest/api/v2/metadata",
+  "title": "GWAS Catalog Rest API 2.0",
+  "version": "2.0",
+  "data_release_date": "2026-10-29",
+  "api_release_date": "2025-08-01",
+  "dbsnp_build": "156",
+  "gene_build": "GRCh38.p14",
+  "efo_version": "v3.95.0",
+  "ensembl_version": "116",
+  "terms_of_service": "https://www.ebi.ac.uk/about/terms-of-use/",
+  "commit_hash": "025b9c9",
+  "license": {
+    "name": "Apache License 2.0",
+    "url": "https://github.com/EBISPOT/gwas-rest-api/blob/master/LICENSE"
+  },
+  "contact": {
+    "name": "GWAS Helpdesk",
+    "email": "gwas-info@ebi.ac.uk",
+    "url": "mailto:gwas-info@ebi.ac.uk"
+  },
+  "api_reference": "https://www.ebi.ac.uk/gwas/rest/api/v2/reference",
+  "api_documentation": "https://www.ebi.ac.uk/gwas/rest/api/v2/docs"
+}

@@ -1,0 +1,69 @@
+{
+  "ncbi_dbsnp": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=snp&id=9807334%2C121913529%2C72921001%2C17822931%2C334%2C987870%2C429358%2C3827760%2C113993960%2C4988235%2C28934578%2C17004038%2C12913832%2C6025%2C713598%2C7412%2C80357713%2C1426654%2C1799963%2C1801133&retmode=json&version=2.0&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:13.806753+00:00",
+      "sha256_utf8": "ce24b2231cefdf47e7dca7eedf7fe80ed8efaf21b839d35043bb0efbaef7e008",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    }
+  ],
+  "gnomad_graphql": [
+    {
+      "url": "https://gnomad.broadinstitute.org/api",
+      "method": "POST",
+      "operation_name": "PanelVariantSearch",
+      "retrieved_at_utc": "2026-11-07T18:11:54.760948+00:00",
+      "request_sha256_utf8": "afb77e80972c888aec33ef90632ab49f363d21daa3c52ece6d9aa5fba2bce39f",
+      "response_sha256_utf8": "ec241befa7065022c931b87f66f43b23ec624d9e060fcc1a3e623dc8de14b246",
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "etag": "W/\"457-CtibJVfxDkm54F4DoOXAUi0ES/I\""
+    },
+    {
+      "url": "https://gnomad.broadinstitute.org/api",
+      "method": "POST",
+      "operation_name": "PanelVariantDetails",
+      "retrieved_at_utc": "2026-11-07T18:11:55.029697+00:00",
+      "request_sha256_utf8": "b744ebc67e957be5e41e4f162bada1f8fa57a373c9d95a352bdf752e4a4cc317",
+      "response_sha256_utf8": "affcd33786235e3d977a881a34364f5eaaab758843bcbe5f6669e4c7eff58b1e",
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "etag": "W/\"1fa9d-CnYdIdL73//AZV6KJJfPtYo0v4M\""
+    },
+    {
+      "url": "https://gnomad.broadinstitute.org/api",
+      "method": "POST",
+      "operation_name": "PanelVariantDetails",
+      "retrieved_at_utc": "2026-11-07T18:11:55.258976+00:00",
+      "request_sha256_utf8": "af9f1dea03b6186c9ffc2230d80ef3b6418894b9edc44d0f9872d310f8957dcb",
+      "response_sha256_utf8": "e6af550de8fbd44099abf3a6351cb4ed374e3e08886d1b486a0ebca254c6da21",
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "etag": "W/\"251ad-ocnr7boFRcNkmbq2zlZin5mw088\""
+    },
+    {
+      "url": "https://gnomad.broadinstitute.org/api",
+      "method": "POST",
+      "operation_name": "PanelVariantDetails",
+      "retrieved_at_utc": "2026-11-07T18:11:55.496623+00:00",
+      "request_sha256_utf8": "d195d83023ed591a5d0558660230c2be41d843bee18c3ae8445389b6ba1ddc8f",
+      "response_sha256_utf8": "1ff45abe7cc6cad5695ed5f11098003cc828d0d9e5313a3ad16c590429a6a020",
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "etag": "W/\"251ad-P1k5rhjyOt0Gat8WIqg0ZK7j9qM\""
+    },
+    {
+      "url": "https://gnomad.broadinstitute.org/api",
+      "method": "POST",
+      "operation_name": "PanelVariantDetails",
+      "retrieved_at_utc": "2026-11-07T18:11:55.664332+00:00",
+      "request_sha256_utf8": "f4f1a3b51e8a4a3fce4ae87938ba8be8d9bf8a00becc99feb3fdc197bf418090",
+      "response_sha256_utf8": "97be13f099e9a18c64cf1cb0b05113e1a934c86aa2fcb34bae27310029823a20",
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "etag": "W/\"15aaa-Pj7Eh1qSX18oyodteo7bPGjKhMM\""
+    }
+  ]
+}

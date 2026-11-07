@@ -1,0 +1,396 @@
+[
+  {
+    "variant_id": "18-50997791-G-A",
+    "reference_genome": "GRCh38",
+    "chrom": "18",
+    "pos": 50997791,
+    "ref": "G",
+    "alt": "A",
+    "caid": "CA300081426",
+    "rsids": [
+      "rs9807334"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/18-50997791-G-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "12-25245350-C-G",
+    "reference_genome": "GRCh38",
+    "chrom": "12",
+    "pos": 25245350,
+    "ref": "C",
+    "alt": "G",
+    "caid": null,
+    "rsids": [
+      "rs121913529"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/12-25245350-C-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "12-25245350-C-T",
+    "reference_genome": "GRCh38",
+    "chrom": "12",
+    "pos": 25245350,
+    "ref": "C",
+    "alt": "T",
+    "caid": "CA122538",
+    "rsids": [
+      "rs121913529"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/12-25245350-C-T?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "12-25245350-C-A",
+    "reference_genome": "GRCh38",
+    "chrom": "12",
+    "pos": 25245350,
+    "ref": "C",
+    "alt": "A",
+    "caid": null,
+    "rsids": [
+      "rs121913529"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/12-25245350-C-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "11-6868417-C-A",
+    "reference_genome": "GRCh38",
+    "chrom": "11",
+    "pos": 6868417,
+    "ref": "C",
+    "alt": "A",
+    "caid": "CA13477201",
+    "rsids": [
+      "rs72921001"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/11-6868417-C-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "16-48224287-C-T",
+    "reference_genome": "GRCh38",
+    "chrom": "16",
+    "pos": 48224287,
+    "ref": "C",
+    "alt": "T",
+    "caid": "CA116353",
+    "rsids": [
+      "rs17822931"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/16-48224287-C-T?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "16-48224287-C-G",
+    "reference_genome": "GRCh38",
+    "chrom": "16",
+    "pos": 48224287,
+    "ref": "C",
+    "alt": "G",
+    "caid": null,
+    "rsids": [
+      "rs17822931"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/16-48224287-C-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "11-5227002-T-A",
+    "reference_genome": "GRCh38",
+    "chrom": "11",
+    "pos": 5227002,
+    "ref": "T",
+    "alt": "A",
+    "caid": "CA125138",
+    "rsids": [
+      "rs334"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/11-5227002-T-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "11-5227002-T-G",
+    "reference_genome": "GRCh38",
+    "chrom": "11",
+    "pos": 5227002,
+    "ref": "T",
+    "alt": "G",
+    "caid": null,
+    "rsids": [
+      "rs334"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/11-5227002-T-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "6-33075103-A-G",
+    "reference_genome": "GRCh38",
+    "chrom": "6",
+    "pos": 33075103,
+    "ref": "A",
+    "alt": "G",
+    "caid": "CA137043776",
+    "rsids": [
+      "rs987870"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/6-33075103-A-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "19-44908684-T-C",
+    "reference_genome": "GRCh38",
+    "chrom": "19",
+    "pos": 44908684,
+    "ref": "T",
+    "alt": "C",
+    "caid": "CA127512",
+    "rsids": [
+      "rs429358"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/19-44908684-T-C?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "2-108897145-A-G",
+    "reference_genome": "GRCh38",
+    "chrom": "2",
+    "pos": 108897145,
+    "ref": "A",
+    "alt": "G",
+    "caid": "CA117813",
+    "rsids": [
+      "rs3827760"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/2-108897145-A-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "7-117559590-ATCT-A",
+    "reference_genome": "GRCh38",
+    "chrom": "7",
+    "pos": 117559590,
+    "ref": "ATCT",
+    "alt": "A",
+    "caid": "CA118639",
+    "rsids": [
+      "rs113993960"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/7-117559590-ATCT-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "2-135851076-G-A",
+    "reference_genome": "GRCh38",
+    "chrom": "2",
+    "pos": 135851076,
+    "ref": "G",
+    "alt": "A",
+    "caid": "CA118998",
+    "rsids": [
+      "rs4988235"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/2-135851076-G-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "17-7675088-C-G",
+    "reference_genome": "GRCh38",
+    "chrom": "17",
+    "pos": 7675088,
+    "ref": "C",
+    "alt": "G",
+    "caid": null,
+    "rsids": [
+      "rs28934578"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/17-7675088-C-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "17-7675088-C-T",
+    "reference_genome": "GRCh38",
+    "chrom": "17",
+    "pos": 7675088,
+    "ref": "C",
+    "alt": "T",
+    "caid": "CA251",
+    "rsids": [
+      "rs28934578"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/17-7675088-C-T?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "22-23894404-C-A",
+    "reference_genome": "GRCh38",
+    "chrom": "22",
+    "pos": 23894404,
+    "ref": "C",
+    "alt": "A",
+    "caid": "CA322586049",
+    "rsids": [
+      "rs17004038"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/22-23894404-C-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "15-28120472-A-G",
+    "reference_genome": "GRCh38",
+    "chrom": "15",
+    "pos": 28120472,
+    "ref": "A",
+    "alt": "G",
+    "caid": "CA117046",
+    "rsids": [
+      "rs12913832"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/15-28120472-A-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "1-169549811-C-T",
+    "reference_genome": "GRCh38",
+    "chrom": "1",
+    "pos": 169549811,
+    "ref": "C",
+    "alt": "T",
+    "caid": "CA114378",
+    "rsids": [
+      "rs6025"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/1-169549811-C-T?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "7-141973545-C-T",
+    "reference_genome": "GRCh38",
+    "chrom": "7",
+    "pos": 141973545,
+    "ref": "C",
+    "alt": "T",
+    "caid": null,
+    "rsids": [
+      "rs713598"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/7-141973545-C-T?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "7-141973545-C-A",
+    "reference_genome": "GRCh38",
+    "chrom": "7",
+    "pos": 141973545,
+    "ref": "C",
+    "alt": "A",
+    "caid": null,
+    "rsids": [
+      "rs713598"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/7-141973545-C-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "7-141973545-C-G",
+    "reference_genome": "GRCh38",
+    "chrom": "7",
+    "pos": 141973545,
+    "ref": "C",
+    "alt": "G",
+    "caid": "CA115855",
+    "rsids": [
+      "rs713598"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/7-141973545-C-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "19-44908822-C-T",
+    "reference_genome": "GRCh38",
+    "chrom": "19",
+    "pos": 44908822,
+    "ref": "C",
+    "alt": "T",
+    "caid": "CA127498",
+    "rsids": [
+      "rs7412"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/19-44908822-C-T?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "17-43124030-C-CT",
+    "reference_genome": "GRCh38",
+    "chrom": "17",
+    "pos": 43124030,
+    "ref": "C",
+    "alt": "CT",
+    "caid": null,
+    "rsids": [
+      "rs80357783"
+    ],
+    "flags": [
+      "segdup"
+    ],
+    "source_url": "https://gnomad.broadinstitute.org/variant/17-43124030-C-CT?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "15-48134287-A-T",
+    "reference_genome": "GRCh38",
+    "chrom": "15",
+    "pos": 48134287,
+    "ref": "A",
+    "alt": "T",
+    "caid": null,
+    "rsids": [
+      "rs1426654"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/15-48134287-A-T?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "15-48134287-A-G",
+    "reference_genome": "GRCh38",
+    "chrom": "15",
+    "pos": 48134287,
+    "ref": "A",
+    "alt": "G",
+    "caid": "CA7545842",
+    "rsids": [
+      "rs1426654"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/15-48134287-A-G?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "11-46739505-G-A",
+    "reference_genome": "GRCh38",
+    "chrom": "11",
+    "pos": 46739505,
+    "ref": "G",
+    "alt": "A",
+    "caid": "CA325636",
+    "rsids": [
+      "rs1799963"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/11-46739505-G-A?dataset=gnomad_r4"
+  },
+  {
+    "variant_id": "1-11796321-G-A",
+    "reference_genome": "GRCh38",
+    "chrom": "1",
+    "pos": 11796321,
+    "ref": "G",
+    "alt": "A",
+    "caid": "CA170990",
+    "rsids": [
+      "rs1801133"
+    ],
+    "flags": [],
+    "source_url": "https://gnomad.broadinstitute.org/variant/1-11796321-G-A?dataset=gnomad_r4"
+  }
+]

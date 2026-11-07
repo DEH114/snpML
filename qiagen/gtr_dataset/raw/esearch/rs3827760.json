@@ -1,0 +1,31 @@
+{
+  "query_rsid": "rs3827760",
+  "query": "\"rs3827760\"[WORD]",
+  "expected_count": 0,
+  "returned_uids": [],
+  "pages": [
+    {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "0",
+        "retmax": "0",
+        "retstart": "0",
+        "idlist": [],
+        "translationset": [],
+        "querytranslation": "(\"rs3827760\"[WORD])",
+        "warninglist": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [
+            "\"rs3827760\"[WORD]"
+          ],
+          "outputmessages": [
+            "No items found."
+          ]
+        }
+      }
+    }
+  ]
+}

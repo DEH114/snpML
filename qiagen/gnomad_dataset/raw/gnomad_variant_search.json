@@ -1,0 +1,153 @@
+{
+  "query": "query PanelVariantSearch($r000: String!, $r001: String!, $r002: String!, $r003: String!, $r004: String!, $r005: String!, $r006: String!, $r007: String!, $r008: String!, $r009: String!, $r010: String!, $r011: String!, $r012: String!, $r013: String!, $r014: String!, $r015: String!, $r016: String!, $r017: String!, $r018: String!, $r019: String!) {\n  r000: variant_search(query: $r000, dataset: gnomad_r4) { variant_id }\n  r001: variant_search(query: $r001, dataset: gnomad_r4) { variant_id }\n  r002: variant_search(query: $r002, dataset: gnomad_r4) { variant_id }\n  r003: variant_search(query: $r003, dataset: gnomad_r4) { variant_id }\n  r004: variant_search(query: $r004, dataset: gnomad_r4) { variant_id }\n  r005: variant_search(query: $r005, dataset: gnomad_r4) { variant_id }\n  r006: variant_search(query: $r006, dataset: gnomad_r4) { variant_id }\n  r007: variant_search(query: $r007, dataset: gnomad_r4) { variant_id }\n  r008: variant_search(query: $r008, dataset: gnomad_r4) { variant_id }\n  r009: variant_search(query: $r009, dataset: gnomad_r4) { variant_id }\n  r010: variant_search(query: $r010, dataset: gnomad_r4) { variant_id }\n  r011: variant_search(query: $r011, dataset: gnomad_r4) { variant_id }\n  r012: variant_search(query: $r012, dataset: gnomad_r4) { variant_id }\n  r013: variant_search(query: $r013, dataset: gnomad_r4) { variant_id }\n  r014: variant_search(query: $r014, dataset: gnomad_r4) { variant_id }\n  r015: variant_search(query: $r015, dataset: gnomad_r4) { variant_id }\n  r016: variant_search(query: $r016, dataset: gnomad_r4) { variant_id }\n  r017: variant_search(query: $r017, dataset: gnomad_r4) { variant_id }\n  r018: variant_search(query: $r018, dataset: gnomad_r4) { variant_id }\n  r019: variant_search(query: $r019, dataset: gnomad_r4) { variant_id }\n}",
+  "variables": {
+    "r000": "rs9807334",
+    "r001": "rs121913529",
+    "r002": "rs72921001",
+    "r003": "rs17822931",
+    "r004": "rs334",
+    "r005": "rs987870",
+    "r006": "rs429358",
+    "r007": "rs3827760",
+    "r008": "rs113993960",
+    "r009": "rs4988235",
+    "r010": "rs28934578",
+    "r011": "rs17004038",
+    "r012": "rs12913832",
+    "r013": "rs6025",
+    "r014": "rs713598",
+    "r015": "rs7412",
+    "r016": "rs80357783",
+    "r017": "rs1426654",
+    "r018": "rs1799963",
+    "r019": "rs1801133"
+  },
+  "response": {
+    "data": {
+      "r000": [
+        {
+          "variant_id": "18-50997791-G-A"
+        }
+      ],
+      "r001": [
+        {
+          "variant_id": "12-25245350-C-G"
+        },
+        {
+          "variant_id": "12-25245350-C-T"
+        },
+        {
+          "variant_id": "12-25245350-C-A"
+        }
+      ],
+      "r002": [
+        {
+          "variant_id": "11-6868417-C-A"
+        }
+      ],
+      "r003": [
+        {
+          "variant_id": "16-48224287-C-T"
+        },
+        {
+          "variant_id": "16-48224287-C-G"
+        }
+      ],
+      "r004": [
+        {
+          "variant_id": "11-5227002-T-A"
+        },
+        {
+          "variant_id": "11-5227002-T-G"
+        }
+      ],
+      "r005": [
+        {
+          "variant_id": "6-33075103-A-G"
+        }
+      ],
+      "r006": [
+        {
+          "variant_id": "19-44908684-T-C"
+        }
+      ],
+      "r007": [
+        {
+          "variant_id": "2-108897145-A-G"
+        }
+      ],
+      "r008": [
+        {
+          "variant_id": "7-117559590-ATCT-A"
+        }
+      ],
+      "r009": [
+        {
+          "variant_id": "2-135851076-G-A"
+        }
+      ],
+      "r010": [
+        {
+          "variant_id": "17-7675088-C-G"
+        },
+        {
+          "variant_id": "17-7675088-C-T"
+        }
+      ],
+      "r011": [
+        {
+          "variant_id": "22-23894404-C-A"
+        }
+      ],
+      "r012": [
+        {
+          "variant_id": "15-28120472-A-G"
+        }
+      ],
+      "r013": [
+        {
+          "variant_id": "1-169549811-C-T"
+        }
+      ],
+      "r014": [
+        {
+          "variant_id": "7-141973545-C-T"
+        },
+        {
+          "variant_id": "7-141973545-C-A"
+        },
+        {
+          "variant_id": "7-141973545-C-G"
+        }
+      ],
+      "r015": [
+        {
+          "variant_id": "19-44908822-C-T"
+        }
+      ],
+      "r016": [
+        {
+          "variant_id": "17-43124030-C-CT"
+        }
+      ],
+      "r017": [
+        {
+          "variant_id": "15-48134287-A-T"
+        },
+        {
+          "variant_id": "15-48134287-A-G"
+        }
+      ],
+      "r018": [
+        {
+          "variant_id": "11-46739505-G-A"
+        }
+      ],
+      "r019": [
+        {
+          "variant_id": "1-11796321-G-A"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+rank	rsid	current_rsid	was_merged	status	n_query_terms	n_search_hits	n_test_summaries	accessions	matched_query_rsids	error
+1	rs9807334	rs9807334	False	no_gtr_test_match	1	0	0	[]	[]	
+2	rs121913529	rs121913529	False	no_gtr_test_match	1	0	0	[]	[]	
+3	rs72921001	rs72921001	False	no_gtr_test_match	1	0	0	[]	[]	
+4	rs17822931	rs17822931	False	no_gtr_test_match	1	0	0	[]	[]	
+5	rs334	rs334	False	no_gtr_test_match	1	0	0	[]	[]	
+6	rs987870	rs987870	False	no_gtr_test_match	1	0	0	[]	[]	
+7	rs429358	rs429358	False	no_gtr_test_match	1	0	0	[]	[]	
+8	rs3827760	rs3827760	False	no_gtr_test_match	1	0	0	[]	[]	
+9	rs113993960	rs113993960	False	no_gtr_test_match	1	0	0	[]	[]	
+10	rs4988235	rs4988235	False	registered_tests_found	1	2	2	"[""GTR000591288"", ""GTR000028900""]"	"[""rs4988235""]"	
+11	rs28934578	rs28934578	False	no_gtr_test_match	1	0	0	[]	[]	
+12	rs17004038	rs17004038	False	no_gtr_test_match	1	0	0	[]	[]	
+13	rs12913832	rs12913832	False	no_gtr_test_match	1	0	0	[]	[]	
+14	rs6025	rs6025	False	registered_tests_found	1	1	1	"[""GTR000334284""]"	"[""rs6025""]"	
+15	rs713598	rs713598	False	no_gtr_test_match	1	0	0	[]	[]	
+16	rs7412	rs7412	False	no_gtr_test_match	1	0	0	[]	[]	
+17	rs80357713	rs80357783	True	no_gtr_test_match	2	0	0	[]	[]	
+18	rs1426654	rs1426654	False	no_gtr_test_match	1	0	0	[]	[]	
+19	rs1799963	rs1799963	False	no_gtr_test_match	1	0	0	[]	[]	
+20	rs1801133	rs1801133	False	registered_tests_found	1	8	8	"[""GTR000569929"", ""GTR000619762"", ""GTR000613302"", ""GTR000330970"", ""GTR000593372"", ""GTR000500809"", ""GTR000500035"", ""GTR000327733""]"	"[""rs1801133""]"	

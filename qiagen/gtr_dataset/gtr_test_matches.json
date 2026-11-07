@@ -1,0 +1,178 @@
+[
+  {
+    "rank": 10,
+    "rsid": "rs4988235",
+    "current_rsid": "rs4988235",
+    "was_merged": false,
+    "gtr_uid": "591288",
+    "accession": "GTR000591288",
+    "test_name": "Lactase deficiency",
+    "test_type": "Clinical",
+    "offerer": "Molecular Genetics and Cytogenetics, Clinical Laboratory Service, RED DE SALUD UC CHRISTUS",
+    "matched_query_rsids": [
+      "rs4988235"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000591288/"
+  },
+  {
+    "rank": 10,
+    "rsid": "rs4988235",
+    "current_rsid": "rs4988235",
+    "was_merged": false,
+    "gtr_uid": "28900",
+    "accession": "GTR000028900",
+    "test_name": "Lactose Intolerance",
+    "test_type": "Clinical",
+    "offerer": "GENE, Núcleo de Genética Médica de Minas Gerais",
+    "matched_query_rsids": [
+      "rs4988235"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000028900/"
+  },
+  {
+    "rank": 14,
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "was_merged": false,
+    "gtr_uid": "334284",
+    "accession": "GTR000334284",
+    "test_name": "Factor V Leiden gene",
+    "test_type": "Clinical",
+    "offerer": "Genomics Diagnostic Laboratory, National University Health System",
+    "matched_query_rsids": [
+      "rs6025"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000334284/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "test_name": "RightMed Comprehensive Test with Gene Report",
+    "test_type": "Clinical",
+    "offerer": "OneOme, LLC, Tempus",
+    "matched_query_rsids": [
+      "rs1801133"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000569929/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "test_name": "Helix Comprehensive Pharmacogenomics (PGx) Panel",
+    "test_type": "Clinical",
+    "offerer": "Helix, Inc.",
+    "matched_query_rsids": [
+      "rs1801133"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000619762/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "test_name": "Pharmacogenomics Profile + HLA",
+    "test_type": "Clinical",
+    "offerer": "AccessDx Lab LLC",
+    "matched_query_rsids": [
+      "rs1801133"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000613302/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "gtr_uid": "330970",
+    "accession": "GTR000330970",
+    "test_name": "MTHFR",
+    "test_type": "Clinical",
+    "offerer": "Department of Laboratory Medicine, P. D. Hinduja Hospital and Medical Research Center",
+    "matched_query_rsids": [
+      "rs1801133"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000330970/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "gtr_uid": "593372",
+    "accession": "GTR000593372",
+    "test_name": "Methylenetetrahydrofolate Reductase (MTHFR) Thermolabile Variant, DNA Analysis",
+    "test_type": "Clinical",
+    "offerer": "Molecular Diagnostic Laboratory, LabCorp",
+    "matched_query_rsids": [
+      "rs1801133"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000593372/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "gtr_uid": "500809",
+    "accession": "GTR000500809",
+    "test_name": "Methylenetetrahydrofolate reductase (MTHFR) 2 Mutations",
+    "test_type": "Clinical",
+    "offerer": "ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories",
+    "matched_query_rsids": [
+      "rs1801133"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000500809/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "test_name": "Thrombophilic Polymorphism Panel (Factor V Leiden, Prothrombin G20210A, MTHFR C677T, MTHFR A1298C, PAI-1 4G/5G)",
+    "test_type": "Clinical",
+    "offerer": "Cincinnati Children's Hospital Medical Center Genetics and Genomics Diagnostic Laboratory, Cincinnati Children's Hospital Medical Center",
+    "matched_query_rsids": [
+      "rs1801133"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000500035/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "test_name": "Middle Eastern Panel",
+    "test_type": "Clinical",
+    "offerer": "FirmaLab",
+    "matched_query_rsids": [
+      "rs1801133"
+    ],
+    "relation_basis": "entrez_exact_word_input_rsid",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000327733/"
+  }
+]

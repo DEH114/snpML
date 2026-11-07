@@ -1,0 +1,35 @@
+{
+  "query_rsid": "rs6025",
+  "query": "\"rs6025\"[WORD]",
+  "expected_count": 1,
+  "returned_uids": [
+    "334284"
+  ],
+  "pages": [
+    {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "1",
+        "retmax": "1",
+        "retstart": "0",
+        "idlist": [
+          "334284"
+        ],
+        "translationset": [],
+        "translationstack": [
+          {
+            "term": "\"rs6025\"[WORD]",
+            "field": "WORD",
+            "count": "1",
+            "explode": "N"
+          },
+          "GROUP"
+        ],
+        "querytranslation": "\"rs6025\"[WORD]"
+      }
+    }
+  ]
+}

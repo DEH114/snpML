@@ -1,0 +1,37 @@
+{
+  "finished_at_utc": "2026-11-07T18:22:13.349523+00:00",
+  "generator": "generate_gnomad_dataset.py",
+  "source_databases": [
+    "NCBI dbSNP",
+    "gnomAD"
+  ],
+  "gnomad_api": "https://gnomad.broadinstitute.org/api",
+  "gnomad_dataset": "gnomad_r4",
+  "reference_genome": "GRCh38",
+  "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\examples\\qiagen_20_rsids.tsv",
+  "input_sha256": "5f8b6911fb3fc9515741e7abf80da8c0fe8bf2fb21060d31abbf2f2223470b21",
+  "n_input_rsids": 20,
+  "n_merged_input_rsids": 1,
+  "n_search_hits": 28,
+  "n_verified_links": 28,
+  "n_variants": 28,
+  "n_rsids_with_variants": 20,
+  "n_callset_rows": 70,
+  "n_population_rows": 6347,
+  "n_duplicate_population_rows_removed": 56,
+  "n_lookup_or_verification_errors": 0,
+  "panel_status_counts": {
+    "multiple_variants_found": 6,
+    "variant_found": 14
+  },
+  "sqlite_created": true,
+  "notes": [
+    "Supplied rsIDs remain primary panel keys; merged/current dbSNP IDs are separate",
+    "variant_search discovers all gnomAD-present alleles and gnomAD-normalized indels",
+    "Every detail record must cross-reference the resolved current rsID",
+    "Exome, genome, and joint callsets remain separate",
+    "AF is calculated as AC/AN; population strata overlap and must not be summed",
+    "Absence from gnomAD is not evidence of benignity",
+    "The input contains public loci, not an individual's genotype"
+  ]
+}

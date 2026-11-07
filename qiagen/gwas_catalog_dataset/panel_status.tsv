@@ -1,0 +1,21 @@
+rank	rsid	current_rsid	was_merged	dbsnp_status	status	n_associations	n_single_variant_associations	n_multi_variant_associations	n_matches_by_reported_rsid	n_matches_by_current_rsid	n_unique_studies	n_unique_traits	error
+1	rs9807334	rs9807334	False	current_rsid	associations_found	2	2	0	2	2	2	2	
+2	rs121913529	rs121913529	False	current_rsid	no_gwas_catalog_association	0	0	0	0	0	0	0	
+3	rs72921001	rs72921001	False	current_rsid	no_gwas_catalog_association	0	0	0	0	0	0	0	
+4	rs17822931	rs17822931	False	current_rsid	associations_found	2	1	1	2	1	2	2	
+5	rs334	rs334	False	current_rsid	associations_found	137	137	0	134	137	134	36	
+6	rs987870	rs987870	False	current_rsid	associations_found	2	2	0	2	2	2	2	
+7	rs429358	rs429358	False	current_rsid	associations_found	1428	1428	0	1428	1428	1411	472	
+8	rs3827760	rs3827760	False	current_rsid	associations_found	22	22	0	22	22	21	15	
+9	rs113993960	rs113993960	False	current_rsid	associations_found	23	23	0	22	23	23	22	
+10	rs4988235	rs4988235	False	current_rsid	associations_found	68	68	0	68	68	67	29	
+11	rs28934578	rs28934578	False	current_rsid	no_gwas_catalog_association	0	0	0	0	0	0	0	
+12	rs17004038	rs17004038	False	current_rsid	no_gwas_catalog_association	0	0	0	0	0	0	0	
+13	rs12913832	rs12913832	False	current_rsid	associations_found	268	268	0	268	268	257	40	
+14	rs6025	rs6025	False	current_rsid	associations_found	40	40	0	40	40	40	24	
+15	rs713598	rs713598	False	current_rsid	associations_found	7	7	0	7	7	7	4	
+16	rs7412	rs7412	False	current_rsid	associations_found	1183	1183	0	1183	1183	1135	417	
+17	rs80357713	rs80357783	True	merged_to_current_rsid	no_gwas_catalog_association	0	0	0	0	0	0	0	
+18	rs1426654	rs1426654	False	current_rsid	associations_found	46	46	0	46	46	45	17	
+19	rs1799963	rs1799963	False	current_rsid	associations_found	40	40	0	40	40	40	17	
+20	rs1801133	rs1801133	False	current_rsid	associations_found	50	50	0	50	50	50	21	

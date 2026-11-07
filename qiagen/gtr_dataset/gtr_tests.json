@@ -1,0 +1,1443 @@
+[
+  {
+    "gtr_uid": "591288",
+    "accession": "GTR000591288",
+    "test_name": "Lactase deficiency",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "Molecular Genetics and Cytogenetics, Clinical Laboratory Service, RED DE SALUD UC CHRISTUS",
+    "offerer_id": 320149,
+    "offerer_location": {
+      "line1": "Avenida Vicuna Mackenna 4686",
+      "line2": "",
+      "line3": "",
+      "city": "Santiago",
+      "state": "Region Metropolitana",
+      "postcode": "6904413",
+      "country": "Chile"
+    },
+    "conditions": [
+      {
+        "name": "Nonpersistence of intestinal lactase",
+        "acronym": "",
+        "cui": "C0268181"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "_____________T____",
+        "categorylist": [
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "Uni-directional Sanger sequencing"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "Eighteen samples with known genotype were studied and 100% concordance was obtained. Sanger sequencing analysis approaches an analytical sensitivity of almost 100%.",
+    "clinical_validity": {
+      "description": "It has been shown in Caucasians that C/T –13910 variant,  generates an increase in the synthesis of lactase, an enzyme that hydrolyzes lactose in the intestine. It has also been determined that C / G-13907 and T / G-13915 variants are associated with lactase persistence in African and Arab populations. The presence of the C/T-13910 variant in its homozygous form has a clinical sensitivity of 91.4% and clinical specificity of 96%.",
+      "pmid": [
+        "34630504"
+      ],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "",
+    "certifications": [],
+    "test_targets": [
+      "LCT",
+      "LCT"
+    ],
+    "variants": [],
+    "test_purposes": [
+      "Diagnosis"
+    ],
+    "test_development": "",
+    "specimens": [
+      "Buccal swab",
+      "Isolated DNA",
+      "Peripheral (whole) blood",
+      "Saliva"
+    ],
+    "country": "Chile",
+    "test_url": "",
+    "order_url": "",
+    "specimen_url": "",
+    "test_code": "2123",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000591288/"
+  },
+  {
+    "gtr_uid": "28900",
+    "accession": "GTR000028900",
+    "test_name": "Lactose Intolerance",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "GENE, Núcleo de Genética Médica de Minas Gerais",
+    "offerer_id": 28893,
+    "offerer_location": {
+      "line1": "Av. Afonso Pena, 3111 - 9º andar",
+      "line2": "",
+      "line3": "",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "postcode": "30130-909",
+      "country": "Brazil"
+    },
+    "conditions": [
+      {
+        "name": "Nonpersistence of intestinal lactase",
+        "acronym": "",
+        "cui": "C0268181"
+      }
+    ],
+    "analytes": [
+      {
+        "analytetype": "Gene",
+        "name": "MCM6",
+        "geneid": 4175,
+        "location": "2q21.3"
+      }
+    ],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "_____________T____",
+        "categorylist": [
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "SNP Detection"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "100% sensitive for the detection of polimorphism C/T 13910",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "",
+    "certifications": [],
+    "test_targets": [
+      "MCM6",
+      "MCM6"
+    ],
+    "variants": [],
+    "test_purposes": [
+      "Diagnosis"
+    ],
+    "test_development": "",
+    "specimens": [],
+    "country": "Brazil",
+    "test_url": "http://www.gene.com.br/",
+    "order_url": "http://www.gene.com.br/",
+    "specimen_url": "",
+    "test_code": "",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000028900/"
+  },
+  {
+    "gtr_uid": "334284",
+    "accession": "GTR000334284",
+    "test_name": "Factor V Leiden gene",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "Genomics Diagnostic Laboratory, National University Health System",
+    "offerer_id": 320477,
+    "offerer_location": {
+      "line1": "5 Lower Kent Ridge Rd",
+      "line2": "",
+      "line3": "",
+      "city": "Singapore",
+      "state": "",
+      "postcode": "119074",
+      "country": "Singapore"
+    },
+    "conditions": [
+      {
+        "name": "Thrombophilia due to activated protein C resistance",
+        "acronym": "",
+        "cui": "C1861171"
+      }
+    ],
+    "analytes": [
+      {
+        "analytetype": "Gene",
+        "name": "F5",
+        "geneid": 2153,
+        "location": "1q24.2"
+      }
+    ],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "_____________T____",
+        "categorylist": [
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "Microarray"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "Accuracy 99%",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "",
+    "certifications": [
+      {
+        "certificationtype": "CAP",
+        "id": "3010701"
+      }
+    ],
+    "test_targets": [
+      "F5",
+      "F5"
+    ],
+    "variants": [],
+    "test_purposes": [
+      "Diagnosis",
+      "Mutation Confirmation",
+      "Risk Assessment",
+      "Screening"
+    ],
+    "test_development": "Manufactured (research use only; not FDA-reviewed)",
+    "specimens": [
+      "Peripheral (whole) blood"
+    ],
+    "country": "Singapore",
+    "test_url": "https://nuhsingapore.testcatalog.org/show/FA5L-1",
+    "order_url": "https://nuhsingapore.testcatalog.org/catalogs/394/files/14969",
+    "specimen_url": "",
+    "test_code": "FA5L",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000334284/"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "test_name": "RightMed Comprehensive Test with Gene Report",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "OneOme, LLC, Tempus",
+    "offerer_id": 505874,
+    "offerer_location": {
+      "line1": "807 Broadway St NE, Suite 100",
+      "line2": "",
+      "line3": "",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "postcode": "55413",
+      "country": "United States"
+    },
+    "conditions": [
+      {
+        "name": "Drug metabolism or response",
+        "acronym": "",
+        "cui": "CN253927"
+      },
+      {
+        "name": "Susceptibility to severe cutaneous adverse reaction",
+        "acronym": "",
+        "cui": "C1840548"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "__D__________T____",
+        "categorylist": [
+          {
+            "name": "Deletion/duplication analysis",
+            "code": "D",
+            "methodlist": [
+              "Quantitative PCR (qPCR)"
+            ]
+          },
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "PCR with allele specific hybridization"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "The test does not detect all known and unknown variations in the gene(s) tested, nor does absence of a detectable variant (designated as *1 for genes encoding drug metabolizing enzymes) rule out the presence of other, non-detected variants.  As with other common SNP genotyping techniques, these assays cannot differentiate between the maternal and paternal chromosomes. In cases where observed variants are associated with more than one haplotype, OneOme infers and reports the most likely diplotype based on published allele frequency and/or ethnicity data. Inferences with potential clinical impact are reported in the Report and laboratory comments section.  The variant detection methods validated by OneOme provide >99.9% accuracy; however, PCR may be subject to general interference by factors such as reaction inhibitors and low quality or quantity of extracted DNA. When present, these interferents typically yield no result rather than an inaccurate one. Very infrequent variants or polymorphisms occurring in primer- or probe-binding regions may also affect testing and could produce an erroneous result or assay failure. Variant locations tested by the assay but not assigned a genotype  call are reported as “No Call.” Test results and clinical interpretation may be inaccurate for individuals who have undergone or are receiving non-autologous blood transfusions, tissue, and/or organ transplant therapies. Although extremely rare, results could also be impacted by other factors not addressed above, such as laboratory error.",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "The RightMed Test is indicated for use in adults.",
+    "certifications": [
+      {
+        "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+        "id": "2580"
+      },
+      {
+        "certificationtype": "CA - California Department of Public Health CDPH",
+        "id": "CDS 00800741"
+      },
+      {
+        "certificationtype": "NY - New York State Department of Health NYSDOH",
+        "id": "PFI: 9226"
+      },
+      {
+        "certificationtype": "PA - Pennsylvania Department of Health PADOH",
+        "id": "35305"
+      },
+      {
+        "certificationtype": "CAP",
+        "id": "9432670"
+      },
+      {
+        "certificationtype": "CLIA",
+        "id": "24D2109855"
+      },
+      {
+        "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+        "id": "LCO01057"
+      }
+    ],
+    "test_targets": [
+      "COMT",
+      "CYP1A2",
+      "CYP2B6",
+      "COMT",
+      "CYP1A2",
+      "CYP2B6",
+      "CYP2C19",
+      "CYP2C9",
+      "CYP2D6",
+      "CYP3A4",
+      "CYP3A5",
+      "CYP4F2",
+      "DPYD",
+      "DRD2",
+      "F2",
+      "F5",
+      "GRIK4",
+      "HLA-A",
+      "HLA-B",
+      "HTR2A",
+      "HTR2C",
+      "IFNL3",
+      "IFNL4",
+      "MTHFR",
+      "NUDT15",
+      "OPRM1",
+      "SLC6A4",
+      "SLCO1B1",
+      "TPMT",
+      "UGT1A1",
+      "UGT1A8",
+      "VKORC1"
+    ],
+    "variants": [
+      "NC_000011.10:g.113475629T>C",
+      "NM_000769.1(CYP2C19):c.-806C>T",
+      "NM_000761.5(CYP1A2):c.-9-154C>A",
+      "NM_000110.4(DPYD):c.2279C>T (p.Thr760Ile)",
+      "NM_000110.4(DPYD):c.557A>G (p.Tyr186Cys)",
+      "NM_000110.4(DPYD):c.868A>G (p.Lys290Glu)",
+      "NM_000767.5(CYP2B6):c.516G>T (p.Gln172His)",
+      "NM_000767.5(CYP2B6):c.785A>G (p.Lys262Arg)",
+      "NM_000767.5(CYP2B6):c.1459C>T (p.Arg487Cys)",
+      "NM_000767.5(CYP2B6):c.593T>C (p.Met198Thr)",
+      "NM_000767.5(CYP2B6):c.983T>C (p.Ile328Thr)",
+      "NM_000769.4(CYP2C19):c.681G>A (p.Pro227=)",
+      "NM_000769.1(CYP2C19):c.636G>A (p.Trp212Ter)",
+      "NM_000769.1(CYP2C19):c.680C>T (p.Pro227Leu)",
+      "NM_000769.1(CYP2C19):c.1A>G (p.Met1Val)",
+      "NM_001045.6(SLC6A4):c.-1917_-1875del",
+      "UGT1A1*6",
+      "CYP2C9*8",
+      "CYP2C9*2",
+      "CYP2C9*3",
+      "CYP2C9*5",
+      "NM_000771.4(CYP2C9):c.1076T>C (p.Ile359Thr)",
+      "CYP2C9*11",
+      "CYP2C9*6",
+      "NM_014619.5(GRIK4):c.83-10039T>C",
+      "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)",
+      "NC_000007.14:g.99784473C>T",
+      "NM_017460.6(CYP3A4):c.522-191C>T",
+      "NM_000761.5(CYP1A2):c.-10+113C>T",
+      "NM_000777.5(CYP3A5):c.624G>A (p.Lys208=)",
+      "NM_000777.5(CYP3A5):c.1035dup (p.Thr346fs)",
+      "NM_000621.5(HTR2A):c.614-2211T>C",
+      "NM_000506.5(F2):c.*97G>A",
+      "NM_000367.5(TPMT):c.719A>G (p.Tyr240Cys)",
+      "NM_000367.5(TPMT):c.626-1G>A",
+      "NM_000367.2(TPMT):c.238G>C (p.Ala80Pro)",
+      "NM_000367.5(TPMT):c.460G>A (p.Ala154Thr)",
+      "NC_000023.11:g.114584047C>T",
+      "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+      "NM_001082.5(CYP4F2):c.1297G>A (p.Val433Met)",
+      "NM_000754.4(COMT):c.472G>A (p.Val158Met)",
+      "CYP2D6*17",
+      "NM_000106.6(CYP2D6):c.1319G>A (p.Arg440His)",
+      "NM_000106.6(CYP2D6):c.886C>T (p.Arg296Cys)",
+      "NM_000106.6(CYP2D6):c.975G>A (p.Pro325=)",
+      "CYP2D6*10",
+      "NM_000106.6(CYP2D6):c.1457G>C (p.Ser486Thr)",
+      "CYP2D6*4",
+      "NM_000110.4(DPYD):c.1129-5923C>G",
+      "NM_000106.6(CYP2D6):c.31G>A (p.Val11Met)",
+      "NM_000106.5(CYP2D6):c.124G>A (p.Gly42Arg)",
+      "NM_000106.6(CYP2D6):c.181-1G>C",
+      "NM_000106.5(CYP2D6):c.971A>C (p.His324Pro)",
+      "NM_000106.6(CYP2D6):c.1403_1411dup (p.Thr470_Gly471insValProThr)",
+      "NM_000106.6(CYP2D6):c.841_843del (p.Lys281del)",
+      "NM_000106.6(CYP2D6):c.775del (p.Arg259fs)",
+      "NM_000106.6(CYP2D6):c.765_768del (p.Thr256fs)",
+      "CYP2D6*6",
+      "NM_000106.6(CYP2D6):c.137dup (p.Leu47fs)",
+      "NM_000110.4(DPYD):c.1679T>G (p.Ile560Ser)",
+      "CYP2D6*2A",
+      "NM_000106.6(CYP2D6):c.1012G>A (p.Val338Met)",
+      "CYP2D6*41",
+      "NM_000106.6(CYP2D6):c.1088_1089dup (p.Gln364fs)",
+      "NM_000106.5(CYP2D6):c.*264G>A (p.Gly169Arg)",
+      "NM_000106.5(CYP2D6):c.505G>T (p.Gly169Ter)",
+      "NM_006446.5(SLCO1B1):c.521T>C (p.Val174Ala)",
+      "NM_024006.4(VKORC1):c.-1639G>A",
+      "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)",
+      "NC_000019.10:g.39248147C>T",
+      "NM_018283.4(NUDT15):c.415C>T (p.Arg139Cys)",
+      "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)",
+      "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+      "NM_000110.4(DPYD):c.1905+1G>A"
+    ],
+    "test_purposes": [
+      "Drug Response",
+      "Therapeutic management"
+    ],
+    "test_development": "Test developed by laboratory (no manufacturer test name)",
+    "specimens": [
+      "Buccal swab",
+      "Isolated DNA",
+      "Peripheral (whole) blood"
+    ],
+    "country": "United States",
+    "test_url": "https://oneome.com/rightmed-test/",
+    "order_url": "https://oneome.com/rightmed-test/",
+    "specimen_url": "https://oneome.com/sample-requirements/",
+    "test_code": "RM-COMP",
+    "cpt_code": "0349U",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000569929/"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "test_name": "Helix Comprehensive Pharmacogenomics (PGx) Panel",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "Helix, Inc.",
+    "offerer_id": 510447,
+    "offerer_location": {
+      "line1": "10170 Sorrento Valley Road, Suite 100",
+      "line2": "",
+      "line3": "",
+      "city": "SAN DIEGO",
+      "state": "",
+      "postcode": "92121",
+      "country": "United States"
+    },
+    "conditions": [
+      {
+        "name": "Drug metabolism or response",
+        "acronym": "",
+        "cui": "CN253927"
+      },
+      {
+        "name": "Abacavir response",
+        "acronym": "",
+        "cui": "CN297565"
+      },
+      {
+        "name": "Allopurinol response",
+        "acronym": "",
+        "cui": "CN160494"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "___E______________",
+        "categorylist": [
+          {
+            "name": "Sequence analysis of select exons",
+            "code": "E",
+            "methodlist": [
+              "Next-Generation (NGS)/Massively parallel sequencing (MPS)"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "The Helix Exome+® Platform assay demonstrates >99% sensitivity and >99% specificity for single nucleotide variants (SNVs) and indels up to 20 bp, >99% sensitivity for multi-exon CNVs, and >90% sensitivity for single-exon CNVs. Sensitivity may be reduced for larger indels and complex variants.",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "Patients for whom medication from the following list are being considered, have been ineffective, or caused side effects: Abacavir, Allopurinol, Amikacin, Amitriptyline, Amphetamine, Aripiprazole, Atazanavir, Atomoxetine, Atorvastatin, Azathioprine, Belinostat, Brexpiprazole, Brivaracetam, Capecitabine, Carbamazepine, Celecoxib, Citalopram, Clobazam, Clomipramine, Clopidogrel, Clozapine, Codeine, Desipramine, Deutetrabenazine, Dexlansoprazole, Dibekacin, Doxepin, Escitalopram, Flecainide, Flibanserin, Fluorouracil, Flurbiprofen, Fluvastatin, Fluvoxamine, Fosphenytoin, Gefitinib, Gentamicin, Haloperidol, Hydrocodone, Ibuprofen, Iloperidone, Imipramine, Irinotecan, Kanamycin, Lamotrigine, Lansoprazole, Lofexidine, Lornoxicam, Lovastatin, Meloxicam, Mercaptopurine, Metoprolol, Neomycin, Netilmicin, Nortriptyline, Oliceridine, Omeprazole, Ondansetron, Oxcarbazepine, Pantoprazole, Paromomycin, Paroxetine, Peginterferon alfa-2a, Peginterferon alfa-2b, Phenytoin, Pimozide, Piroxicam, Pitavastatin, Plazomicin, Pravastatin, Propafenone, Quetiapine, Ribostamycin, Risperidone, Rosuvastatin, Sacituzumab govitecan-hziy, Sertraline, Simvastatin, Streptomycin, Tacrolimus, Tamoxifen, Tegafur, Tenoxicam, Thioguanine, Thioridazine, Tobramycin, Tramadol, Trimipramine, Tropisetron, Valbenazine, Venlafaxine, Voriconazole, Vortioxetine, and Warfarin",
+    "certifications": [
+      {
+        "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+        "id": "2657"
+      },
+      {
+        "certificationtype": "NYS CLEP",
+        "id": "9396"
+      },
+      {
+        "certificationtype": "CA - California Department of Public Health CDPH",
+        "id": "CDF-00349431"
+      },
+      {
+        "certificationtype": "PA - Pennsylvania Department of Health PADOH",
+        "id": "35703"
+      },
+      {
+        "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+        "id": "LCO01650"
+      },
+      {
+        "certificationtype": "CAP",
+        "id": "9382893"
+      },
+      {
+        "certificationtype": "CLIA",
+        "id": "05D2117342"
+      },
+      {
+        "certificationtype": "WA - Washington State Department of Health DOH",
+        "id": "HFD-OS8"
+      }
+    ],
+    "test_targets": [
+      "ABCB1",
+      "ABCG2",
+      "COMT",
+      "ABCB1",
+      "ABCG2",
+      "COMT",
+      "CYP2C19",
+      "CYP2C9",
+      "CYP2D6",
+      "CYP3A4",
+      "CYP3A5",
+      "CYP4F2",
+      "DPYD",
+      "F2",
+      "F5",
+      "HLA-B",
+      "IFNL3",
+      "IFNL4",
+      "MT-RNR1",
+      "MTHFR",
+      "NUDT15",
+      "OPRM1",
+      "rs12777823",
+      "SLC19A1",
+      "SLCO1B1",
+      "TPMT",
+      "UGT1A1",
+      "VKORC1"
+    ],
+    "variants": [
+      "NM_000506.5(F2):c.*97G>A",
+      "NM_001348946.2(ABCB1):c.1236T>C (p.Gly412=)",
+      "NM_001348946.2(ABCB1):c.2677T>G (p.Ser893Ala)",
+      "NM_001348946.2(ABCB1):c.2677T>A (p.Ser893Thr)",
+      "NM_001348946.2(ABCB1):c.3435T>C (p.Ile1145=)",
+      "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+      "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+      "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)",
+      "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)",
+      "NM_194255.4(SLC19A1):c.80A>G (p.His27Arg)",
+      "NM_000754.4(COMT):c.472G>A (p.Val158Met)",
+      "NM_000110.4(DPYD):c.632A>G (p.Tyr211Cys)",
+      "NM_000110.4(DPYD):c.775A>G (p.Lys259Glu)",
+      "NM_000110.4(DPYD):c.868A>G (p.Lys290Glu)",
+      "NM_000110.4(DPYD):c.934C>T (p.Leu312Phe)",
+      "NM_000110.4(DPYD):c.1024G>A (p.Asp342Asn)",
+      "NM_000110.4(DPYD):c.1108A>G (p.Ile370Val)",
+      "NM_000110.4(DPYD):c.1180C>T (p.Arg394Trp)",
+      "NM_000110.4(DPYD):c.1278G>T (p.Met426Ile)",
+      "NM_000110.4(DPYD):c.61C>T (p.Arg21Ter)",
+      "NM_000110.4(DPYD):c.1349C>T (p.Ala450Val)",
+      "NM_000110.4(DPYD):c.1371C>T (p.Asn457=)",
+      "NM_000110.4(DPYD):c.1475C>T (p.Ser492Leu)",
+      "NM_000110.4(DPYD):c.1543G>A (p.Val515Ile)",
+      "NM_000110.4(DPYD):c.1774C>T (p.Arg592Trp)",
+      "NM_000110.4(DPYD):c.1775G>A (p.Arg592Gln)",
+      "NM_000110.4(DPYD):c.1896T>C (p.Phe632=)",
+      "NM_000110.4(DPYD):c.1905C>T (p.Asn635=)",
+      "NM_000110.4(DPYD):c.1990G>T (p.Ala664Ser)",
+      "NM_000110.4(DPYD):c.2186C>T (p.Ala729Val)",
+      "NM_000110.4(DPYD):c.2195T>G (p.Val732Gly)",
+      "NM_000110.4(DPYD):c.2279C>T (p.Thr760Ile)",
+      "NM_000110.4(DPYD):c.2623A>C (p.Lys875Gln)",
+      "NM_000110.4(DPYD):c.2639G>T (p.Gly880Val)",
+      "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)",
+      "NM_000110.4(DPYD):c.2872A>G (p.Lys958Glu)",
+      "NM_000110.4(DPYD):c.2915A>G (p.Gln972Arg)",
+      "NM_000110.4(DPYD):c.2921A>T (p.Asp974Val)",
+      "NM_000110.4(DPYD):c.2978T>G (p.Leu993Arg)",
+      "NM_000110.4(DPYD):c.3049G>A (p.Val1017Ile)",
+      "NM_000110.4(DPYD):c.3061G>C (p.Val1021Leu)",
+      "NM_000110.4(DPYD):c.451A>G (p.Asn151Asp)",
+      "NM_000110.4(DPYD):c.3067C>T (p.Pro1023Ser)",
+      "NC_000019.10:g.39248147C>T",
+      "NC_012920.1(MT-RNR1):m.1095T>C",
+      "NM_024006.4(VKORC1):c.-1639G>A",
+      "NM_004827.3(ABCG2):c.421C>A (p.Gln141Lys)"
+    ],
+    "test_purposes": [
+      "Drug Response",
+      "Pre-symptomatic",
+      "Predictive",
+      "Risk Assessment",
+      "Therapeutic management"
+    ],
+    "test_development": "Test developed by laboratory (no manufacturer test name)",
+    "specimens": [
+      "Buccal swab",
+      "Peripheral (whole) blood",
+      "Saliva"
+    ],
+    "country": "United States",
+    "test_url": "https://www.helix.com/clinical-genomics/pharmacogenomics/comprehensive-pharmacogenomics-pgx-panel",
+    "order_url": "https://provider.helix.com/login",
+    "specimen_url": "https://www.helix.com/clinical-genomics/dx-patient-resources",
+    "test_code": "79714-2",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000619762/"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "test_name": "Pharmacogenomics Profile + HLA",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "AccessDx Lab LLC",
+    "offerer_id": 509590,
+    "offerer_location": {
+      "line1": "8920 Kirby Dr",
+      "line2": "",
+      "line3": "",
+      "city": "HOUSTON",
+      "state": "Texas",
+      "postcode": "77054",
+      "country": "United States"
+    },
+    "conditions": [
+      {
+        "name": "Granisetron response",
+        "acronym": "",
+        "cui": "CN298550"
+      },
+      {
+        "name": "Abacavir response",
+        "acronym": "",
+        "cui": "CN297565"
+      },
+      {
+        "name": "Allopurinol response",
+        "acronym": "",
+        "cui": "CN160494"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "__D__________T____",
+        "categorylist": [
+          {
+            "name": "Deletion/duplication analysis",
+            "code": "D",
+            "methodlist": [
+              "Fragment Analysis",
+              "RT-qPCR"
+            ]
+          },
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "RT-qPCR",
+              "SNP Detection"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "Analytical Sensitivity results proved >99.9% accordance; Analytical Specificity results proved >99.9% accordance; Accuracy results proved >99% accordance; Reproducibility results proved >99% accordance; Repeatability results proved >99% accordance. However, PCR may be subject to general interference by factors such as reaction inhibitors and low quality or quantity of extracted DNA",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "Patients may be tested when they are: being considered for specific medications, experiencing dose-limiting toxicities or other toxicities from specific medications, not deriving full clinical benefit, or experiencing inadequate response to specific medications, suspected of having abnormal (rapid or slow) metabolic capacity towards specific medications.",
+    "certifications": [
+      {
+        "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+        "id": "2080"
+      },
+      {
+        "certificationtype": "CA - California Department of Public Health CDPH",
+        "id": "CDS-00800511"
+      },
+      {
+        "certificationtype": "NY - New York State Department of Health NYSDOH",
+        "id": "8808"
+      },
+      {
+        "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+        "id": "LCO01862"
+      },
+      {
+        "certificationtype": "CAP",
+        "id": "8034463"
+      },
+      {
+        "certificationtype": "CLIA",
+        "id": "45D2034771"
+      }
+    ],
+    "test_targets": [
+      "ABCB1",
+      "ABCG2",
+      "ADRA2A",
+      "ABCB1",
+      "ABCG2",
+      "ADRA2A",
+      "ANKK1",
+      "CEP72",
+      "COMT",
+      "CYP1A2",
+      "CYP2B6",
+      "CYP2C19",
+      "CYP2C8",
+      "CYP2C9",
+      "CYP2D6",
+      "CYP3A5",
+      "CYP4F2",
+      "DPYD",
+      "DRD2",
+      "F2",
+      "F5",
+      "G6PD",
+      "GRIK4",
+      "HCP5",
+      "HLA-A",
+      "HLA-B",
+      "HTR2A",
+      "HTR2C",
+      "IFNL3",
+      "IFNL4",
+      "MTHFR",
+      "NUDT15",
+      "OPRM1",
+      "SLC6A4",
+      "SLCO1B1",
+      "TPMT",
+      "UGT1A1",
+      "UGT1A8",
+      "UGT1A9",
+      "VKORC1"
+    ],
+    "variants": [
+      "NM_014619.5(GRIK4):c.83-10039T>C",
+      "NM_000761.5(CYP1A2):c.-10+113C>T",
+      "NM_000767.5(CYP2B6):c.785A>G (p.Lys262Arg)",
+      "NM_000767.5(CYP2B6):c.1459C>T (p.Arg487Cys)",
+      "NM_000767.5(CYP2B6):c.516G>T (p.Gln172His)",
+      "NM_000767.5(CYP2B6):c.983T>C (p.Ile328Thr)",
+      "NM_000621.5(HTR2A):c.102C>T (p.Ser34=)",
+      "NM_000621.5(HTR2A):c.614-2211T>C",
+      "NM_000402.4(G6PD):c.1478G>A (p.Arg493His)",
+      "NM_000402.4(G6PD):c.292G>A (p.Val98Met)",
+      "NM_000402.4(G6PD):c.466A>G (p.Asn156Asp)",
+      "NM_000402.4(G6PD):c.653C>T (p.Ser218Phe)",
+      "NM_001360016.2(G6PD):c.968T>C (p.Leu323Pro)",
+      "NM_000402.4(G6PD):c.1466G>T (p.Arg489Leu)",
+      "NM_000402.4(G6PD):c.1466G>C (p.Arg489Pro)",
+      "NM_017460.6(CYP3A4):c.522-191C>T",
+      "NM_178510.2(ANKK1):c.2137G>A (p.Glu713Lys)",
+      "NM_001076.4(UGT2B15):c.253T>G (p.Tyr85Asp)",
+      "NC_000011.10:g.113475629T>C",
+      "NM_000506.5(F2):c.*97G>A",
+      "NM_000868.4(HTR2C):c.551-3008C>G",
+      "NM_018283.4(NUDT15):c.415C>T (p.Arg139Cys)",
+      "NC_000023.11:g.114584047C>T",
+      "NM_000367.5(TPMT):c.719A>G (p.Tyr240Cys)",
+      "NM_000367.5(TPMT):c.626-1G>A",
+      "NM_000367.2(TPMT):c.238G>C (p.Ala80Pro)",
+      "NM_000367.5(TPMT):c.460G>A (p.Ala154Thr)",
+      "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+      "NM_018283.4(NUDT15):c.416G>A (p.Arg139His)",
+      "NM_018283.4(NUDT15):c.38GAGTCG[2] (p.13GV[2])",
+      "NM_018283.4(NUDT15):c.38GAGTCG[4] (p.13GV[4])",
+      "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)",
+      "NM_001082.5(CYP4F2):c.1297G>A (p.Val433Met)",
+      "NM_024006.4(VKORC1):c.-1639G>A",
+      "NM_004827.3(ABCG2):c.421C>A (p.Gln141Lys)",
+      "NC_000006.12:g.35702206A>G",
+      "NM_138448.4(ACYP2):c.185+29374G>A",
+      "NM_000681.3(ADRA2A):c.-1252G>C",
+      "NM_000769.1(CYP2C19):c.680C>T (p.Pro227Leu)",
+      "NM_000769.1(CYP2C19):c.636G>A (p.Trp212Ter)",
+      "NM_000769.1(CYP2C19):c.1A>G (p.Met1Val)",
+      "NM_000769.1(CYP2C19):c.1297C>T (p.Arg433Trp)",
+      "NM_000769.1(CYP2C19):c.395G>A (p.Arg132Gln)",
+      "NM_000769.1(CYP2C19):c.819+2T>A",
+      "NM_000769.1(CYP2C19):c.358T>C (p.Trp120Arg)",
+      "NM_000769.1(CYP2C19):c.431G>A (p.Arg144His)",
+      "NC_000019.10:g.39248147C>T",
+      "NM_000769.1(CYP2C19):c.-806C>T",
+      "NM_000769.4(CYP2C19):c.332-23A>G",
+      "NM_001348946.2(ABCB1):c.2677T>G (p.Ser893Ala)",
+      "NM_001348946.2(ABCB1):c.2677T>A (p.Ser893Thr)",
+      "NM_000777.5(CYP3A5):c.219-237A>G",
+      "NM_000777.5(CYP3A5):c.624G>A (p.Lys208=)",
+      "NM_000777.5(CYP3A5):c.1035dup (p.Thr346fs)",
+      "CYP2C8*2",
+      "HLA-B*57:01",
+      "NM_000770.3(CYP2C8):c.1196A>G (p.Lys399Arg)",
+      "NM_000770.3(CYP2C8):c.416G>A (p.Arg139Lys)",
+      "CYP2C8*4",
+      "UGT1A1*6",
+      "NM_001072.4(UGT1A6):c.862-7110C>T",
+      "UGT1A1*36",
+      "NM_001072.4(UGT1A6):c.862-6800AT[5]",
+      "UGT1A1*28",
+      "NM_000771.4(CYP2C9):c.269T>C (p.Leu90Pro)",
+      "NM_000771.4(CYP2C9):c.374G>A (p.Arg125His)",
+      "NM_000754.4(COMT):c.472G>A (p.Val158Met)",
+      "CYP2C9*2",
+      "NC_000010.11:g.94936917T>C",
+      "CYP2C9*8",
+      "NM_000771.4(CYP2C9):c.449G>T (p.Arg150Leu)",
+      "NM_000771.4(CYP2C9):c.485C>A (p.Ser162Ter)",
+      "CYP2C9*6",
+      "CYP2C9*11",
+      "CYP2C9*3",
+      "NM_000771.4(CYP2C9):c.1076T>C (p.Ile359Thr)",
+      "CYP2C9*5",
+      "NM_006446.5(SLCO1B1):c.521T>C (p.Val174Ala)",
+      "NM_000771.4(CYP2C9):c.1190A>C (p.Asp397Ala)",
+      "NM_000771.4(CYP2C9):c.1465C>T (p.Pro489Ser)",
+      "NM_000106.6(CYP2D6):c.886C>T (p.Arg296Cys)",
+      "NM_000106.6(CYP2D6):c.775del (p.Arg259fs)",
+      "CYP2D6*17",
+      "CYP2D6*10",
+      "NM_000106.6(CYP2D6):c.1457G>C (p.Ser486Thr)",
+      "CYP2D6*4",
+      "NM_000106.6(CYP2D6):c.31G>A (p.Val11Met)",
+      "NM_000106.5(CYP2D6):c.124G>A (p.Gly42Arg)",
+      "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)",
+      "NM_000106.6(CYP2D6):c.181-1G>C",
+      "NM_000106.5(CYP2D6):c.971A>C (p.His324Pro)",
+      "NM_000106.6(CYP2D6):c.1403_1411dup (p.Thr470_Gly471insValProThr)",
+      "NM_000106.6(CYP2D6):c.1319G>A (p.Arg440His)",
+      "NM_000106.6(CYP2D6):c.841_843del (p.Lys281del)",
+      "NM_000106.6(CYP2D6):c.765_768del (p.Thr256fs)",
+      "NM_000106.6(CYP2D6):c.514_522dup (p.Pro174_Asn175insPheArgPro)",
+      "CYP2D6*6",
+      "NM_000106.6(CYP2D6):c.137dup (p.Leu47fs)",
+      "NM_000106.6(CYP2D6):c.358T>A (p.Phe120Ile)",
+      "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+      "NM_000106.6(CYP2D6):c.1012G>A (p.Val338Met)",
+      "CYP2D6*41",
+      "NM_000106.6(CYP2D6):c.1088_1089dup (p.Gln364fs)",
+      "NM_000106.6(CYP2D6):c.1030C>T (p.Arg344Ter)",
+      "NM_000106.6(CYP2D6):c.975G>A (p.Pro325=)",
+      "NM_000106.6(CYP2D6):c.364G>T (p.Ala122Ser)",
+      "NM_000106.6(CYP2D6):c.352+7A>G",
+      "NM_000106.5(CYP2D6):c.505G>T (p.Gly169Ter)",
+      "NM_000761.5(CYP1A2):c.-9-154C>A",
+      "NM_000106.5(CYP2D6):c.*264G>A (p.Gly169Arg)",
+      "NM_000110.4(DPYD):c.557A>G (p.Tyr186Cys)",
+      "NM_000110.4(DPYD):c.1905+1G>A",
+      "NM_000110.4(DPYD):c.1679T>G (p.Ile560Ser)",
+      "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)",
+      "NM_000110.4(DPYD):c.1129-5923C>G",
+      "NR_103444.1(LOC100996325):n.366+1469G>A"
+    ],
+    "test_purposes": [
+      "Drug Response"
+    ],
+    "test_development": "Test developed by laboratory (no manufacturer test name)",
+    "specimens": [
+      "Buccal swab"
+    ],
+    "country": "United States",
+    "test_url": "",
+    "order_url": "https://www.accessdxlab.com/solutions/order-a-test/",
+    "specimen_url": "https://www.accessdxlab.com/solutions/order-a-test/",
+    "test_code": "40007",
+    "cpt_code": "81418",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000613302/"
+  },
+  {
+    "gtr_uid": "330970",
+    "accession": "GTR000330970",
+    "test_name": "MTHFR",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "Department of Laboratory Medicine, P. D. Hinduja Hospital and Medical Research Center",
+    "offerer_id": 320395,
+    "offerer_location": {
+      "line1": "Veer Savarkar Marg, Mahim",
+      "line2": "",
+      "line3": "",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "postcode": "400016",
+      "country": "India"
+    },
+    "conditions": [
+      {
+        "name": "Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+        "acronym": "",
+        "cui": "C1856061"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "_____________T____",
+        "categorylist": [
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "ARMS-PCR"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "assay has 99% specificity",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "",
+    "certifications": [
+      {
+        "certificationtype": "CAP",
+        "id": "3982701"
+      }
+    ],
+    "test_targets": [
+      "MTHFR",
+      "MTHFR"
+    ],
+    "variants": [
+      "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+      "NM_005957.5(MTHFR):c.1298A>C (p.Glu433Ala)"
+    ],
+    "test_purposes": [
+      "Diagnosis",
+      "Drug Response"
+    ],
+    "test_development": "Test developed by laboratory (no manufacturer test name)",
+    "specimens": [
+      "Peripheral (whole) blood"
+    ],
+    "country": "India",
+    "test_url": "",
+    "order_url": "",
+    "specimen_url": "",
+    "test_code": "",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000330970/"
+  },
+  {
+    "gtr_uid": "593372",
+    "accession": "GTR000593372",
+    "test_name": "Methylenetetrahydrofolate Reductase (MTHFR) Thermolabile Variant, DNA Analysis",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "Molecular Diagnostic Laboratory, LabCorp",
+    "offerer_id": 1173,
+    "offerer_location": {
+      "line1": "1912 T W Alexander Drive",
+      "line2": "",
+      "line3": "",
+      "city": "Research Triangle Park",
+      "state": "North Carolina",
+      "postcode": "27709",
+      "country": "United States"
+    },
+    "conditions": [
+      {
+        "name": "Hyperhomocysteinemia",
+        "acronym": "",
+        "cui": "C0598608"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "_____________T____",
+        "categorylist": [
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "PCR with allele specific hybridization"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "The diagnostic sensitivity is >99%.",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "",
+    "certifications": [
+      {
+        "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+        "id": "DHMH559"
+      },
+      {
+        "certificationtype": "PA - Pennsylvania Department of Health PADOH",
+        "id": "31983"
+      },
+      {
+        "certificationtype": "CA - California Department of Public Health CDPH",
+        "id": "CDS00800068"
+      },
+      {
+        "certificationtype": "CLIA",
+        "id": "34D0655205"
+      },
+      {
+        "certificationtype": "NY - New York State Department of Health NYSDOH",
+        "id": "PFI 4180"
+      },
+      {
+        "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+        "id": "LCO00269"
+      },
+      {
+        "certificationtype": "CAP",
+        "id": "3710101"
+      },
+      {
+        "certificationtype": "ISO15189",
+        "id": "3710101"
+      }
+    ],
+    "test_targets": [
+      "MTHFR",
+      "MTHFR"
+    ],
+    "variants": [
+      "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+      "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+    ],
+    "test_purposes": [
+      "Risk Assessment"
+    ],
+    "test_development": "",
+    "specimens": [
+      "Buccal swab",
+      "Peripheral (whole) blood"
+    ],
+    "country": "United States",
+    "test_url": "https://www.labcorp.com/tests/511238/methylenetetrahydrofolate-reductase-mthfr-thermolabile-variant-dna-analysis",
+    "order_url": "https://www.labcorp.com/wps/portal/provider/testmenu",
+    "specimen_url": "",
+    "test_code": "511238",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000593372/"
+  },
+  {
+    "gtr_uid": "500809",
+    "accession": "GTR000500809",
+    "test_name": "Methylenetetrahydrofolate reductase (MTHFR) 2 Mutations",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories",
+    "offerer_id": 25969,
+    "offerer_location": {
+      "line1": "500 Chipeta Way",
+      "line2": "",
+      "line3": "",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "postcode": "84108",
+      "country": "United States"
+    },
+    "conditions": [
+      {
+        "name": "MTHFR THERMOLABILE POLYMORPHISM",
+        "acronym": "",
+        "cui": "C1856059"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "_____________T____",
+        "categorylist": [
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "Polymerase Chain Reaction/Fluorescence Monitoring"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "Analytical sensitivity and specificity: 99%",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "",
+    "certifications": [
+      {
+        "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+        "id": "516"
+      },
+      {
+        "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+        "id": "LCO00429"
+      },
+      {
+        "certificationtype": "CA - California Department of Public Health CDPH",
+        "id": "CDS00800007"
+      },
+      {
+        "certificationtype": "CLIA",
+        "id": "46D0523979"
+      },
+      {
+        "certificationtype": "NY - New York State Department of Health NYSDOH",
+        "id": "4196"
+      },
+      {
+        "certificationtype": "UT - Utah Department of Health UDOH",
+        "id": "262529-1714"
+      },
+      {
+        "certificationtype": "UT - Utah Department of Health UDOH",
+        "id": "262529-8915"
+      },
+      {
+        "certificationtype": "CAP",
+        "id": "4096301"
+      },
+      {
+        "certificationtype": "ISO15189",
+        "id": "NA"
+      }
+    ],
+    "test_targets": [
+      "MTHFR",
+      "MTHFR"
+    ],
+    "variants": [
+      "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+      "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+    ],
+    "test_purposes": [
+      "Risk Assessment"
+    ],
+    "test_development": "",
+    "specimens": [
+      "Cord blood",
+      "Peripheral (whole) blood"
+    ],
+    "country": "United States",
+    "test_url": "https://ltd.aruplab.com/Tests/Pub/0055655",
+    "order_url": "",
+    "specimen_url": "http://www.aruplab.com/guides/ug/tests/0055655.jsp",
+    "test_code": "55655",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000500809/"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "test_name": "Thrombophilic Polymorphism Panel (Factor V Leiden, Prothrombin G20210A, MTHFR C677T, MTHFR A1298C, PAI-1 4G/5G)",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "Cincinnati Children's Hospital Medical Center Genetics and Genomics Diagnostic Laboratory, Cincinnati Children's Hospital Medical Center",
+    "offerer_id": 1237,
+    "offerer_location": {
+      "line1": "3333 Burnet Ave ML 4006",
+      "line2": "",
+      "line3": "",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "postcode": "45229-3039",
+      "country": "United States"
+    },
+    "conditions": [
+      {
+        "name": "Thrombophilia due to thrombin defect",
+        "acronym": "",
+        "cui": "C3160733"
+      },
+      {
+        "name": "Congenital plasminogen activator inhibitor type 1 deficiency",
+        "acronym": "",
+        "cui": "C2750067"
+      },
+      {
+        "name": "MTHFR THERMOLABILE POLYMORPHISM",
+        "acronym": "",
+        "cui": "C1856059"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "_____________T____",
+        "categorylist": [
+          {
+            "name": "Targeted variant analysis",
+            "code": "T",
+            "methodlist": [
+              "Allelic Discrimination TaqMan Assay"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": "This test methodology detects >99% of instances of these mutations.",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "",
+    "certifications": [
+      {
+        "certificationtype": "CLIA",
+        "id": "36D0656333"
+      },
+      {
+        "certificationtype": "CAP",
+        "id": "1667801"
+      }
+    ],
+    "test_targets": [
+      "F2",
+      "F5",
+      "MTHFR",
+      "F2",
+      "F5",
+      "MTHFR",
+      "SERPINE1"
+    ],
+    "variants": [
+      "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+      "NM_000506.5(F2):c.*97G>A",
+      "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+      "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)",
+      "NC_000007.14:g.101126429dup"
+    ],
+    "test_purposes": [
+      "Diagnosis",
+      "Mutation Confirmation",
+      "Pre-symptomatic",
+      "Risk Assessment"
+    ],
+    "test_development": "Test developed by laboratory (no manufacturer test name)",
+    "specimens": [],
+    "country": "United States",
+    "test_url": "http://www.cincinnatichildrens.org/service/d/diagnostic-labs/molecular-genetics/hematologic-disorders/",
+    "order_url": "http://www.cincinnatichildrens.org/service/d/diagnostic-labs/molecular-genetics/requisition/",
+    "specimen_url": "",
+    "test_code": "",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000500035/"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "test_name": "Middle Eastern Panel",
+    "test_type": "Clinical",
+    "source": "GTR",
+    "offerer": "FirmaLab",
+    "offerer_id": 256489,
+    "offerer_location": {
+      "line1": "870 N Vine Street",
+      "line2": "",
+      "line3": "",
+      "city": "Los Angeles",
+      "state": "California",
+      "postcode": "90038",
+      "country": "United States"
+    },
+    "conditions": [
+      {
+        "name": "GNE myopathy",
+        "acronym": "",
+        "cui": "C1853926"
+      },
+      {
+        "name": "Dubin-Johnson syndrome",
+        "acronym": "",
+        "cui": "C0022350"
+      },
+      {
+        "name": "G6PD deficiency",
+        "acronym": "",
+        "cui": "C2939465"
+      }
+    ],
+    "analytes": [],
+    "methods": [
+      {
+        "name": "Molecular Genetics",
+        "categoriesstring": "_C________________",
+        "categorylist": [
+          {
+            "name": "Sequence analysis of the entire coding region",
+            "code": "C",
+            "methodlist": [
+              "Bi-directional Sanger Sequence Analysis"
+            ]
+          }
+        ]
+      }
+    ],
+    "analytical_validity": ">97% but expected 100%",
+    "clinical_validity": {
+      "description": "",
+      "pmid": [],
+      "url": [],
+      "citationtext": []
+    },
+    "target_population": "",
+    "certifications": [
+      {
+        "certificationtype": "CA - California Department of Public Health CDPH",
+        "id": "CLF 00329498"
+      },
+      {
+        "certificationtype": "CLIA",
+        "id": "05D0992853"
+      },
+      {
+        "certificationtype": "CAP",
+        "id": "7179300"
+      }
+    ],
+    "test_targets": [
+      "ABCC2",
+      "G6PD",
+      "GNE",
+      "ABCC2",
+      "G6PD",
+      "GNE",
+      "LIPA",
+      "MTHFR",
+      "USH2A"
+    ],
+    "variants": [
+      "NM_005476.7(GNE):c.2135T>C (p.Met712Thr)",
+      "NM_000235.4(LIPA):c.260G>T (p.Gly87Val)",
+      "NM_206933.4(USH2A):c.240_241insGATC (p.Gln81fs)",
+      "NM_000392.5(ABCC2):c.3517A>T (p.Ile1173Phe)",
+      "NM_000402.4(G6PD):c.653C>T (p.Ser218Phe)",
+      "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+    ],
+    "test_purposes": [
+      "Diagnosis",
+      "Mutation Confirmation",
+      "Risk Assessment",
+      "Screening"
+    ],
+    "test_development": "",
+    "specimens": [
+      "Amniocytes",
+      "Amniotic fluid",
+      "Bone marrow",
+      "Buccal swab",
+      "Cell-free DNA",
+      "Cerebrospinal fluid",
+      "Chorionic villi",
+      "Cord blood",
+      "Cystic hygroma fluid",
+      "Dried blood spot (DBS) card",
+      "Fetal blood",
+      "Fresh tissue",
+      "Frozen tissue",
+      "Isolated DNA",
+      "Paraffin block",
+      "Peripheral (whole) blood",
+      "Skin",
+      "White blood cell prep"
+    ],
+    "country": "United States",
+    "test_url": "http://www.firmalab.com",
+    "order_url": "",
+    "specimen_url": "http://www.firmalab.com",
+    "test_code": "15",
+    "cpt_code": "",
+    "summary": "",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gtr/tests/GTR000327733/"
+  }
+]

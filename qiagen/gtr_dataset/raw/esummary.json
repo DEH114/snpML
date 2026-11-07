@@ -1,0 +1,2629 @@
+{
+  "requested_uids": [
+    "591288",
+    "28900",
+    "334284",
+    "569929",
+    "619762",
+    "613302",
+    "330970",
+    "593372",
+    "500809",
+    "500035",
+    "327733"
+  ],
+  "method": "NCBI GTR ESummary",
+  "responses": [
+    {
+      "header": {
+        "type": "esummary",
+        "version": "0.3"
+      },
+      "result": {
+        "uids": [
+          "591288",
+          "28900",
+          "334284",
+          "569929",
+          "619762",
+          "613302",
+          "330970",
+          "593372",
+          "500809",
+          "500035",
+          "327733"
+        ],
+        "591288": {
+          "uid": "591288",
+          "id": 591288,
+          "source": "GTR",
+          "accession": "GTR000591288",
+          "testname": "Lactase deficiency",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Nonpersistence of intestinal lactase",
+              "acronym": "",
+              "cui": "C0268181"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Nonpersistence of intestinal lactase",
+              "acronym": "",
+              "cui": "C0268181"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "Molecular Genetics and Cytogenetics, Clinical Laboratory Service, RED DE SALUD UC CHRISTUS",
+          "offererlocation": {
+            "line1": "Avenida Vicuna Mackenna 4686",
+            "line2": "",
+            "line3": "",
+            "city": "Santiago",
+            "state": "Region Metropolitana",
+            "postcode": "6904413",
+            "country": "Chile"
+          },
+          "offererid": 320149,
+          "directorlist": [
+            "Marcela Lagos, MD, Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "_____________T____",
+              "categorylist": [
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "Uni-directional Sanger sequencing"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "Eighteen samples with known genotype were studied and 100% concordance was obtained. Sanger sequencing analysis approaches an analytical sensitivity of almost 100%.",
+          "targetpopulation": "",
+          "certifications": [],
+          "studydesc": "",
+          "testtargetlist": [
+            "LCT",
+            "LCT"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 1,
+          "testtargetcount": 1,
+          "genecount": 1,
+          "country": "Chile",
+          "testurl": "",
+          "specimens": [
+            "Buccal swab",
+            "Isolated DNA",
+            "Peripheral (whole) blood",
+            "Saliva"
+          ],
+          "specimenurl": "",
+          "targetpopulation2": "",
+          "orderurl": "",
+          "testcode": "2123",
+          "cptcode": "",
+          "testdevelopment": "",
+          "testpurpose": [
+            "Diagnosis"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "It has been shown in Caucasians that C/T –13910 variant,  generates an increase in the synthesis of lactase, an enzyme that hydrolyzes lactose in the intestine. It has also been determined that C / G-13907 and T / G-13915 variants are associated with lactase persistence in African and Arab populations. The presence of the C/T-13910 variant in its homozygous form has a clinical sensitivity of 91.4% and clinical specificity of 96%.",
+            "pmid": [
+              "34630504"
+            ],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [],
+          "exons": [],
+          "extra": ""
+        },
+        "28900": {
+          "uid": "28900",
+          "id": 28900,
+          "source": "GTR",
+          "accession": "GTR000028900",
+          "testname": "Lactose Intolerance",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Nonpersistence of intestinal lactase",
+              "acronym": "",
+              "cui": "C0268181"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Nonpersistence of intestinal lactase",
+              "acronym": "",
+              "cui": "C0268181"
+            }
+          ],
+          "analytes": [
+            {
+              "analytetype": "Gene",
+              "name": "MCM6",
+              "geneid": 4175,
+              "location": "2q21.3"
+            }
+          ],
+          "genelist": [],
+          "offerer": "GENE, Núcleo de Genética Médica de Minas Gerais",
+          "offererlocation": {
+            "line1": "Av. Afonso Pena, 3111 - 9º andar",
+            "line2": "",
+            "line3": "",
+            "city": "Belo Horizonte",
+            "state": "Minas Gerais",
+            "postcode": "30130-909",
+            "country": "Brazil"
+          },
+          "offererid": 28893,
+          "directorlist": [
+            "Sergio Pena, PhD, MD, FRCP(C), Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "_____________T____",
+              "categorylist": [
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "SNP Detection"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "100% sensitive for the detection of polimorphism C/T 13910",
+          "targetpopulation": "",
+          "certifications": [],
+          "studydesc": "",
+          "testtargetlist": [
+            "MCM6",
+            "MCM6"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 1,
+          "testtargetcount": 1,
+          "genecount": 1,
+          "country": "Brazil",
+          "testurl": "http://www.gene.com.br/",
+          "specimens": [],
+          "specimenurl": "",
+          "targetpopulation2": "",
+          "orderurl": "http://www.gene.com.br/",
+          "testcode": "",
+          "cptcode": "",
+          "testdevelopment": "",
+          "testpurpose": [
+            "Diagnosis"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [],
+          "exons": [],
+          "extra": ""
+        },
+        "334284": {
+          "uid": "334284",
+          "id": 334284,
+          "source": "GTR",
+          "accession": "GTR000334284",
+          "testname": "Factor V Leiden gene",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Thrombophilia due to activated protein C resistance",
+              "acronym": "",
+              "cui": "C1861171"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Thrombophilia due to activated protein C resistance",
+              "acronym": "",
+              "cui": "C1861171"
+            }
+          ],
+          "analytes": [
+            {
+              "analytetype": "Gene",
+              "name": "F5",
+              "geneid": 2153,
+              "location": "1q24.2"
+            }
+          ],
+          "genelist": [],
+          "offerer": "Genomics Diagnostic Laboratory, National University Health System",
+          "offererlocation": {
+            "line1": "5 Lower Kent Ridge Rd",
+            "line2": "",
+            "line3": "",
+            "city": "Singapore",
+            "state": "",
+            "postcode": "119074",
+            "country": "Singapore"
+          },
+          "offererid": 320477,
+          "directorlist": [
+            "Kean Lee Chew, MBBS; FRCPath, Medical Director",
+            "Desirée du Sart, PhD, MBA, FFRCPA, FHGSA, Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "_____________T____",
+              "categorylist": [
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "Microarray"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "Accuracy 99%",
+          "targetpopulation": "",
+          "certifications": [
+            {
+              "certificationtype": "CAP",
+              "id": "3010701"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "F5",
+            "F5"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 1,
+          "testtargetcount": 1,
+          "genecount": 1,
+          "country": "Singapore",
+          "testurl": "https://nuhsingapore.testcatalog.org/show/FA5L-1",
+          "specimens": [
+            "Peripheral (whole) blood"
+          ],
+          "specimenurl": "",
+          "targetpopulation2": "",
+          "orderurl": "https://nuhsingapore.testcatalog.org/catalogs/394/files/14969",
+          "testcode": "FA5L",
+          "cptcode": "",
+          "testdevelopment": "Manufactured (research use only; not FDA-reviewed)",
+          "testpurpose": [
+            "Diagnosis",
+            "Mutation Confirmation",
+            "Risk Assessment",
+            "Screening"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [],
+          "exons": [],
+          "extra": ""
+        },
+        "569929": {
+          "uid": "569929",
+          "id": 569929,
+          "source": "GTR",
+          "accession": "GTR000569929",
+          "testname": "RightMed Comprehensive Test with Gene Report",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Drug metabolism or response",
+              "acronym": "",
+              "cui": "CN253927"
+            },
+            {
+              "name": "Susceptibility to severe cutaneous adverse reaction",
+              "acronym": "",
+              "cui": "C1840548"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Drug metabolism or response",
+              "acronym": "",
+              "cui": "CN253927"
+            },
+            {
+              "name": "Susceptibility to severe cutaneous adverse reaction",
+              "acronym": "",
+              "cui": "C1840548"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "OneOme, LLC, Tempus",
+          "offererlocation": {
+            "line1": "807 Broadway St NE, Suite 100",
+            "line2": "",
+            "line3": "",
+            "city": "Minneapolis",
+            "state": "Minnesota",
+            "postcode": "55413",
+            "country": "United States"
+          },
+          "offererid": 505874,
+          "directorlist": [
+            "Jason Walker, PhD, HCLD(ABB), Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "__D__________T____",
+              "categorylist": [
+                {
+                  "name": "Deletion/duplication analysis",
+                  "code": "D",
+                  "methodlist": [
+                    "Quantitative PCR (qPCR)"
+                  ]
+                },
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "PCR with allele specific hybridization"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "The test does not detect all known and unknown variations in the gene(s) tested, nor does absence of a detectable variant (designated as *1 for genes encoding drug metabolizing enzymes) rule out the presence of other, non-detected variants.  As with other common SNP genotyping techniques, these assays cannot differentiate between the maternal and paternal chromosomes. In cases where observed variants are associated with more than one haplotype, OneOme infers and reports the most likely diplotype based on published allele frequency and/or ethnicity data. Inferences with potential clinical impact are reported in the Report and laboratory comments section.  The variant detection methods validated by OneOme provide >99.9% accuracy; however, PCR may be subject to general interference by factors such as reaction inhibitors and low quality or quantity of extracted DNA. When present, these interferents typically yield no result rather than an inaccurate one. Very infrequent variants or polymorphisms occurring in primer- or probe-binding regions may also affect testing and could produce an erroneous result or assay failure. Variant locations tested by the assay but not assigned a genotype  call are reported as “No Call.” Test results and clinical interpretation may be inaccurate for individuals who have undergone or are receiving non-autologous blood transfusions, tissue, and/or organ transplant therapies. Although extremely rare, results could also be impacted by other factors not addressed above, such as laboratory error.",
+          "targetpopulation": "The RightMed Test is indicated for use in adults.",
+          "certifications": [
+            {
+              "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+              "id": "2580"
+            },
+            {
+              "certificationtype": "CA - California Department of Public Health CDPH",
+              "id": "CDS 00800741"
+            },
+            {
+              "certificationtype": "NY - New York State Department of Health NYSDOH",
+              "id": "PFI: 9226"
+            },
+            {
+              "certificationtype": "PA - Pennsylvania Department of Health PADOH",
+              "id": "35305"
+            },
+            {
+              "certificationtype": "CAP",
+              "id": "9432670"
+            },
+            {
+              "certificationtype": "CLIA",
+              "id": "24D2109855"
+            },
+            {
+              "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+              "id": "LCO01057"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "COMT",
+            "CYP1A2",
+            "CYP2B6",
+            "COMT",
+            "CYP1A2",
+            "CYP2B6",
+            "CYP2C19",
+            "CYP2C9",
+            "CYP2D6",
+            "CYP3A4",
+            "CYP3A5",
+            "CYP4F2",
+            "DPYD",
+            "DRD2",
+            "F2",
+            "F5",
+            "GRIK4",
+            "HLA-A",
+            "HLA-B",
+            "HTR2A",
+            "HTR2C",
+            "IFNL3",
+            "IFNL4",
+            "MTHFR",
+            "NUDT15",
+            "OPRM1",
+            "SLC6A4",
+            "SLCO1B1",
+            "TPMT",
+            "UGT1A1",
+            "UGT1A8",
+            "VKORC1"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 2,
+          "testtargetcount": 29,
+          "genecount": 29,
+          "country": "United States",
+          "testurl": "https://oneome.com/rightmed-test/",
+          "specimens": [
+            "Buccal swab",
+            "Isolated DNA",
+            "Peripheral (whole) blood"
+          ],
+          "specimenurl": "https://oneome.com/sample-requirements/",
+          "targetpopulation2": "The RightMed Test is indicated for use in adults.",
+          "orderurl": "https://oneome.com/rightmed-test/",
+          "testcode": "RM-COMP",
+          "cptcode": "0349U",
+          "testdevelopment": "Test developed by laboratory (no manufacturer test name)",
+          "testpurpose": [
+            "Drug Response",
+            "Therapeutic management"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [
+            "NC_000011.10:g.113475629T>C",
+            "NM_000769.1(CYP2C19):c.-806C>T",
+            "NM_000761.5(CYP1A2):c.-9-154C>A",
+            "NM_000110.4(DPYD):c.2279C>T (p.Thr760Ile)",
+            "NM_000110.4(DPYD):c.557A>G (p.Tyr186Cys)",
+            "NM_000110.4(DPYD):c.868A>G (p.Lys290Glu)",
+            "NM_000767.5(CYP2B6):c.516G>T (p.Gln172His)",
+            "NM_000767.5(CYP2B6):c.785A>G (p.Lys262Arg)",
+            "NM_000767.5(CYP2B6):c.1459C>T (p.Arg487Cys)",
+            "NM_000767.5(CYP2B6):c.593T>C (p.Met198Thr)",
+            "NM_000767.5(CYP2B6):c.983T>C (p.Ile328Thr)",
+            "NM_000769.4(CYP2C19):c.681G>A (p.Pro227=)",
+            "NM_000769.1(CYP2C19):c.636G>A (p.Trp212Ter)",
+            "NM_000769.1(CYP2C19):c.680C>T (p.Pro227Leu)",
+            "NM_000769.1(CYP2C19):c.1A>G (p.Met1Val)",
+            "NM_001045.6(SLC6A4):c.-1917_-1875del",
+            "UGT1A1*6",
+            "CYP2C9*8",
+            "CYP2C9*2",
+            "CYP2C9*3",
+            "CYP2C9*5",
+            "NM_000771.4(CYP2C9):c.1076T>C (p.Ile359Thr)",
+            "CYP2C9*11",
+            "CYP2C9*6",
+            "NM_014619.5(GRIK4):c.83-10039T>C",
+            "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)",
+            "NC_000007.14:g.99784473C>T",
+            "NM_017460.6(CYP3A4):c.522-191C>T",
+            "NM_000761.5(CYP1A2):c.-10+113C>T",
+            "NM_000777.5(CYP3A5):c.624G>A (p.Lys208=)",
+            "NM_000777.5(CYP3A5):c.1035dup (p.Thr346fs)",
+            "NM_000621.5(HTR2A):c.614-2211T>C",
+            "NM_000506.5(F2):c.*97G>A",
+            "NM_000367.5(TPMT):c.719A>G (p.Tyr240Cys)",
+            "NM_000367.5(TPMT):c.626-1G>A",
+            "NM_000367.2(TPMT):c.238G>C (p.Ala80Pro)",
+            "NM_000367.5(TPMT):c.460G>A (p.Ala154Thr)",
+            "NC_000023.11:g.114584047C>T",
+            "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+            "NM_001082.5(CYP4F2):c.1297G>A (p.Val433Met)",
+            "NM_000754.4(COMT):c.472G>A (p.Val158Met)",
+            "CYP2D6*17",
+            "NM_000106.6(CYP2D6):c.1319G>A (p.Arg440His)",
+            "NM_000106.6(CYP2D6):c.886C>T (p.Arg296Cys)",
+            "NM_000106.6(CYP2D6):c.975G>A (p.Pro325=)",
+            "CYP2D6*10",
+            "NM_000106.6(CYP2D6):c.1457G>C (p.Ser486Thr)",
+            "CYP2D6*4",
+            "NM_000110.4(DPYD):c.1129-5923C>G",
+            "NM_000106.6(CYP2D6):c.31G>A (p.Val11Met)",
+            "NM_000106.5(CYP2D6):c.124G>A (p.Gly42Arg)",
+            "NM_000106.6(CYP2D6):c.181-1G>C",
+            "NM_000106.5(CYP2D6):c.971A>C (p.His324Pro)",
+            "NM_000106.6(CYP2D6):c.1403_1411dup (p.Thr470_Gly471insValProThr)",
+            "NM_000106.6(CYP2D6):c.841_843del (p.Lys281del)",
+            "NM_000106.6(CYP2D6):c.775del (p.Arg259fs)",
+            "NM_000106.6(CYP2D6):c.765_768del (p.Thr256fs)",
+            "CYP2D6*6",
+            "NM_000106.6(CYP2D6):c.137dup (p.Leu47fs)",
+            "NM_000110.4(DPYD):c.1679T>G (p.Ile560Ser)",
+            "CYP2D6*2A",
+            "NM_000106.6(CYP2D6):c.1012G>A (p.Val338Met)",
+            "CYP2D6*41",
+            "NM_000106.6(CYP2D6):c.1088_1089dup (p.Gln364fs)",
+            "NM_000106.5(CYP2D6):c.*264G>A (p.Gly169Arg)",
+            "NM_000106.5(CYP2D6):c.505G>T (p.Gly169Ter)",
+            "NM_006446.5(SLCO1B1):c.521T>C (p.Val174Ala)",
+            "NM_024006.4(VKORC1):c.-1639G>A",
+            "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)",
+            "NC_000019.10:g.39248147C>T",
+            "NM_018283.4(NUDT15):c.415C>T (p.Arg139Cys)",
+            "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)",
+            "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+            "NM_000110.4(DPYD):c.1905+1G>A"
+          ],
+          "exons": [],
+          "extra": ""
+        },
+        "619762": {
+          "uid": "619762",
+          "id": 619762,
+          "source": "GTR",
+          "accession": "GTR000619762",
+          "testname": "Helix Comprehensive Pharmacogenomics (PGx) Panel",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Drug metabolism or response",
+              "acronym": "",
+              "cui": "CN253927"
+            },
+            {
+              "name": "Abacavir response",
+              "acronym": "",
+              "cui": "CN297565"
+            },
+            {
+              "name": "Allopurinol response",
+              "acronym": "",
+              "cui": "CN160494"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Drug metabolism or response",
+              "acronym": "",
+              "cui": "CN253927"
+            },
+            {
+              "name": "Abacavir response",
+              "acronym": "",
+              "cui": "CN297565"
+            },
+            {
+              "name": "Allopurinol response",
+              "acronym": "",
+              "cui": "CN160494"
+            },
+            {
+              "name": "Amikacin response",
+              "acronym": "",
+              "cui": "CN184546"
+            },
+            {
+              "name": "Amitriptyline response",
+              "acronym": "",
+              "cui": "CN176769"
+            },
+            {
+              "name": "Amphetamine Response",
+              "acronym": "",
+              "cui": "CN282539"
+            },
+            {
+              "name": "Aripiprazole response",
+              "acronym": "",
+              "cui": "CN077955"
+            },
+            {
+              "name": "Atazanavir response",
+              "acronym": "",
+              "cui": "CN417141"
+            },
+            {
+              "name": "Atomoxetine response",
+              "acronym": "",
+              "cui": "CN077956"
+            },
+            {
+              "name": "Atorvastatin response",
+              "acronym": "",
+              "cui": "CN077961"
+            },
+            {
+              "name": "Azathioprine response",
+              "acronym": "",
+              "cui": "CN077959"
+            },
+            {
+              "name": "Belinostat response",
+              "acronym": "",
+              "cui": "CN282543"
+            },
+            {
+              "name": "Brexpiprazole Response",
+              "acronym": "",
+              "cui": "CN282544"
+            },
+            {
+              "name": "Brivaracetam response",
+              "acronym": "",
+              "cui": "CN781941"
+            },
+            {
+              "name": "Capecitabine response",
+              "acronym": "",
+              "cui": "CN077963"
+            },
+            {
+              "name": "Carbamazepine response",
+              "acronym": "",
+              "cui": "CN077964"
+            },
+            {
+              "name": "Celecoxib response",
+              "acronym": "",
+              "cui": "CN077966"
+            },
+            {
+              "name": "Citalopram response",
+              "acronym": "",
+              "cui": "CN221263"
+            },
+            {
+              "name": "Clobazam response",
+              "acronym": "",
+              "cui": "CN456489"
+            },
+            {
+              "name": "Clomipramine response",
+              "acronym": "",
+              "cui": "CN221256"
+            },
+            {
+              "name": "Clopidogrel response",
+              "acronym": "",
+              "cui": "CN077970"
+            },
+            {
+              "name": "Clozapine response",
+              "acronym": "",
+              "cui": "CN077971"
+            },
+            {
+              "name": "Codeine response",
+              "acronym": "",
+              "cui": "CN077972"
+            },
+            {
+              "name": "Desipramine response",
+              "acronym": "",
+              "cui": "CN233052"
+            },
+            {
+              "name": "Deutetrabenazine response",
+              "acronym": "",
+              "cui": "CN258189"
+            },
+            {
+              "name": "Dexlansoprazole response",
+              "acronym": "",
+              "cui": "CN474479"
+            },
+            {
+              "name": "Dibekacin response",
+              "acronym": "",
+              "cui": "CN381049"
+            },
+            {
+              "name": "Doxepin response",
+              "acronym": "",
+              "cui": "CN077978"
+            },
+            {
+              "name": "Escitalopram response",
+              "acronym": "",
+              "cui": "CN221264"
+            },
+            {
+              "name": "Flecainide response",
+              "acronym": "",
+              "cui": "CN298368"
+            },
+            {
+              "name": "Flibanserin response",
+              "acronym": "",
+              "cui": "CN507895"
+            },
+            {
+              "name": "Fluorouracil response",
+              "acronym": "",
+              "cui": "CN077983"
+            },
+            {
+              "name": "Flurbiprofen response",
+              "acronym": "",
+              "cui": "CN258139"
+            },
+            {
+              "name": "Fluvastatin response",
+              "acronym": "",
+              "cui": "CN298428"
+            },
+            {
+              "name": "Fluvoxamine response",
+              "acronym": "",
+              "cui": "CN221254"
+            },
+            {
+              "name": "Fosphenytoin response",
+              "acronym": "",
+              "cui": "CN298483"
+            },
+            {
+              "name": "Gefitinib response",
+              "acronym": "",
+              "cui": "CN077987"
+            },
+            {
+              "name": "Gentamicin response",
+              "acronym": "",
+              "cui": "CN184225"
+            },
+            {
+              "name": "Haloperidol response",
+              "acronym": "",
+              "cui": "CN221260"
+            },
+            {
+              "name": "Hydrocodone response",
+              "acronym": "",
+              "cui": "CN221246"
+            },
+            {
+              "name": "Ibuprofen response",
+              "acronym": "",
+              "cui": "CN185913"
+            },
+            {
+              "name": "Iloperidone response",
+              "acronym": "",
+              "cui": "CN221251"
+            },
+            {
+              "name": "Imipramine response",
+              "acronym": "",
+              "cui": "CN221257"
+            },
+            {
+              "name": "Irinotecan response",
+              "acronym": "",
+              "cui": "CN077989"
+            },
+            {
+              "name": "Kanamycin response",
+              "acronym": "",
+              "cui": "CN184547"
+            },
+            {
+              "name": "Lamotrigine response",
+              "acronym": "",
+              "cui": "CN221266"
+            },
+            {
+              "name": "Lansoprazole response",
+              "acronym": "",
+              "cui": "CN474477"
+            },
+            {
+              "name": "Lofexidine Response",
+              "acronym": "",
+              "cui": "CN282561"
+            },
+            {
+              "name": "Lornoxicam response",
+              "acronym": "",
+              "cui": "CN322742"
+            },
+            {
+              "name": "Lovastatin response",
+              "acronym": "",
+              "cui": "CN298397"
+            },
+            {
+              "name": "Meloxicam response",
+              "acronym": "",
+              "cui": "CN533582"
+            },
+            {
+              "name": "Mercaptopurine response",
+              "acronym": "",
+              "cui": "CN077995"
+            },
+            {
+              "name": "Metoprolol response",
+              "acronym": "",
+              "cui": "CN077996"
+            },
+            {
+              "name": "Neomycin response",
+              "acronym": "",
+              "cui": "CN298372"
+            },
+            {
+              "name": "Netilmicin response",
+              "acronym": "",
+              "cui": "CN381051"
+            },
+            {
+              "name": "Nortriptyline response",
+              "acronym": "",
+              "cui": "CN043206"
+            },
+            {
+              "name": "Oliceridine response",
+              "acronym": "",
+              "cui": "CN381052"
+            },
+            {
+              "name": "Omeprazole response",
+              "acronym": "",
+              "cui": "CN158357"
+            },
+            {
+              "name": "Ondansetron response",
+              "acronym": "",
+              "cui": "CN417142"
+            },
+            {
+              "name": "Oxcarbazepine response",
+              "acronym": "",
+              "cui": "CN282567"
+            },
+            {
+              "name": "Pantoprazole response",
+              "acronym": "",
+              "cui": "CN474478"
+            },
+            {
+              "name": "Paromomycin response",
+              "acronym": "",
+              "cui": "CN316033"
+            },
+            {
+              "name": "Paroxetine response",
+              "acronym": "",
+              "cui": "CN221255"
+            },
+            {
+              "name": "Peginterferon alfa-2a response",
+              "acronym": "",
+              "cui": "CN184128"
+            },
+            {
+              "name": "Peginterferon alfa-2b response",
+              "acronym": "",
+              "cui": "CN078000"
+            },
+            {
+              "name": "Phenytoin response",
+              "acronym": "",
+              "cui": "CN069167"
+            },
+            {
+              "name": "Pimozide response",
+              "acronym": "",
+              "cui": "CN293546"
+            },
+            {
+              "name": "Piroxicam response",
+              "acronym": "",
+              "cui": "CN258188"
+            },
+            {
+              "name": "Pitavastatin response",
+              "acronym": "",
+              "cui": "CN307960"
+            },
+            {
+              "name": "Plazomicin response",
+              "acronym": "",
+              "cui": "CN299709"
+            },
+            {
+              "name": "Pravastatin response",
+              "acronym": "",
+              "cui": "CN298732"
+            },
+            {
+              "name": "Propafenone response",
+              "acronym": "",
+              "cui": "CN078001"
+            },
+            {
+              "name": "Quetiapine response",
+              "acronym": "",
+              "cui": "CN298798"
+            },
+            {
+              "name": "Ribostamycin response",
+              "acronym": "",
+              "cui": "CN381050"
+            },
+            {
+              "name": "Risperidone response",
+              "acronym": "",
+              "cui": "CN078009"
+            },
+            {
+              "name": "Rosuvastatin response",
+              "acronym": "",
+              "cui": "CN282573"
+            },
+            {
+              "name": "Sacituzumab govitecan-hziy response",
+              "acronym": "",
+              "cui": "CN381053"
+            },
+            {
+              "name": "Sertraline response",
+              "acronym": "",
+              "cui": "CN221265"
+            },
+            {
+              "name": "Simvastatin response",
+              "acronym": "",
+              "cui": "CN128903"
+            },
+            {
+              "name": "Streptomycin response",
+              "acronym": "",
+              "cui": "C1154708"
+            },
+            {
+              "name": "Tacrolimus response",
+              "acronym": "",
+              "cui": "C3547403"
+            },
+            {
+              "name": "Tamoxifen response",
+              "acronym": "",
+              "cui": "CN078013"
+            },
+            {
+              "name": "Tegafur response",
+              "acronym": "",
+              "cui": "C1852514"
+            },
+            {
+              "name": "Tenoxicam response",
+              "acronym": "",
+              "cui": "CN315845"
+            },
+            {
+              "name": "Thioguanine response",
+              "acronym": "",
+              "cui": "CN078017"
+            },
+            {
+              "name": "Thioridazine response",
+              "acronym": "",
+              "cui": "CN078018"
+            },
+            {
+              "name": "Tobramycin response",
+              "acronym": "",
+              "cui": "CN184545"
+            },
+            {
+              "name": "Tramadol response",
+              "acronym": "",
+              "cui": "CN078023"
+            },
+            {
+              "name": "Trimipramine response",
+              "acronym": "",
+              "cui": "CN221259"
+            },
+            {
+              "name": "Tropisetron response",
+              "acronym": "",
+              "cui": "CN417143"
+            },
+            {
+              "name": "Valbenazine response",
+              "acronym": "",
+              "cui": "CN282579"
+            },
+            {
+              "name": "Venlafaxine response",
+              "acronym": "",
+              "cui": "CN078028"
+            },
+            {
+              "name": "Voriconazole response",
+              "acronym": "",
+              "cui": "CN077957"
+            },
+            {
+              "name": "Vortioxetine Response",
+              "acronym": "",
+              "cui": "CN282580"
+            },
+            {
+              "name": "Warfarin response",
+              "acronym": "",
+              "cui": "C0750384"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "Helix, Inc.",
+          "offererlocation": {
+            "line1": "10170 Sorrento Valley Road, Suite 100",
+            "line2": "",
+            "line3": "",
+            "city": "SAN DIEGO",
+            "state": "",
+            "postcode": "92121",
+            "country": "United States"
+          },
+          "offererid": 510447,
+          "directorlist": [
+            "Kenneth Becker, PhD, Lab Director",
+            "Philip Cotter, PhD, FACMG, Lab Director",
+            "Matthew Ferber, PhD, FACMG, Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "___E______________",
+              "categorylist": [
+                {
+                  "name": "Sequence analysis of select exons",
+                  "code": "E",
+                  "methodlist": [
+                    "Next-Generation (NGS)/Massively parallel sequencing (MPS)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "The Helix Exome+® Platform assay demonstrates >99% sensitivity and >99% specificity for single nucleotide variants (SNVs) and indels up to 20 bp, >99% sensitivity for multi-exon CNVs, and >90% sensitivity for single-exon CNVs. Sensitivity may be reduced for larger indels and complex variants.",
+          "targetpopulation": "Patients for whom medication from the following list are being considered, have been ineffective, or caused side effects: Abacavir, Allopurinol, Amikacin, Amitriptyline, Amphetamine, Aripiprazole, Atazanavir, Atomoxetine, Atorvastatin, Azathioprine, Belinostat, Brexpiprazole, Brivaracetam, Capecitabine, Carbamazepine, Celecoxib, Citalopram, Clobazam, Clomipramine, Clopidogrel, Clozapine, Codeine, Desipramine, Deutetrabenazine, Dexlansoprazole, Dibekacin, Doxepin, Escitalopram, Flecainide, Flibanserin, Fluorouracil, Flurbiprofen, Fluvastatin, Fluvoxamine, Fosphenytoin, Gefitinib, Gentamicin, Haloperidol, Hydrocodone, Ibuprofen, Iloperidone, Imipramine, Irinotecan, Kanamycin, Lamotrigine, Lansoprazole, Lofexidine, Lornoxicam, Lovastatin, Meloxicam, Mercaptopurine, Metoprolol, Neomycin, Netilmicin, Nortriptyline, Oliceridine, Omeprazole, Ondansetron, Oxcarbazepine, Pantoprazole, Paromomycin, Paroxetine, Peginterferon alfa-2a, Peginterferon alfa-2b, Phenytoin, Pimozide, Piroxicam, Pitavastatin, Plazomicin, Pravastatin, Propafenone, Quetiapine, Ribostamycin, Risperidone, Rosuvastatin, Sacituzumab govitecan-hziy, Sertraline, Simvastatin, Streptomycin, Tacrolimus, Tamoxifen, Tegafur, Tenoxicam, Thioguanine, Thioridazine, Tobramycin, Tramadol, Trimipramine, Tropisetron, Valbenazine, Venlafaxine, Voriconazole, Vortioxetine, and Warfarin",
+          "certifications": [
+            {
+              "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+              "id": "2657"
+            },
+            {
+              "certificationtype": "NYS CLEP",
+              "id": "9396"
+            },
+            {
+              "certificationtype": "CA - California Department of Public Health CDPH",
+              "id": "CDF-00349431"
+            },
+            {
+              "certificationtype": "PA - Pennsylvania Department of Health PADOH",
+              "id": "35703"
+            },
+            {
+              "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+              "id": "LCO01650"
+            },
+            {
+              "certificationtype": "CAP",
+              "id": "9382893"
+            },
+            {
+              "certificationtype": "CLIA",
+              "id": "05D2117342"
+            },
+            {
+              "certificationtype": "WA - Washington State Department of Health DOH",
+              "id": "HFD-OS8"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "ABCB1",
+            "ABCG2",
+            "COMT",
+            "ABCB1",
+            "ABCG2",
+            "COMT",
+            "CYP2C19",
+            "CYP2C9",
+            "CYP2D6",
+            "CYP3A4",
+            "CYP3A5",
+            "CYP4F2",
+            "DPYD",
+            "F2",
+            "F5",
+            "HLA-B",
+            "IFNL3",
+            "IFNL4",
+            "MT-RNR1",
+            "MTHFR",
+            "NUDT15",
+            "OPRM1",
+            "rs12777823",
+            "SLC19A1",
+            "SLCO1B1",
+            "TPMT",
+            "UGT1A1",
+            "VKORC1"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 95,
+          "testtargetcount": 25,
+          "genecount": 24,
+          "country": "United States",
+          "testurl": "https://www.helix.com/clinical-genomics/pharmacogenomics/comprehensive-pharmacogenomics-pgx-panel",
+          "specimens": [
+            "Buccal swab",
+            "Peripheral (whole) blood",
+            "Saliva"
+          ],
+          "specimenurl": "https://www.helix.com/clinical-genomics/dx-patient-resources",
+          "targetpopulation2": "Patients for whom medication from the following list are being considered, have been ineffective, or caused side effects: Abacavir, Allopurinol, Amikacin, Amitriptyline, Amphetamine, Aripiprazole, Atazanavir, Atomoxetine, Atorvastatin, Azathioprine, Belinostat, Brexpiprazole, Brivaracetam, Capecitabine, Carbamazepine, Celecoxib, Citalopram, Clobazam, Clomipramine, Clopidogrel, Clozapine, Codeine, Desipramine, Deutetrabenazine, Dexlansoprazole, Dibekacin, Doxepin, Escitalopram, Flecainide, Flibanserin, Fluorouracil, Flurbiprofen, Fluvastatin, Fluvoxamine, Fosphenytoin, Gefitinib, Gentamicin, Haloperidol, Hydrocodone, Ibuprofen, Iloperidone, Imipramine, Irinotecan, Kanamycin, Lamotrigine, Lansoprazole, Lofexidine, Lornoxicam, Lovastatin, Meloxicam, Mercaptopurine, Metoprolol, Neomycin, Netilmicin, Nortriptyline, Oliceridine, Omeprazole, Ondansetron, Oxcarbazepine, Pantoprazole, Paromomycin, Paroxetine, Peginterferon alfa-2a, Peginterferon alfa-2b, Phenytoin, Pimozide, Piroxicam, Pitavastatin, Plazomicin, Pravastatin, Propafenone, Quetiapine, Ribostamycin, Risperidone, Rosuvastatin, Sacituzumab govitecan-hziy, Sertraline, Simvastatin, Streptomycin, Tacrolimus, Tamoxifen, Tegafur, Tenoxicam, Thioguanine, Thioridazine, Tobramycin, Tramadol, Trimipramine, Tropisetron, Valbenazine, Venlafaxine, Voriconazole, Vortioxetine, and Warfarin",
+          "orderurl": "https://provider.helix.com/login",
+          "testcode": "79714-2",
+          "cptcode": "",
+          "testdevelopment": "Test developed by laboratory (no manufacturer test name)",
+          "testpurpose": [
+            "Drug Response",
+            "Pre-symptomatic",
+            "Predictive",
+            "Risk Assessment",
+            "Therapeutic management"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [
+            "NM_000506.5(F2):c.*97G>A",
+            "NM_001348946.2(ABCB1):c.1236T>C (p.Gly412=)",
+            "NM_001348946.2(ABCB1):c.2677T>G (p.Ser893Ala)",
+            "NM_001348946.2(ABCB1):c.2677T>A (p.Ser893Thr)",
+            "NM_001348946.2(ABCB1):c.3435T>C (p.Ile1145=)",
+            "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+            "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+            "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)",
+            "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)",
+            "NM_194255.4(SLC19A1):c.80A>G (p.His27Arg)",
+            "NM_000754.4(COMT):c.472G>A (p.Val158Met)",
+            "NM_000110.4(DPYD):c.632A>G (p.Tyr211Cys)",
+            "NM_000110.4(DPYD):c.775A>G (p.Lys259Glu)",
+            "NM_000110.4(DPYD):c.868A>G (p.Lys290Glu)",
+            "NM_000110.4(DPYD):c.934C>T (p.Leu312Phe)",
+            "NM_000110.4(DPYD):c.1024G>A (p.Asp342Asn)",
+            "NM_000110.4(DPYD):c.1108A>G (p.Ile370Val)",
+            "NM_000110.4(DPYD):c.1180C>T (p.Arg394Trp)",
+            "NM_000110.4(DPYD):c.1278G>T (p.Met426Ile)",
+            "NM_000110.4(DPYD):c.61C>T (p.Arg21Ter)",
+            "NM_000110.4(DPYD):c.1349C>T (p.Ala450Val)",
+            "NM_000110.4(DPYD):c.1371C>T (p.Asn457=)",
+            "NM_000110.4(DPYD):c.1475C>T (p.Ser492Leu)",
+            "NM_000110.4(DPYD):c.1543G>A (p.Val515Ile)",
+            "NM_000110.4(DPYD):c.1774C>T (p.Arg592Trp)",
+            "NM_000110.4(DPYD):c.1775G>A (p.Arg592Gln)",
+            "NM_000110.4(DPYD):c.1896T>C (p.Phe632=)",
+            "NM_000110.4(DPYD):c.1905C>T (p.Asn635=)",
+            "NM_000110.4(DPYD):c.1990G>T (p.Ala664Ser)",
+            "NM_000110.4(DPYD):c.2186C>T (p.Ala729Val)",
+            "NM_000110.4(DPYD):c.2195T>G (p.Val732Gly)",
+            "NM_000110.4(DPYD):c.2279C>T (p.Thr760Ile)",
+            "NM_000110.4(DPYD):c.2623A>C (p.Lys875Gln)",
+            "NM_000110.4(DPYD):c.2639G>T (p.Gly880Val)",
+            "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)",
+            "NM_000110.4(DPYD):c.2872A>G (p.Lys958Glu)",
+            "NM_000110.4(DPYD):c.2915A>G (p.Gln972Arg)",
+            "NM_000110.4(DPYD):c.2921A>T (p.Asp974Val)",
+            "NM_000110.4(DPYD):c.2978T>G (p.Leu993Arg)",
+            "NM_000110.4(DPYD):c.3049G>A (p.Val1017Ile)",
+            "NM_000110.4(DPYD):c.3061G>C (p.Val1021Leu)",
+            "NM_000110.4(DPYD):c.451A>G (p.Asn151Asp)",
+            "NM_000110.4(DPYD):c.3067C>T (p.Pro1023Ser)",
+            "NC_000019.10:g.39248147C>T",
+            "NC_012920.1(MT-RNR1):m.1095T>C",
+            "NM_024006.4(VKORC1):c.-1639G>A",
+            "NM_004827.3(ABCG2):c.421C>A (p.Gln141Lys)"
+          ],
+          "exons": [],
+          "extra": ""
+        },
+        "613302": {
+          "uid": "613302",
+          "id": 613302,
+          "source": "GTR",
+          "accession": "GTR000613302",
+          "testname": "Pharmacogenomics Profile + HLA",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Granisetron response",
+              "acronym": "",
+              "cui": "CN298550"
+            },
+            {
+              "name": "Abacavir response",
+              "acronym": "",
+              "cui": "CN297565"
+            },
+            {
+              "name": "Allopurinol response",
+              "acronym": "",
+              "cui": "CN160494"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Granisetron response",
+              "acronym": "",
+              "cui": "CN298550"
+            },
+            {
+              "name": "Abacavir response",
+              "acronym": "",
+              "cui": "CN297565"
+            },
+            {
+              "name": "Allopurinol response",
+              "acronym": "",
+              "cui": "CN160494"
+            },
+            {
+              "name": "Amphetamine Response",
+              "acronym": "",
+              "cui": "CN282539"
+            },
+            {
+              "name": "Atazanavir response",
+              "acronym": "",
+              "cui": "CN417141"
+            },
+            {
+              "name": "Avatrombopag Response",
+              "acronym": "",
+              "cui": "CN322952"
+            },
+            {
+              "name": "Belinostat response",
+              "acronym": "",
+              "cui": "CN282543"
+            },
+            {
+              "name": "Bupropion response",
+              "acronym": "",
+              "cui": "CN227912"
+            },
+            {
+              "name": "Carbamazepine response",
+              "acronym": "",
+              "cui": "CN077964"
+            },
+            {
+              "name": "Chloroquine response",
+              "acronym": "",
+              "cui": "CN077969"
+            },
+            {
+              "name": "Cisplatin response",
+              "acronym": "",
+              "cui": "CN311639"
+            },
+            {
+              "name": "Citalopram response",
+              "acronym": "",
+              "cui": "CN221263"
+            },
+            {
+              "name": "Clozapine response",
+              "acronym": "",
+              "cui": "CN077971"
+            },
+            {
+              "name": "Dabrafenib response",
+              "acronym": "",
+              "cui": "CN239586"
+            },
+            {
+              "name": "Dapsone response",
+              "acronym": "",
+              "cui": "CN077973"
+            },
+            {
+              "name": "Dexmethylphenidate response",
+              "acronym": "",
+              "cui": "CN378104"
+            },
+            {
+              "name": "Dextroamphetamine response",
+              "acronym": "",
+              "cui": "CN297925"
+            },
+            {
+              "name": "Dihydropyrimidine dehydrogenase deficiency",
+              "acronym": "",
+              "cui": "C1959620"
+            },
+            {
+              "name": "Disorder due cytochrome p450 CYP2D6 variant",
+              "acronym": "",
+              "cui": "C6066005"
+            },
+            {
+              "name": "Drug metabolism or response",
+              "acronym": "",
+              "cui": "CN253927"
+            },
+            {
+              "name": "DRUG METABOLISM, ALTERED, CYP2C19-RELATED",
+              "acronym": "",
+              "cui": "C6066008"
+            },
+            {
+              "name": "DRUG METABOLISM, ALTERED, CYP2C8-RELATED",
+              "acronym": "",
+              "cui": "C4693948"
+            },
+            {
+              "name": "Efavirenz response",
+              "acronym": "",
+              "cui": "C3281153"
+            },
+            {
+              "name": "Eltrombopag response",
+              "acronym": "",
+              "cui": "CN378105"
+            },
+            {
+              "name": "Essential hypertension, genetic",
+              "acronym": "",
+              "cui": "CN305331"
+            },
+            {
+              "name": "Fentanyl response",
+              "acronym": "",
+              "cui": "CN221248"
+            },
+            {
+              "name": "Fluvastatin response",
+              "acronym": "",
+              "cui": "CN298428"
+            },
+            {
+              "name": "Gilbert syndrome",
+              "acronym": "",
+              "cui": "C0017551"
+            },
+            {
+              "name": "Gout",
+              "acronym": "",
+              "cui": "C0018099"
+            },
+            {
+              "name": "Hemolytic anemia",
+              "acronym": "",
+              "cui": "C0002878"
+            },
+            {
+              "name": "Hepatitis C virus, susceptibility to",
+              "acronym": "",
+              "cui": "C1835407"
+            },
+            {
+              "name": "Hydrocodone response",
+              "acronym": "",
+              "cui": "CN221246"
+            },
+            {
+              "name": "Hydroxychloroquine response",
+              "acronym": "",
+              "cui": "CN296780"
+            },
+            {
+              "name": "Hyperhomocysteinemia",
+              "acronym": "",
+              "cui": "C0598608"
+            },
+            {
+              "name": "Hyperuricemia",
+              "acronym": "",
+              "cui": "C0740394"
+            },
+            {
+              "name": "Irinotecan response",
+              "acronym": "",
+              "cui": "CN077989"
+            },
+            {
+              "name": "Lipodystrophy, familial partial, type 8",
+              "acronym": "",
+              "cui": "C5882744"
+            },
+            {
+              "name": "Lisdexamfetamine response",
+              "acronym": "",
+              "cui": "CN298387"
+            },
+            {
+              "name": "Lorazepam response",
+              "acronym": "",
+              "cui": "CN298393"
+            },
+            {
+              "name": "Lusutrombopag response",
+              "acronym": "",
+              "cui": "CN378106"
+            },
+            {
+              "name": "Methadone response",
+              "acronym": "",
+              "cui": "CN221249"
+            },
+            {
+              "name": "Methotrexate response",
+              "acronym": "",
+              "cui": "CN298568"
+            },
+            {
+              "name": "Methylene blue response",
+              "acronym": "",
+              "cui": "CN327042"
+            },
+            {
+              "name": "Methylphenidate response",
+              "acronym": "",
+              "cui": "CN165241"
+            },
+            {
+              "name": "Morphine response",
+              "acronym": "",
+              "cui": "CN227914"
+            },
+            {
+              "name": "Naltrexone response",
+              "acronym": "",
+              "cui": "CN298753"
+            },
+            {
+              "name": "Nitrofurantoin response",
+              "acronym": "",
+              "cui": "CN298382"
+            },
+            {
+              "name": "Olanzapine response",
+              "acronym": "",
+              "cui": "CN077985"
+            },
+            {
+              "name": "Ondansetron response",
+              "acronym": "",
+              "cui": "CN417142"
+            },
+            {
+              "name": "Oxazepam response",
+              "acronym": "",
+              "cui": "CN298494"
+            },
+            {
+              "name": "Pazopanib response",
+              "acronym": "",
+              "cui": "CN232333"
+            },
+            {
+              "name": "Pegloticase response",
+              "acronym": "",
+              "cui": "CN575653"
+            },
+            {
+              "name": "Primaquine response",
+              "acronym": "",
+              "cui": "CN322745"
+            },
+            {
+              "name": "Probenecid response",
+              "acronym": "",
+              "cui": "CN298738"
+            },
+            {
+              "name": "Quinine response",
+              "acronym": "",
+              "cui": "CN298800"
+            },
+            {
+              "name": "Rasburicase response",
+              "acronym": "",
+              "cui": "CN078005"
+            },
+            {
+              "name": "Risperidone response",
+              "acronym": "",
+              "cui": "CN078009"
+            },
+            {
+              "name": "Rosuvastatin response",
+              "acronym": "",
+              "cui": "CN282573"
+            },
+            {
+              "name": "Rotor syndrome",
+              "acronym": "",
+              "cui": "C0220991"
+            },
+            {
+              "name": "Silver sulfadiazine response",
+              "acronym": "",
+              "cui": "CN297850"
+            },
+            {
+              "name": "Sulfamethoxazole response",
+              "acronym": "",
+              "cui": "CN378103"
+            },
+            {
+              "name": "Sulfaphenazine response",
+              "acronym": "",
+              "cui": "CN378108"
+            },
+            {
+              "name": "Sulfasalazine response",
+              "acronym": "",
+              "cui": "CN282576"
+            },
+            {
+              "name": "Tafenoquine response",
+              "acronym": "",
+              "cui": "CN262925"
+            },
+            {
+              "name": "Thiopurine S-methyltransferase deficiency",
+              "acronym": "",
+              "cui": "C0342801"
+            },
+            {
+              "name": "Thiopurines, poor metabolism of, 2",
+              "acronym": "",
+              "cui": "C4225160"
+            },
+            {
+              "name": "Thrombotic disease",
+              "acronym": "",
+              "cui": "C0040053"
+            },
+            {
+              "name": "Tizanidine response",
+              "acronym": "",
+              "cui": "CN298032"
+            },
+            {
+              "name": "Vincristine response",
+              "acronym": "",
+              "cui": "CN261158"
+            },
+            {
+              "name": "Vitamin D-dependent rickets, type 3",
+              "acronym": "",
+              "cui": "C5436733"
+            },
+            {
+              "name": "Warfarin response",
+              "acronym": "",
+              "cui": "C0750384"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "AccessDx Lab LLC",
+          "offererlocation": {
+            "line1": "8920 Kirby Dr",
+            "line2": "",
+            "line3": "",
+            "city": "HOUSTON",
+            "state": "Texas",
+            "postcode": "77054",
+            "country": "United States"
+          },
+          "offererid": 509590,
+          "directorlist": [
+            "Lakshmi Chandramohan, PhD, HCLD(ABB), Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "__D__________T____",
+              "categorylist": [
+                {
+                  "name": "Deletion/duplication analysis",
+                  "code": "D",
+                  "methodlist": [
+                    "Fragment Analysis",
+                    "RT-qPCR"
+                  ]
+                },
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "RT-qPCR",
+                    "SNP Detection"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "Analytical Sensitivity results proved >99.9% accordance; Analytical Specificity results proved >99.9% accordance; Accuracy results proved >99% accordance; Reproducibility results proved >99% accordance; Repeatability results proved >99% accordance. However, PCR may be subject to general interference by factors such as reaction inhibitors and low quality or quantity of extracted DNA",
+          "targetpopulation": "Patients may be tested when they are: being considered for specific medications, experiencing dose-limiting toxicities or other toxicities from specific medications, not deriving full clinical benefit, or experiencing inadequate response to specific medications, suspected of having abnormal (rapid or slow) metabolic capacity towards specific medications.",
+          "certifications": [
+            {
+              "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+              "id": "2080"
+            },
+            {
+              "certificationtype": "CA - California Department of Public Health CDPH",
+              "id": "CDS-00800511"
+            },
+            {
+              "certificationtype": "NY - New York State Department of Health NYSDOH",
+              "id": "8808"
+            },
+            {
+              "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+              "id": "LCO01862"
+            },
+            {
+              "certificationtype": "CAP",
+              "id": "8034463"
+            },
+            {
+              "certificationtype": "CLIA",
+              "id": "45D2034771"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "ABCB1",
+            "ABCG2",
+            "ADRA2A",
+            "ABCB1",
+            "ABCG2",
+            "ADRA2A",
+            "ANKK1",
+            "CEP72",
+            "COMT",
+            "CYP1A2",
+            "CYP2B6",
+            "CYP2C19",
+            "CYP2C8",
+            "CYP2C9",
+            "CYP2D6",
+            "CYP3A5",
+            "CYP4F2",
+            "DPYD",
+            "DRD2",
+            "F2",
+            "F5",
+            "G6PD",
+            "GRIK4",
+            "HCP5",
+            "HLA-A",
+            "HLA-B",
+            "HTR2A",
+            "HTR2C",
+            "IFNL3",
+            "IFNL4",
+            "MTHFR",
+            "NUDT15",
+            "OPRM1",
+            "SLC6A4",
+            "SLCO1B1",
+            "TPMT",
+            "UGT1A1",
+            "UGT1A8",
+            "UGT1A9",
+            "VKORC1"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 71,
+          "testtargetcount": 37,
+          "genecount": 37,
+          "country": "United States",
+          "testurl": "",
+          "specimens": [
+            "Buccal swab"
+          ],
+          "specimenurl": "https://www.accessdxlab.com/solutions/order-a-test/",
+          "targetpopulation2": "Patients may be tested when they are: being considered for specific medications, experiencing dose-limiting toxicities or other toxicities from specific medications, not deriving full clinical benefit, or experiencing inadequate response to specific medications, suspected of having abnormal (rapid or slow) metabolic capacity towards specific medications.",
+          "orderurl": "https://www.accessdxlab.com/solutions/order-a-test/",
+          "testcode": "40007",
+          "cptcode": "81418",
+          "testdevelopment": "Test developed by laboratory (no manufacturer test name)",
+          "testpurpose": [
+            "Drug Response"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [
+            "NM_014619.5(GRIK4):c.83-10039T>C",
+            "NM_000761.5(CYP1A2):c.-10+113C>T",
+            "NM_000767.5(CYP2B6):c.785A>G (p.Lys262Arg)",
+            "NM_000767.5(CYP2B6):c.1459C>T (p.Arg487Cys)",
+            "NM_000767.5(CYP2B6):c.516G>T (p.Gln172His)",
+            "NM_000767.5(CYP2B6):c.983T>C (p.Ile328Thr)",
+            "NM_000621.5(HTR2A):c.102C>T (p.Ser34=)",
+            "NM_000621.5(HTR2A):c.614-2211T>C",
+            "NM_000402.4(G6PD):c.1478G>A (p.Arg493His)",
+            "NM_000402.4(G6PD):c.292G>A (p.Val98Met)",
+            "NM_000402.4(G6PD):c.466A>G (p.Asn156Asp)",
+            "NM_000402.4(G6PD):c.653C>T (p.Ser218Phe)",
+            "NM_001360016.2(G6PD):c.968T>C (p.Leu323Pro)",
+            "NM_000402.4(G6PD):c.1466G>T (p.Arg489Leu)",
+            "NM_000402.4(G6PD):c.1466G>C (p.Arg489Pro)",
+            "NM_017460.6(CYP3A4):c.522-191C>T",
+            "NM_178510.2(ANKK1):c.2137G>A (p.Glu713Lys)",
+            "NM_001076.4(UGT2B15):c.253T>G (p.Tyr85Asp)",
+            "NC_000011.10:g.113475629T>C",
+            "NM_000506.5(F2):c.*97G>A",
+            "NM_000868.4(HTR2C):c.551-3008C>G",
+            "NM_018283.4(NUDT15):c.415C>T (p.Arg139Cys)",
+            "NC_000023.11:g.114584047C>T",
+            "NM_000367.5(TPMT):c.719A>G (p.Tyr240Cys)",
+            "NM_000367.5(TPMT):c.626-1G>A",
+            "NM_000367.2(TPMT):c.238G>C (p.Ala80Pro)",
+            "NM_000367.5(TPMT):c.460G>A (p.Ala154Thr)",
+            "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+            "NM_018283.4(NUDT15):c.416G>A (p.Arg139His)",
+            "NM_018283.4(NUDT15):c.38GAGTCG[2] (p.13GV[2])",
+            "NM_018283.4(NUDT15):c.38GAGTCG[4] (p.13GV[4])",
+            "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)",
+            "NM_001082.5(CYP4F2):c.1297G>A (p.Val433Met)",
+            "NM_024006.4(VKORC1):c.-1639G>A",
+            "NM_004827.3(ABCG2):c.421C>A (p.Gln141Lys)",
+            "NC_000006.12:g.35702206A>G",
+            "NM_138448.4(ACYP2):c.185+29374G>A",
+            "NM_000681.3(ADRA2A):c.-1252G>C",
+            "NM_000769.1(CYP2C19):c.680C>T (p.Pro227Leu)",
+            "NM_000769.1(CYP2C19):c.636G>A (p.Trp212Ter)",
+            "NM_000769.1(CYP2C19):c.1A>G (p.Met1Val)",
+            "NM_000769.1(CYP2C19):c.1297C>T (p.Arg433Trp)",
+            "NM_000769.1(CYP2C19):c.395G>A (p.Arg132Gln)",
+            "NM_000769.1(CYP2C19):c.819+2T>A",
+            "NM_000769.1(CYP2C19):c.358T>C (p.Trp120Arg)",
+            "NM_000769.1(CYP2C19):c.431G>A (p.Arg144His)",
+            "NC_000019.10:g.39248147C>T",
+            "NM_000769.1(CYP2C19):c.-806C>T",
+            "NM_000769.4(CYP2C19):c.332-23A>G",
+            "NM_001348946.2(ABCB1):c.2677T>G (p.Ser893Ala)",
+            "NM_001348946.2(ABCB1):c.2677T>A (p.Ser893Thr)",
+            "NM_000777.5(CYP3A5):c.219-237A>G",
+            "NM_000777.5(CYP3A5):c.624G>A (p.Lys208=)",
+            "NM_000777.5(CYP3A5):c.1035dup (p.Thr346fs)",
+            "CYP2C8*2",
+            "HLA-B*57:01",
+            "NM_000770.3(CYP2C8):c.1196A>G (p.Lys399Arg)",
+            "NM_000770.3(CYP2C8):c.416G>A (p.Arg139Lys)",
+            "CYP2C8*4",
+            "UGT1A1*6",
+            "NM_001072.4(UGT1A6):c.862-7110C>T",
+            "UGT1A1*36",
+            "NM_001072.4(UGT1A6):c.862-6800AT[5]",
+            "UGT1A1*28",
+            "NM_000771.4(CYP2C9):c.269T>C (p.Leu90Pro)",
+            "NM_000771.4(CYP2C9):c.374G>A (p.Arg125His)",
+            "NM_000754.4(COMT):c.472G>A (p.Val158Met)",
+            "CYP2C9*2",
+            "NC_000010.11:g.94936917T>C",
+            "CYP2C9*8",
+            "NM_000771.4(CYP2C9):c.449G>T (p.Arg150Leu)",
+            "NM_000771.4(CYP2C9):c.485C>A (p.Ser162Ter)",
+            "CYP2C9*6",
+            "CYP2C9*11",
+            "CYP2C9*3",
+            "NM_000771.4(CYP2C9):c.1076T>C (p.Ile359Thr)",
+            "CYP2C9*5",
+            "NM_006446.5(SLCO1B1):c.521T>C (p.Val174Ala)",
+            "NM_000771.4(CYP2C9):c.1190A>C (p.Asp397Ala)",
+            "NM_000771.4(CYP2C9):c.1465C>T (p.Pro489Ser)",
+            "NM_000106.6(CYP2D6):c.886C>T (p.Arg296Cys)",
+            "NM_000106.6(CYP2D6):c.775del (p.Arg259fs)",
+            "CYP2D6*17",
+            "CYP2D6*10",
+            "NM_000106.6(CYP2D6):c.1457G>C (p.Ser486Thr)",
+            "CYP2D6*4",
+            "NM_000106.6(CYP2D6):c.31G>A (p.Val11Met)",
+            "NM_000106.5(CYP2D6):c.124G>A (p.Gly42Arg)",
+            "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)",
+            "NM_000106.6(CYP2D6):c.181-1G>C",
+            "NM_000106.5(CYP2D6):c.971A>C (p.His324Pro)",
+            "NM_000106.6(CYP2D6):c.1403_1411dup (p.Thr470_Gly471insValProThr)",
+            "NM_000106.6(CYP2D6):c.1319G>A (p.Arg440His)",
+            "NM_000106.6(CYP2D6):c.841_843del (p.Lys281del)",
+            "NM_000106.6(CYP2D6):c.765_768del (p.Thr256fs)",
+            "NM_000106.6(CYP2D6):c.514_522dup (p.Pro174_Asn175insPheArgPro)",
+            "CYP2D6*6",
+            "NM_000106.6(CYP2D6):c.137dup (p.Leu47fs)",
+            "NM_000106.6(CYP2D6):c.358T>A (p.Phe120Ile)",
+            "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+            "NM_000106.6(CYP2D6):c.1012G>A (p.Val338Met)",
+            "CYP2D6*41",
+            "NM_000106.6(CYP2D6):c.1088_1089dup (p.Gln364fs)",
+            "NM_000106.6(CYP2D6):c.1030C>T (p.Arg344Ter)",
+            "NM_000106.6(CYP2D6):c.975G>A (p.Pro325=)",
+            "NM_000106.6(CYP2D6):c.364G>T (p.Ala122Ser)",
+            "NM_000106.6(CYP2D6):c.352+7A>G",
+            "NM_000106.5(CYP2D6):c.505G>T (p.Gly169Ter)",
+            "NM_000761.5(CYP1A2):c.-9-154C>A",
+            "NM_000106.5(CYP2D6):c.*264G>A (p.Gly169Arg)",
+            "NM_000110.4(DPYD):c.557A>G (p.Tyr186Cys)",
+            "NM_000110.4(DPYD):c.1905+1G>A",
+            "NM_000110.4(DPYD):c.1679T>G (p.Ile560Ser)",
+            "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)",
+            "NM_000110.4(DPYD):c.1129-5923C>G",
+            "NR_103444.1(LOC100996325):n.366+1469G>A"
+          ],
+          "exons": [],
+          "extra": ""
+        },
+        "330970": {
+          "uid": "330970",
+          "id": 330970,
+          "source": "GTR",
+          "accession": "GTR000330970",
+          "testname": "MTHFR",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+              "acronym": "",
+              "cui": "C1856061"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Homocystinuria due to methylene tetrahydrofolate reductase deficiency",
+              "acronym": "",
+              "cui": "C1856061"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "Department of Laboratory Medicine, P. D. Hinduja Hospital and Medical Research Center",
+          "offererlocation": {
+            "line1": "Veer Savarkar Marg, Mahim",
+            "line2": "",
+            "line3": "",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "postcode": "400016",
+            "country": "India"
+          },
+          "offererid": 320395,
+          "directorlist": [
+            "Tester Ashavaid, PhD, Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "_____________T____",
+              "categorylist": [
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "ARMS-PCR"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "assay has 99% specificity",
+          "targetpopulation": "",
+          "certifications": [
+            {
+              "certificationtype": "CAP",
+              "id": "3982701"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "MTHFR",
+            "MTHFR"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 1,
+          "testtargetcount": 1,
+          "genecount": 1,
+          "country": "India",
+          "testurl": "",
+          "specimens": [
+            "Peripheral (whole) blood"
+          ],
+          "specimenurl": "",
+          "targetpopulation2": "",
+          "orderurl": "",
+          "testcode": "",
+          "cptcode": "",
+          "testdevelopment": "Test developed by laboratory (no manufacturer test name)",
+          "testpurpose": [
+            "Diagnosis",
+            "Drug Response"
+          ],
+          "testperformancelocations": [
+            "Interpretation performed in-house",
+            "Report generated in-house",
+            "Specimen preparation performed in-house",
+            "Wet lab work performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [
+            "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+            "NM_005957.5(MTHFR):c.1298A>C (p.Glu433Ala)"
+          ],
+          "exons": [],
+          "extra": ""
+        },
+        "593372": {
+          "uid": "593372",
+          "id": 593372,
+          "source": "GTR",
+          "accession": "GTR000593372",
+          "testname": "Methylenetetrahydrofolate Reductase (MTHFR) Thermolabile Variant, DNA Analysis",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Hyperhomocysteinemia",
+              "acronym": "",
+              "cui": "C0598608"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Hyperhomocysteinemia",
+              "acronym": "",
+              "cui": "C0598608"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "Molecular Diagnostic Laboratory, LabCorp",
+          "offererlocation": {
+            "line1": "1912 T W Alexander Drive",
+            "line2": "",
+            "line3": "",
+            "city": "Research Triangle Park",
+            "state": "North Carolina",
+            "postcode": "27709",
+            "country": "United States"
+          },
+          "offererid": 1173,
+          "directorlist": [
+            "Melissa Hayden, PhD, FACMG, Lab Director",
+            "Yanjun Jiang, PhD, FACMG, Lab Director",
+            "Joseph Kearney, PhD, FACMG, Lab Director",
+            "Binu Porath, PhD, FACMG, Lab Director",
+            "Toni Prezant, PhD, FACMG, Lab Director",
+            "W. Christine Spence, PhD, FACMG, Lab Director",
+            "Jane Thuo, PhD, FACMG, Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "_____________T____",
+              "categorylist": [
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "PCR with allele specific hybridization"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "The diagnostic sensitivity is >99%.",
+          "targetpopulation": "",
+          "certifications": [
+            {
+              "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+              "id": "DHMH559"
+            },
+            {
+              "certificationtype": "PA - Pennsylvania Department of Health PADOH",
+              "id": "31983"
+            },
+            {
+              "certificationtype": "CA - California Department of Public Health CDPH",
+              "id": "CDS00800068"
+            },
+            {
+              "certificationtype": "CLIA",
+              "id": "34D0655205"
+            },
+            {
+              "certificationtype": "NY - New York State Department of Health NYSDOH",
+              "id": "PFI 4180"
+            },
+            {
+              "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+              "id": "LCO00269"
+            },
+            {
+              "certificationtype": "CAP",
+              "id": "3710101"
+            },
+            {
+              "certificationtype": "ISO15189",
+              "id": "3710101"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "MTHFR",
+            "MTHFR"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 1,
+          "testtargetcount": 1,
+          "genecount": 1,
+          "country": "United States",
+          "testurl": "https://www.labcorp.com/tests/511238/methylenetetrahydrofolate-reductase-mthfr-thermolabile-variant-dna-analysis",
+          "specimens": [
+            "Buccal swab",
+            "Peripheral (whole) blood"
+          ],
+          "specimenurl": "",
+          "targetpopulation2": "",
+          "orderurl": "https://www.labcorp.com/wps/portal/provider/testmenu",
+          "testcode": "511238",
+          "cptcode": "",
+          "testdevelopment": "",
+          "testpurpose": [
+            "Risk Assessment"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [
+            "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+            "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+          ],
+          "exons": [],
+          "extra": ""
+        },
+        "500809": {
+          "uid": "500809",
+          "id": 500809,
+          "source": "GTR",
+          "accession": "GTR000500809",
+          "testname": "Methylenetetrahydrofolate reductase (MTHFR) 2 Mutations",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "MTHFR THERMOLABILE POLYMORPHISM",
+              "acronym": "",
+              "cui": "C1856059"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "MTHFR THERMOLABILE POLYMORPHISM",
+              "acronym": "",
+              "cui": "C1856059"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "ARUP Laboratories, Molecular Genetics and Genomics, ARUP Laboratories",
+          "offererlocation": {
+            "line1": "500 Chipeta Way",
+            "line2": "",
+            "line3": "",
+            "city": "Salt Lake City",
+            "state": "Utah",
+            "postcode": "84108",
+            "country": "United States"
+          },
+          "offererid": 25969,
+          "directorlist": [
+            "Hunter Best, PhD, Medical Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "_____________T____",
+              "categorylist": [
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "Polymerase Chain Reaction/Fluorescence Monitoring"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "Analytical sensitivity and specificity: 99%",
+          "targetpopulation": "",
+          "certifications": [
+            {
+              "certificationtype": "MD - Maryland Department of Health and Mental Hygiene DHMH",
+              "id": "516"
+            },
+            {
+              "certificationtype": "RI - State of Rhode Island Department of Health RIDOH",
+              "id": "LCO00429"
+            },
+            {
+              "certificationtype": "CA - California Department of Public Health CDPH",
+              "id": "CDS00800007"
+            },
+            {
+              "certificationtype": "CLIA",
+              "id": "46D0523979"
+            },
+            {
+              "certificationtype": "NY - New York State Department of Health NYSDOH",
+              "id": "4196"
+            },
+            {
+              "certificationtype": "UT - Utah Department of Health UDOH",
+              "id": "262529-1714"
+            },
+            {
+              "certificationtype": "UT - Utah Department of Health UDOH",
+              "id": "262529-8915"
+            },
+            {
+              "certificationtype": "CAP",
+              "id": "4096301"
+            },
+            {
+              "certificationtype": "ISO15189",
+              "id": "NA"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "MTHFR",
+            "MTHFR"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 1,
+          "testtargetcount": 1,
+          "genecount": 1,
+          "country": "United States",
+          "testurl": "https://ltd.aruplab.com/Tests/Pub/0055655",
+          "specimens": [
+            "Cord blood",
+            "Peripheral (whole) blood"
+          ],
+          "specimenurl": "http://www.aruplab.com/guides/ug/tests/0055655.jsp",
+          "targetpopulation2": "",
+          "orderurl": "",
+          "testcode": "55655",
+          "cptcode": "",
+          "testdevelopment": "",
+          "testpurpose": [
+            "Risk Assessment"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [
+            "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+            "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+          ],
+          "exons": [],
+          "extra": ""
+        },
+        "500035": {
+          "uid": "500035",
+          "id": 500035,
+          "source": "GTR",
+          "accession": "GTR000500035",
+          "testname": "Thrombophilic Polymorphism Panel (Factor V Leiden, Prothrombin G20210A, MTHFR C677T, MTHFR A1298C, PAI-1 4G/5G)",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "Thrombophilia due to thrombin defect",
+              "acronym": "",
+              "cui": "C3160733"
+            },
+            {
+              "name": "Congenital plasminogen activator inhibitor type 1 deficiency",
+              "acronym": "",
+              "cui": "C2750067"
+            },
+            {
+              "name": "MTHFR THERMOLABILE POLYMORPHISM",
+              "acronym": "",
+              "cui": "C1856059"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "Thrombophilia due to thrombin defect",
+              "acronym": "",
+              "cui": "C3160733"
+            },
+            {
+              "name": "Congenital plasminogen activator inhibitor type 1 deficiency",
+              "acronym": "",
+              "cui": "C2750067"
+            },
+            {
+              "name": "MTHFR THERMOLABILE POLYMORPHISM",
+              "acronym": "",
+              "cui": "C1856059"
+            },
+            {
+              "name": "Thrombophilia due to activated protein C resistance",
+              "acronym": "",
+              "cui": "C1861171"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "Cincinnati Children's Hospital Medical Center Genetics and Genomics Diagnostic Laboratory, Cincinnati Children's Hospital Medical Center",
+          "offererlocation": {
+            "line1": "3333 Burnet Ave ML 4006",
+            "line2": "",
+            "line3": "",
+            "city": "Cincinnati",
+            "state": "Ohio",
+            "postcode": "45229-3039",
+            "country": "United States"
+          },
+          "offererid": 1237,
+          "directorlist": [
+            "Stephanie Balow, PhD, ABMGG Board Certified, FACMG, Diplomate of the American Board of, Lab Director",
+            "Casey Brewer, PhD, ABMGG Board Certified, Diplomate of the American Board of Medica, Lab Director",
+            "D. Brian Dawson, PhD, ABMGG Board Certified, FACMG, Diplomate of the American Board of, Lab Director",
+            "Qiaoning Guan, PhD, MD, ABMGG Board Certified, FACMG, Diplomate of the American Board of, Lab Director",
+            "Jie Liu, PhD, ABMGG Board Certified, FACMG, Diplomate of the American Board of, Lab Director",
+            "Gordana Raca, PhD, ABMGG Board Certified, Diplomate of the American Board of Medica, Lab Director",
+            "Theru Sivakumaran, PhD, ABMGG Board Certified, Diplomate of the American Board of Medica, Lab Director",
+            "Yaning Wu, PhD, ABMGG Board Certified, FACMG, Diplomate of the American Board of, Lab Director",
+            "Wenying Zhang, PhD, ABMGG Board Certified, FACMG, Diplomate of the American Board of, Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "_____________T____",
+              "categorylist": [
+                {
+                  "name": "Targeted variant analysis",
+                  "code": "T",
+                  "methodlist": [
+                    "Allelic Discrimination TaqMan Assay"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": "This test methodology detects >99% of instances of these mutations.",
+          "targetpopulation": "",
+          "certifications": [
+            {
+              "certificationtype": "CLIA",
+              "id": "36D0656333"
+            },
+            {
+              "certificationtype": "CAP",
+              "id": "1667801"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "F2",
+            "F5",
+            "MTHFR",
+            "F2",
+            "F5",
+            "MTHFR",
+            "SERPINE1"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 4,
+          "testtargetcount": 4,
+          "genecount": 4,
+          "country": "United States",
+          "testurl": "http://www.cincinnatichildrens.org/service/d/diagnostic-labs/molecular-genetics/hematologic-disorders/",
+          "specimens": [],
+          "specimenurl": "",
+          "targetpopulation2": "",
+          "orderurl": "http://www.cincinnatichildrens.org/service/d/diagnostic-labs/molecular-genetics/requisition/",
+          "testcode": "",
+          "cptcode": "",
+          "testdevelopment": "Test developed by laboratory (no manufacturer test name)",
+          "testpurpose": [
+            "Diagnosis",
+            "Mutation Confirmation",
+            "Pre-symptomatic",
+            "Risk Assessment"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [
+            "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+            "NM_000506.5(F2):c.*97G>A",
+            "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+            "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)",
+            "NC_000007.14:g.101126429dup"
+          ],
+          "exons": [],
+          "extra": ""
+        },
+        "327733": {
+          "uid": "327733",
+          "id": 327733,
+          "source": "GTR",
+          "accession": "GTR000327733",
+          "testname": "Middle Eastern Panel",
+          "testtype": "Clinical",
+          "conditionlist": [
+            {
+              "name": "GNE myopathy",
+              "acronym": "",
+              "cui": "C1853926"
+            },
+            {
+              "name": "Dubin-Johnson syndrome",
+              "acronym": "",
+              "cui": "C0022350"
+            },
+            {
+              "name": "G6PD deficiency",
+              "acronym": "",
+              "cui": "C2939465"
+            }
+          ],
+          "conditionlist2": [
+            {
+              "name": "GNE myopathy",
+              "acronym": "",
+              "cui": "C1853926"
+            },
+            {
+              "name": "Dubin-Johnson syndrome",
+              "acronym": "",
+              "cui": "C0022350"
+            },
+            {
+              "name": "G6PD deficiency",
+              "acronym": "",
+              "cui": "C2939465"
+            },
+            {
+              "name": "Lysosomal acid lipase deficiency",
+              "acronym": "",
+              "cui": "C5574740"
+            },
+            {
+              "name": "MTHFR THERMOLABILE POLYMORPHISM",
+              "acronym": "",
+              "cui": "C1856059"
+            },
+            {
+              "name": "Usher syndrome type 2A",
+              "acronym": "",
+              "cui": "C1848634"
+            }
+          ],
+          "analytes": [],
+          "genelist": [],
+          "offerer": "FirmaLab",
+          "offererlocation": {
+            "line1": "870 N Vine Street",
+            "line2": "",
+            "line3": "",
+            "city": "Los Angeles",
+            "state": "California",
+            "postcode": "90038",
+            "country": "United States"
+          },
+          "offererid": 256489,
+          "directorlist": [
+            "Ogugua Ajemba, MD, ABPath, Lab Director"
+          ],
+          "summary": "",
+          "flags": [],
+          "method": [
+            {
+              "name": "Molecular Genetics",
+              "categoriesstring": "_C________________",
+              "categorylist": [
+                {
+                  "name": "Sequence analysis of the entire coding region",
+                  "code": "C",
+                  "methodlist": [
+                    "Bi-directional Sanger Sequence Analysis"
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyticalvalidity": ">97% but expected 100%",
+          "targetpopulation": "",
+          "certifications": [
+            {
+              "certificationtype": "CA - California Department of Public Health CDPH",
+              "id": "CLF 00329498"
+            },
+            {
+              "certificationtype": "CLIA",
+              "id": "05D0992853"
+            },
+            {
+              "certificationtype": "CAP",
+              "id": "7179300"
+            }
+          ],
+          "studydesc": "",
+          "testtargetlist": [
+            "ABCC2",
+            "G6PD",
+            "GNE",
+            "ABCC2",
+            "G6PD",
+            "GNE",
+            "LIPA",
+            "MTHFR",
+            "USH2A"
+          ],
+          "testtargetlist2": [],
+          "conditioncount": 6,
+          "testtargetcount": 6,
+          "genecount": 6,
+          "country": "United States",
+          "testurl": "http://www.firmalab.com",
+          "specimens": [
+            "Amniocytes",
+            "Amniotic fluid",
+            "Bone marrow",
+            "Buccal swab",
+            "Cell-free DNA",
+            "Cerebrospinal fluid",
+            "Chorionic villi",
+            "Cord blood",
+            "Cystic hygroma fluid",
+            "Dried blood spot (DBS) card",
+            "Fetal blood",
+            "Fresh tissue",
+            "Frozen tissue",
+            "Isolated DNA",
+            "Paraffin block",
+            "Peripheral (whole) blood",
+            "Skin",
+            "White blood cell prep"
+          ],
+          "specimenurl": "http://www.firmalab.com",
+          "targetpopulation2": "",
+          "orderurl": "",
+          "testcode": "15",
+          "cptcode": "",
+          "testdevelopment": "",
+          "testpurpose": [
+            "Diagnosis",
+            "Mutation Confirmation",
+            "Risk Assessment",
+            "Screening"
+          ],
+          "testperformancelocations": [
+            "Entire test performed in-house"
+          ],
+          "clinicalutility": [],
+          "clinicalvalidity": {
+            "description": "",
+            "pmid": [],
+            "url": [],
+            "citationtext": []
+          },
+          "variant": [
+            "NM_005476.7(GNE):c.2135T>C (p.Met712Thr)",
+            "NM_000235.4(LIPA):c.260G>T (p.Gly87Val)",
+            "NM_206933.4(USH2A):c.240_241insGATC (p.Gln81fs)",
+            "NM_000392.5(ABCC2):c.3517A>T (p.Ile1173Phe)",
+            "NM_000402.4(G6PD):c.653C>T (p.Ser218Phe)",
+            "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+          ],
+          "exons": [],
+          "extra": ""
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "query_rsid": "rs4988235",
+  "query": "\"rs4988235\"[WORD]",
+  "expected_count": 2,
+  "returned_uids": [
+    "591288",
+    "28900"
+  ],
+  "pages": [
+    {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "2",
+        "retmax": "2",
+        "retstart": "0",
+        "idlist": [
+          "591288",
+          "28900"
+        ],
+        "translationset": [],
+        "translationstack": [
+          {
+            "term": "\"rs4988235\"[WORD]",
+            "field": "WORD",
+            "count": "2",
+            "explode": "N"
+          },
+          "GROUP"
+        ],
+        "querytranslation": "\"rs4988235\"[WORD]"
+      }
+    }
+  ]
+}

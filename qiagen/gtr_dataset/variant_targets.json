@@ -1,0 +1,2168 @@
+[
+  {
+    "gtr_uid": "591288",
+    "accession": "GTR000591288",
+    "target_type": "registered_target",
+    "target_value": "LCT"
+  },
+  {
+    "gtr_uid": "28900",
+    "accession": "GTR000028900",
+    "target_type": "registered_target",
+    "target_value": "MCM6"
+  },
+  {
+    "gtr_uid": "334284",
+    "accession": "GTR000334284",
+    "target_type": "registered_target",
+    "target_value": "F5"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "COMT"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "CYP1A2"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "CYP2B6"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "CYP2C19"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "CYP2C9"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "CYP2D6"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "CYP3A4"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "CYP3A5"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "CYP4F2"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "DPYD"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "DRD2"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "F2"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "F5"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "GRIK4"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "HLA-A"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "HLA-B"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "HTR2A"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "HTR2C"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "IFNL3"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "IFNL4"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "MTHFR"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "NUDT15"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "OPRM1"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "SLC6A4"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "SLCO1B1"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "TPMT"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "UGT1A1"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "UGT1A8"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "registered_target",
+    "target_value": "VKORC1"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000011.10:g.113475629T>C"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.-806C>T"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000761.5(CYP1A2):c.-9-154C>A"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2279C>T (p.Thr760Ile)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.557A>G (p.Tyr186Cys)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.868A>G (p.Lys290Glu)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.516G>T (p.Gln172His)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.785A>G (p.Lys262Arg)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.1459C>T (p.Arg487Cys)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.593T>C (p.Met198Thr)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.983T>C (p.Ile328Thr)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.4(CYP2C19):c.681G>A (p.Pro227=)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.636G>A (p.Trp212Ter)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.680C>T (p.Pro227Leu)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.1A>G (p.Met1Val)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001045.6(SLC6A4):c.-1917_-1875del"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "UGT1A1*6"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*8"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*2"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*3"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*5"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000771.4(CYP2C9):c.1076T>C (p.Ile359Thr)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*11"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*6"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_014619.5(GRIK4):c.83-10039T>C"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000007.14:g.99784473C>T"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_017460.6(CYP3A4):c.522-191C>T"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000761.5(CYP1A2):c.-10+113C>T"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000777.5(CYP3A5):c.624G>A (p.Lys208=)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000777.5(CYP3A5):c.1035dup (p.Thr346fs)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000621.5(HTR2A):c.614-2211T>C"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000506.5(F2):c.*97G>A"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000367.5(TPMT):c.719A>G (p.Tyr240Cys)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000367.5(TPMT):c.626-1G>A"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000367.2(TPMT):c.238G>C (p.Ala80Pro)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000367.5(TPMT):c.460G>A (p.Ala154Thr)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000023.11:g.114584047C>T"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001082.5(CYP4F2):c.1297G>A (p.Val433Met)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000754.4(COMT):c.472G>A (p.Val158Met)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*17"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1319G>A (p.Arg440His)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.886C>T (p.Arg296Cys)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.975G>A (p.Pro325=)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*10"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1457G>C (p.Ser486Thr)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*4"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1129-5923C>G"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.31G>A (p.Val11Met)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.5(CYP2D6):c.124G>A (p.Gly42Arg)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.181-1G>C"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.5(CYP2D6):c.971A>C (p.His324Pro)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1403_1411dup (p.Thr470_Gly471insValProThr)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.841_843del (p.Lys281del)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.775del (p.Arg259fs)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.765_768del (p.Thr256fs)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*6"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.137dup (p.Leu47fs)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1679T>G (p.Ile560Ser)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*2A"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1012G>A (p.Val338Met)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*41"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1088_1089dup (p.Gln364fs)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.5(CYP2D6):c.*264G>A (p.Gly169Arg)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.5(CYP2D6):c.505G>T (p.Gly169Ter)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_006446.5(SLCO1B1):c.521T>C (p.Val174Ala)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_024006.4(VKORC1):c.-1639G>A"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000019.10:g.39248147C>T"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_018283.4(NUDT15):c.415C>T (p.Arg139Cys)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+  },
+  {
+    "gtr_uid": "569929",
+    "accession": "GTR000569929",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1905+1G>A"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "ABCB1"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "ABCG2"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "COMT"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "CYP2C19"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "CYP2C9"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "CYP2D6"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "CYP3A4"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "CYP3A5"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "CYP4F2"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "DPYD"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "F2"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "F5"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "HLA-B"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "IFNL3"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "IFNL4"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "MT-RNR1"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "MTHFR"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "NUDT15"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "OPRM1"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "rs12777823"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "SLC19A1"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "SLCO1B1"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "TPMT"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "UGT1A1"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "registered_target",
+    "target_value": "VKORC1"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000506.5(F2):c.*97G>A"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001348946.2(ABCB1):c.1236T>C (p.Gly412=)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001348946.2(ABCB1):c.2677T>G (p.Ser893Ala)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001348946.2(ABCB1):c.2677T>A (p.Ser893Thr)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001348946.2(ABCB1):c.3435T>C (p.Ile1145=)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_194255.4(SLC19A1):c.80A>G (p.His27Arg)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000754.4(COMT):c.472G>A (p.Val158Met)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.632A>G (p.Tyr211Cys)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.775A>G (p.Lys259Glu)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.868A>G (p.Lys290Glu)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.934C>T (p.Leu312Phe)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1024G>A (p.Asp342Asn)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1108A>G (p.Ile370Val)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1180C>T (p.Arg394Trp)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1278G>T (p.Met426Ile)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.61C>T (p.Arg21Ter)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1349C>T (p.Ala450Val)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1371C>T (p.Asn457=)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1475C>T (p.Ser492Leu)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1543G>A (p.Val515Ile)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1774C>T (p.Arg592Trp)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1775G>A (p.Arg592Gln)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1896T>C (p.Phe632=)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1905C>T (p.Asn635=)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1990G>T (p.Ala664Ser)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2186C>T (p.Ala729Val)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2195T>G (p.Val732Gly)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2279C>T (p.Thr760Ile)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2623A>C (p.Lys875Gln)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2639G>T (p.Gly880Val)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2872A>G (p.Lys958Glu)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2915A>G (p.Gln972Arg)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2921A>T (p.Asp974Val)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2978T>G (p.Leu993Arg)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.3049G>A (p.Val1017Ile)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.3061G>C (p.Val1021Leu)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.451A>G (p.Asn151Asp)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.3067C>T (p.Pro1023Ser)"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000019.10:g.39248147C>T"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_012920.1(MT-RNR1):m.1095T>C"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_024006.4(VKORC1):c.-1639G>A"
+  },
+  {
+    "gtr_uid": "619762",
+    "accession": "GTR000619762",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_004827.3(ABCG2):c.421C>A (p.Gln141Lys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "ABCB1"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "ABCG2"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "ADRA2A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "ANKK1"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CEP72"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "COMT"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CYP1A2"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CYP2B6"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CYP2C19"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CYP2C8"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CYP2C9"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CYP2D6"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CYP3A5"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "CYP4F2"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "DPYD"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "DRD2"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "F2"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "F5"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "G6PD"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "GRIK4"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "HCP5"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "HLA-A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "HLA-B"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "HTR2A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "HTR2C"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "IFNL3"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "IFNL4"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "MTHFR"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "NUDT15"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "OPRM1"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "SLC6A4"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "SLCO1B1"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "TPMT"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "UGT1A1"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "UGT1A8"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "UGT1A9"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "registered_target",
+    "target_value": "VKORC1"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_014619.5(GRIK4):c.83-10039T>C"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000761.5(CYP1A2):c.-10+113C>T"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.785A>G (p.Lys262Arg)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.1459C>T (p.Arg487Cys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.516G>T (p.Gln172His)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000767.5(CYP2B6):c.983T>C (p.Ile328Thr)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000621.5(HTR2A):c.102C>T (p.Ser34=)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000621.5(HTR2A):c.614-2211T>C"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000402.4(G6PD):c.1478G>A (p.Arg493His)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000402.4(G6PD):c.292G>A (p.Val98Met)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000402.4(G6PD):c.466A>G (p.Asn156Asp)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000402.4(G6PD):c.653C>T (p.Ser218Phe)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001360016.2(G6PD):c.968T>C (p.Leu323Pro)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000402.4(G6PD):c.1466G>T (p.Arg489Leu)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000402.4(G6PD):c.1466G>C (p.Arg489Pro)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_017460.6(CYP3A4):c.522-191C>T"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_178510.2(ANKK1):c.2137G>A (p.Glu713Lys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001076.4(UGT2B15):c.253T>G (p.Tyr85Asp)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000011.10:g.113475629T>C"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000506.5(F2):c.*97G>A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000868.4(HTR2C):c.551-3008C>G"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_018283.4(NUDT15):c.415C>T (p.Arg139Cys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000023.11:g.114584047C>T"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000367.5(TPMT):c.719A>G (p.Tyr240Cys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000367.5(TPMT):c.626-1G>A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000367.2(TPMT):c.238G>C (p.Ala80Pro)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000367.5(TPMT):c.460G>A (p.Ala154Thr)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_018283.4(NUDT15):c.416G>A (p.Arg139His)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_018283.4(NUDT15):c.38GAGTCG[2] (p.13GV[2])"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_018283.4(NUDT15):c.38GAGTCG[4] (p.13GV[4])"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000914.5(OPRM1):c.118A>G (p.Asn40Asp)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001082.5(CYP4F2):c.1297G>A (p.Val433Met)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_024006.4(VKORC1):c.-1639G>A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_004827.3(ABCG2):c.421C>A (p.Gln141Lys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000006.12:g.35702206A>G"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_138448.4(ACYP2):c.185+29374G>A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000681.3(ADRA2A):c.-1252G>C"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.680C>T (p.Pro227Leu)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.636G>A (p.Trp212Ter)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.1A>G (p.Met1Val)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.1297C>T (p.Arg433Trp)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.395G>A (p.Arg132Gln)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.819+2T>A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.358T>C (p.Trp120Arg)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.431G>A (p.Arg144His)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000019.10:g.39248147C>T"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.1(CYP2C19):c.-806C>T"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000769.4(CYP2C19):c.332-23A>G"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001348946.2(ABCB1):c.2677T>G (p.Ser893Ala)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001348946.2(ABCB1):c.2677T>A (p.Ser893Thr)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000777.5(CYP3A5):c.219-237A>G"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000777.5(CYP3A5):c.624G>A (p.Lys208=)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000777.5(CYP3A5):c.1035dup (p.Thr346fs)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C8*2"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "HLA-B*57:01"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000770.3(CYP2C8):c.1196A>G (p.Lys399Arg)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000770.3(CYP2C8):c.416G>A (p.Arg139Lys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C8*4"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "UGT1A1*6"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001072.4(UGT1A6):c.862-7110C>T"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "UGT1A1*36"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_001072.4(UGT1A6):c.862-6800AT[5]"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "UGT1A1*28"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000771.4(CYP2C9):c.269T>C (p.Leu90Pro)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000771.4(CYP2C9):c.374G>A (p.Arg125His)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000754.4(COMT):c.472G>A (p.Val158Met)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*2"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000010.11:g.94936917T>C"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*8"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000771.4(CYP2C9):c.449G>T (p.Arg150Leu)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000771.4(CYP2C9):c.485C>A (p.Ser162Ter)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*6"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*11"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*3"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000771.4(CYP2C9):c.1076T>C (p.Ile359Thr)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2C9*5"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_006446.5(SLCO1B1):c.521T>C (p.Val174Ala)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000771.4(CYP2C9):c.1190A>C (p.Asp397Ala)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000771.4(CYP2C9):c.1465C>T (p.Pro489Ser)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.886C>T (p.Arg296Cys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.775del (p.Arg259fs)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*17"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*10"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1457G>C (p.Ser486Thr)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*4"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.31G>A (p.Val11Met)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.5(CYP2D6):c.124G>A (p.Gly42Arg)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.181-1G>C"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.5(CYP2D6):c.971A>C (p.His324Pro)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1403_1411dup (p.Thr470_Gly471insValProThr)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1319G>A (p.Arg440His)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.841_843del (p.Lys281del)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.765_768del (p.Thr256fs)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.514_522dup (p.Pro174_Asn175insPheArgPro)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*6"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.137dup (p.Leu47fs)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.358T>A (p.Phe120Ile)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1012G>A (p.Val338Met)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "CYP2D6*41"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1088_1089dup (p.Gln364fs)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.1030C>T (p.Arg344Ter)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.975G>A (p.Pro325=)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.364G>T (p.Ala122Ser)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.6(CYP2D6):c.352+7A>G"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.5(CYP2D6):c.505G>T (p.Gly169Ter)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000761.5(CYP1A2):c.-9-154C>A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000106.5(CYP2D6):c.*264G>A (p.Gly169Arg)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.557A>G (p.Tyr186Cys)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1905+1G>A"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1679T>G (p.Ile560Ser)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.2846A>T (p.Asp949Val)"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000110.4(DPYD):c.1129-5923C>G"
+  },
+  {
+    "gtr_uid": "613302",
+    "accession": "GTR000613302",
+    "target_type": "variant_hgvs",
+    "target_value": "NR_103444.1(LOC100996325):n.366+1469G>A"
+  },
+  {
+    "gtr_uid": "330970",
+    "accession": "GTR000330970",
+    "target_type": "registered_target",
+    "target_value": "MTHFR"
+  },
+  {
+    "gtr_uid": "330970",
+    "accession": "GTR000330970",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+  },
+  {
+    "gtr_uid": "330970",
+    "accession": "GTR000330970",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.1298A>C (p.Glu433Ala)"
+  },
+  {
+    "gtr_uid": "593372",
+    "accession": "GTR000593372",
+    "target_type": "registered_target",
+    "target_value": "MTHFR"
+  },
+  {
+    "gtr_uid": "593372",
+    "accession": "GTR000593372",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+  },
+  {
+    "gtr_uid": "593372",
+    "accession": "GTR000593372",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+  },
+  {
+    "gtr_uid": "500809",
+    "accession": "GTR000500809",
+    "target_type": "registered_target",
+    "target_value": "MTHFR"
+  },
+  {
+    "gtr_uid": "500809",
+    "accession": "GTR000500809",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+  },
+  {
+    "gtr_uid": "500809",
+    "accession": "GTR000500809",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "registered_target",
+    "target_value": "F2"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "registered_target",
+    "target_value": "F5"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "registered_target",
+    "target_value": "MTHFR"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "registered_target",
+    "target_value": "SERPINE1"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000506.5(F2):c.*97G>A"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.1286A>C (p.Glu429Ala)"
+  },
+  {
+    "gtr_uid": "500035",
+    "accession": "GTR000500035",
+    "target_type": "variant_hgvs",
+    "target_value": "NC_000007.14:g.101126429dup"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "registered_target",
+    "target_value": "ABCC2"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "registered_target",
+    "target_value": "G6PD"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "registered_target",
+    "target_value": "GNE"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "registered_target",
+    "target_value": "LIPA"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "registered_target",
+    "target_value": "MTHFR"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "registered_target",
+    "target_value": "USH2A"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005476.7(GNE):c.2135T>C (p.Met712Thr)"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000235.4(LIPA):c.260G>T (p.Gly87Val)"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_206933.4(USH2A):c.240_241insGATC (p.Gln81fs)"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000392.5(ABCC2):c.3517A>T (p.Ile1173Phe)"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_000402.4(G6PD):c.653C>T (p.Ser218Phe)"
+  },
+  {
+    "gtr_uid": "327733",
+    "accession": "GTR000327733",
+    "target_type": "variant_hgvs",
+    "target_value": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)"
+  }
+]

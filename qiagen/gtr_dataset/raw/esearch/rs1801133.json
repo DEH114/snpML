@@ -1,0 +1,49 @@
+{
+  "query_rsid": "rs1801133",
+  "query": "\"rs1801133\"[WORD]",
+  "expected_count": 8,
+  "returned_uids": [
+    "569929",
+    "619762",
+    "613302",
+    "330970",
+    "593372",
+    "500809",
+    "500035",
+    "327733"
+  ],
+  "pages": [
+    {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "8",
+        "retmax": "8",
+        "retstart": "0",
+        "idlist": [
+          "569929",
+          "619762",
+          "613302",
+          "330970",
+          "593372",
+          "500809",
+          "500035",
+          "327733"
+        ],
+        "translationset": [],
+        "translationstack": [
+          {
+            "term": "\"rs1801133\"[WORD]",
+            "field": "WORD",
+            "count": "8",
+            "explode": "N"
+          },
+          "GROUP"
+        ],
+        "querytranslation": "\"rs1801133\"[WORD]"
+      }
+    }
+  ]
+}
