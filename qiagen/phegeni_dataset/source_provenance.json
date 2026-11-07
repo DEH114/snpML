@@ -1,0 +1,33 @@
+{
+  "source_mode": "cache",
+  "requested_url": "https://www.ncbi.nlm.nih.gov/projects/gap/eqtl/EpiViewBE.cgi?type=dl.tab",
+  "resolved_url": "https://www.ncbi.nlm.nih.gov/projects/gap/eqtl/EpiViewBE.cgi?type=dl.tab",
+  "retrieved_at_utc": "2026-11-07T19:46:55.158099+00:00",
+  "downloaded_bytes": 19458499,
+  "download_sha256": "f782842b5444c07a323dff287fb647b5bdbc59e2a60d35684347e13e8cd21722",
+  "content_type": "application/octet-stream",
+  "content_disposition": "attachment; filename=PheGenI_Association_full.tab",
+  "last_modified": null,
+  "etag": null,
+  "table_path": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\.cache\\phegeni\\PheGenI_Association_full.tab",
+  "table_bytes": 19458499,
+  "table_sha256": "f782842b5444c07a323dff287fb647b5bdbc59e2a60d35684347e13e8cd21722",
+  "source_header": [
+    "#",
+    "Trait",
+    "SNP rs",
+    "Context",
+    "Gene",
+    "Gene ID",
+    "Gene 2",
+    "Gene ID 2",
+    "Chromosome",
+    "Location",
+    "P-Value",
+    "Source",
+    "PubMed",
+    "Analysis ID",
+    "Study ID",
+    "Study Name"
+  ]
+}

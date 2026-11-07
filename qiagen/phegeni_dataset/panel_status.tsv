@@ -1,0 +1,21 @@
+rank	rsid	current_rsid	was_merged	dbsnp_status	status	n_associations	n_nhgri_associations	n_dbgap_associations	n_other_source_associations	n_unique_traits	n_unique_genes	n_unique_publications	n_unique_analyses	n_unique_studies	matched_source_rsids	error
+1	rs9807334	rs9807334	False	current_rsid	associations_found	5	4	1	0	5	2	3	1	1	"[""rs9807334""]"	
+2	rs121913529	rs121913529	False	current_rsid	no_phegeni_association	0	0	0	0	0	0	0	0	0	[]	
+3	rs72921001	rs72921001	False	current_rsid	no_phegeni_association	0	0	0	0	0	0	0	0	0	[]	
+4	rs17822931	rs17822931	False	current_rsid	no_phegeni_association	0	0	0	0	0	0	0	0	0	[]	
+5	rs334	rs334	False	current_rsid	no_phegeni_association	0	0	0	0	0	0	0	0	0	[]	
+6	rs987870	rs987870	False	current_rsid	associations_found	4	4	0	0	2	2	2	0	0	"[""rs987870""]"	
+7	rs429358	rs429358	False	current_rsid	associations_found	18	18	0	0	11	1	9	0	0	"[""rs429358""]"	
+8	rs3827760	rs3827760	False	current_rsid	associations_found	10	10	0	0	7	1	4	0	0	"[""rs3827760""]"	
+9	rs113993960	rs113993960	False	current_rsid	no_phegeni_association	0	0	0	0	0	0	0	0	0	[]	
+10	rs4988235	rs4988235	False	current_rsid	associations_found	3	3	0	0	2	1	2	0	0	"[""rs4988235""]"	
+11	rs28934578	rs28934578	False	current_rsid	no_phegeni_association	0	0	0	0	0	0	0	0	0	[]	
+12	rs17004038	rs17004038	False	current_rsid	no_phegeni_association	0	0	0	0	0	0	0	0	0	[]	
+13	rs12913832	rs12913832	False	current_rsid	associations_found	14	14	0	0	6	1	7	0	0	"[""rs12913832""]"	
+14	rs6025	rs6025	False	current_rsid	associations_found	7	7	0	0	5	1	4	0	0	"[""rs6025""]"	
+15	rs713598	rs713598	False	current_rsid	associations_found	2	2	0	0	1	2	1	0	0	"[""rs713598""]"	
+16	rs7412	rs7412	False	current_rsid	associations_found	11	10	1	0	8	1	7	1	1	"[""rs7412""]"	
+17	rs80357713	rs80357783	True	merged_to_current_rsid	no_phegeni_association	0	0	0	0	0	0	0	0	0	[]	
+18	rs1426654	rs1426654	False	current_rsid	associations_found	4	3	1	0	3	1	2	1	1	"[""rs1426654""]"	
+19	rs1799963	rs1799963	False	current_rsid	associations_found	5	5	0	0	4	1	2	0	0	"[""rs1799963""]"	
+20	rs1801133	rs1801133	False	current_rsid	associations_found	4	2	2	0	2	1	2	2	1	"[""rs1801133""]"	
