@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
-  "generator": "combine_six_datasets.py",
-  "finished_at_utc": "2026-11-07T19:05:33.434002+00:00",
+  "schema_version": "2.0",
+  "generator": "combine_seven_datasets.py",
+  "finished_at_utc": "2026-11-07T19:51:34.365446+00:00",
   "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
   "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
   "dataset_root": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset",
@@ -36,7 +36,8 @@
     "clinvar",
     "gwas_catalog",
     "gnomad",
-    "gtr"
+    "gtr",
+    "phegeni"
   ],
   "missing_sources": [],
   "source_provenance": {
@@ -44,7 +45,7 @@
       "directory": "alpha_fold_dataset",
       "manifests": {
         "dataset_manifest": {
-          "finished_at_utc": "2026-11-07T19:04:47.990988+00:00",
+          "finished_at_utc": "2026-11-07T19:50:45.384007+00:00",
           "generator": "generate_alphafold_dataset.py",
           "dataset_type": "VEP + UniProt + AlphaFold reference-protein context",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
@@ -382,7 +383,7 @@
           ]
         },
         "branch_run_manifest": {
-          "finished_at_utc": "2026-11-07T19:04:47.978329+00:00",
+          "finished_at_utc": "2026-11-07T19:50:45.372180+00:00",
           "assembly": "GRCh38",
           "arguments": {
             "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\alpha_fold_dataset\\resolved_snvs.tsv",
@@ -1152,12 +1153,12 @@
         {
           "relative_path": "alpha_fold_dataset/dataset_manifest.json",
           "size_bytes": 16083,
-          "sha256": "bfd2ceb064209f3986f1904ba3b41bdb7d22c0c30663053f472d8ee5e9464b67"
+          "sha256": "fe0470e334b8587788cc1325640747ddb090d31a33c5231d5f35f04a98895034"
         },
         {
           "relative_path": "alpha_fold_dataset/run_manifest.json",
           "size_bytes": 38179,
-          "sha256": "b063ccbaf99d272daf61b27a38160ce0bb53c737f29b594cafdebe07e7c7e516"
+          "sha256": "f5f5c430440060d5c9382b5002f0774ce8ca407893e70d5cf5bb8571a1de1683"
         },
         {
           "relative_path": "alpha_fold_dataset/errors.json",
@@ -1190,7 +1191,7 @@
       "directory": "jaspar_dataset",
       "manifests": {
         "dataset_manifest": {
-          "finished_at_utc": "2026-11-07T19:05:31.507799+00:00",
+          "finished_at_utc": "2026-11-07T19:51:29.691348+00:00",
           "generator": "generate_jaspar_dataset.py",
           "dataset_type": "JASPAR allele-specific motif score changes",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
@@ -1529,7 +1530,7 @@
           ]
         },
         "branch_run_manifest": {
-          "finished_at_utc": "2026-11-07T19:05:31.495399+00:00",
+          "finished_at_utc": "2026-11-07T19:51:29.677192+00:00",
           "assembly": "GRCh38",
           "arguments": {
             "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\jaspar_dataset\\resolved_snvs.tsv",
@@ -1857,12 +1858,12 @@
         {
           "relative_path": "jaspar_dataset/dataset_manifest.json",
           "size_bytes": 16207,
-          "sha256": "12e4526ac0b35ca6b8bc974df15cb33ad98d80761aab93c31a289c9ed78d14c9"
+          "sha256": "ad09d7aea3249fffdcdd39a178f3d20ad15c0f42b3f6019ad7dc46a3b3d281aa"
         },
         {
           "relative_path": "jaspar_dataset/run_manifest.json",
           "size_bytes": 16026,
-          "sha256": "6245ca46bc4bf947918a93a5f26c5b5db08ae20f9f34f113b8b25d7bd36e8d17"
+          "sha256": "ea6acd0c1c37a86dd3ae3c79d6eb94f8eb050c6affe00dd8bcff189f38f37c05"
         },
         {
           "relative_path": "jaspar_dataset/errors.json",
@@ -1900,7 +1901,7 @@
       "directory": "clinvar_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:03:50.281585+00:00",
+          "finished_at_utc": "2026-11-07T19:49:46.776164+00:00",
           "generator": "generate_clinvar_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2114,7 +2115,7 @@
         {
           "relative_path": "clinvar_dataset/run_manifest.json",
           "size_bytes": 11268,
-          "sha256": "731416177af6ab8fb5af45cb10692ea74169b96c6121841747e100571ed91a87"
+          "sha256": "d25ea3ca3e65dcd4378c6f7fdc63decad9b3acc94a95939c383f6ccc28db1086"
         },
         {
           "relative_path": "clinvar_dataset/errors.json",
@@ -2157,7 +2158,7 @@
       "directory": "gwas_catalog_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:04:37.947517+00:00",
+          "finished_at_utc": "2026-11-07T19:50:35.029156+00:00",
           "generator": "generate_gwas_catalog_dataset.py",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
           "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
@@ -2262,7 +2263,7 @@
         {
           "relative_path": "gwas_catalog_dataset/run_manifest.json",
           "size_bytes": 4147,
-          "sha256": "be986095bba4092f2f00057bdb53a619f894def01bf7d87c8ed9f71542b1227a"
+          "sha256": "a42efdba59f340fc84689d524957c7b217aa5e31ff4d59a62fef1fc327921a9e"
         },
         {
           "relative_path": "gwas_catalog_dataset/errors.json",
@@ -2295,7 +2296,7 @@
       "directory": "gnomad_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:04:43.513125+00:00",
+          "finished_at_utc": "2026-11-07T19:50:40.841631+00:00",
           "generator": "generate_gnomad_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2407,7 +2408,7 @@
         {
           "relative_path": "gnomad_dataset/run_manifest.json",
           "size_bytes": 1493,
-          "sha256": "d07e653b37033d3e23eafd33c8f3610ddac792dff7e91e919ef5754f689c9b2d"
+          "sha256": "4d8f3a677e215894f1a28e51d1e351ef9bda176cd00bd0b59ecee7995bcd0a5b"
         },
         {
           "relative_path": "gnomad_dataset/source_provenance.json",
@@ -2455,7 +2456,7 @@
       "directory": "gtr_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T19:04:44.606416+00:00",
+          "finished_at_utc": "2026-11-07T19:50:41.916787+00:00",
           "generator": "generate_gtr_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2670,7 +2671,7 @@
         {
           "relative_path": "gtr_dataset/run_manifest.json",
           "size_bytes": 11585,
-          "sha256": "9dc10e4080e1d8ec76461b253492a57c99870017fb12c79472be039ceea4aa6b"
+          "sha256": "130f64148f7bee274491d8436752730c21562fe08866b9ceaa3021b0d29e18e5"
         },
         {
           "relative_path": "gtr_dataset/errors.json",
@@ -2708,20 +2709,138 @@
           "sha256": "03ab678f73aa52df09b2121ed46fa65c06c678c4f5d55c6a3fc15b33bef74f0a"
         }
       ]
+    },
+    "phegeni": {
+      "directory": "phegeni_dataset",
+      "manifests": {
+        "run_manifest": {
+          "finished_at_utc": "2026-11-07T19:51:32.461293+00:00",
+          "generator": "generate_phegeni_dataset.py",
+          "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+          "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
+          "source_database": "NCBI Phenotype-Genotype Integrator (PheGenI)",
+          "source_table_url": "https://www.ncbi.nlm.nih.gov/projects/gap/eqtl/EpiViewBE.cgi?type=dl.tab",
+          "source_release": "not published by the bulk endpoint; use table SHA-256",
+          "dbsnp_resolution_source": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\clinvar_dataset\\dbsnp_resolution.json",
+          "n_input_rsids": 20,
+          "n_merged_input_rsids": 1,
+          "n_source_rows_scanned": 136526,
+          "n_matched_source_rows": 87,
+          "n_association_relations": 87,
+          "n_nhgri_association_relations": 82,
+          "n_dbgap_association_relations": 5,
+          "n_other_source_association_relations": 0,
+          "n_rsids_with_associations": 12,
+          "n_warnings": 0,
+          "source_header": [
+            "#",
+            "Trait",
+            "SNP rs",
+            "Context",
+            "Gene",
+            "Gene ID",
+            "Gene 2",
+            "Gene ID 2",
+            "Chromosome",
+            "Location",
+            "P-Value",
+            "Source",
+            "PubMed",
+            "Analysis ID",
+            "Study ID",
+            "Study Name"
+          ],
+          "source_provenance": {
+            "source_mode": "cache",
+            "requested_url": "https://www.ncbi.nlm.nih.gov/projects/gap/eqtl/EpiViewBE.cgi?type=dl.tab",
+            "resolved_url": "https://www.ncbi.nlm.nih.gov/projects/gap/eqtl/EpiViewBE.cgi?type=dl.tab",
+            "retrieved_at_utc": "2026-11-07T19:46:55.158099+00:00",
+            "downloaded_bytes": 19458499,
+            "download_sha256": "f782842b5444c07a323dff287fb647b5bdbc59e2a60d35684347e13e8cd21722",
+            "content_type": "application/octet-stream",
+            "content_disposition": "attachment; filename=PheGenI_Association_full.tab",
+            "last_modified": null,
+            "etag": null,
+            "table_path": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\.cache\\phegeni\\PheGenI_Association_full.tab",
+            "table_bytes": 19458499,
+            "table_sha256": "f782842b5444c07a323dff287fb647b5bdbc59e2a60d35684347e13e8cd21722",
+            "source_header": [
+              "#",
+              "Trait",
+              "SNP rs",
+              "Context",
+              "Gene",
+              "Gene ID",
+              "Gene 2",
+              "Gene ID 2",
+              "Chromosome",
+              "Location",
+              "P-Value",
+              "Source",
+              "PubMed",
+              "Analysis ID",
+              "Study ID",
+              "Study Name"
+            ]
+          },
+          "http_provenance": [],
+          "notes": [
+            "SNP rs is matched only as one complete positive integer",
+            "Both supplied and current dbSNP identifiers are considered",
+            "All original source strings remain lossless in matched_source_records",
+            "PheGenI integrates NHGRI GWAS Catalog and selected dbGaP top results",
+            "PheGenI may overlap the standalone GWAS Catalog dataset",
+            "Association does not establish causality or individual clinical risk"
+          ]
+        }
+      },
+      "reported_errors": [],
+      "input_files": [
+        {
+          "relative_path": "phegeni_dataset/run_manifest.json",
+          "size_bytes": 3011,
+          "sha256": "fbbcd7708d7a12af6e94771a7900dcddb09092d58650b9f7f8623bdeaa82e527"
+        },
+        {
+          "relative_path": "phegeni_dataset/errors.json",
+          "size_bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "relative_path": "phegeni_dataset/dbsnp_resolution.json",
+          "size_bytes": 7733,
+          "sha256": "4d1913accac1ebbe4d90db506bfc823e9f8cf3ba51bee99284f6ba40952351d3"
+        },
+        {
+          "relative_path": "phegeni_dataset/panel_status.json",
+          "size_bytes": 10530,
+          "sha256": "1dcc9dee675f749ab9044d55e42f0e9d023379e60192a9a083833af166103249"
+        },
+        {
+          "relative_path": "phegeni_dataset/phegeni_associations.json",
+          "size_bytes": 74579,
+          "sha256": "1008ae18135f3d942c97d5923b6aab4b61651b6b5d4e191bb45713c87b3533fd"
+        },
+        {
+          "relative_path": "phegeni_dataset/matched_source_records.json",
+          "size_bytes": 56950,
+          "sha256": "07afea042067de58d6a29f5fbb33d8a7d32e7f4cdb16a240eff8efd802ae16bf"
+        }
+      ]
     }
   },
   "output_files": {
     "combined_data.json": {
-      "size_bytes": 24917535,
-      "sha256": "cb1a384e6fa7eb809be3d3cf1d045958988cc93cca286badf9b6c34cd93591fa"
+      "size_bytes": 25106466,
+      "sha256": "70f36fc063078dad3c5ee994a7b81adbcfcaff9dc13cb1387b64c67df239fb26"
     },
     "combined_summary.tsv": {
-      "size_bytes": 17561034,
-      "sha256": "51e1eb3608c35451cae14cb2a1ab827556bcd3a7e219a7d5e7a4e7c4667e6fa2"
+      "size_bytes": 17701651,
+      "sha256": "2caa014394efafe9d61dbd418b1655107fd7324c9632aaa22745c988ef6c38ed"
     },
     "combined_data.sqlite": {
-      "size_bytes": 30060544,
-      "sha256": "f6a599ee6be48291813d48fb504092e969420612e82c91fa60d3bf4a0e827e52"
+      "size_bytes": 30289920,
+      "sha256": "09cd316ea2c07c1b30a53629527fde64c4e81a7c67dc7b09c44c7afff2153f2d"
     }
   }
 }
