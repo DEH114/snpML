@@ -1,0 +1,630 @@
+[
+  {
+    "rank": 1,
+    "rsid": "rs9807334",
+    "current_rsid": "rs9807334",
+    "was_merged": false,
+    "query_uid": "9807334",
+    "dbsnp_uid": "9807334",
+    "genes": [
+      {
+        "symbol": "LOC107985152",
+        "gene_id": "107985152"
+      }
+    ],
+    "gene_symbols": [
+      "LOC107985152"
+    ],
+    "gene_ids": [
+      "107985152"
+    ],
+    "functional_consequences": [
+      "non_coding_transcript_variant",
+      "intron_variant"
+    ],
+    "fxn_class_raw": "non_coding_transcript_variant,intron_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 2,
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "was_merged": false,
+    "query_uid": "121913529",
+    "dbsnp_uid": "121913529",
+    "genes": [
+      {
+        "symbol": "KRAS",
+        "gene_id": "3845"
+      }
+    ],
+    "gene_symbols": [
+      "KRAS"
+    ],
+    "gene_ids": [
+      "3845"
+    ],
+    "functional_consequences": [
+      "missense_variant",
+      "coding_sequence_variant"
+    ],
+    "fxn_class_raw": "missense_variant,coding_sequence_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 3,
+    "rsid": "rs72921001",
+    "current_rsid": "rs72921001",
+    "was_merged": false,
+    "query_uid": "72921001",
+    "dbsnp_uid": "72921001",
+    "genes": [
+      {
+        "symbol": "OR10A2",
+        "gene_id": "341276"
+      }
+    ],
+    "gene_symbols": [
+      "OR10A2"
+    ],
+    "gene_ids": [
+      "341276"
+    ],
+    "functional_consequences": [
+      "intron_variant"
+    ],
+    "fxn_class_raw": "intron_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 4,
+    "rsid": "rs17822931",
+    "current_rsid": "rs17822931",
+    "was_merged": false,
+    "query_uid": "17822931",
+    "dbsnp_uid": "17822931",
+    "genes": [
+      {
+        "symbol": "ABCC11",
+        "gene_id": "85320"
+      }
+    ],
+    "gene_symbols": [
+      "ABCC11"
+    ],
+    "gene_ids": [
+      "85320"
+    ],
+    "functional_consequences": [
+      "non_coding_transcript_variant",
+      "missense_variant",
+      "coding_sequence_variant",
+      "genic_upstream_transcript_variant"
+    ],
+    "fxn_class_raw": "non_coding_transcript_variant,missense_variant,coding_sequence_variant,genic_upstream_transcript_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "query_uid": "334",
+    "dbsnp_uid": "334",
+    "genes": [
+      {
+        "symbol": "HBB",
+        "gene_id": "3043"
+      }
+    ],
+    "gene_symbols": [
+      "HBB"
+    ],
+    "gene_ids": [
+      "3043"
+    ],
+    "functional_consequences": [
+      "coding_sequence_variant",
+      "missense_variant"
+    ],
+    "fxn_class_raw": "coding_sequence_variant,missense_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 6,
+    "rsid": "rs987870",
+    "current_rsid": "rs987870",
+    "was_merged": false,
+    "query_uid": "987870",
+    "dbsnp_uid": "987870",
+    "genes": [
+      {
+        "symbol": "HLA-DPA1",
+        "gene_id": "3113"
+      },
+      {
+        "symbol": "HLA-DPB1",
+        "gene_id": "3115"
+      }
+    ],
+    "gene_symbols": [
+      "HLA-DPA1",
+      "HLA-DPB1"
+    ],
+    "gene_ids": [
+      "3113",
+      "3115"
+    ],
+    "functional_consequences": [
+      "genic_upstream_transcript_variant",
+      "2KB_upstream_variant",
+      "intron_variant",
+      "upstream_transcript_variant"
+    ],
+    "fxn_class_raw": "genic_upstream_transcript_variant,2KB_upstream_variant,intron_variant,upstream_transcript_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "query_uid": "429358",
+    "dbsnp_uid": "429358",
+    "genes": [
+      {
+        "symbol": "APOE",
+        "gene_id": "348"
+      }
+    ],
+    "gene_symbols": [
+      "APOE"
+    ],
+    "gene_ids": [
+      "348"
+    ],
+    "functional_consequences": [
+      "missense_variant",
+      "coding_sequence_variant"
+    ],
+    "fxn_class_raw": "missense_variant,coding_sequence_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 8,
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "was_merged": false,
+    "query_uid": "3827760",
+    "dbsnp_uid": "3827760",
+    "genes": [
+      {
+        "symbol": "RANBP2",
+        "gene_id": "5903"
+      },
+      {
+        "symbol": "EDAR",
+        "gene_id": "10913"
+      }
+    ],
+    "gene_symbols": [
+      "RANBP2",
+      "EDAR"
+    ],
+    "gene_ids": [
+      "5903",
+      "10913"
+    ],
+    "functional_consequences": [
+      "missense_variant",
+      "coding_sequence_variant",
+      "genic_downstream_transcript_variant",
+      "intron_variant"
+    ],
+    "fxn_class_raw": "missense_variant,coding_sequence_variant,genic_downstream_transcript_variant,intron_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 9,
+    "rsid": "rs113993960",
+    "current_rsid": "rs113993960",
+    "was_merged": false,
+    "query_uid": "113993960",
+    "dbsnp_uid": "113993960",
+    "genes": [
+      {
+        "symbol": "CFTR",
+        "gene_id": "1080"
+      },
+      {
+        "symbol": "CFTR-AS1",
+        "gene_id": "111082987"
+      }
+    ],
+    "gene_symbols": [
+      "CFTR",
+      "CFTR-AS1"
+    ],
+    "gene_ids": [
+      "1080",
+      "111082987"
+    ],
+    "functional_consequences": [
+      "intron_variant",
+      "inframe_deletion",
+      "inframe_insertion",
+      "coding_sequence_variant"
+    ],
+    "fxn_class_raw": "intron_variant,inframe_deletion,inframe_insertion,coding_sequence_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 10,
+    "rsid": "rs4988235",
+    "current_rsid": "rs4988235",
+    "was_merged": false,
+    "query_uid": "4988235",
+    "dbsnp_uid": "4988235",
+    "genes": [
+      {
+        "symbol": "MCM6",
+        "gene_id": "4175"
+      }
+    ],
+    "gene_symbols": [
+      "MCM6"
+    ],
+    "gene_ids": [
+      "4175"
+    ],
+    "functional_consequences": [
+      "intron_variant"
+    ],
+    "fxn_class_raw": "intron_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 11,
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "was_merged": false,
+    "query_uid": "28934578",
+    "dbsnp_uid": "28934578",
+    "genes": [
+      {
+        "symbol": "TP53",
+        "gene_id": "7157"
+      }
+    ],
+    "gene_symbols": [
+      "TP53"
+    ],
+    "gene_ids": [
+      "7157"
+    ],
+    "functional_consequences": [
+      "missense_variant",
+      "coding_sequence_variant"
+    ],
+    "fxn_class_raw": "missense_variant,coding_sequence_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 12,
+    "rsid": "rs17004038",
+    "current_rsid": "rs17004038",
+    "was_merged": false,
+    "query_uid": "17004038",
+    "dbsnp_uid": "17004038",
+    "genes": [
+      {
+        "symbol": "MIF",
+        "gene_id": "4282"
+      },
+      {
+        "symbol": "MIF-AS1",
+        "gene_id": "284889"
+      }
+    ],
+    "gene_symbols": [
+      "MIF",
+      "MIF-AS1"
+    ],
+    "gene_ids": [
+      "4282",
+      "284889"
+    ],
+    "functional_consequences": [
+      "5_prime_UTR_variant",
+      "non_coding_transcript_variant"
+    ],
+    "fxn_class_raw": "5_prime_UTR_variant,non_coding_transcript_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 13,
+    "rsid": "rs12913832",
+    "current_rsid": "rs12913832",
+    "was_merged": false,
+    "query_uid": "12913832",
+    "dbsnp_uid": "12913832",
+    "genes": [
+      {
+        "symbol": "HERC2",
+        "gene_id": "8924"
+      }
+    ],
+    "gene_symbols": [
+      "HERC2"
+    ],
+    "gene_ids": [
+      "8924"
+    ],
+    "functional_consequences": [
+      "genic_downstream_transcript_variant",
+      "intron_variant"
+    ],
+    "fxn_class_raw": "genic_downstream_transcript_variant,intron_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 14,
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "was_merged": false,
+    "query_uid": "6025",
+    "dbsnp_uid": "6025",
+    "genes": [
+      {
+        "symbol": "F5",
+        "gene_id": "2153"
+      }
+    ],
+    "gene_symbols": [
+      "F5"
+    ],
+    "gene_ids": [
+      "2153"
+    ],
+    "functional_consequences": [
+      "coding_sequence_variant",
+      "missense_variant"
+    ],
+    "fxn_class_raw": "coding_sequence_variant,missense_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 15,
+    "rsid": "rs713598",
+    "current_rsid": "rs713598",
+    "was_merged": false,
+    "query_uid": "713598",
+    "dbsnp_uid": "713598",
+    "genes": [
+      {
+        "symbol": "TAS2R38",
+        "gene_id": "5726"
+      }
+    ],
+    "gene_symbols": [
+      "TAS2R38"
+    ],
+    "gene_ids": [
+      "5726"
+    ],
+    "functional_consequences": [
+      "coding_sequence_variant",
+      "missense_variant"
+    ],
+    "fxn_class_raw": "coding_sequence_variant,missense_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "query_uid": "7412",
+    "dbsnp_uid": "7412",
+    "genes": [
+      {
+        "symbol": "APOE",
+        "gene_id": "348"
+      }
+    ],
+    "gene_symbols": [
+      "APOE"
+    ],
+    "gene_ids": [
+      "348"
+    ],
+    "functional_consequences": [
+      "missense_variant",
+      "coding_sequence_variant"
+    ],
+    "fxn_class_raw": "missense_variant,coding_sequence_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 17,
+    "rsid": "rs80357713",
+    "current_rsid": "rs80357783",
+    "was_merged": true,
+    "query_uid": "80357713",
+    "dbsnp_uid": "80357713",
+    "genes": [
+      {
+        "symbol": "BRCA1",
+        "gene_id": "672"
+      },
+      {
+        "symbol": "NBR2",
+        "gene_id": "10230"
+      }
+    ],
+    "gene_symbols": [
+      "BRCA1",
+      "NBR2"
+    ],
+    "gene_ids": [
+      "672",
+      "10230"
+    ],
+    "functional_consequences": [
+      "non_coding_transcript_variant",
+      "upstream_transcript_variant",
+      "coding_sequence_variant",
+      "frameshift_variant",
+      "2KB_upstream_variant",
+      "5_prime_UTR_variant"
+    ],
+    "fxn_class_raw": "non_coding_transcript_variant,upstream_transcript_variant,coding_sequence_variant,frameshift_variant,2KB_upstream_variant,5_prime_UTR_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 18,
+    "rsid": "rs1426654",
+    "current_rsid": "rs1426654",
+    "was_merged": false,
+    "query_uid": "1426654",
+    "dbsnp_uid": "1426654",
+    "genes": [
+      {
+        "symbol": "MYEF2",
+        "gene_id": "50804"
+      },
+      {
+        "symbol": "SLC24A5",
+        "gene_id": "283652"
+      }
+    ],
+    "gene_symbols": [
+      "MYEF2",
+      "SLC24A5"
+    ],
+    "gene_ids": [
+      "50804",
+      "283652"
+    ],
+    "functional_consequences": [
+      "5_prime_UTR_variant",
+      "downstream_transcript_variant",
+      "coding_sequence_variant",
+      "missense_variant",
+      "500B_downstream_variant"
+    ],
+    "fxn_class_raw": "5_prime_UTR_variant,downstream_transcript_variant,coding_sequence_variant,missense_variant,500B_downstream_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 19,
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "was_merged": false,
+    "query_uid": "1799963",
+    "dbsnp_uid": "1799963",
+    "genes": [
+      {
+        "symbol": "F2",
+        "gene_id": "2147"
+      }
+    ],
+    "gene_symbols": [
+      "F2"
+    ],
+    "gene_ids": [
+      "2147"
+    ],
+    "functional_consequences": [
+      "3_prime_UTR_variant"
+    ],
+    "fxn_class_raw": "3_prime_UTR_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "query_uid": "1801133",
+    "dbsnp_uid": "1801133",
+    "genes": [
+      {
+        "symbol": "MTHFR",
+        "gene_id": "4524"
+      }
+    ],
+    "gene_symbols": [
+      "MTHFR"
+    ],
+    "gene_ids": [
+      "4524"
+    ],
+    "functional_consequences": [
+      "coding_sequence_variant",
+      "missense_variant"
+    ],
+    "fxn_class_raw": "coding_sequence_variant,missense_variant",
+    "status": "gene_and_consequence_annotations_available",
+    "error": "",
+    "source_database": "NCBI dbSNP ESummary",
+    "scope_warning": "dbSNP genes and functional consequences are record-level aggregates; they are not paired allele- or transcript-specific annotations."
+  }
+]
