@@ -1,0 +1,374 @@
+[
+  {
+    "rank": 1,
+    "rsid": "rs9807334",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 1,
+    "variant_keys": [
+      "GRCh38:18:50997791:G>A"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "intron_variant",
+    "special_note": "",
+    "protein_status": "no_missense_consequence",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 2,
+    "rsid": "rs121913529",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 3,
+    "variant_keys": [
+      "GRCh38:12:25245350:C>A",
+      "GRCh38:12:25245350:C>G",
+      "GRCh38:12:25245350:C>T"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 81,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 3,
+    "rsid": "rs72921001",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 1,
+    "variant_keys": [
+      "GRCh38:11:6868417:C>A"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "intron_variant",
+    "special_note": "",
+    "protein_status": "no_missense_consequence",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 4,
+    "rsid": "rs17822931",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 2,
+    "variant_keys": [
+      "GRCh38:16:48224287:C>G",
+      "GRCh38:16:48224287:C>T"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 8,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 3,
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A",
+      "GRCh38:11:5227002:T>C",
+      "GRCh38:11:5227002:T>G"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 54,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 6,
+    "rsid": "rs987870",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 1,
+    "variant_keys": [
+      "GRCh38:6:33075103:A>G"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "intron_variant",
+    "special_note": "",
+    "protein_status": "no_missense_consequence",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 1,
+    "variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "APOE epsilon2/epsilon3/epsilon4 interpretation requires rs429358 + rs7412 allele combinations and individual genotype/phase data; this rsID panel has neither.",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 30,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 8,
+    "rsid": "rs3827760",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 2,
+    "variant_keys": [
+      "GRCh38:2:108897145:A>C",
+      "GRCh38:2:108897145:A>G"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 10,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 9,
+    "rsid": "rs113993960",
+    "resolution_status": "unsupported_or_ambiguous",
+    "n_snv_alt_alleles": 0,
+    "variant_keys": [],
+    "has_non_snv_alleles": true,
+    "var_class": "indel",
+    "most_severe_consequence": "inframe_insertion",
+    "special_note": "Known CFTR p.Phe508del is an in-frame deletion; single-base motif/AlphaMissense scoring is not appropriate for the deletion allele.",
+    "protein_status": "no_supported_snv",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": "rs113993960: expected one unambiguous GRCh38 primary SNV mapping, got 0"
+  },
+  {
+    "rank": 10,
+    "rsid": "rs4988235",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 3,
+    "variant_keys": [
+      "GRCh38:2:135851076:G>A",
+      "GRCh38:2:135851076:G>C",
+      "GRCh38:2:135851076:G>T"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "intron_variant",
+    "special_note": "",
+    "protein_status": "no_missense_consequence",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 11,
+    "rsid": "rs28934578",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 3,
+    "variant_keys": [
+      "GRCh38:17:7675088:C>A",
+      "GRCh38:17:7675088:C>G",
+      "GRCh38:17:7675088:C>T"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 108,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 12,
+    "rsid": "rs17004038",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 1,
+    "variant_keys": [
+      "GRCh38:22:23894404:C>A"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "5_prime_UTR_variant",
+    "special_note": "",
+    "protein_status": "no_missense_consequence",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 13,
+    "rsid": "rs12913832",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 2,
+    "variant_keys": [
+      "GRCh38:15:28120472:A>C",
+      "GRCh38:15:28120472:A>G"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "intron_variant",
+    "special_note": "",
+    "protein_status": "no_missense_consequence",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 14,
+    "rsid": "rs6025",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 2,
+    "variant_keys": [
+      "GRCh38:1:169549811:C>A",
+      "GRCh38:1:169549811:C>T"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 10,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 15,
+    "rsid": "rs713598",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 3,
+    "variant_keys": [
+      "GRCh38:7:141973545:C>A",
+      "GRCh38:7:141973545:C>G",
+      "GRCh38:7:141973545:C>T"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 3,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 1,
+    "variant_keys": [
+      "GRCh38:19:44908822:C>T"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "APOE epsilon2/epsilon3/epsilon4 interpretation requires rs429358 + rs7412 allele combinations and individual genotype/phase data; this rsID panel has neither.",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 29,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 17,
+    "rsid": "rs80357713",
+    "resolution_status": "unsupported_or_ambiguous",
+    "n_snv_alt_alleles": 0,
+    "variant_keys": [],
+    "has_non_snv_alleles": true,
+    "var_class": "indel",
+    "most_severe_consequence": "frameshift_variant",
+    "special_note": "Legacy rsID reported as merged into rs80357783 in dbSNP-related resources; verify current identifiers and insertion allele before interpreting.",
+    "protein_status": "no_supported_snv",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": "rs80357713: expected one unambiguous GRCh38 primary SNV mapping, got 0"
+  },
+  {
+    "rank": 18,
+    "rsid": "rs1426654",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 2,
+    "variant_keys": [
+      "GRCh38:15:48134287:A>G",
+      "GRCh38:15:48134287:A>T"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 6,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 19,
+    "rsid": "rs1799963",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 1,
+    "variant_keys": [
+      "GRCh38:11:46739505:G>A"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "3_prime_UTR_variant",
+    "special_note": "",
+    "protein_status": "no_missense_consequence",
+    "n_missense_transcripts": 0,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "resolution_status": "resolved_snv",
+    "n_snv_alt_alleles": 2,
+    "variant_keys": [
+      "GRCh38:1:11796321:G>A",
+      "GRCh38:1:11796321:G>C"
+    ],
+    "has_non_snv_alleles": false,
+    "var_class": "SNP",
+    "most_severe_consequence": "missense_variant",
+    "special_note": "",
+    "protein_status": "annotated",
+    "n_missense_transcripts": 38,
+    "jaspar_status": "not_run",
+    "n_motif_hits": 0,
+    "reason": ""
+  }
+]

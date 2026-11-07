@@ -1,0 +1,21 @@
+rank	rsid	resolution_status	n_snv_alt_alleles	variant_keys	has_non_snv_alleles	var_class	most_severe_consequence	special_note	protein_status	n_missense_transcripts	jaspar_status	n_motif_hits	reason
+1	rs9807334	resolved_snv	1	"[""GRCh38:18:50997791:G>A""]"	False	SNP	intron_variant		no_missense_consequence	0	not_run	0	
+2	rs121913529	resolved_snv	3	"[""GRCh38:12:25245350:C>A"", ""GRCh38:12:25245350:C>G"", ""GRCh38:12:25245350:C>T""]"	False	SNP	missense_variant		annotated	81	not_run	0	
+3	rs72921001	resolved_snv	1	"[""GRCh38:11:6868417:C>A""]"	False	SNP	intron_variant		no_missense_consequence	0	not_run	0	
+4	rs17822931	resolved_snv	2	"[""GRCh38:16:48224287:C>G"", ""GRCh38:16:48224287:C>T""]"	False	SNP	missense_variant		annotated	8	not_run	0	
+5	rs334	resolved_snv	3	"[""GRCh38:11:5227002:T>A"", ""GRCh38:11:5227002:T>C"", ""GRCh38:11:5227002:T>G""]"	False	SNP	missense_variant		annotated	54	not_run	0	
+6	rs987870	resolved_snv	1	"[""GRCh38:6:33075103:A>G""]"	False	SNP	intron_variant		no_missense_consequence	0	not_run	0	
+7	rs429358	resolved_snv	1	"[""GRCh38:19:44908684:T>C""]"	False	SNP	missense_variant	APOE epsilon2/epsilon3/epsilon4 interpretation requires rs429358 + rs7412 allele combinations and individual genotype/phase data; this rsID panel has neither.	annotated	30	not_run	0	
+8	rs3827760	resolved_snv	2	"[""GRCh38:2:108897145:A>C"", ""GRCh38:2:108897145:A>G""]"	False	SNP	missense_variant		annotated	10	not_run	0	
+9	rs113993960	unsupported_or_ambiguous	0	[]	True	indel	inframe_insertion	Known CFTR p.Phe508del is an in-frame deletion; single-base motif/AlphaMissense scoring is not appropriate for the deletion allele.	no_supported_snv	0	not_run	0	rs113993960: expected one unambiguous GRCh38 primary SNV mapping, got 0
+10	rs4988235	resolved_snv	3	"[""GRCh38:2:135851076:G>A"", ""GRCh38:2:135851076:G>C"", ""GRCh38:2:135851076:G>T""]"	False	SNP	intron_variant		no_missense_consequence	0	not_run	0	
+11	rs28934578	resolved_snv	3	"[""GRCh38:17:7675088:C>A"", ""GRCh38:17:7675088:C>G"", ""GRCh38:17:7675088:C>T""]"	False	SNP	missense_variant		annotated	108	not_run	0	
+12	rs17004038	resolved_snv	1	"[""GRCh38:22:23894404:C>A""]"	False	SNP	5_prime_UTR_variant		no_missense_consequence	0	not_run	0	
+13	rs12913832	resolved_snv	2	"[""GRCh38:15:28120472:A>C"", ""GRCh38:15:28120472:A>G""]"	False	SNP	intron_variant		no_missense_consequence	0	not_run	0	
+14	rs6025	resolved_snv	2	"[""GRCh38:1:169549811:C>A"", ""GRCh38:1:169549811:C>T""]"	False	SNP	missense_variant		annotated	10	not_run	0	
+15	rs713598	resolved_snv	3	"[""GRCh38:7:141973545:C>A"", ""GRCh38:7:141973545:C>G"", ""GRCh38:7:141973545:C>T""]"	False	SNP	missense_variant		annotated	3	not_run	0	
+16	rs7412	resolved_snv	1	"[""GRCh38:19:44908822:C>T""]"	False	SNP	missense_variant	APOE epsilon2/epsilon3/epsilon4 interpretation requires rs429358 + rs7412 allele combinations and individual genotype/phase data; this rsID panel has neither.	annotated	29	not_run	0	
+17	rs80357713	unsupported_or_ambiguous	0	[]	True	indel	frameshift_variant	Legacy rsID reported as merged into rs80357783 in dbSNP-related resources; verify current identifiers and insertion allele before interpreting.	no_supported_snv	0	not_run	0	rs80357713: expected one unambiguous GRCh38 primary SNV mapping, got 0
+18	rs1426654	resolved_snv	2	"[""GRCh38:15:48134287:A>G"", ""GRCh38:15:48134287:A>T""]"	False	SNP	missense_variant		annotated	6	not_run	0	
+19	rs1799963	resolved_snv	1	"[""GRCh38:11:46739505:G>A""]"	False	SNP	3_prime_UTR_variant		no_missense_consequence	0	not_run	0	
+20	rs1801133	resolved_snv	2	"[""GRCh38:1:11796321:G>A"", ""GRCh38:1:11796321:G>C""]"	False	SNP	missense_variant		annotated	38	not_run	0	
