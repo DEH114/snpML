@@ -1,0 +1,23 @@
+{
+  "header": {
+    "type": "elink",
+    "version": "0.3"
+  },
+  "linksets": [
+    {
+      "dbfrom": "snp",
+      "ids": [
+        "17822931"
+      ],
+      "linksetdbs": [
+        {
+          "dbto": "clinvar",
+          "linkname": "snp_clinvar",
+          "links": [
+            "3558"
+          ]
+        }
+      ]
+    }
+  ]
+}

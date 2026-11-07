@@ -1,0 +1,3152 @@
+[
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "KRAS-related disorder",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Gastric cancer",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0024623"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D013274"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0001056"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "613659"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0012126"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Familial cancer of breast",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "227535"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0346153"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0016419"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "114480"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Linear nevus sebaceous syndrome",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "2612"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C4552097"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0008097"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "163200"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0010817"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Autoimmune lymphoproliferative syndrome type 4",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "268114"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C2674723"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0013767"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "614470"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Acute myeloid leukemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "519"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0023467"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D015470"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0018874"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "601626"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0004808"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0001914"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0004843"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0005516"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006724"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006728"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Noonan syndrome 3",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "648"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1860991"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0012371"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "609942"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Toriello-Lacassie-Droste syndrome",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "3339"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1838329"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0010854"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "600268"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Cerebral arteriovenous malformation",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "46724"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0917804"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0007154"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "108010"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002408"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Malignant tumor of urinary bladder",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0005684"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0001187"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "109800"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Cardiofaciocutaneous syndrome 2",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "1340"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C3809005"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0014112"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "615278"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Lung cancer",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0242379"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0008903"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "211980"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Familial pancreatic carcinoma",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "1333"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C2931038"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0015278"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "260350"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "High-grade astrocytoma with piloid features",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C5670122"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0858958"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Pilocytic astrocytoma",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "251612"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0334583"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0016691"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0033680"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "45122",
+    "record_scope": "direct_variant",
+    "classification_type": "oncogenicity",
+    "classification_description": "Oncogenic",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Neoplasm",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0027651"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D009369"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005070"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002664"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0003008"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006741"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "KRAS-related disorder",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Linear nevus sebaceous syndrome",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "2612"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C4552097"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0008097"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "163200"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0010817"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Cerebral arteriovenous malformation",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "46724"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0917804"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0007154"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "108010"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002408"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "RASopathy",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "536391"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C5555857"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0021060"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Non-small cell lung carcinoma",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0007131"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D002289"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005233"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0030358"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Juvenile myelomonocytic leukemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "86834"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0349639"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0011908"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "607785"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0012209"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Ovarian mucinous adenocarcinoma",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "398961"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1335167"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005601"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Adenocarcinoma of the large intestine",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C1319315"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005008"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0040275"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Germinoma",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0206660"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0002598"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0100620"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12583",
+    "record_scope": "direct_variant",
+    "classification_type": "oncogenicity",
+    "classification_description": "Oncogenic",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Neoplasm",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0027651"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D009369"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005070"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002664"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0003008"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006741"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Congenital Pulmonary Airway Malformations",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "KRAS-related disorder",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Lung cancer",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0242379"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0008903"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "211980"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Gastric cancer",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0024623"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D013274"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0001056"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "613659"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0012126"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Autoimmune lymphoproliferative syndrome type 4",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "268114"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C2674723"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0013767"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "614470"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Malignant tumor of urinary bladder",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0005684"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0001187"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "109800"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Toriello-Lacassie-Droste syndrome",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "3339"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1838329"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0010854"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "600268"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Cerebral arteriovenous malformation",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "46724"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0917804"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0007154"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "108010"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002408"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Familial cancer of breast",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "227535"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0346153"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0016419"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "114480"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Familial pancreatic carcinoma",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "1333"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C2931038"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0015278"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "260350"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Linear nevus sebaceous syndrome",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "2612"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C4552097"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0008097"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "163200"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0010817"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Noonan syndrome 3",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "648"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1860991"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0012371"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "609942"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Cardiofaciocutaneous syndrome 2",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "1340"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C3809005"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0014112"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "615278"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Acute myeloid leukemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "519"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0023467"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D015470"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0018874"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "601626"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0004808"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0001914"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0004843"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0005516"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006724"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006728"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Cardiovascular phenotype",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN230736"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "RASopathy",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "536391"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C5555857"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0021060"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Ovarian mucinous adenocarcinoma",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "398961"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1335167"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005601"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Adenocarcinoma of the large intestine",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C1319315"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005008"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0040275"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C5669918"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0858939"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Glioma",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "182067"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0017638"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D005910"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0021042"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0009733"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Embryonal rhabdomyosarcoma",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "99757"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0206656"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009993"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006743"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Papillary thyroid carcinoma",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "146"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0238463"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D000077273"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005075"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002895"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Precursor B-cell acute lymphoblastic leukemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "99860"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0349636"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0020511"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0004812"
+      }
+    ]
+  },
+  {
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "clinvar_uid": "12582",
+    "record_scope": "direct_variant",
+    "classification_type": "oncogenicity",
+    "classification_description": "Oncogenic",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Neoplasm",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0027651"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D009369"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005070"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002664"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0003008"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006741"
+      }
+    ]
+  },
+  {
+    "rsid": "rs17822931",
+    "current_rsid": "rs17822931",
+    "clinvar_uid": "3558",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "446748",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "other",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "HEMOGLOBIN JAMAICA PLAIN",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "446747",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "HEMOGLOBIN S (CAMEROON)",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "446738",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "HEMOGLOBIN S (TRAVIS)",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "446737",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "HEMOGLOBIN S (PROVIDENCE)",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "446736",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "Sickle cell-Hemoglobin O Arab disease",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C1264000"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "446735",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "HEMOGLOBIN S (ANTILLES)",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "446731",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "other",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "HEMOGLOBIN ZIGUINCHOR",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "446730",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "other",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "HEMOGLOBIN ZIGUINCHOR",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Hb SS disease",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "232"
+      },
+      {
+        "db_source": "Orphanet",
+        "db_id": "275752"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0002895"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0011382"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "603903"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Heinz body anemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "178330"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0700299"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0007705"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "140700"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0005511"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Beta-thalassemia HBB/LCRB",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN322236"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0013517"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "613985"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "alpha Thalassemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "846"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0002312"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0011399"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "604131"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Dominant beta-thalassemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "231226"
+      },
+      {
+        "db_source": "Orphanet",
+        "db_id": "848"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1858990"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0011381"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "603902"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Malaria, susceptibility to",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "673"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1970028"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0021024"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "611162"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Fetal hemoglobin quantitative trait locus 1",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "251380"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1841621"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Erythrocytosis, familial, 6",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C4693822"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0054801"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "617980"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "beta Thalassemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "848"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0005283"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0019402"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "METHEMOGLOBINEMIA, BETA TYPE",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C1840779"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "617971"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Hereditary persistence of fetal hemoglobin",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0019025"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0020989"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "141749"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Inborn genetic diseases",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0950123"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D030342"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "HBB-related disorder",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN239378"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Sickle cell-hemoglobin C disease",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "251365"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0019034"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D006450"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0016669"
+      }
+    ]
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15333",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "See cases",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "clinvar_uid": "15175",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Likely benign",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "not specified",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN169374"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "694585",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "protective",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "Alzheimer disease 3, protection against, due to APOE3-Christchurch",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "666796",
+    "record_scope": "linked_set_without_component_xref",
+    "classification_type": "germline",
+    "classification_description": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "not specified",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN169374"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "441269",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "association",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "APOE5 VARIANT",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C4479660"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "441268",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "APOE4(-)-FREIBURG",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "441268",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "Familial hypercholesterolemia",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0020445"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005439"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "PS143890"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "441267",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "Familial type 3 hyperlipoproteinemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "412"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0020479"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0018473"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "617347"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "440870",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "not provided",
+    "review_status": "no classification provided",
+    "trait_name": "Familial type 3 hyperlipoproteinemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "412"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0020479"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0018473"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "617347"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17864",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity; other; risk factor",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "Primary degenerative dementia of the Alzheimer type, presenile onset",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C5779573"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17864",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity; other; risk factor",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "Familial hypercholesterolemia",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0020445"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005439"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "PS143890"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17864",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity; other; risk factor",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "not specified",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN169374"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17864",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity; other; risk factor",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17864",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity; other; risk factor",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "Alzheimer disease 2",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "1020"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1863051"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0007089"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "104310"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17864",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity; other; risk factor",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "Lipoprotein glomerulopathy",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "329481"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C2673196"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0012725"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "611771"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17864",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity; other; risk factor",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "Alzheimer disease 4",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "1020"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C1847200"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0011743"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "606889"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17864",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity; other; risk factor",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "Alzheimer disease",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "1020"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0002395"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D000544"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0004975"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002511"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006878"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0007213"
+      }
+    ]
+  },
+  {
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "clinvar_uid": "17863",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "APOE3 ISOFORM",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "clinvar_uid": "5858",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Autosomal recessive hypohidrotic ectodermal dysplasia syndrome",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "248"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0406702"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0016619"
+      }
+    ]
+  },
+  {
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "clinvar_uid": "5858",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "1810"
+      },
+      {
+        "db_source": "Orphanet",
+        "db_id": "238468"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C3888065"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0007509"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "129490"
+      }
+    ]
+  },
+  {
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "clinvar_uid": "5858",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Hypohidrotic ectodermal dysplasia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "238468"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C5848103"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0016535"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0007607"
+      }
+    ]
+  },
+  {
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "clinvar_uid": "5858",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "238468"
+      },
+      {
+        "db_source": "Orphanet",
+        "db_id": "248"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C3887494"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009147"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "224900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "clinvar_uid": "5858",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "clinvar_uid": "5858",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not specified",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN169374"
+      }
+    ]
+  },
+  {
+    "rsid": "rs113993960",
+    "current_rsid": "rs113993960",
+    "clinvar_uid": "634837",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "reviewed by expert panel",
+    "trait_name": "Cystic fibrosis",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "586"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0010674"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009061"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "219700"
+      }
+    ]
+  },
+  {
+    "rsid": "rs113993960",
+    "current_rsid": "rs113993960",
+    "clinvar_uid": "7105",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "practice guideline",
+    "trait_name": "Cystic fibrosis",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "586"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0010674"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009061"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "219700"
+      }
+    ]
+  },
+  {
+    "rsid": "rs4988235",
+    "current_rsid": "rs4988235",
+    "clinvar_uid": "7685",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "association",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "LACTASE PERSISTENCE",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C1857231"
+      }
+    ]
+  },
+  {
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "clinvar_uid": "182963",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Likely pathogenic",
+    "review_status": "reviewed by expert panel",
+    "trait_name": "Li-Fraumeni syndrome",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "524"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0085390"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0018875"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "PS151623"
+      }
+    ]
+  },
+  {
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "clinvar_uid": "12374",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "reviewed by expert panel",
+    "trait_name": "Li-Fraumeni syndrome",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "524"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0085390"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0018875"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "PS151623"
+      }
+    ]
+  },
+  {
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "clinvar_uid": "12374",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Undifferentiated embryonal sarcoma of the liver",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "178315"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C2205345"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0015795"
+      }
+    ]
+  },
+  {
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "clinvar_uid": "12374",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Medulloblastoma SHH activated and TP53 mutant",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN377553"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0956964"
+      }
+    ]
+  },
+  {
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "clinvar_uid": "12374",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "IDH-wildtype glioblastoma",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN372125"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0850335"
+      }
+    ]
+  },
+  {
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "clinvar_uid": "12374",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Diffuse midline glioma, H3 K27M-mutant",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C4289688"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0957196"
+      }
+    ]
+  },
+  {
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "clinvar_uid": "12374",
+    "record_scope": "direct_variant",
+    "classification_type": "clinical_impact",
+    "classification_description": "Tier I - Strong",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Astrocytoma IDH-mutant",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C5669733"
+      }
+    ]
+  },
+  {
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "clinvar_uid": "12374",
+    "record_scope": "direct_variant",
+    "classification_type": "oncogenicity",
+    "classification_description": "Oncogenic",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "Neoplasm",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0027651"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D009369"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005070"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002664"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0003008"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0006741"
+      }
+    ]
+  },
+  {
+    "rsid": "rs12913832",
+    "current_rsid": "rs12913832",
+    "clinvar_uid": "4745",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "association",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "SKIN/HAIR/EYE PIGMENTATION 1, BLUE/NONBLUE EYES",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C1856895"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "227220"
+      }
+    ]
+  },
+  {
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "clinvar_uid": "226007",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "clinvar_uid": "226007",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "F5-related disorders",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "clinvar_uid": "226007",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "trait_name": "Congenital factor V deficiency",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "326"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0015499"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0009210"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "227400"
+      }
+    ]
+  },
+  {
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "clinvar_uid": "642",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "drug response",
+    "review_status": "reviewed by expert panel",
+    "trait_name": "hormonal contraceptives for systemic use response - Toxicity",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs713598",
+    "current_rsid": "rs713598",
+    "clinvar_uid": "2904",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "drug response",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "Phenylthiocarbamide tasting",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C1868398"
+      }
+    ]
+  },
+  {
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "clinvar_uid": "666796",
+    "record_scope": "linked_set_without_component_xref",
+    "classification_type": "germline",
+    "classification_description": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "trait_name": "not specified",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN169374"
+      }
+    ]
+  },
+  {
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "clinvar_uid": "441265",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "Familial type 3 hyperlipoproteinemia",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "412"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0020479"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0018473"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "617347"
+      }
+    ]
+  },
+  {
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "clinvar_uid": "441262",
+    "record_scope": "component_of_set",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "Hyperlipoproteinemia due to APOE1",
+    "trait_xrefs": []
+  },
+  {
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "clinvar_uid": "17848",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "drug response",
+    "review_status": "reviewed by expert panel",
+    "trait_name": "atorvastatin response - Efficacy",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN322724"
+      }
+    ]
+  },
+  {
+    "rsid": "rs80357713",
+    "current_rsid": "rs80357783",
+    "clinvar_uid": "37691",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic",
+    "review_status": "reviewed by expert panel",
+    "trait_name": "Breast-ovarian cancer, familial, susceptibility to, 1",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "145"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C2676676"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0011450"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "604370"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1426654",
+    "current_rsid": "rs1426654",
+    "clinvar_uid": "263273",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not specified",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "CN169374"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1426654",
+    "current_rsid": "rs1426654",
+    "clinvar_uid": "263273",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Benign",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1426654",
+    "current_rsid": "rs1426654",
+    "clinvar_uid": "1487",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "association",
+    "review_status": "no assertion criteria provided",
+    "trait_name": "Skin/hair/eye pigmentation, variation in, 4",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C2676042"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "clinvar_uid": "13310",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Thrombophilia due to thrombin defect",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3160733"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0008559"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "188050"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "clinvar_uid": "13310",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Venous thromboembolism",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C1861172"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D054556"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0005399"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "clinvar_uid": "13310",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Pregnancy loss, recurrent, susceptibility to, 2",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3280672"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0013728"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "614390"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "clinvar_uid": "13310",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Congenital prothrombin deficiency",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "325"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0272317"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0013361"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "613679"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "clinvar_uid": "13310",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Ischemic stroke",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0948008"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:1060198"
+      },
+      {
+        "db_source": "OMIM",
+        "db_id": "601367"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0002140"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "clinvar_uid": "13310",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Inborn genetic diseases",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0950123"
+      },
+      {
+        "db_source": "MeSH",
+        "db_id": "D030342"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "clinvar_uid": "13310",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "not provided",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C3661900"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "clinvar_uid": "13310",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "trait_name": "Cerebral palsy",
+    "trait_xrefs": [
+      {
+        "db_source": "MedGen",
+        "db_id": "C0007789"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0006497"
+      },
+      {
+        "db_source": "Human Phenotype Ontology",
+        "db_id": "HP:0100021"
+      }
+    ]
+  },
+  {
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "clinvar_uid": "3520",
+    "record_scope": "direct_variant",
+    "classification_type": "germline",
+    "classification_description": "drug response",
+    "review_status": "reviewed by expert panel",
+    "trait_name": "methotrexate response - Toxicity",
+    "trait_xrefs": [
+      {
+        "db_source": "Orphanet",
+        "db_id": "565782"
+      },
+      {
+        "db_source": "MedGen",
+        "db_id": "C0568062"
+      },
+      {
+        "db_source": "MONDO",
+        "db_id": "MONDO:0034212"
+      }
+    ]
+  }
+]

@@ -1,0 +1,738 @@
+[
+  {
+    "rank": 2,
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "45122",
+    "accession": "VCV000045122",
+    "accession_version": "VCV000045122.20",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:12:25245350:C>G"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/45122/"
+  },
+  {
+    "rank": 2,
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "12583",
+    "accession": "VCV000012583",
+    "accession_version": "VCV000012583.79",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:12:25245350:C>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12583/"
+  },
+  {
+    "rank": 2,
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "was_merged": false,
+    "clinvar_link_rank": 3,
+    "clinvar_uid": "12582",
+    "accession": "VCV000012582",
+    "accession_version": "VCV000012582.69",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:12:25245350:C>T"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12582/"
+  },
+  {
+    "rank": 4,
+    "rsid": "rs17822931",
+    "current_rsid": "rs17822931",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "3558",
+    "accession": "VCV000003558",
+    "accession_version": "VCV000003558.2",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:16:48224287:C>T"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3558/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "446748",
+    "accession": "VCV000446748",
+    "accession_version": "VCV000446748.3",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446748/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "446747",
+    "accession": "VCV000446747",
+    "accession_version": "VCV000446747.2",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446747/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 3,
+    "clinvar_uid": "446738",
+    "accession": "VCV000446738",
+    "accession_version": "VCV000446738.2",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446738/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 4,
+    "clinvar_uid": "446737",
+    "accession": "VCV000446737",
+    "accession_version": "VCV000446737.2",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446737/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 5,
+    "clinvar_uid": "446736",
+    "accession": "VCV000446736",
+    "accession_version": "VCV000446736.2",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446736/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 6,
+    "clinvar_uid": "446735",
+    "accession": "VCV000446735",
+    "accession_version": "VCV000446735.2",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446735/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 7,
+    "clinvar_uid": "446731",
+    "accession": "VCV000446731",
+    "accession_version": "VCV000446731.3",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446731/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 8,
+    "clinvar_uid": "446730",
+    "accession": "VCV000446730",
+    "accession_version": "VCV000446730.3",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446730/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 9,
+    "clinvar_uid": "15333",
+    "accession": "VCV000015333",
+    "accession_version": "VCV000015333.184",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15333/"
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 10,
+    "clinvar_uid": "15175",
+    "accession": "VCV000015175",
+    "accession_version": "VCV000015175.3",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:5227002:T>G"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15175/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "694742",
+    "accession": "VCV000694742",
+    "accession_version": "VCV000694742.1",
+    "record_scope": "direct_variant",
+    "allele_role": "identity_reference",
+    "matching_variant_keys": [],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/694742/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "694585",
+    "accession": "VCV000694585",
+    "accession_version": "VCV000694585.3",
+    "record_scope": "component_of_set",
+    "allele_role": "identity_reference",
+    "matching_variant_keys": [],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/694585/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 3,
+    "clinvar_uid": "666796",
+    "accession": "VCV000666796",
+    "accession_version": "VCV000666796.5",
+    "record_scope": "linked_set_without_component_xref",
+    "allele_role": "unavailable",
+    "matching_variant_keys": [],
+    "matching_component_count": 0,
+    "exact_current_dbsnp_xref": false,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/666796/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 4,
+    "clinvar_uid": "441269",
+    "accession": "VCV000441269",
+    "accession_version": "VCV000441269.4",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441269/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 5,
+    "clinvar_uid": "441268",
+    "accession": "VCV000441268",
+    "accession_version": "VCV000441268.5",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441268/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 6,
+    "clinvar_uid": "441267",
+    "accession": "VCV000441267",
+    "accession_version": "VCV000441267.3",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441267/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 7,
+    "clinvar_uid": "440870",
+    "accession": "VCV000440870",
+    "accession_version": "VCV000440870.4",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/440870/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 8,
+    "clinvar_uid": "17864",
+    "accession": "VCV000017864",
+    "accession_version": "VCV000017864.51",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17864/"
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 9,
+    "clinvar_uid": "17863",
+    "accession": "VCV000017863",
+    "accession_version": "VCV000017863.1",
+    "record_scope": "component_of_set",
+    "allele_role": "identity_reference",
+    "matching_variant_keys": [],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17863/"
+  },
+  {
+    "rank": 8,
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "5858",
+    "accession": "VCV000005858",
+    "accession_version": "VCV000005858.26",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:2:108897145:A>G"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/5858/"
+  },
+  {
+    "rank": 9,
+    "rsid": "rs113993960",
+    "current_rsid": "rs113993960",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "634837",
+    "accession": "VCV000634837",
+    "accession_version": "VCV000634837.2",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/634837/"
+  },
+  {
+    "rank": 9,
+    "rsid": "rs113993960",
+    "current_rsid": "rs113993960",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "7105",
+    "accession": "VCV000007105",
+    "accession_version": "VCV000007105.214",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7105/"
+  },
+  {
+    "rank": 10,
+    "rsid": "rs4988235",
+    "current_rsid": "rs4988235",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "7685",
+    "accession": "VCV000007685",
+    "accession_version": "VCV000007685.6",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:2:135851076:G>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7685/"
+  },
+  {
+    "rank": 11,
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "182963",
+    "accession": "VCV000182963",
+    "accession_version": "VCV000182963.21",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:17:7675088:C>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/182963/"
+  },
+  {
+    "rank": 11,
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "12374",
+    "accession": "VCV000012374",
+    "accession_version": "VCV000012374.88",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:17:7675088:C>T"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12374/"
+  },
+  {
+    "rank": 13,
+    "rsid": "rs12913832",
+    "current_rsid": "rs12913832",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "4745",
+    "accession": "VCV000004745",
+    "accession_version": "VCV000004745.2",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:15:28120472:A>G"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4745/"
+  },
+  {
+    "rank": 14,
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "226007",
+    "accession": "VCV000226007",
+    "accession_version": "VCV000226007.28",
+    "record_scope": "direct_variant",
+    "allele_role": "identity_reference",
+    "matching_variant_keys": [],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/226007/"
+  },
+  {
+    "rank": 14,
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "642",
+    "accession": "VCV000000642",
+    "accession_version": "VCV000000642.133",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:1:169549811:C>T"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/642/"
+  },
+  {
+    "rank": 15,
+    "rsid": "rs713598",
+    "current_rsid": "rs713598",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "2904",
+    "accession": "VCV000002904",
+    "accession_version": "VCV000002904.1",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:7:141973545:C>G"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2904/"
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "666796",
+    "accession": "VCV000666796",
+    "accession_version": "VCV000666796.5",
+    "record_scope": "linked_set_without_component_xref",
+    "allele_role": "unavailable",
+    "matching_variant_keys": [],
+    "matching_component_count": 0,
+    "exact_current_dbsnp_xref": false,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/666796/"
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "441265",
+    "accession": "VCV000441265",
+    "accession_version": "VCV000441265.3",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:19:44908822:C>T"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441265/"
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "clinvar_link_rank": 3,
+    "clinvar_uid": "441262",
+    "accession": "VCV000441262",
+    "accession_version": "VCV000441262.3",
+    "record_scope": "component_of_set",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:19:44908822:C>T"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441262/"
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "clinvar_link_rank": 4,
+    "clinvar_uid": "17848",
+    "accession": "VCV000017848",
+    "accession_version": "VCV000017848.38",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:19:44908822:C>T"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17848/"
+  },
+  {
+    "rank": 17,
+    "rsid": "rs80357713",
+    "current_rsid": "rs80357783",
+    "was_merged": true,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "37691",
+    "accession": "VCV000037691",
+    "accession_version": "VCV000037691.85",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/37691/"
+  },
+  {
+    "rank": 18,
+    "rsid": "rs1426654",
+    "current_rsid": "rs1426654",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "263273",
+    "accession": "VCV000263273",
+    "accession_version": "VCV000263273.12",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:15:48134287:A>G"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/263273/"
+  },
+  {
+    "rank": 18,
+    "rsid": "rs1426654",
+    "current_rsid": "rs1426654",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "1487",
+    "accession": "VCV000001487",
+    "accession_version": "VCV000001487.5",
+    "record_scope": "direct_variant",
+    "allele_role": "identity_reference",
+    "matching_variant_keys": [],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/1487/"
+  },
+  {
+    "rank": 19,
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "13310",
+    "accession": "VCV000013310",
+    "accession_version": "VCV000013310.157",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:11:46739505:G>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/13310/"
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "3520",
+    "accession": "VCV000003520",
+    "accession_version": "VCV000003520.144",
+    "record_scope": "direct_variant",
+    "allele_role": "changed",
+    "matching_variant_keys": [
+      "GRCh38:1:11796321:G>A"
+    ],
+    "matching_component_count": 1,
+    "exact_current_dbsnp_xref": true,
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3520/"
+  }
+]

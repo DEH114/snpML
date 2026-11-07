@@ -1,0 +1,209 @@
+{
+  "finished_at_utc": "2026-11-07T17:45:46.674327+00:00",
+  "generator": "generate_clinvar_dataset.py",
+  "source_databases": [
+    "NCBI dbSNP",
+    "NCBI ClinVar"
+  ],
+  "api": "NCBI E-utilities dbSNP ESummary -> ELink -> ClinVar ESummary",
+  "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\examples\\qiagen_20_rsids.tsv",
+  "input_sha256": "5f8b6911fb3fc9515741e7abf80da8c0fe8bf2fb21060d31abbf2f2223470b21",
+  "n_input_rsids": 20,
+  "n_merged_input_rsids": 1,
+  "n_clinvar_links": 42,
+  "n_unique_clinvar_records": 41,
+  "n_rsids_with_direct_records": 16,
+  "n_direct_records": 23,
+  "n_related_set_records": 19,
+  "n_linked_sets_without_component_xref": 2,
+  "n_trait_rows": 135,
+  "n_lookup_errors": 0,
+  "source_provenance": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=snp&id=9807334%2C121913529%2C72921001%2C17822931%2C334%2C987870%2C429358%2C3827760%2C113993960%2C4988235%2C28934578%2C17004038%2C12913832%2C6025%2C713598%2C7412%2C80357713%2C1426654%2C1799963%2C1801133&retmode=json&version=2.0&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:13.806753+00:00",
+      "sha256_utf8": "ce24b2231cefdf47e7dca7eedf7fe80ed8efaf21b839d35043bb0efbaef7e008",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=9807334&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:14.009351+00:00",
+      "sha256_utf8": "0b97ca9f7113febea9e7109a82fbe5a66d1e08b548f297ac1700857259622d6c",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=121913529&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:14.405721+00:00",
+      "sha256_utf8": "71283181c9f9bf591498aced6deab611a6ff32b3955b5c3a8463bf65c5bb5012",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=72921001&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:16.834501+00:00",
+      "sha256_utf8": "82e9a2375f40d039ca3d6997d895d95651722a4604a58e9c73dbc901a426c51c",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=17822931&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:17.110733+00:00",
+      "sha256_utf8": "a0be8ceef26a0583592ba1d8ffb85267d4d0639e557a64dbe4c21af4a43cf976",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=334&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:17.554228+00:00",
+      "sha256_utf8": "32965821b72216c3b873c997a6d945be95399f2e9c10af837872e2ffa8241fd6",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=987870&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:19.891260+00:00",
+      "sha256_utf8": "ec919947be20cfe35bc6c3241d6d06c29184d19d79871a2a7ade129b299da1ad",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=429358&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:20.154890+00:00",
+      "sha256_utf8": "92604e97ded776c5306260f75269d044be92279a847dd573a4e054b79734cc4a",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=3827760&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:20.441536+00:00",
+      "sha256_utf8": "80b221784ff247020da9f474aa5c00fd237caab36993e682bc9d33dcceb95f21",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=113993960&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:22.932679+00:00",
+      "sha256_utf8": "533627cde055560b3ebe85113ffd40539898a51b04856e91888cb3b41365d62c",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=4988235&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:23.187442+00:00",
+      "sha256_utf8": "f26c9ba5d8565c49ec80beb75cd5e3773d7987a7741a1715ef9a68e2229338fc",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=28934578&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:23.565034+00:00",
+      "sha256_utf8": "6af33418ded2ecb2f41bd14d2f077edee4743ebeec1a6a4b5e6c81154449d9c1",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=17004038&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:25.923058+00:00",
+      "sha256_utf8": "8ce77c06509cccb8d1cd2fb0cd2b80af955f9daabbf0c62fd52cc020defd9a00",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=12913832&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:26.168214+00:00",
+      "sha256_utf8": "ece67f18c53a6c90c44bbff5c0fd6dec36471c7ec8fc53cf223fad6d18fbaf7b",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=6025&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:26.471805+00:00",
+      "sha256_utf8": "036d717fda41b7423200fd4ef2557bddd22ec612f139d1bd13e0374e07a3fbd8",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=713598&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:28.928158+00:00",
+      "sha256_utf8": "b570db24c87ba2a1683a69a5324b9907872c84d26920b8c0c9d0a5105307b0b0",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=7412&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:29.152792+00:00",
+      "sha256_utf8": "5ee16a46806446fd8e0896340dd145c2a9bc4fb7f0e95e60edc3a75402b4085e",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=80357783&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:29.471281+00:00",
+      "sha256_utf8": "e916d1af7208331b987cc4bbcbeea906dfc7fa63bddb4a340eae121f0d7a2485",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=1426654&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:31.861130+00:00",
+      "sha256_utf8": "f7e1b19c99918760acb70996b05d7c3459483615967ca154cc52e12457f83a04",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=1799963&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:32.147899+00:00",
+      "sha256_utf8": "79486762e8057a06bf8ad3c22d3eb002ee1deac3586b9c169404fe96811275fa",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=snp&db=clinvar&id=1801133&retmode=json&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:32.413250+00:00",
+      "sha256_utf8": "9ce1c85d5909c040b6dfb6d0140b7d463810feb8f358c6514d0d3f9f20354b17",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=45122%2C12583%2C12582%2C3558%2C446748%2C446747%2C446738%2C446737%2C446736%2C446735%2C446731%2C446730%2C15333%2C15175%2C694742%2C694585%2C666796%2C441269%2C441268%2C441267%2C440870%2C17864%2C17863%2C5858%2C634837%2C7105%2C7685%2C182963%2C12374%2C4745%2C226007%2C642%2C2904%2C441265%2C441262%2C17848%2C37691%2C263273%2C1487%2C13310%2C3520&retmode=json&version=2.0&tool=BioHack_SNP_Toolkit",
+      "retrieved_at_utc": "2026-11-07T17:35:35.015909+00:00",
+      "sha256_utf8": "da202cbf179041bf5bac1635d098e20591d1340d0036ca2ade2f4b698eedf25d",
+      "content_type": "application/json; charset=UTF-8",
+      "last_modified": null,
+      "etag": null
+    }
+  ],
+  "notes": [
+    "Supplied rsIDs are preserved while dbSNP merged/current IDs are recorded separately",
+    "Only explicit dbSNP-to-ClinVar links are downloaded",
+    "Exact component xrefs are verified; explicitly linked sets without returned components are labeled unverified",
+    "Direct records and multi-variant set records are deliberately separated",
+    "Identity/reference alleles are retained and explicitly marked",
+    "Germline, clinical-impact, and oncogenicity classifications remain separate",
+    "Trait rows repeat VCV-level aggregate classifications and are not RCV-level assertions",
+    "The input contains public loci, not an individual's genotype"
+  ]
+}

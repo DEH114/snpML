@@ -1,0 +1,1633 @@
+[
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "446748",
+    "accession": "VCV000446748",
+    "accession_version": "VCV000446748.3",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000518.4(HBB):c.[205C>T;20A>T]",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334",
+      "rs33961459"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "E7V, L69F",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000037149"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000016879"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446748/",
+    "germline_classification": "other",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2017/12/12 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "HEMOGLOBIN JAMAICA PLAIN",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "446747",
+    "accession": "VCV000446747",
+    "accession_version": "VCV000446747.2",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000518.4(HBB):c.[20A>T;271G>A]",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334",
+      "rs33913712"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "E91K, E7V",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000037147"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000016877"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446747/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2004/05/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "HEMOGLOBIN S (CAMEROON)",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 3,
+    "clinvar_uid": "446738",
+    "accession": "VCV000446738",
+    "accession_version": "VCV000446738.2",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000518.4(HBB):c.[20A>T;428C>T]",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334",
+      "rs33921821"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510",
+      "LOC110006319:110006319"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "E7V, A143V",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000036849"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000016580"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446738/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "1992/01/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "HEMOGLOBIN S (TRAVIS)",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 4,
+    "clinvar_uid": "446737",
+    "accession": "VCV000446737",
+    "accession_version": "VCV000446737.2",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000518.4(HBB):c.[20A>T;249G>Y]",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334",
+      "rs33991993"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "K83N, E7V",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000036848"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000016579"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446737/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "1988/10/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "HEMOGLOBIN S (PROVIDENCE)",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 5,
+    "clinvar_uid": "446736",
+    "accession": "VCV000446736",
+    "accession_version": "VCV000446736.2",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000518.4(HBB):c.[20A>T;364G>A]",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334",
+      "rs33946267"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510",
+      "LOC110006319:110006319"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "E122K, E7V",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000036846"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000016577"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446736/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "1999/04/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Sickle cell-Hemoglobin O Arab disease",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C1264000"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 6,
+    "clinvar_uid": "446735",
+    "accession": "VCV000446735",
+    "accession_version": "VCV000446735.2",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000518.4(HBB):c.[20A>T;70G>A]",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334",
+      "rs33929459"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "E7V, V24I",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000036845"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000016576"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446735/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "1997/06/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "HEMOGLOBIN S (ANTILLES)",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 7,
+    "clinvar_uid": "446731",
+    "accession": "VCV000446731",
+    "accession_version": "VCV000446731.3",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000518.4(HBB):c.[176C>G;20A>T]",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334",
+      "rs33991472"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "E7V, P59R",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000036556"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000030905"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446731/",
+    "germline_classification": "other",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2017/12/12 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "HEMOGLOBIN ZIGUINCHOR",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 8,
+    "clinvar_uid": "446730",
+    "accession": "VCV000446730",
+    "accession_version": "VCV000446730.3",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000518.4(HBB):c.[20A>T;220G>A]",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334",
+      "rs33945705"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "D74N, E7V",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000036554"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000016286"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/446730/",
+    "germline_classification": "other",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2017/12/12 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "HEMOGLOBIN ZIGUINCHOR",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "694585",
+    "accession": "VCV000694585",
+    "accession_version": "VCV000694585.3",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "identity_reference"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000041.4:c.[388=;460C>A526=]",
+    "variant_keys": [],
+    "matching_components": [
+      {
+        "measure_id": "682795",
+        "variation_name": "NM_000041.4(APOE):c.388= (p.Cys130=)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908683:T:T",
+        "allele_role": "identity_reference",
+        "variant_key": null,
+        "rsids": [
+          "rs429358"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908684",
+            "stop": "44908684",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs121918393",
+      "rs429358"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant",
+      "no sequence alteration"
+    ],
+    "protein_change": "R154S, R180S",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000999138"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000856604"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/694585/",
+    "germline_classification": "protective",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2019/11/25 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Alzheimer disease 3, protection against, due to APOE3-Christchurch",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 3,
+    "clinvar_uid": "666796",
+    "accession": "VCV000666796",
+    "accession_version": "VCV000666796.5",
+    "record_scope": "linked_set_without_component_xref",
+    "exact_current_dbsnp_xref": false,
+    "matching_allele_roles": [
+      "unavailable"
+    ],
+    "object_type": "CompoundHeterozygote",
+    "title": "NM_000041.2:c.[388T>C];[526C>T]",
+    "variant_keys": [],
+    "matching_components": [],
+    "component_rsids": [],
+    "genes": [],
+    "molecular_consequences": [],
+    "protein_change": "",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000966580"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000825286"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/666796/",
+    "germline_classification": "Uncertain significance",
+    "germline_review_status": "criteria provided, single submitter",
+    "germline_last_evaluated": "2019/01/18 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "not specified",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN169374"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 4,
+    "clinvar_uid": "441269",
+    "accession": "VCV000441269",
+    "accession_version": "VCV000441269.4",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000041.3(APOE):c.[305C>G;388T>C]",
+    "variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "32903",
+        "variation_name": "NM_000041.4(APOE):c.388T>C (p.Cys130Arg)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908683:T:C",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:19:44908684:T>C",
+        "rsids": [
+          "rs429358"
+        ],
+        "aliases": [
+          "C112R",
+          "ApoE4"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908684",
+            "stop": "44908684",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs11083750",
+      "rs429358"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "C130R, C156R, P102R, P128R",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000039748"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000019458"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441269/",
+    "germline_classification": "association",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2019/11/22 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "APOE5 VARIANT",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C4479660"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 5,
+    "clinvar_uid": "441268",
+    "accession": "VCV000441268",
+    "accession_version": "VCV000441268.5",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000041.3(APOE):c.[137T>C;388T>C]",
+    "variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "32903",
+        "variation_name": "NM_000041.4(APOE):c.388T>C (p.Cys130Arg)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908683:T:C",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:19:44908684:T>C",
+        "rsids": [
+          "rs429358"
+        ],
+        "aliases": [
+          "C112R",
+          "ApoE4"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908684",
+            "stop": "44908684",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs429358",
+      "rs769452"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "C130R, C156R, L46P, L72P",
+    "n_scv": 2,
+    "scv_accessions": [
+      "SCV000039746",
+      "SCV001321553"
+    ],
+    "n_rcv": 2,
+    "rcv_accessions": [
+      "RCV000019456",
+      "RCV001175124"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441268/",
+    "germline_classification": "Pathogenic/Likely pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2020/05/27 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "APOE4(-)-FREIBURG",
+        "trait_xrefs": []
+      },
+      {
+        "trait_name": "Familial hypercholesterolemia",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0020445"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005439"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "PS143890"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 6,
+    "clinvar_uid": "441267",
+    "accession": "VCV000441267",
+    "accession_version": "VCV000441267.3",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000041.3(APOE):c.[388T>C;805C>G]",
+    "variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "32903",
+        "variation_name": "NM_000041.4(APOE):c.388T>C (p.Cys130Arg)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908683:T:C",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:19:44908684:T>C",
+        "rsids": [
+          "rs429358"
+        ],
+        "aliases": [
+          "C112R",
+          "ApoE4"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908684",
+            "stop": "44908684",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs267606661",
+      "rs429358"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "C130R, C156R, R269G, R295G",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000039745"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000019455"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441267/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "1993/05/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Familial type 3 hyperlipoproteinemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "412"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0020479"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0018473"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "617347"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 7,
+    "clinvar_uid": "440870",
+    "accession": "VCV000440870",
+    "accession_version": "VCV000440870.4",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000041.3(APOE):c.[388T>C;478C>T]",
+    "variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "32903",
+        "variation_name": "NM_000041.4(APOE):c.388T>C (p.Cys130Arg)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908683:T:C",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:19:44908684:T>C",
+        "rsids": [
+          "rs429358"
+        ],
+        "aliases": [
+          "C112R",
+          "ApoE4"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908684",
+            "stop": "44908684",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs387906567",
+      "rs429358"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "C130R, C156R, R160C, R186C",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000039727"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000019438"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/440870/",
+    "germline_classification": "not provided",
+    "germline_review_status": "no classification provided",
+    "germline_last_evaluated": "2023/06/08 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Familial type 3 hyperlipoproteinemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "412"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0020479"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0018473"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "617347"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 9,
+    "clinvar_uid": "17863",
+    "accession": "VCV000017863",
+    "accession_version": "VCV000017863.1",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "identity_reference"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000041.4(APOE):c.[388=;526=]",
+    "variant_keys": [],
+    "matching_components": [
+      {
+        "measure_id": "682795",
+        "variation_name": "NM_000041.4(APOE):c.388= (p.Cys130=)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908683:T:T",
+        "allele_role": "identity_reference",
+        "variant_key": null,
+        "rsids": [
+          "rs429358"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908684",
+            "stop": "44908684",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs429358"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "no sequence alteration"
+    ],
+    "protein_change": "",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000039737"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000019447"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17863/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "1981/09/10 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "APOE3 ISOFORM",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 9,
+    "rsid": "rs113993960",
+    "current_rsid": "rs113993960",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "634837",
+    "accession": "VCV000634837",
+    "accession_version": "VCV000634837.2",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000492.3(CFTR):c.[1521_1523delCTT;3080T>C]",
+    "variant_keys": [],
+    "matching_components": [
+      {
+        "measure_id": "22144",
+        "variation_name": "NM_000492.3(CFTR):c.1521_1523del (p.Phe508del)",
+        "variant_type": "Deletion",
+        "canonical_spdi": "NC_000007.14:117559590:TCTT:T",
+        "allele_role": "changed",
+        "variant_key": null,
+        "rsids": [
+          "rs113993960"
+        ],
+        "aliases": [
+          "F508del",
+          "deltaF508",
+          "F508delF",
+          "DF508",
+          "Phe508del",
+          "DeltaF508",
+          "[delta]F508"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "7",
+            "start": "117559591",
+            "stop": "117559593",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs113993960",
+      "rs1800112"
+    ],
+    "genes": [
+      "CFTR-AS1:111082987",
+      "CFTR-AS2:140577507",
+      "CFTR:1080",
+      "LOC111674472:111674472"
+    ],
+    "molecular_consequences": [
+      "inframe_deletion",
+      "missense variant"
+    ],
+    "protein_change": "",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000924263"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000785641"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/634837/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "reviewed by expert panel",
+    "germline_last_evaluated": "2019/03/11 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Cystic fibrosis",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "586"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0010674"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0009061"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "219700"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "666796",
+    "accession": "VCV000666796",
+    "accession_version": "VCV000666796.5",
+    "record_scope": "linked_set_without_component_xref",
+    "exact_current_dbsnp_xref": false,
+    "matching_allele_roles": [
+      "unavailable"
+    ],
+    "object_type": "CompoundHeterozygote",
+    "title": "NM_000041.2:c.[388T>C];[526C>T]",
+    "variant_keys": [],
+    "matching_components": [],
+    "component_rsids": [],
+    "genes": [],
+    "molecular_consequences": [],
+    "protein_change": "",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000966580"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000825286"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/666796/",
+    "germline_classification": "Uncertain significance",
+    "germline_review_status": "criteria provided, single submitter",
+    "germline_last_evaluated": "2019/01/18 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "not specified",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN169374"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "441265",
+    "accession": "VCV000441265",
+    "accession_version": "VCV000441265.3",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000041.3(APOE):c.[526C>T;725G>A]",
+    "variant_keys": [
+      "GRCh38:19:44908822:C>T"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "32887",
+        "variation_name": "NM_000041.2(APOE):c.526C>T (p.Arg176Cys)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908821:C:T",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:19:44908822:C>T",
+        "rsids": [
+          "rs7412"
+        ],
+        "aliases": [
+          "R158C",
+          "R148C"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908822",
+            "stop": "44908822",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs267606663",
+      "rs7412"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "R176C, R202C, R268Q",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000039741"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000019452"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441265/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2017/02/21 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Familial type 3 hyperlipoproteinemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "412"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0020479"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0018473"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "617347"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "clinvar_link_rank": 3,
+    "clinvar_uid": "441262",
+    "accession": "VCV000441262",
+    "accession_version": "VCV000441262.3",
+    "record_scope": "component_of_set",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Haplotype",
+    "title": "NM_000041.3(APOE):c.[434G>A;526C>T]",
+    "variant_keys": [
+      "GRCh38:19:44908822:C>T"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "32887",
+        "variation_name": "NM_000041.2(APOE):c.526C>T (p.Arg176Cys)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908821:C:T",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:19:44908822:C>T",
+        "rsids": [
+          "rs7412"
+        ],
+        "aliases": [
+          "R158C",
+          "R148C"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908822",
+            "stop": "44908822",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs267606664",
+      "rs7412"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "R176C, R202C, G145D, G171D",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000039729"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000019439"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/441262/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "1984/04/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Hyperlipoproteinemia due to APOE1",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  }
+]

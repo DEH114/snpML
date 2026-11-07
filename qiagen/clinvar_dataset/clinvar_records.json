@@ -1,0 +1,4480 @@
+[
+  {
+    "rank": 2,
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "45122",
+    "accession": "VCV000045122",
+    "accession_version": "VCV000045122.20",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_004985.5(KRAS):c.35G>C (p.Gly12Ala)",
+    "variant_keys": [
+      "GRCh38:12:25245350:C>G"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "54289",
+        "variation_name": "NM_004985.5(KRAS):c.35G>C (p.Gly12Ala)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000012.12:25245349:C:G",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:12:25245350:C>G",
+        "rsids": [
+          "rs121913529"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "12",
+            "start": "25245350",
+            "stop": "25245350",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs121913529"
+    ],
+    "genes": [
+      "KRAS:3845"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "G12A",
+    "n_scv": 12,
+    "scv_accessions": [
+      "SCV000061935",
+      "SCV001132087",
+      "SCV001571410",
+      "SCV005094258",
+      "SCV007105397",
+      "SCV007105424",
+      "SCV007980208",
+      "SCV004105185",
+      "SCV001550889",
+      "SCV004042812",
+      "SCV005416700",
+      "SCV007771140"
+    ],
+    "n_rcv": 10,
+    "rcv_accessions": [
+      "RCV000038266",
+      "RCV000984117",
+      "RCV001355876",
+      "RCV001374446",
+      "RCV003996396",
+      "RCV004549454",
+      "RCV004795958",
+      "RCV004668758",
+      "RCV006253743",
+      "RCV006253744"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/45122/",
+    "germline_classification": "Pathogenic/Likely pathogenic",
+    "germline_review_status": "criteria provided, multiple submitters, no conflicts",
+    "germline_last_evaluated": "2025/10/26 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "KRAS-related disorder",
+        "trait_xrefs": []
+      },
+      {
+        "trait_name": "Gastric cancer",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0024623"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D013274"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0001056"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "613659"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0012126"
+          }
+        ]
+      },
+      {
+        "trait_name": "Familial cancer of breast",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "227535"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0346153"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0016419"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "114480"
+          }
+        ]
+      },
+      {
+        "trait_name": "Linear nevus sebaceous syndrome",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "2612"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C4552097"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0008097"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "163200"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0010817"
+          }
+        ]
+      },
+      {
+        "trait_name": "Autoimmune lymphoproliferative syndrome type 4",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "268114"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C2674723"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0013767"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "614470"
+          }
+        ]
+      },
+      {
+        "trait_name": "Acute myeloid leukemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "519"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0023467"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D015470"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0018874"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "601626"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0004808"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0001914"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0004843"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0005516"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006724"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006728"
+          }
+        ]
+      },
+      {
+        "trait_name": "Noonan syndrome 3",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "648"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1860991"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0012371"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "609942"
+          }
+        ]
+      },
+      {
+        "trait_name": "Toriello-Lacassie-Droste syndrome",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "3339"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1838329"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0010854"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "600268"
+          }
+        ]
+      },
+      {
+        "trait_name": "Cerebral arteriovenous malformation",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "46724"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0917804"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0007154"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "108010"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002408"
+          }
+        ]
+      },
+      {
+        "trait_name": "Malignant tumor of urinary bladder",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0005684"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0001187"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "109800"
+          }
+        ]
+      },
+      {
+        "trait_name": "Cardiofaciocutaneous syndrome 2",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "1340"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C3809005"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0014112"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "615278"
+          }
+        ]
+      },
+      {
+        "trait_name": "Lung cancer",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0242379"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0008903"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "211980"
+          }
+        ]
+      },
+      {
+        "trait_name": "Familial pancreatic carcinoma",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "1333"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C2931038"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0015278"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "260350"
+          }
+        ]
+      },
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "Tier I - Strong",
+    "clinical_impact_review_status": "criteria provided, single submitter",
+    "clinical_impact_last_evaluated": "2025/01/16 00:00",
+    "clinical_impact_traits": [
+      {
+        "trait_name": "High-grade astrocytoma with piloid features",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C5670122"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0858958"
+          }
+        ]
+      },
+      {
+        "trait_name": "Pilocytic astrocytoma",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "251612"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0334583"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0016691"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0033680"
+          }
+        ]
+      }
+    ],
+    "oncogenicity_classification": "Oncogenic",
+    "oncogenicity_review_status": "criteria provided, single submitter",
+    "oncogenicity_last_evaluated": "2025/03/04 00:00",
+    "oncogenicity_traits": [
+      {
+        "trait_name": "Neoplasm",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0027651"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D009369"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005070"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002664"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0003008"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006741"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 2,
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "12583",
+    "accession": "VCV000012583",
+    "accession_version": "VCV000012583.79",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_004985.5(KRAS):c.35G>T (p.Gly12Val)",
+    "variant_keys": [
+      "GRCh38:12:25245350:C>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "27622",
+        "variation_name": "NM_004985.5(KRAS):c.35G>T (p.Gly12Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000012.12:25245349:C:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:12:25245350:C>A",
+        "rsids": [
+          "rs121913529"
+        ],
+        "aliases": [
+          "p.G12V:GGT>GTT",
+          "NP_004976.2:p.Gly12Val"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "12",
+            "start": "25245350",
+            "stop": "25245350",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs121913529"
+    ],
+    "genes": [
+      "KRAS:3845"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "G12V",
+    "n_scv": 21,
+    "scv_accessions": [
+      "SCV005094259",
+      "SCV004295856",
+      "SCV000693724",
+      "SCV000033660",
+      "SCV000051862",
+      "SCV000203917",
+      "SCV000198477",
+      "SCV004176921",
+      "SCV005902168",
+      "SCV003804201",
+      "SCV007105407",
+      "SCV007105419",
+      "SCV007105438",
+      "SCV008060441",
+      "SCV000611561",
+      "SCV002583834",
+      "SCV001553731",
+      "SCV000992586",
+      "SCV000207879",
+      "SCV006076877",
+      "SCV001746133"
+    ],
+    "n_rcv": 16,
+    "rcv_accessions": [
+      "RCV000013413",
+      "RCV000029216",
+      "RCV000157944",
+      "RCV000150895",
+      "RCV000154262",
+      "RCV000585801",
+      "RCV002291496",
+      "RCV003322589",
+      "RCV003455987",
+      "RCV003539760",
+      "RCV004668725",
+      "RCV006250159",
+      "RCV006253530",
+      "RCV006253529",
+      "RCV006253528",
+      "RCV007056238"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12583/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "criteria provided, multiple submitters, no conflicts",
+    "germline_last_evaluated": "2025/06/24 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "KRAS-related disorder",
+        "trait_xrefs": []
+      },
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      },
+      {
+        "trait_name": "Linear nevus sebaceous syndrome",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "2612"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C4552097"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0008097"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "163200"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0010817"
+          }
+        ]
+      },
+      {
+        "trait_name": "Cerebral arteriovenous malformation",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "46724"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0917804"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0007154"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "108010"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002408"
+          }
+        ]
+      },
+      {
+        "trait_name": "RASopathy",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "536391"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C5555857"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0021060"
+          }
+        ]
+      },
+      {
+        "trait_name": "Non-small cell lung carcinoma",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0007131"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D002289"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005233"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0030358"
+          }
+        ]
+      },
+      {
+        "trait_name": "Juvenile myelomonocytic leukemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "86834"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0349639"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0011908"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "607785"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0012209"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "Tier I - Strong",
+    "clinical_impact_review_status": "criteria provided, single submitter",
+    "clinical_impact_last_evaluated": "2025/07/14 00:00",
+    "clinical_impact_traits": [
+      {
+        "trait_name": "Ovarian mucinous adenocarcinoma",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "398961"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1335167"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005601"
+          }
+        ]
+      },
+      {
+        "trait_name": "Adenocarcinoma of the large intestine",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C1319315"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005008"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0040275"
+          }
+        ]
+      },
+      {
+        "trait_name": "Germinoma",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0206660"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0002598"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0100620"
+          }
+        ]
+      }
+    ],
+    "oncogenicity_classification": "Oncogenic",
+    "oncogenicity_review_status": "criteria provided, single submitter",
+    "oncogenicity_last_evaluated": "2025/03/04 00:00",
+    "oncogenicity_traits": [
+      {
+        "trait_name": "Neoplasm",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0027651"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D009369"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005070"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002664"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0003008"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006741"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 2,
+    "rsid": "rs121913529",
+    "current_rsid": "rs121913529",
+    "was_merged": false,
+    "clinvar_link_rank": 3,
+    "clinvar_uid": "12582",
+    "accession": "VCV000012582",
+    "accession_version": "VCV000012582.69",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_004985.5(KRAS):c.35G>A (p.Gly12Asp)",
+    "variant_keys": [
+      "GRCh38:12:25245350:C>T"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "27621",
+        "variation_name": "NM_004985.5(KRAS):c.35G>A (p.Gly12Asp)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000012.12:25245349:C:T",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:12:25245350:C>T",
+        "rsids": [
+          "rs121913529"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "12",
+            "start": "25245350",
+            "stop": "25245350",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs121913529"
+    ],
+    "genes": [
+      "KRAS:3845"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "G12D",
+    "n_scv": 49,
+    "scv_accessions": [
+      "SCV000198478",
+      "SCV000198479",
+      "SCV000198480",
+      "SCV000693723",
+      "SCV000999192",
+      "SCV001736991",
+      "SCV001739511",
+      "SCV002601600",
+      "SCV004176950",
+      "SCV005634967",
+      "SCV005094257",
+      "SCV000992585",
+      "SCV007105520",
+      "SCV007105405",
+      "SCV007105406",
+      "SCV007105409",
+      "SCV007105413",
+      "SCV007105415",
+      "SCV007105418",
+      "SCV007105422",
+      "SCV007105432",
+      "SCV007105434",
+      "SCV000659085",
+      "SCV007538136",
+      "SCV000033658",
+      "SCV000033659",
+      "SCV000044088",
+      "SCV000051860",
+      "SCV000051861",
+      "SCV000191996",
+      "SCV007591183",
+      "SCV000611562",
+      "SCV000784594",
+      "SCV002525678",
+      "SCV002099547",
+      "SCV001550138",
+      "SCV000329383",
+      "SCV005023563",
+      "SCV005044128",
+      "SCV005414064",
+      "SCV000882686",
+      "SCV001571657",
+      "SCV004035006",
+      "SCV006076878",
+      "SCV000882700",
+      "SCV006304919",
+      "SCV002318898",
+      "SCV002821689",
+      "SCV007771141"
+    ],
+    "n_rcv": 34,
+    "rcv_accessions": [
+      "RCV000013411",
+      "RCV000022799",
+      "RCV000029214",
+      "RCV000029215",
+      "RCV000144969",
+      "RCV000150896",
+      "RCV000150897",
+      "RCV000272938",
+      "RCV000433573",
+      "RCV000548006",
+      "RCV000585796",
+      "RCV000662266",
+      "RCV000856666",
+      "RCV001799604",
+      "RCV001839445",
+      "RCV002508117",
+      "RCV003327361",
+      "RCV004018620",
+      "RCV004554600",
+      "RCV004668724",
+      "RCV005007840",
+      "RCV006253522",
+      "RCV006253519",
+      "RCV006253520",
+      "RCV006253523",
+      "RCV006253525",
+      "RCV006253527",
+      "RCV006253518",
+      "RCV006253524",
+      "RCV006250158",
+      "RCV006253526",
+      "RCV006253521",
+      "RCV006820108",
+      "RCV006688346"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12582/",
+    "germline_classification": "Pathogenic/Likely pathogenic",
+    "germline_review_status": "criteria provided, multiple submitters, no conflicts",
+    "germline_last_evaluated": "2026/01/23 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Congenital Pulmonary Airway Malformations",
+        "trait_xrefs": []
+      },
+      {
+        "trait_name": "KRAS-related disorder",
+        "trait_xrefs": []
+      },
+      {
+        "trait_name": "Lung cancer",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0242379"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0008903"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "211980"
+          }
+        ]
+      },
+      {
+        "trait_name": "Gastric cancer",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0024623"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D013274"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0001056"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "613659"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0012126"
+          }
+        ]
+      },
+      {
+        "trait_name": "Autoimmune lymphoproliferative syndrome type 4",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "268114"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C2674723"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0013767"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "614470"
+          }
+        ]
+      },
+      {
+        "trait_name": "Malignant tumor of urinary bladder",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0005684"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0001187"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "109800"
+          }
+        ]
+      },
+      {
+        "trait_name": "Toriello-Lacassie-Droste syndrome",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "3339"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1838329"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0010854"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "600268"
+          }
+        ]
+      },
+      {
+        "trait_name": "Cerebral arteriovenous malformation",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "46724"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0917804"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0007154"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "108010"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002408"
+          }
+        ]
+      },
+      {
+        "trait_name": "Familial cancer of breast",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "227535"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0346153"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0016419"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "114480"
+          }
+        ]
+      },
+      {
+        "trait_name": "Familial pancreatic carcinoma",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "1333"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C2931038"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0015278"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "260350"
+          }
+        ]
+      },
+      {
+        "trait_name": "Linear nevus sebaceous syndrome",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "2612"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C4552097"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0008097"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "163200"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0010817"
+          }
+        ]
+      },
+      {
+        "trait_name": "Noonan syndrome 3",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "648"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1860991"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0012371"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "609942"
+          }
+        ]
+      },
+      {
+        "trait_name": "Cardiofaciocutaneous syndrome 2",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "1340"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C3809005"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0014112"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "615278"
+          }
+        ]
+      },
+      {
+        "trait_name": "Acute myeloid leukemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "519"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0023467"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D015470"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0018874"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "601626"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0004808"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0001914"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0004843"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0005516"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006724"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006728"
+          }
+        ]
+      },
+      {
+        "trait_name": "Cardiovascular phenotype",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN230736"
+          }
+        ]
+      },
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      },
+      {
+        "trait_name": "RASopathy",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "536391"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C5555857"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0021060"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "Tier I - Strong",
+    "clinical_impact_review_status": "criteria provided, single submitter",
+    "clinical_impact_last_evaluated": "2025/04/08 00:00",
+    "clinical_impact_traits": [
+      {
+        "trait_name": "Ovarian mucinous adenocarcinoma",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "398961"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1335167"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005601"
+          }
+        ]
+      },
+      {
+        "trait_name": "Adenocarcinoma of the large intestine",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C1319315"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005008"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0040275"
+          }
+        ]
+      },
+      {
+        "trait_name": "Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C5669918"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0858939"
+          }
+        ]
+      },
+      {
+        "trait_name": "Glioma",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "182067"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0017638"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D005910"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0021042"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0009733"
+          }
+        ]
+      },
+      {
+        "trait_name": "Embryonal rhabdomyosarcoma",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "99757"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0206656"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0009993"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006743"
+          }
+        ]
+      },
+      {
+        "trait_name": "Papillary thyroid carcinoma",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "146"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0238463"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D000077273"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005075"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002895"
+          }
+        ]
+      },
+      {
+        "trait_name": "Precursor B-cell acute lymphoblastic leukemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "99860"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0349636"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0020511"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0004812"
+          }
+        ]
+      }
+    ],
+    "oncogenicity_classification": "Oncogenic",
+    "oncogenicity_review_status": "criteria provided, single submitter",
+    "oncogenicity_last_evaluated": "2025/03/04 00:00",
+    "oncogenicity_traits": [
+      {
+        "trait_name": "Neoplasm",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0027651"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D009369"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005070"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002664"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0003008"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006741"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 4,
+    "rsid": "rs17822931",
+    "current_rsid": "rs17822931",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "3558",
+    "accession": "VCV000003558",
+    "accession_version": "VCV000003558.2",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_001370497.1(ABCC11):c.538G>A (p.Gly180Arg)",
+    "variant_keys": [
+      "GRCh38:16:48224287:C>T"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "18597",
+        "variation_name": "NM_001370497.1(ABCC11):c.538G>A (p.Gly180Arg)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000016.10:48224286:C:T",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:16:48224287:C>T",
+        "rsids": [
+          "rs17822931"
+        ],
+        "aliases": [
+          "ABCC11, GLY180ARG (rs17822931)"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "16",
+            "start": "48224287",
+            "stop": "48224287",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs17822931"
+    ],
+    "genes": [
+      "ABCC11:85320"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "G180R",
+    "n_scv": 4,
+    "scv_accessions": [
+      "SCV000023900",
+      "SCV000023902",
+      "SCV000023903",
+      "SCV005289731"
+    ],
+    "n_rcv": 4,
+    "rcv_accessions": [
+      "RCV000003737",
+      "RCV000003738",
+      "RCV000003739",
+      "RCV004714398"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3558/",
+    "germline_classification": "Benign",
+    "germline_review_status": "criteria provided, single submitter",
+    "germline_last_evaluated": "1/01/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 9,
+    "clinvar_uid": "15333",
+    "accession": "VCV000015333",
+    "accession_version": "VCV000015333.184",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30372",
+        "variation_name": "NM_000518.5(HBB):c.20A>T (p.Glu7Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>A",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6V",
+          "HbS"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "E7V",
+    "n_scv": 75,
+    "scv_accessions": [
+      "SCV000281507",
+      "SCV001743401",
+      "SCV002064353",
+      "SCV000967671",
+      "SCV000741189",
+      "SCV001714970",
+      "SCV005090881",
+      "SCV002024975",
+      "SCV006555383",
+      "SCV000949988",
+      "SCV007746281",
+      "SCV001138222",
+      "SCV001142414",
+      "SCV001360653",
+      "SCV001194011",
+      "SCV001423600",
+      "SCV001984022",
+      "SCV002030204",
+      "SCV002522968",
+      "SCV002014636",
+      "SCV002556466",
+      "SCV002556497",
+      "SCV001163295",
+      "SCV003839051",
+      "SCV000914520",
+      "SCV004046417",
+      "SCV000036842",
+      "SCV005046837",
+      "SCV000036844",
+      "SCV005060996",
+      "SCV005198430",
+      "SCV002767565",
+      "SCV005684727",
+      "SCV002107097",
+      "SCV003931163",
+      "SCV004934109",
+      "SCV005196600",
+      "SCV005873632",
+      "SCV004048527",
+      "SCV007124702",
+      "SCV007496267",
+      "SCV007520910",
+      "SCV000996163",
+      "SCV002091614",
+      "SCV000536833",
+      "SCV000584093",
+      "SCV000809296",
+      "SCV000854734",
+      "SCV001450316",
+      "SCV001752492",
+      "SCV001932948",
+      "SCV001955042",
+      "SCV001975550",
+      "SCV002028318",
+      "SCV002502707",
+      "SCV000190688",
+      "SCV002583820",
+      "SCV000321760",
+      "SCV003845197",
+      "SCV004024078",
+      "SCV004806248",
+      "SCV002097812",
+      "SCV000224235",
+      "SCV002073896",
+      "SCV002581124",
+      "SCV005916271",
+      "SCV000603887",
+      "SCV007448816",
+      "SCV002075077",
+      "SCV002058326",
+      "SCV002062958",
+      "SCV007654169",
+      "SCV007981335",
+      "SCV004113642",
+      "SCV008128317"
+    ],
+    "n_rcv": 17,
+    "rcv_accessions": [
+      "RCV000016573",
+      "RCV000016574",
+      "RCV000016575",
+      "RCV000224000",
+      "RCV000477892",
+      "RCV000576548",
+      "RCV000623118",
+      "RCV000723337",
+      "RCV001535873",
+      "RCV001824571",
+      "RCV002251908",
+      "RCV002288496",
+      "RCV003150808",
+      "RCV003989286",
+      "RCV005049354",
+      "RCV005357130",
+      "RCV005229802"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15333/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "criteria provided, multiple submitters, no conflicts",
+    "germline_last_evaluated": "2026/07/01 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Hb SS disease",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "232"
+          },
+          {
+            "db_source": "Orphanet",
+            "db_id": "275752"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0002895"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0011382"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "603903"
+          }
+        ]
+      },
+      {
+        "trait_name": "Heinz body anemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "178330"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0700299"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0007705"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "140700"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0005511"
+          }
+        ]
+      },
+      {
+        "trait_name": "Beta-thalassemia HBB/LCRB",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN322236"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0013517"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "613985"
+          }
+        ]
+      },
+      {
+        "trait_name": "alpha Thalassemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "846"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0002312"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0011399"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "604131"
+          }
+        ]
+      },
+      {
+        "trait_name": "Dominant beta-thalassemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "231226"
+          },
+          {
+            "db_source": "Orphanet",
+            "db_id": "848"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1858990"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0011381"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "603902"
+          }
+        ]
+      },
+      {
+        "trait_name": "Malaria, susceptibility to",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "673"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1970028"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0021024"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "611162"
+          }
+        ]
+      },
+      {
+        "trait_name": "Fetal hemoglobin quantitative trait locus 1",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "251380"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1841621"
+          }
+        ]
+      },
+      {
+        "trait_name": "Erythrocytosis, familial, 6",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C4693822"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0054801"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "617980"
+          }
+        ]
+      },
+      {
+        "trait_name": "beta Thalassemia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "848"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0005283"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0019402"
+          }
+        ]
+      },
+      {
+        "trait_name": "METHEMOGLOBINEMIA, BETA TYPE",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C1840779"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "617971"
+          }
+        ]
+      },
+      {
+        "trait_name": "Hereditary persistence of fetal hemoglobin",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0019025"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0020989"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "141749"
+          }
+        ]
+      },
+      {
+        "trait_name": "Inborn genetic diseases",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0950123"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D030342"
+          }
+        ]
+      },
+      {
+        "trait_name": "HBB-related disorder",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN239378"
+          }
+        ]
+      },
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      },
+      {
+        "trait_name": "Sickle cell-hemoglobin C disease",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "251365"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0019034"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D006450"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0016669"
+          }
+        ]
+      },
+      {
+        "trait_name": "See cases",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 5,
+    "rsid": "rs334",
+    "current_rsid": "rs334",
+    "was_merged": false,
+    "clinvar_link_rank": 10,
+    "clinvar_uid": "15175",
+    "accession": "VCV000015175",
+    "accession_version": "VCV000015175.3",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000518.4(HBB):c.20A>C (p.Glu7Ala)",
+    "variant_keys": [
+      "GRCh38:11:5227002:T>G"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "30214",
+        "variation_name": "NM_000518.4(HBB):c.20A>C (p.Glu7Ala)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:5227001:T:G",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:5227002:T>G",
+        "rsids": [
+          "rs334"
+        ],
+        "aliases": [
+          "E6A"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "5227002",
+            "stop": "5227002",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs334"
+    ],
+    "genes": [
+      "HBB:3043",
+      "LOC106099062:106099062",
+      "LOC107133510:107133510"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "E7A",
+    "n_scv": 2,
+    "scv_accessions": [
+      "SCV000036620",
+      "SCV003934604"
+    ],
+    "n_rcv": 2,
+    "rcv_accessions": [
+      "RCV000016352",
+      "RCV003234907"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15175/",
+    "germline_classification": "Likely benign",
+    "germline_review_status": "criteria provided, single submitter",
+    "germline_last_evaluated": "2023/05/08 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "not specified",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN169374"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "694742",
+    "accession": "VCV000694742",
+    "accession_version": "VCV000694742.1",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "identity_reference"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000041.4(APOE):c.388= (p.Cys130=)",
+    "variant_keys": [],
+    "matching_components": [
+      {
+        "measure_id": "682795",
+        "variation_name": "NM_000041.4(APOE):c.388= (p.Cys130=)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908683:T:T",
+        "allele_role": "identity_reference",
+        "variant_key": null,
+        "rsids": [
+          "rs429358"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908684",
+            "stop": "44908684",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs429358"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "no sequence alteration"
+    ],
+    "protein_change": "",
+    "n_scv": 0,
+    "scv_accessions": [],
+    "n_rcv": 0,
+    "rcv_accessions": [],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/694742/",
+    "germline_classification": "no classification for the single variant",
+    "germline_review_status": "no classification for the single variant",
+    "germline_last_evaluated": "1/01/01 00:00",
+    "germline_traits": [],
+    "clinical_impact_classification": "no classification for the single variant",
+    "clinical_impact_review_status": "no classification for the single variant",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "no classification for the single variant",
+    "oncogenicity_review_status": "no classification for the single variant",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 7,
+    "rsid": "rs429358",
+    "current_rsid": "rs429358",
+    "was_merged": false,
+    "clinvar_link_rank": 8,
+    "clinvar_uid": "17864",
+    "accession": "VCV000017864",
+    "accession_version": "VCV000017864.51",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000041.4(APOE):c.388T>C (p.Cys130Arg)",
+    "variant_keys": [
+      "GRCh38:19:44908684:T>C"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "32903",
+        "variation_name": "NM_000041.4(APOE):c.388T>C (p.Cys130Arg)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908683:T:C",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:19:44908684:T>C",
+        "rsids": [
+          "rs429358"
+        ],
+        "aliases": [
+          "C112R",
+          "ApoE4"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908684",
+            "stop": "44908684",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs429358"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "C130R, C156R",
+    "n_scv": 19,
+    "scv_accessions": [
+      "SCV000967586",
+      "SCV001366227",
+      "SCV007310668",
+      "SCV000889946",
+      "SCV000987489",
+      "SCV001440792",
+      "SCV000039738",
+      "SCV007520722",
+      "SCV001142704",
+      "SCV002502503",
+      "SCV002764628",
+      "SCV001550609",
+      "SCV005874057",
+      "SCV000333415",
+      "SCV006109641",
+      "SCV006553474",
+      "SCV007516966",
+      "SCV006582806",
+      "SCV002822580"
+    ],
+    "n_rcv": 9,
+    "rcv_accessions": [
+      "RCV000019448",
+      "RCV000292119",
+      "RCV000991302",
+      "RCV000826089",
+      "RCV000845581",
+      "RCV001195807",
+      "RCV001262791",
+      "RCV005434607",
+      "RCV006629061"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17864/",
+    "germline_classification": "Conflicting classifications of pathogenicity; other; risk factor",
+    "germline_review_status": "criteria provided, conflicting classifications",
+    "germline_last_evaluated": "2026/01/26 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Primary degenerative dementia of the Alzheimer type, presenile onset",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C5779573"
+          }
+        ]
+      },
+      {
+        "trait_name": "Familial hypercholesterolemia",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0020445"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005439"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "PS143890"
+          }
+        ]
+      },
+      {
+        "trait_name": "not specified",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN169374"
+          }
+        ]
+      },
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      },
+      {
+        "trait_name": "Alzheimer disease 2",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "1020"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1863051"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0007089"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "104310"
+          }
+        ]
+      },
+      {
+        "trait_name": "Lipoprotein glomerulopathy",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "329481"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C2673196"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0012725"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "611771"
+          }
+        ]
+      },
+      {
+        "trait_name": "Alzheimer disease 4",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "1020"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C1847200"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0011743"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "606889"
+          }
+        ]
+      },
+      {
+        "trait_name": "Alzheimer disease",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "1020"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0002395"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D000544"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0004975"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002511"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006878"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0007213"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 8,
+    "rsid": "rs3827760",
+    "current_rsid": "rs3827760",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "5858",
+    "accession": "VCV000005858",
+    "accession_version": "VCV000005858.26",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_022336.4(EDAR):c.1109T>C (p.Val370Ala)",
+    "variant_keys": [
+      "GRCh38:2:108897145:A>G"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "20897",
+        "variation_name": "NM_022336.4(EDAR):c.1109T>C (p.Val370Ala)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000002.12:108897144:A:G",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:2:108897145:A>G",
+        "rsids": [
+          "rs3827760"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "2",
+            "start": "108897145",
+            "stop": "108897145",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs3827760"
+    ],
+    "genes": [
+      "EDAR:10913",
+      "RANBP2:5903"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "V370A",
+    "n_scv": 11,
+    "scv_accessions": [
+      "SCV001293661",
+      "SCV000026398",
+      "SCV000314028",
+      "SCV001950535",
+      "SCV005239435",
+      "SCV000225691",
+      "SCV001875910",
+      "SCV001875912",
+      "SCV006053923",
+      "SCV001365407",
+      "SCV001733091"
+    ],
+    "n_rcv": 9,
+    "rcv_accessions": [
+      "RCV000006216",
+      "RCV000174399",
+      "RCV001133945",
+      "RCV001261884",
+      "RCV001523395",
+      "RCV001659684",
+      "RCV001659685",
+      "RCV001723544",
+      "RCV005394125"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/5858/",
+    "germline_classification": "Benign",
+    "germline_review_status": "criteria provided, multiple submitters, no conflicts",
+    "germline_last_evaluated": "2026/01/26 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Autosomal recessive hypohidrotic ectodermal dysplasia syndrome",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "248"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0406702"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0016619"
+          }
+        ]
+      },
+      {
+        "trait_name": "Ectodermal dysplasia 10A, hypohidrotic/hair/nail type, autosomal dominant",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "1810"
+          },
+          {
+            "db_source": "Orphanet",
+            "db_id": "238468"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C3888065"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0007509"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "129490"
+          }
+        ]
+      },
+      {
+        "trait_name": "Hypohidrotic ectodermal dysplasia",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "238468"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C5848103"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0016535"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0007607"
+          }
+        ]
+      },
+      {
+        "trait_name": "Ectodermal dysplasia 10B, hypohidrotic/hair/tooth type, autosomal recessive",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "238468"
+          },
+          {
+            "db_source": "Orphanet",
+            "db_id": "248"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C3887494"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0009147"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "224900"
+          }
+        ]
+      },
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      },
+      {
+        "trait_name": "not specified",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN169374"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 9,
+    "rsid": "rs113993960",
+    "current_rsid": "rs113993960",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "7105",
+    "accession": "VCV000007105",
+    "accession_version": "VCV000007105.214",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Deletion",
+    "title": "NM_000492.3(CFTR):c.1521_1523del (p.Phe508del)",
+    "variant_keys": [],
+    "matching_components": [
+      {
+        "measure_id": "22144",
+        "variation_name": "NM_000492.3(CFTR):c.1521_1523del (p.Phe508del)",
+        "variant_type": "Deletion",
+        "canonical_spdi": "NC_000007.14:117559590:TCTT:T",
+        "allele_role": "changed",
+        "variant_key": null,
+        "rsids": [
+          "rs113993960"
+        ],
+        "aliases": [
+          "F508del",
+          "deltaF508",
+          "F508delF",
+          "DF508",
+          "Phe508del",
+          "DeltaF508",
+          "[delta]F508"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "7",
+            "start": "117559591",
+            "stop": "117559593",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs113993960"
+    ],
+    "genes": [
+      "CFTR-AS1:111082987",
+      "CFTR:1080"
+    ],
+    "molecular_consequences": [
+      "inframe_deletion"
+    ],
+    "protein_change": "",
+    "n_scv": 102,
+    "scv_accessions": [
+      "SCV000511517",
+      "SCV000594089",
+      "SCV000071493",
+      "SCV000747395",
+      "SCV000747396",
+      "SCV000883108",
+      "SCV001368335",
+      "SCV001744105",
+      "SCV002031250",
+      "SCV002031251",
+      "SCV002053836",
+      "SCV004171185",
+      "SCV004242533",
+      "SCV001149705",
+      "SCV000071392",
+      "SCV002019253",
+      "SCV001713417",
+      "SCV000741228",
+      "SCV000928113",
+      "SCV000864219",
+      "SCV001163504",
+      "SCV001169465",
+      "SCV001244997",
+      "SCV001251746",
+      "SCV001193905",
+      "SCV001860325",
+      "SCV002035293",
+      "SCV002080609",
+      "SCV002512246",
+      "SCV002523540",
+      "SCV002564582",
+      "SCV002759371",
+      "SCV004042777",
+      "SCV004101106",
+      "SCV004100881",
+      "SCV002761398",
+      "SCV004176446",
+      "SCV000221179",
+      "SCV000027724",
+      "SCV000053487",
+      "SCV001527339",
+      "SCV004211619",
+      "SCV002818128",
+      "SCV004101520",
+      "SCV002810876",
+      "SCV002503785",
+      "SCV002097285",
+      "SCV004101389",
+      "SCV004698102",
+      "SCV006554384",
+      "SCV006554430",
+      "SCV002072562",
+      "SCV007329966",
+      "SCV002048630",
+      "SCV004046363",
+      "SCV007540636",
+      "SCV000090450",
+      "SCV000538017",
+      "SCV000536740",
+      "SCV000584079",
+      "SCV000891676",
+      "SCV000329246",
+      "SCV001251533",
+      "SCV001424387",
+      "SCV001450105",
+      "SCV001553614",
+      "SCV001929598",
+      "SCV002061800",
+      "SCV002502414",
+      "SCV002507372",
+      "SCV002507456",
+      "SCV002529678",
+      "SCV002543782",
+      "SCV001622798",
+      "SCV000153744",
+      "SCV000886152",
+      "SCV003925476",
+      "SCV002009133",
+      "SCV004024086",
+      "SCV004805438",
+      "SCV005051724",
+      "SCV005197698",
+      "SCV005397656",
+      "SCV000889288",
+      "SCV000330918",
+      "SCV000607274",
+      "SCV001810348",
+      "SCV002579737",
+      "SCV004037030",
+      "SCV006109277",
+      "SCV001161676",
+      "SCV006555683",
+      "SCV006561073",
+      "SCV007448776",
+      "SCV000074347",
+      "SCV007580311",
+      "SCV003841941",
+      "SCV001246813",
+      "SCV007675062",
+      "SCV007984673",
+      "SCV004105952",
+      "SCV008128387"
+    ],
+    "n_rcv": 18,
+    "rcv_accessions": [
+      "RCV000007523",
+      "RCV000007524",
+      "RCV000058929",
+      "RCV000119038",
+      "RCV000626692",
+      "RCV000626693",
+      "RCV001004459",
+      "RCV001642198",
+      "RCV001787370",
+      "RCV001831519",
+      "RCV002251888",
+      "RCV001787371",
+      "RCV002243627",
+      "RCV003227599",
+      "RCV002490332",
+      "RCV003444054",
+      "RCV005865162",
+      "RCV006983891"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7105/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "practice guideline",
+    "germline_last_evaluated": "2004/03/03 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Cystic fibrosis",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "586"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0010674"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0009061"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "219700"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 10,
+    "rsid": "rs4988235",
+    "current_rsid": "rs4988235",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "7685",
+    "accession": "VCV000007685",
+    "accession_version": "VCV000007685.6",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_002299.2(LCT):c.-13907C>T",
+    "variant_keys": [
+      "GRCh38:2:135851076:G>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "22724",
+        "variation_name": "NM_002299.2(LCT):c.-13907C>T",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000002.12:135851075:G:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:2:135851076:G>A",
+        "rsids": [
+          "rs4988235"
+        ],
+        "aliases": [
+          "-13910C*T",
+          "MCM6:c.1917+326C>T",
+          "IVS13, C/T"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "2",
+            "start": "135851076",
+            "stop": "135851076",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs4988235"
+    ],
+    "genes": [
+      "MCM6:4175"
+    ],
+    "molecular_consequences": [
+      "intron variant"
+    ],
+    "protein_change": "",
+    "n_scv": 2,
+    "scv_accessions": [
+      "SCV000028329",
+      "SCV002538649"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000008124"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7685/",
+    "germline_classification": "association",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2021/01/26 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "LACTASE PERSISTENCE",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C1857231"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 11,
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "182963",
+    "accession": "VCV000182963",
+    "accession_version": "VCV000182963.21",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000546.6(TP53):c.524G>T (p.Arg175Leu)",
+    "variant_keys": [
+      "GRCh38:17:7675088:C>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "181010",
+        "variation_name": "NM_000546.6(TP53):c.524G>T (p.Arg175Leu)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000017.11:7675087:C:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:17:7675088:C>A",
+        "rsids": [
+          "rs28934578"
+        ],
+        "aliases": [
+          "NM_000546.6(TP53):c.524G>T"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "17",
+            "start": "7675088",
+            "stop": "7675088",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs28934578"
+    ],
+    "genes": [
+      "TP53:7157"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "R136L, R175L, R43L, R16L",
+    "n_scv": 7,
+    "scv_accessions": [
+      "SCV002582385",
+      "SCV002583047",
+      "SCV005918332",
+      "SCV000951018",
+      "SCV005201130",
+      "SCV000275440",
+      "SCV007648568"
+    ],
+    "n_rcv": 3,
+    "rcv_accessions": [
+      "RCV000161065",
+      "RCV000810785",
+      "RCV002288703"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/182963/",
+    "germline_classification": "Likely pathogenic",
+    "germline_review_status": "reviewed by expert panel",
+    "germline_last_evaluated": "2024/09/06 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Li-Fraumeni syndrome",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "524"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0085390"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0018875"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "PS151623"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 11,
+    "rsid": "rs28934578",
+    "current_rsid": "rs28934578",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "12374",
+    "accession": "VCV000012374",
+    "accession_version": "VCV000012374.88",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000546.6(TP53):c.524G>A (p.Arg175His)",
+    "variant_keys": [
+      "GRCh38:17:7675088:C>T"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "27413",
+        "variation_name": "NM_000546.6(TP53):c.524G>A (p.Arg175His)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000017.11:7675087:C:T",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:17:7675088:C>T",
+        "rsids": [
+          "rs28934578"
+        ],
+        "aliases": [
+          "p.R175H:CGC>CAC",
+          "NM_000546.6(TP53):c.524G>A"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "17",
+            "start": "7675088",
+            "stop": "7675088",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs28934578"
+    ],
+    "genes": [
+      "TP53:7157"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "R175H, R136H, R43H, R16H",
+    "n_scv": 49,
+    "scv_accessions": [
+      "SCV000186273",
+      "SCV005094440",
+      "SCV005872480",
+      "SCV006325613",
+      "SCV005685067",
+      "SCV000806241",
+      "SCV000189994",
+      "SCV000033420",
+      "SCV000731790",
+      "SCV002582493",
+      "SCV002583153",
+      "SCV000894156",
+      "SCV005688871",
+      "SCV000905051",
+      "SCV000488375",
+      "SCV007105501",
+      "SCV007105574",
+      "SCV007105584",
+      "SCV007105618",
+      "SCV007105627",
+      "SCV007104864",
+      "SCV007449463",
+      "SCV000692083",
+      "SCV000923920",
+      "SCV001432233",
+      "SCV001478188",
+      "SCV001551443",
+      "SCV001738476",
+      "SCV000211798",
+      "SCV001808819",
+      "SCV001906154",
+      "SCV001959136",
+      "SCV002758490",
+      "SCV002011128",
+      "SCV004044216",
+      "SCV004823789",
+      "SCV002074556",
+      "SCV004206223",
+      "SCV005201131",
+      "SCV005419199",
+      "SCV001450483",
+      "SCV001450484",
+      "SCV005368520",
+      "SCV000297733",
+      "SCV000261917",
+      "SCV007599807",
+      "SCV007665128",
+      "SCV007674822",
+      "SCV007833763"
+    ],
+    "n_rcv": 22,
+    "rcv_accessions": [
+      "RCV000013173",
+      "RCV000131301",
+      "RCV000204931",
+      "RCV000213054",
+      "RCV000239398",
+      "RCV000421746",
+      "RCV000785352",
+      "RCV001270269",
+      "RCV001255668",
+      "RCV001270268",
+      "RCV001527463",
+      "RCV002476956",
+      "RCV003162247",
+      "RCV003466854",
+      "RCV004797760",
+      "RCV006253504",
+      "RCV006253505",
+      "RCV006253506",
+      "RCV006253501",
+      "RCV006253502",
+      "RCV006253503",
+      "RCV006755759"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12374/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "reviewed by expert panel",
+    "germline_last_evaluated": "2024/09/06 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Li-Fraumeni syndrome",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "524"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0085390"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0018875"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "PS151623"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "Tier I - Strong",
+    "clinical_impact_review_status": "criteria provided, single submitter",
+    "clinical_impact_last_evaluated": "2025/08/20 00:00",
+    "clinical_impact_traits": [
+      {
+        "trait_name": "Undifferentiated embryonal sarcoma of the liver",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "178315"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C2205345"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0015795"
+          }
+        ]
+      },
+      {
+        "trait_name": "Medulloblastoma SHH activated and TP53 mutant",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN377553"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0956964"
+          }
+        ]
+      },
+      {
+        "trait_name": "IDH-wildtype glioblastoma",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN372125"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0850335"
+          }
+        ]
+      },
+      {
+        "trait_name": "Diffuse midline glioma, H3 K27M-mutant",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C4289688"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0957196"
+          }
+        ]
+      },
+      {
+        "trait_name": "Astrocytoma IDH-mutant",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C5669733"
+          }
+        ]
+      }
+    ],
+    "oncogenicity_classification": "Oncogenic",
+    "oncogenicity_review_status": "criteria provided, single submitter",
+    "oncogenicity_last_evaluated": "2025/03/04 00:00",
+    "oncogenicity_traits": [
+      {
+        "trait_name": "Neoplasm",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0027651"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D009369"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005070"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002664"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0003008"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0006741"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 13,
+    "rsid": "rs12913832",
+    "current_rsid": "rs12913832",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "4745",
+    "accession": "VCV000004745",
+    "accession_version": "VCV000004745.2",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_004667.6(HERC2):c.13272+874T>C",
+    "variant_keys": [
+      "GRCh38:15:28120472:A>G"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "19784",
+        "variation_name": "NM_004667.6(HERC2):c.13272+874T>C",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000015.10:28120471:A:G",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:15:28120472:A>G",
+        "rsids": [
+          "rs12913832"
+        ],
+        "aliases": [
+          "IVS86, C/T"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "15",
+            "start": "28120472",
+            "stop": "28120472",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs12913832"
+    ],
+    "genes": [
+      "HERC2:8924",
+      "LOC128772394:128772394"
+    ],
+    "molecular_consequences": [
+      "intron variant"
+    ],
+    "protein_change": "",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000025187"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000005011"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4745/",
+    "germline_classification": "association",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2018/02/13 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "SKIN/HAIR/EYE PIGMENTATION 1, BLUE/NONBLUE EYES",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C1856895"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "227220"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 14,
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "226007",
+    "accession": "VCV000226007",
+    "accession_version": "VCV000226007.28",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "identity_reference"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000130.5(F5):c.1601= (p.Arg534=)",
+    "variant_keys": [],
+    "matching_components": [
+      {
+        "measure_id": "227743",
+        "variation_name": "NM_000130.5(F5):c.1601= (p.Arg534=)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000001.11:169549810:C:C",
+        "allele_role": "identity_reference",
+        "variant_key": null,
+        "rsids": [
+          "rs6025"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "1",
+            "start": "169549811",
+            "stop": "169549811",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs6025"
+    ],
+    "genes": [
+      "F5:2153"
+    ],
+    "molecular_consequences": [
+      "no sequence alteration"
+    ],
+    "protein_change": "",
+    "n_scv": 6,
+    "scv_accessions": [
+      "SCV000977406",
+      "SCV005286498",
+      "SCV007787776",
+      "SCV001550733",
+      "SCV002562953",
+      "SCV000999944"
+    ],
+    "n_rcv": 3,
+    "rcv_accessions": [
+      "RCV000514863",
+      "RCV003761828",
+      "RCV006835026"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/226007/",
+    "germline_classification": "Conflicting classifications of pathogenicity",
+    "germline_review_status": "criteria provided, conflicting classifications",
+    "germline_last_evaluated": "2026/02/04 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      },
+      {
+        "trait_name": "F5-related disorders",
+        "trait_xrefs": []
+      },
+      {
+        "trait_name": "Congenital factor V deficiency",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "326"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0015499"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0009210"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "227400"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 14,
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "642",
+    "accession": "VCV000000642",
+    "accession_version": "VCV000000642.133",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+    "variant_keys": [
+      "GRCh38:1:169549811:C>T"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "15681",
+        "variation_name": "NM_000130.4(F5):c.1601G>A (p.Arg534Gln)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000001.11:169549810:C:T",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:1:169549811:C>T",
+        "rsids": [
+          "rs6025"
+        ],
+        "aliases": [
+          "F5, ARG506GLN",
+          "R506Q",
+          "F5:c.1601G>A (p.Arg534Gln)",
+          "factor V Leiden"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "1",
+            "start": "169549811",
+            "stop": "169549811",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs6025"
+    ],
+    "genes": [
+      "F5:2153"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "R534Q",
+    "n_scv": 34,
+    "scv_accessions": [
+      "SCV000839955",
+      "SCV000271297",
+      "SCV003925528",
+      "SCV004243416",
+      "SCV001432487",
+      "SCV007096568",
+      "SCV000020824",
+      "SCV000020825",
+      "SCV000020826",
+      "SCV000045226",
+      "SCV001525756",
+      "SCV001750078",
+      "SCV002519645",
+      "SCV002583432",
+      "SCV003835241",
+      "SCV005684815",
+      "SCV005873803",
+      "SCV007329932",
+      "SCV007329968",
+      "SCV000262346",
+      "SCV007592208",
+      "SCV000538025",
+      "SCV001251455",
+      "SCV000728219",
+      "SCV002500857",
+      "SCV002754531",
+      "SCV002764636",
+      "SCV004807713",
+      "SCV002706385",
+      "SCV005197848",
+      "SCV006099710",
+      "SCV006108541",
+      "SCV007597098",
+      "SCV007598862"
+    ],
+    "n_rcv": 13,
+    "rcv_accessions": [
+      "RCV000000675",
+      "RCV000000676",
+      "RCV000023935",
+      "RCV000205002",
+      "RCV000454249",
+      "RCV000616414",
+      "RCV001095681",
+      "RCV001806997",
+      "RCV002399305",
+      "RCV003493407",
+      "RCV003227589",
+      "RCV003764502",
+      "RCV005049305"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/642/",
+    "germline_classification": "drug response",
+    "germline_review_status": "reviewed by expert panel",
+    "germline_last_evaluated": "2021/03/24 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "hormonal contraceptives for systemic use response - Toxicity",
+        "trait_xrefs": []
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 15,
+    "rsid": "rs713598",
+    "current_rsid": "rs713598",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "2904",
+    "accession": "VCV000002904",
+    "accession_version": "VCV000002904.1",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_176817.5(TAS2R38):c.145G>C (p.Ala49Pro)",
+    "variant_keys": [
+      "GRCh38:7:141973545:C>G"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "17943",
+        "variation_name": "NM_176817.5(TAS2R38):c.145G>C (p.Ala49Pro)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000007.14:141973544:C:G",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:7:141973545:C>G",
+        "rsids": [
+          "rs713598"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "7",
+            "start": "141973545",
+            "stop": "141973545",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs713598"
+    ],
+    "genes": [
+      "TAS2R38:5726"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "A49P",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000023196"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000003038"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2904/",
+    "germline_classification": "drug response",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2010/12/30 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Phenylthiocarbamide tasting",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C1868398"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 16,
+    "rsid": "rs7412",
+    "current_rsid": "rs7412",
+    "was_merged": false,
+    "clinvar_link_rank": 4,
+    "clinvar_uid": "17848",
+    "accession": "VCV000017848",
+    "accession_version": "VCV000017848.38",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000041.2(APOE):c.526C>T (p.Arg176Cys)",
+    "variant_keys": [
+      "GRCh38:19:44908822:C>T"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "32887",
+        "variation_name": "NM_000041.2(APOE):c.526C>T (p.Arg176Cys)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000019.10:44908821:C:T",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:19:44908822:C>T",
+        "rsids": [
+          "rs7412"
+        ],
+        "aliases": [
+          "R158C",
+          "R148C"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "19",
+            "start": "44908822",
+            "stop": "44908822",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs7412"
+    ],
+    "genes": [
+      "APOE:348"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "R176C, R202C",
+    "n_scv": 12,
+    "scv_accessions": [
+      "SCV001743895",
+      "SCV000268391",
+      "SCV007310670",
+      "SCV000039717",
+      "SCV000889947",
+      "SCV000987597",
+      "SCV001440366",
+      "SCV001550093",
+      "SCV001926324",
+      "SCV000333416",
+      "SCV006109642",
+      "SCV004033681"
+    ],
+    "n_rcv": 6,
+    "rcv_accessions": [
+      "RCV000019428",
+      "RCV000211178",
+      "RCV000346955",
+      "RCV000845582",
+      "RCV001262472",
+      "RCV001529800"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17848/",
+    "germline_classification": "drug response",
+    "germline_review_status": "reviewed by expert panel",
+    "germline_last_evaluated": "2021/03/24 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "atorvastatin response - Efficacy",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN322724"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 17,
+    "rsid": "rs80357713",
+    "current_rsid": "rs80357783",
+    "was_merged": true,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "37691",
+    "accession": "VCV000037691",
+    "accession_version": "VCV000037691.85",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "Duplication",
+    "title": "NM_007294.4(BRCA1):c.66dup (p.Glu23fs)",
+    "variant_keys": [],
+    "matching_components": [
+      {
+        "measure_id": "46247",
+        "variation_name": "NM_007294.4(BRCA1):c.66dup (p.Glu23fs)",
+        "variant_type": "Duplication",
+        "canonical_spdi": "NC_000017.11:43124030:T:TT",
+        "allele_role": "changed",
+        "variant_key": null,
+        "rsids": [
+          "rs80357783"
+        ],
+        "aliases": [
+          "185_186insA",
+          "NP_009225.1:p.Glu23ArgfsTer18",
+          "185insA"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "17",
+            "start": "43124030",
+            "stop": "43124031",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs80357783"
+    ],
+    "genes": [
+      "BRCA1:672"
+    ],
+    "molecular_consequences": [
+      "frameshift variant",
+      "5 prime UTR variant",
+      "non-coding transcript variant"
+    ],
+    "protein_change": "E23fs",
+    "n_scv": 45,
+    "scv_accessions": [
+      "SCV000282347",
+      "SCV000564708",
+      "SCV000077100",
+      "SCV000144170",
+      "SCV000564309",
+      "SCV000699283",
+      "SCV000925806",
+      "SCV000693501",
+      "SCV001906189",
+      "SCV001931017",
+      "SCV001972604",
+      "SCV000326376",
+      "SCV000839318",
+      "SCV004215028",
+      "SCV005424226",
+      "SCV005640307",
+      "SCV000911363",
+      "SCV000265852",
+      "SCV000053877",
+      "SCV000587005",
+      "SCV000914333",
+      "SCV000923766",
+      "SCV001499756",
+      "SCV001552235",
+      "SCV001797997",
+      "SCV001741091",
+      "SCV002003984",
+      "SCV002026050",
+      "SCV002520918",
+      "SCV002537883",
+      "SCV000296291",
+      "SCV004244205",
+      "SCV005199764",
+      "SCV005363303",
+      "SCV000213973",
+      "SCV005872206",
+      "SCV000227401",
+      "SCV001774819",
+      "SCV004027618",
+      "SCV000488962",
+      "SCV003809723",
+      "SCV006554532",
+      "SCV007449507",
+      "SCV007592291",
+      "SCV007664198"
+    ],
+    "n_rcv": 11,
+    "rcv_accessions": [
+      "RCV000031272",
+      "RCV000049087",
+      "RCV000163427",
+      "RCV000240681",
+      "RCV000478017",
+      "RCV000785198",
+      "RCV000778174",
+      "RCV001554246",
+      "RCV004802995",
+      "RCV004758615",
+      "RCV005007902"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/37691/",
+    "germline_classification": "Pathogenic",
+    "germline_review_status": "reviewed by expert panel",
+    "germline_last_evaluated": "2016/04/22 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Breast-ovarian cancer, familial, susceptibility to, 1",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "145"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C2676676"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0011450"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "604370"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 18,
+    "rsid": "rs1426654",
+    "current_rsid": "rs1426654",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "263273",
+    "accession": "VCV000263273",
+    "accession_version": "VCV000263273.12",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_205850.3(SLC24A5):c.331A>G (p.Thr111Ala)",
+    "variant_keys": [
+      "GRCh38:15:48134287:A>G"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "255247",
+        "variation_name": "NM_205850.3(SLC24A5):c.331A>G (p.Thr111Ala)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000015.10:48134286:A:G",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:15:48134287:A>G",
+        "rsids": [
+          "rs1426654"
+        ],
+        "aliases": [],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "15",
+            "start": "48134287",
+            "stop": "48134287",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs1426654"
+    ],
+    "genes": [
+      "SLC24A5:283652"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "T111A",
+    "n_scv": 4,
+    "scv_accessions": [
+      "SCV000317184",
+      "SCV001950774",
+      "SCV005292890",
+      "SCV002403278"
+    ],
+    "n_rcv": 2,
+    "rcv_accessions": [
+      "RCV000250857",
+      "RCV001723865"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/263273/",
+    "germline_classification": "Benign",
+    "germline_review_status": "criteria provided, multiple submitters, no conflicts",
+    "germline_last_evaluated": "2026/02/03 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "not specified",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "CN169374"
+          }
+        ]
+      },
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 18,
+    "rsid": "rs1426654",
+    "current_rsid": "rs1426654",
+    "was_merged": false,
+    "clinvar_link_rank": 2,
+    "clinvar_uid": "1487",
+    "accession": "VCV000001487",
+    "accession_version": "VCV000001487.5",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "identity_reference"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_205850.3(SLC24A5):c.331= (p.Thr111=)",
+    "variant_keys": [],
+    "matching_components": [
+      {
+        "measure_id": "16526",
+        "variation_name": "NM_205850.3(SLC24A5):c.331= (p.Thr111=)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000015.10:48134286:A:A",
+        "allele_role": "identity_reference",
+        "variant_key": null,
+        "rsids": [
+          "rs1426654"
+        ],
+        "aliases": [
+          "A111T"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "15",
+            "start": "48134287",
+            "stop": "48134287",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs1426654"
+    ],
+    "genes": [
+      "SLC24A5:283652"
+    ],
+    "molecular_consequences": [
+      "no sequence alteration"
+    ],
+    "protein_change": "",
+    "n_scv": 1,
+    "scv_accessions": [
+      "SCV000021707"
+    ],
+    "n_rcv": 1,
+    "rcv_accessions": [
+      "RCV000001552"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/1487/",
+    "germline_classification": "association",
+    "germline_review_status": "no assertion criteria provided",
+    "germline_last_evaluated": "2022/09/21 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Skin/hair/eye pigmentation, variation in, 4",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C2676042"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 19,
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "13310",
+    "accession": "VCV000013310",
+    "accession_version": "VCV000013310.157",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_000506.5(F2):c.*97G>A",
+    "variant_keys": [
+      "GRCh38:11:46739505:G>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "28349",
+        "variation_name": "NM_000506.5(F2):c.*97G>A",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000011.10:46739504:G:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:11:46739505:G>A",
+        "rsids": [
+          "rs1799963"
+        ],
+        "aliases": [
+          "F2, 20210G-A",
+          "20210G-A"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "11",
+            "start": "46739505",
+            "stop": "46739505",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs1799963"
+    ],
+    "genes": [
+      "F2:2147"
+    ],
+    "molecular_consequences": [],
+    "protein_change": "",
+    "n_scv": 35,
+    "scv_accessions": [
+      "SCV000967587",
+      "SCV001368932",
+      "SCV003844696",
+      "SCV005090891",
+      "SCV000677907",
+      "SCV000034485",
+      "SCV000034486",
+      "SCV000044018",
+      "SCV001138282",
+      "SCV001142420",
+      "SCV001262797",
+      "SCV003806787",
+      "SCV004040661",
+      "SCV001251846",
+      "SCV005420901",
+      "SCV005679007",
+      "SCV006555160",
+      "SCV003921890",
+      "SCV000262466",
+      "SCV001737608",
+      "SCV002500854",
+      "SCV002058094",
+      "SCV002764637",
+      "SCV001552413",
+      "SCV001822471",
+      "SCV005197847",
+      "SCV005328465",
+      "SCV006109805",
+      "SCV007223184",
+      "SCV007294372",
+      "SCV007580933",
+      "SCV006583511",
+      "SCV001248265",
+      "SCV007654024",
+      "SCV008128765"
+    ],
+    "n_rcv": 10,
+    "rcv_accessions": [
+      "RCV000014238",
+      "RCV000022729",
+      "RCV000205022",
+      "RCV000826090",
+      "RCV001091960",
+      "RCV001794446",
+      "RCV002468555",
+      "RCV005042047",
+      "RCV005419865",
+      "RCV006362020"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/13310/",
+    "germline_classification": "Pathogenic/Likely pathogenic/Pathogenic, low penetrance/Established risk allele; risk factor",
+    "germline_review_status": "criteria provided, multiple submitters, no conflicts",
+    "germline_last_evaluated": "2026/02/03 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "Thrombophilia due to thrombin defect",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3160733"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0008559"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "188050"
+          }
+        ]
+      },
+      {
+        "trait_name": "Venous thromboembolism",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C1861172"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D054556"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0005399"
+          }
+        ]
+      },
+      {
+        "trait_name": "Pregnancy loss, recurrent, susceptibility to, 2",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3280672"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0013728"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "614390"
+          }
+        ]
+      },
+      {
+        "trait_name": "Congenital prothrombin deficiency",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "325"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0272317"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0013361"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "613679"
+          }
+        ]
+      },
+      {
+        "trait_name": "Ischemic stroke",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0948008"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:1060198"
+          },
+          {
+            "db_source": "OMIM",
+            "db_id": "601367"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0002140"
+          }
+        ]
+      },
+      {
+        "trait_name": "Inborn genetic diseases",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0950123"
+          },
+          {
+            "db_source": "MeSH",
+            "db_id": "D030342"
+          }
+        ]
+      },
+      {
+        "trait_name": "not provided",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C3661900"
+          }
+        ]
+      },
+      {
+        "trait_name": "Cerebral palsy",
+        "trait_xrefs": [
+          {
+            "db_source": "MedGen",
+            "db_id": "C0007789"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0006497"
+          },
+          {
+            "db_source": "Human Phenotype Ontology",
+            "db_id": "HP:0100021"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  },
+  {
+    "rank": 20,
+    "rsid": "rs1801133",
+    "current_rsid": "rs1801133",
+    "was_merged": false,
+    "clinvar_link_rank": 1,
+    "clinvar_uid": "3520",
+    "accession": "VCV000003520",
+    "accession_version": "VCV000003520.144",
+    "record_scope": "direct_variant",
+    "exact_current_dbsnp_xref": true,
+    "matching_allele_roles": [
+      "changed"
+    ],
+    "object_type": "single nucleotide variant",
+    "title": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+    "variant_keys": [
+      "GRCh38:1:11796321:G>A"
+    ],
+    "matching_components": [
+      {
+        "measure_id": "18559",
+        "variation_name": "NM_005957.5(MTHFR):c.665C>T (p.Ala222Val)",
+        "variant_type": "single nucleotide variant",
+        "canonical_spdi": "NC_000001.11:11796320:G:A",
+        "allele_role": "changed",
+        "variant_key": "GRCh38:1:11796321:G>A",
+        "rsids": [
+          "rs1801133"
+        ],
+        "aliases": [
+          "MTHFR, 677C-T, ALA222VAL (rs1801133)",
+          "C667T"
+        ],
+        "grch38_locations": [
+          {
+            "status": "current",
+            "chr": "1",
+            "start": "11796321",
+            "stop": "11796321",
+            "assembly_acc_ver": "GCF_000001405.38"
+          }
+        ]
+      }
+    ],
+    "component_rsids": [
+      "rs1801133"
+    ],
+    "genes": [
+      "MTHFR:4524"
+    ],
+    "molecular_consequences": [
+      "missense variant"
+    ],
+    "protein_change": "A222V, A263V",
+    "n_scv": 25,
+    "scv_accessions": [
+      "SCV001423141",
+      "SCV001366606",
+      "SCV002031239",
+      "SCV001463167",
+      "SCV002538647",
+      "SCV000023860",
+      "SCV001194043",
+      "SCV007601567",
+      "SCV000187678",
+      "SCV000106043",
+      "SCV000519504",
+      "SCV000891532",
+      "SCV001135171",
+      "SCV001549379",
+      "SCV001917884",
+      "SCV001930296",
+      "SCV000884146",
+      "SCV000203040",
+      "SCV002506425",
+      "SCV001733273",
+      "SCV007593630",
+      "SCV005904943",
+      "SCV001147149",
+      "SCV007918130",
+      "SCV008100467"
+    ],
+    "n_rcv": 11,
+    "rcv_accessions": [
+      "RCV000003697",
+      "RCV000144921",
+      "RCV000153516",
+      "RCV000259890",
+      "RCV000428048",
+      "RCV001030751",
+      "RCV001847567",
+      "RCV004584309",
+      "RCV005419857",
+      "RCV006707576",
+      "RCV007091491"
+    ],
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3520/",
+    "germline_classification": "drug response",
+    "germline_review_status": "reviewed by expert panel",
+    "germline_last_evaluated": "2021/03/24 00:00",
+    "germline_traits": [
+      {
+        "trait_name": "methotrexate response - Toxicity",
+        "trait_xrefs": [
+          {
+            "db_source": "Orphanet",
+            "db_id": "565782"
+          },
+          {
+            "db_source": "MedGen",
+            "db_id": "C0568062"
+          },
+          {
+            "db_source": "MONDO",
+            "db_id": "MONDO:0034212"
+          }
+        ]
+      }
+    ],
+    "clinical_impact_classification": "",
+    "clinical_impact_review_status": "",
+    "clinical_impact_last_evaluated": "1/01/01 00:00",
+    "clinical_impact_traits": [],
+    "oncogenicity_classification": "",
+    "oncogenicity_review_status": "",
+    "oncogenicity_last_evaluated": "1/01/01 00:00",
+    "oncogenicity_traits": []
+  }
+]
