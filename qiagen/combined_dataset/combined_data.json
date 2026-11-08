@@ -10,14 +10,16 @@
         "gwas_catalog": "rs9807334",
         "gnomad": "rs9807334",
         "gtr": "rs9807334",
-        "phegeni": "rs9807334"
+        "phegeni": "rs9807334",
+        "pharmcat": "rs9807334"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -9166,6 +9168,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 1,
+        "rsid": "rs9807334",
+        "current_rsid": "rs9807334",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 1,
+        "input_rsid": "rs9807334",
+        "current_rsid": "rs9807334",
+        "was_merged": false,
+        "dbsnp_uid": "9807334",
+        "snp_class": "snv",
+        "spdi": "NC_000018.10:50997790:G:A",
+        "chromosome": "18",
+        "chrpos_zero_based": "18:50997791",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -9179,14 +9212,16 @@
         "gwas_catalog": "rs121913529",
         "gnomad": "rs121913529",
         "gtr": "rs121913529",
-        "phegeni": "rs121913529"
+        "phegeni": "rs121913529",
+        "pharmcat": "rs121913529"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -42009,6 +42044,37 @@
         "error": ""
       },
       "associations": []
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 2,
+        "rsid": "rs121913529",
+        "current_rsid": "rs121913529",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 2,
+        "input_rsid": "rs121913529",
+        "current_rsid": "rs121913529",
+        "was_merged": false,
+        "dbsnp_uid": "121913529",
+        "snp_class": "snv",
+        "spdi": "NC_000012.12:25245349:C:A,NC_000012.12:25245349:C:G,NC_000012.12:25245349:C:T",
+        "chromosome": "12",
+        "chrpos_zero_based": "12:25245350",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -42022,14 +42088,16 @@
         "gwas_catalog": "rs72921001",
         "gnomad": "rs72921001",
         "gtr": "rs72921001",
-        "phegeni": "rs72921001"
+        "phegeni": "rs72921001",
+        "pharmcat": "rs72921001"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -48702,6 +48770,37 @@
         "error": ""
       },
       "associations": []
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 3,
+        "rsid": "rs72921001",
+        "current_rsid": "rs72921001",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 3,
+        "input_rsid": "rs72921001",
+        "current_rsid": "rs72921001",
+        "was_merged": false,
+        "dbsnp_uid": "72921001",
+        "snp_class": "snv",
+        "spdi": "NC_000011.10:6868416:C:A,NC_000011.10:6868416:C:G",
+        "chromosome": "11",
+        "chrpos_zero_based": "11:6868417",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -48715,14 +48814,16 @@
         "gwas_catalog": "rs17822931",
         "gnomad": "rs17822931",
         "gtr": "rs17822931",
-        "phegeni": "rs17822931"
+        "phegeni": "rs17822931",
+        "pharmcat": "rs17822931"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -59144,6 +59245,37 @@
         "error": ""
       },
       "associations": []
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 4,
+        "rsid": "rs17822931",
+        "current_rsid": "rs17822931",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 4,
+        "input_rsid": "rs17822931",
+        "current_rsid": "rs17822931",
+        "was_merged": false,
+        "dbsnp_uid": "17822931",
+        "snp_class": "snv",
+        "spdi": "NC_000016.10:48224286:C:A,NC_000016.10:48224286:C:G,NC_000016.10:48224286:C:T",
+        "chromosome": "16",
+        "chrpos_zero_based": "16:48224287",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -59157,14 +59289,16 @@
         "gwas_catalog": "rs334",
         "gnomad": "rs334",
         "gtr": "rs334",
-        "phegeni": "rs334"
+        "phegeni": "rs334",
+        "pharmcat": "rs334"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -106720,6 +106854,37 @@
         "error": ""
       },
       "associations": []
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 5,
+        "rsid": "rs334",
+        "current_rsid": "rs334",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 5,
+        "input_rsid": "rs334",
+        "current_rsid": "rs334",
+        "was_merged": false,
+        "dbsnp_uid": "334",
+        "snp_class": "snv",
+        "spdi": "NC_000011.10:5227001:T:A,NC_000011.10:5227001:T:C,NC_000011.10:5227001:T:G",
+        "chromosome": "11",
+        "chrpos_zero_based": "11:5227002",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -106733,14 +106898,16 @@
         "gwas_catalog": "rs987870",
         "gnomad": "rs987870",
         "gtr": "rs987870",
-        "phegeni": "rs987870"
+        "phegeni": "rs987870",
+        "pharmcat": "rs987870"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -115154,6 +115321,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 6,
+        "rsid": "rs987870",
+        "current_rsid": "rs987870",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 6,
+        "input_rsid": "rs987870",
+        "current_rsid": "rs987870",
+        "was_merged": false,
+        "dbsnp_uid": "987870",
+        "snp_class": "snv",
+        "spdi": "NC_000006.12:33075102:A:C,NC_000006.12:33075102:A:G,NC_000006.12:33075102:A:T",
+        "chromosome": "6",
+        "chrpos_zero_based": "6:33075103",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -115167,14 +115365,16 @@
         "gwas_catalog": "rs429358",
         "gnomad": "rs429358",
         "gtr": "rs429358",
-        "phegeni": "rs429358"
+        "phegeni": "rs429358",
+        "pharmcat": "rs429358"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -271924,6 +272124,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 7,
+        "rsid": "rs429358",
+        "current_rsid": "rs429358",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 7,
+        "input_rsid": "rs429358",
+        "current_rsid": "rs429358",
+        "was_merged": false,
+        "dbsnp_uid": "429358",
+        "snp_class": "snv",
+        "spdi": "NC_000019.10:44908683:T:C",
+        "chromosome": "19",
+        "chrpos_zero_based": "19:44908684",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -271937,14 +272168,16 @@
         "gwas_catalog": "rs3827760",
         "gnomad": "rs3827760",
         "gtr": "rs3827760",
-        "phegeni": "rs3827760"
+        "phegeni": "rs3827760",
+        "pharmcat": "rs3827760"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -288966,6 +289199,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 8,
+        "rsid": "rs3827760",
+        "current_rsid": "rs3827760",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 8,
+        "input_rsid": "rs3827760",
+        "current_rsid": "rs3827760",
+        "was_merged": false,
+        "dbsnp_uid": "3827760",
+        "snp_class": "snv",
+        "spdi": "NC_000002.12:108897144:A:C,NC_000002.12:108897144:A:G",
+        "chromosome": "2",
+        "chrpos_zero_based": "2:108897145",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -288979,14 +289243,16 @@
         "gwas_catalog": "rs113993960",
         "gnomad": "rs113993960",
         "gtr": "rs113993960",
-        "phegeni": "rs113993960"
+        "phegeni": "rs113993960",
+        "pharmcat": "rs113993960"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -295912,6 +296178,37 @@
         "error": ""
       },
       "associations": []
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 9,
+        "rsid": "rs113993960",
+        "current_rsid": "rs113993960",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 9,
+        "input_rsid": "rs113993960",
+        "current_rsid": "rs113993960",
+        "was_merged": false,
+        "dbsnp_uid": "113993960",
+        "snp_class": "delins",
+        "spdi": "NC_000007.14:117559590:TCTT:T,NC_000007.14:117559590:TCTT:TCTTCTT",
+        "chromosome": "7",
+        "chrpos_zero_based": "7:117559591",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -295925,14 +296222,16 @@
         "gwas_catalog": "rs4988235",
         "gnomad": "rs4988235",
         "gtr": "rs4988235",
-        "phegeni": "rs4988235"
+        "phegeni": "rs4988235",
+        "pharmcat": "rs4988235"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -315698,6 +315997,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 10,
+        "rsid": "rs4988235",
+        "current_rsid": "rs4988235",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 10,
+        "input_rsid": "rs4988235",
+        "current_rsid": "rs4988235",
+        "was_merged": false,
+        "dbsnp_uid": "4988235",
+        "snp_class": "snv",
+        "spdi": "NC_000002.12:135851075:G:A,NC_000002.12:135851075:G:C,NC_000002.12:135851075:G:T",
+        "chromosome": "2",
+        "chrpos_zero_based": "2:135851076",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -315711,14 +316041,16 @@
         "gwas_catalog": "rs28934578",
         "gnomad": "rs28934578",
         "gtr": "rs28934578",
-        "phegeni": "rs28934578"
+        "phegeni": "rs28934578",
+        "pharmcat": "rs28934578"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -358333,6 +358665,37 @@
         "error": ""
       },
       "associations": []
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 11,
+        "rsid": "rs28934578",
+        "current_rsid": "rs28934578",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 11,
+        "input_rsid": "rs28934578",
+        "current_rsid": "rs28934578",
+        "was_merged": false,
+        "dbsnp_uid": "28934578",
+        "snp_class": "snv",
+        "spdi": "NC_000017.11:7675087:C:A,NC_000017.11:7675087:C:G,NC_000017.11:7675087:C:T",
+        "chromosome": "17",
+        "chrpos_zero_based": "17:7675088",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -358346,14 +358709,16 @@
         "gwas_catalog": "rs17004038",
         "gnomad": "rs17004038",
         "gtr": "rs17004038",
-        "phegeni": "rs17004038"
+        "phegeni": "rs17004038",
+        "pharmcat": "rs17004038"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -367610,6 +367975,37 @@
         "error": ""
       },
       "associations": []
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 12,
+        "rsid": "rs17004038",
+        "current_rsid": "rs17004038",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 12,
+        "input_rsid": "rs17004038",
+        "current_rsid": "rs17004038",
+        "was_merged": false,
+        "dbsnp_uid": "17004038",
+        "snp_class": "snv",
+        "spdi": "NC_000022.11:23894403:C:A,NC_000022.11:23894403:C:T",
+        "chromosome": "22",
+        "chrpos_zero_based": "22:23894404",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -367623,14 +368019,16 @@
         "gwas_catalog": "rs12913832",
         "gnomad": "rs12913832",
         "gtr": "rs12913832",
-        "phegeni": "rs12913832"
+        "phegeni": "rs12913832",
+        "pharmcat": "rs12913832"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -409082,6 +409480,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 13,
+        "rsid": "rs12913832",
+        "current_rsid": "rs12913832",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 13,
+        "input_rsid": "rs12913832",
+        "current_rsid": "rs12913832",
+        "was_merged": false,
+        "dbsnp_uid": "12913832",
+        "snp_class": "snv",
+        "spdi": "NC_000015.10:28120471:A:C,NC_000015.10:28120471:A:G",
+        "chromosome": "15",
+        "chrpos_zero_based": "15:28120472",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -409095,14 +409524,16 @@
         "gwas_catalog": "rs6025",
         "gnomad": "rs6025",
         "gtr": "rs6025",
-        "phegeni": "rs6025"
+        "phegeni": "rs6025",
+        "pharmcat": "rs6025"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -424275,6 +424706,89 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 14,
+        "rsid": "rs6025",
+        "current_rsid": "rs6025",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "pharmcat_positions_found",
+        "n_position_matches": 1,
+        "n_allele_definition_positions": 1,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [
+          "F5"
+        ],
+        "matched_source_rsids": [
+          "rs6025"
+        ],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 14,
+        "input_rsid": "rs6025",
+        "current_rsid": "rs6025",
+        "was_merged": false,
+        "dbsnp_uid": "6025",
+        "snp_class": "snv",
+        "spdi": "NC_000001.11:169549810:C:A,NC_000001.11:169549810:C:G,NC_000001.11:169549810:C:T",
+        "chromosome": "1",
+        "chrpos_zero_based": "1:169549811",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": [
+        {
+          "rank": 14,
+          "rsid": "rs6025",
+          "current_rsid": "rs6025",
+          "was_merged": false,
+          "source_line_number": 106,
+          "source_record_sha256": "8e0a02f465e52c2d6eb527ebeccc06d95bfe456a072becb0d4798be51023846f",
+          "match_basis": "input_rsid",
+          "matched_rsid": "rs6025",
+          "chromosome": "chr1",
+          "position": 169549811,
+          "source_id": "rs6025",
+          "reference": "C",
+          "alternate_alleles": [
+            "T"
+          ],
+          "quality": ".",
+          "filter": "PASS",
+          "info_raw": "PX=F5",
+          "pharmacogenes": [
+            "F5"
+          ],
+          "position_of_interest": false,
+          "allele_definition_position": true,
+          "source_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf",
+          "source_record": {
+            "source_line_number": 106,
+            "source_record_sha256": "8e0a02f465e52c2d6eb527ebeccc06d95bfe456a072becb0d4798be51023846f",
+            "matched_panel_rsids": [
+              "rs6025"
+            ],
+            "source_line": "chr1\t169549811\trs6025\tC\tT\t.\tPASS\tPX=F5\tGT\t0/0",
+            "line_ending": "\n",
+            "record": {
+              "#CHROM": "chr1",
+              "POS": "169549811",
+              "ID": "rs6025",
+              "REF": "C",
+              "ALT": "T",
+              "QUAL": ".",
+              "FILTER": "PASS",
+              "INFO": "PX=F5",
+              "FORMAT": "GT",
+              "PharmCAT": "0/0"
+            }
+          }
+        }
+      ]
     }
   },
   {
@@ -424288,14 +424802,16 @@
         "gwas_catalog": "rs713598",
         "gnomad": "rs713598",
         "gtr": "rs713598",
-        "phegeni": "rs713598"
+        "phegeni": "rs713598",
+        "pharmcat": "rs713598"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -438549,6 +439065,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 15,
+        "rsid": "rs713598",
+        "current_rsid": "rs713598",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 15,
+        "input_rsid": "rs713598",
+        "current_rsid": "rs713598",
+        "was_merged": false,
+        "dbsnp_uid": "713598",
+        "snp_class": "snv",
+        "spdi": "NC_000007.14:141973544:C:A,NC_000007.14:141973544:C:G,NC_000007.14:141973544:C:T",
+        "chromosome": "7",
+        "chrpos_zero_based": "7:141973545",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -438562,14 +439109,16 @@
         "gwas_catalog": "rs7412",
         "gnomad": "rs7412",
         "gtr": "rs7412",
-        "phegeni": "rs7412"
+        "phegeni": "rs7412",
+        "pharmcat": "rs7412"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -570332,6 +570881,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 16,
+        "rsid": "rs7412",
+        "current_rsid": "rs7412",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 16,
+        "input_rsid": "rs7412",
+        "current_rsid": "rs7412",
+        "was_merged": false,
+        "dbsnp_uid": "7412",
+        "snp_class": "snv",
+        "spdi": "NC_000019.10:44908821:C:T",
+        "chromosome": "19",
+        "chrpos_zero_based": "19:44908822",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -570345,14 +570925,16 @@
         "gwas_catalog": "rs80357783",
         "gnomad": "rs80357783",
         "gtr": "rs80357783",
-        "phegeni": "rs80357783"
+        "phegeni": "rs80357783",
+        "pharmcat": "rs80357783"
       },
       "was_merged_by_source": {
         "clinvar": true,
         "gwas_catalog": true,
         "gnomad": true,
         "gtr": true,
-        "phegeni": true
+        "phegeni": true,
+        "pharmcat": true
       }
     },
     "dbsnp_gene_consequence": {
@@ -571648,6 +572230,37 @@
         "error": ""
       },
       "associations": []
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 17,
+        "rsid": "rs80357713",
+        "current_rsid": "rs80357783",
+        "was_merged": true,
+        "dbsnp_status": "merged_to_current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 17,
+        "input_rsid": "rs80357713",
+        "current_rsid": "rs80357783",
+        "was_merged": true,
+        "dbsnp_uid": "80357713",
+        "snp_class": "delins",
+        "spdi": "NC_000017.11:43124030:T:TT",
+        "chromosome": "17",
+        "chrpos_zero_based": "17:43124030",
+        "merge_text": "MergedRs=80357783",
+        "status": "merged_to_current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -571661,14 +572274,16 @@
         "gwas_catalog": "rs1426654",
         "gnomad": "rs1426654",
         "gtr": "rs1426654",
-        "phegeni": "rs1426654"
+        "phegeni": "rs1426654",
+        "pharmcat": "rs1426654"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -586059,6 +586674,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 18,
+        "rsid": "rs1426654",
+        "current_rsid": "rs1426654",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 18,
+        "input_rsid": "rs1426654",
+        "current_rsid": "rs1426654",
+        "was_merged": false,
+        "dbsnp_uid": "1426654",
+        "snp_class": "snv",
+        "spdi": "NC_000015.10:48134286:A:C,NC_000015.10:48134286:A:G,NC_000015.10:48134286:A:T",
+        "chromosome": "15",
+        "chrpos_zero_based": "15:48134287",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   },
   {
@@ -586072,14 +586718,16 @@
         "gwas_catalog": "rs1799963",
         "gnomad": "rs1799963",
         "gtr": "rs1799963",
-        "phegeni": "rs1799963"
+        "phegeni": "rs1799963",
+        "pharmcat": "rs1799963"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -596266,6 +596914,89 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 19,
+        "rsid": "rs1799963",
+        "current_rsid": "rs1799963",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "pharmcat_positions_found",
+        "n_position_matches": 1,
+        "n_allele_definition_positions": 1,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [
+          "F2"
+        ],
+        "matched_source_rsids": [
+          "rs1799963"
+        ],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 19,
+        "input_rsid": "rs1799963",
+        "current_rsid": "rs1799963",
+        "was_merged": false,
+        "dbsnp_uid": "1799963",
+        "snp_class": "snv",
+        "spdi": "NC_000011.10:46739504:G:A",
+        "chromosome": "11",
+        "chrpos_zero_based": "11:46739505",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": [
+        {
+          "rank": 19,
+          "rsid": "rs1799963",
+          "current_rsid": "rs1799963",
+          "was_merged": false,
+          "source_line_number": 476,
+          "source_record_sha256": "48a4a99ad48d3399a8a98be7d4d2c220bfd51318b0f89b1824c8c16cd00278f3",
+          "match_basis": "input_rsid",
+          "matched_rsid": "rs1799963",
+          "chromosome": "chr11",
+          "position": 46739505,
+          "source_id": "rs1799963",
+          "reference": "G",
+          "alternate_alleles": [
+            "A"
+          ],
+          "quality": ".",
+          "filter": "PASS",
+          "info_raw": "PX=F2",
+          "pharmacogenes": [
+            "F2"
+          ],
+          "position_of_interest": false,
+          "allele_definition_position": true,
+          "source_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf",
+          "source_record": {
+            "source_line_number": 476,
+            "source_record_sha256": "48a4a99ad48d3399a8a98be7d4d2c220bfd51318b0f89b1824c8c16cd00278f3",
+            "matched_panel_rsids": [
+              "rs1799963"
+            ],
+            "source_line": "chr11\t46739505\trs1799963\tG\tA\t.\tPASS\tPX=F2\tGT\t0/0",
+            "line_ending": "\n",
+            "record": {
+              "#CHROM": "chr11",
+              "POS": "46739505",
+              "ID": "rs1799963",
+              "REF": "G",
+              "ALT": "A",
+              "QUAL": ".",
+              "FILTER": "PASS",
+              "INFO": "PX=F2",
+              "FORMAT": "GT",
+              "PharmCAT": "0/0"
+            }
+          }
+        }
+      ]
     }
   },
   {
@@ -596279,14 +597010,16 @@
         "gwas_catalog": "rs1801133",
         "gnomad": "rs1801133",
         "gtr": "rs1801133",
-        "phegeni": "rs1801133"
+        "phegeni": "rs1801133",
+        "pharmcat": "rs1801133"
       },
       "was_merged_by_source": {
         "clinvar": false,
         "gwas_catalog": false,
         "gnomad": false,
         "gtr": false,
-        "phegeni": false
+        "phegeni": false,
+        "pharmcat": false
       }
     },
     "dbsnp_gene_consequence": {
@@ -616458,6 +617191,37 @@
           }
         }
       ]
+    },
+    "pharmcat": {
+      "status": {
+        "rank": 20,
+        "rsid": "rs1801133",
+        "current_rsid": "rs1801133",
+        "was_merged": false,
+        "dbsnp_status": "current_rsid",
+        "status": "no_pharmcat_position",
+        "n_position_matches": 0,
+        "n_allele_definition_positions": 0,
+        "n_positions_of_interest": 0,
+        "pharmacogenes": [],
+        "matched_source_rsids": [],
+        "error": ""
+      },
+      "dbsnp_resolution": {
+        "rank": 20,
+        "input_rsid": "rs1801133",
+        "current_rsid": "rs1801133",
+        "was_merged": false,
+        "dbsnp_uid": "1801133",
+        "snp_class": "snv",
+        "spdi": "NC_000001.11:11796320:G:A,NC_000001.11:11796320:G:C,NC_000001.11:11796320:G:T",
+        "chromosome": "1",
+        "chrpos_zero_based": "1:11796321",
+        "merge_text": "",
+        "status": "current_rsid",
+        "error": ""
+      },
+      "position_matches": []
     }
   }
 ]
