@@ -19,3 +19,5 @@ One-to-many records are nested by their actual relation keys: genomic variant,
 ClinVar record, GWAS/PheGenI source row, gnomAD variant/callset, or GTR test.
 They are never flattened into a Cartesian product. Source-specific cautions
 and evidence scopes remain authoritative.
+
+snpLM Application: http://34.180.36.47:3838/
