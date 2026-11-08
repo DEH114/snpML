@@ -1,0 +1,3 @@
+source_line_number	source_record_sha256	matched_panel_rsids	source_line	line_ending	#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	PharmCAT
+106	8e0a02f465e52c2d6eb527ebeccc06d95bfe456a072becb0d4798be51023846f	"[""rs6025""]"	"chr1	169549811	rs6025	C	T	.	PASS	PX=F5	GT	0/0"	\n	chr1	169549811	rs6025	C	T	.	PASS	PX=F5	GT	0/0
+476	48a4a99ad48d3399a8a98be7d4d2c220bfd51318b0f89b1824c8c16cd00278f3	"[""rs1799963""]"	"chr11	46739505	rs1799963	G	A	.	PASS	PX=F2	GT	0/0"	\n	chr11	46739505	rs1799963	G	A	.	PASS	PX=F2	GT	0/0

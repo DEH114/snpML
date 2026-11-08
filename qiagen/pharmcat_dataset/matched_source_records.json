@@ -1,0 +1,44 @@
+[
+  {
+    "source_line_number": 106,
+    "source_record_sha256": "8e0a02f465e52c2d6eb527ebeccc06d95bfe456a072becb0d4798be51023846f",
+    "matched_panel_rsids": [
+      "rs6025"
+    ],
+    "source_line": "chr1\t169549811\trs6025\tC\tT\t.\tPASS\tPX=F5\tGT\t0/0",
+    "line_ending": "\n",
+    "record": {
+      "#CHROM": "chr1",
+      "POS": "169549811",
+      "ID": "rs6025",
+      "REF": "C",
+      "ALT": "T",
+      "QUAL": ".",
+      "FILTER": "PASS",
+      "INFO": "PX=F5",
+      "FORMAT": "GT",
+      "PharmCAT": "0/0"
+    }
+  },
+  {
+    "source_line_number": 476,
+    "source_record_sha256": "48a4a99ad48d3399a8a98be7d4d2c220bfd51318b0f89b1824c8c16cd00278f3",
+    "matched_panel_rsids": [
+      "rs1799963"
+    ],
+    "source_line": "chr11\t46739505\trs1799963\tG\tA\t.\tPASS\tPX=F2\tGT\t0/0",
+    "line_ending": "\n",
+    "record": {
+      "#CHROM": "chr11",
+      "POS": "46739505",
+      "ID": "rs1799963",
+      "REF": "G",
+      "ALT": "A",
+      "QUAL": ".",
+      "FILTER": "PASS",
+      "INFO": "PX=F2",
+      "FORMAT": "GT",
+      "PharmCAT": "0/0"
+    }
+  }
+]

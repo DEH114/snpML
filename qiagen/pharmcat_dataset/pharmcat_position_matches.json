@@ -1,0 +1,54 @@
+[
+  {
+    "rank": 14,
+    "rsid": "rs6025",
+    "current_rsid": "rs6025",
+    "was_merged": false,
+    "source_line_number": 106,
+    "source_record_sha256": "8e0a02f465e52c2d6eb527ebeccc06d95bfe456a072becb0d4798be51023846f",
+    "match_basis": "input_rsid",
+    "matched_rsid": "rs6025",
+    "chromosome": "chr1",
+    "position": 169549811,
+    "source_id": "rs6025",
+    "reference": "C",
+    "alternate_alleles": [
+      "T"
+    ],
+    "quality": ".",
+    "filter": "PASS",
+    "info_raw": "PX=F5",
+    "pharmacogenes": [
+      "F5"
+    ],
+    "position_of_interest": false,
+    "allele_definition_position": true,
+    "source_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf"
+  },
+  {
+    "rank": 19,
+    "rsid": "rs1799963",
+    "current_rsid": "rs1799963",
+    "was_merged": false,
+    "source_line_number": 476,
+    "source_record_sha256": "48a4a99ad48d3399a8a98be7d4d2c220bfd51318b0f89b1824c8c16cd00278f3",
+    "match_basis": "input_rsid",
+    "matched_rsid": "rs1799963",
+    "chromosome": "chr11",
+    "position": 46739505,
+    "source_id": "rs1799963",
+    "reference": "G",
+    "alternate_alleles": [
+      "A"
+    ],
+    "quality": ".",
+    "filter": "PASS",
+    "info_raw": "PX=F2",
+    "pharmacogenes": [
+      "F2"
+    ],
+    "position_of_interest": false,
+    "allele_definition_position": true,
+    "source_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf"
+  }
+]
