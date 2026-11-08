@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # =============================================================================
-# Rank_snp.R
+# snp_evidence_ranker.R
 #
 # Rank the quality of evidence for a single SNP (dbSNP rsID) using seven sources:
 #   ClinVar, gnomAD, GWAS Catalog, AlphaFold DB (+ AlphaMissense), JASPAR, NIH GTR, PheGenI
@@ -27,7 +27,7 @@
 #
 # Usage:
 #   Rscript snp_evidence_ranker.R                          # score every rsID in the table -> CSV
-#   Rscript snp_evidence_ranker.R --tsv=PATH --csv=snp_evidence_scores.csv --json-dir=evidence_json
+#   Rscript snp_evidence_ranker.R --tsv=PATH --csv=my_scores.csv --json-dir=evidence_json  # never overwrites a CSV
 #   Rscript snp_evidence_ranker.R rs6025                   # one rsID from the table, full report
 #   Rscript snp_evidence_ranker.R rs429358 --live --out=rs429358.json
 #
@@ -2096,9 +2096,25 @@ score_row <- function(res, rank = NA) {
   out
 }
 
+# CSV path that never overwrites an existing file. Empty -> timestamped name
+# (snp_evidence_scores_YYYYMMDD_HHMMSS.csv); an existing name gets _2, _3, ... appended.
+unique_csv_path <- function(path = "") {
+  if (is.null(path) || is.na(path) || !nzchar(path))
+    path <- sprintf("snp_evidence_scores_%s.csv", format(Sys.time(), "%Y%m%d_%H%M%S"))
+  if (!grepl("\\.csv$", path, ignore.case = TRUE)) path <- paste0(path, ".csv")
+  if (!file.exists(path)) return(path)
+  base <- sub("\\.csv$", "", path, ignore.case = TRUE)
+  i <- 2L
+  repeat {
+    candidate <- sprintf("%s_%d.csv", base, i)
+    if (!file.exists(candidate)) return(candidate)
+    i <- i + 1L
+  }
+}
+
 # Score every rsID in the combined table. Writes a CSV of scores (and optionally one JSON per SNP)
 # and returns the scores as a data frame, highest confidence first within the table order.
-rank_tsv <- function(tsv = CONFIG$tsv_path, csv = "snp_evidence_scores.csv", json_dir = NULL,
+rank_tsv <- function(tsv = CONFIG$tsv_path, csv = "", json_dir = NULL,
                      rsids = NULL, verbose = TRUE) {
   d <- read_combined_tsv(tsv)
   if (!is.null(rsids)) d <- d[d$rsid %in% tolower(rsids), , drop = FALSE]
@@ -2117,7 +2133,9 @@ rank_tsv <- function(tsv = CONFIG$tsv_path, csv = "snp_evidence_scores.csv", jso
   rows <- lapply(rows, function(r) { for (cn in setdiff(all_cols, names(r))) r[[cn]] <- NA; r[all_cols] })
   scores <- do.call(rbind, rows)
   if (!is.null(csv)) {
+    csv <- unique_csv_path(csv)
     utils::write.csv(scores, csv, row.names = FALSE, na = "")
+    attr(scores, "csv_path") <- normalizePath(csv, mustWork = FALSE)
     if (verbose) message("Wrote ", normalizePath(csv, mustWork = FALSE))
   }
   scores
@@ -2795,7 +2813,7 @@ if (sys.nframe() == 0L) {
     "  Rscript snp_evidence_ranker.R <rsID> --live [--out=FILE.json] [--sources=a,b,...]",
     "      Query the source APIs directly instead of the table (needs httr2 and network access).",
     sprintf("  --tsv default: %s (or env SNP_EVIDENCE_TSV)", CONFIG$tsv_path),
-    "  --csv default: snp_evidence_scores.csv",
+    "  --csv default: snp_evidence_scores_<date>_<time>.csv; an existing file is never overwritten (_2, _3, ... is appended)",
     sprintf("  sources: %s (default: all)", paste(names(SOURCES), collapse = ",")),
     "  env (live mode): NCBI_API_KEY, NCBI_EMAIL (optional; faster NCBI queries)", sep = "\n")
   if (any(args %in% c("-h", "--help"))) { cat(usage, "\n"); quit(status = 0) }
@@ -2811,11 +2829,12 @@ if (sys.nframe() == 0L) {
   if (is.na(rsid_arg)) {
     if ("--live" %in% args) { cat(usage, "\n"); quit(status = 1) }
     scores <- tryCatch(
-      rank_tsv(tsv, csv = opt("csv", "snp_evidence_scores.csv"), json_dir = opt("json-dir", NULL), verbose = !quiet),
+      rank_tsv(tsv, csv = opt("csv", ""), json_dir = opt("json-dir", NULL), verbose = !quiet),
       error = function(e) { message("ERROR: ", conditionMessage(e)); quit(status = 1) })
     show <- intersect(c("rank", "rsid", "gene", "confidence_score", "confidence_band",
                         "n_direct", "n_unresolved_conflicts", "error"), names(scores))
     print(scores[order(-scores$confidence_score), show], row.names = FALSE)
+    cat("\nScores written to", attr(scores, "csv_path"), "\n")
     quit(status = 0)
   }
 
