@@ -1,7 +1,7 @@
 {
-  "schema_version": "2.1",
-  "generator": "combine_seven_datasets.py",
-  "finished_at_utc": "2026-11-07T21:02:12.011219+00:00",
+  "schema_version": "3.0",
+  "generator": "combine_eight_datasets.py",
+  "finished_at_utc": "2026-11-08T00:22:43.186552+00:00",
   "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
   "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
   "dataset_root": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset",
@@ -37,7 +37,8 @@
     "gwas_catalog",
     "gnomad",
     "gtr",
-    "phegeni"
+    "phegeni",
+    "pharmcat"
   ],
   "missing_sources": [],
   "shared_artifacts": {
@@ -54,7 +55,8 @@
         "gwas_catalog",
         "gnomad",
         "gtr",
-        "phegeni"
+        "phegeni",
+        "pharmcat"
       ],
       "copies": [
         {
@@ -98,6 +100,12 @@
           "relative_path": "phegeni_dataset/dbsnp_gene_consequences.json",
           "size_bytes": 17579,
           "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        },
+        {
+          "source": "pharmcat",
+          "relative_path": "pharmcat_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
     }
@@ -107,7 +115,7 @@
       "directory": "alpha_fold_dataset",
       "manifests": {
         "dataset_manifest": {
-          "finished_at_utc": "2026-11-07T21:01:13.180460+00:00",
+          "finished_at_utc": "2026-11-08T00:21:52.043217+00:00",
           "generator": "generate_alphafold_dataset.py",
           "dataset_type": "VEP + UniProt + AlphaFold reference-protein context",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
@@ -445,7 +453,7 @@
           ]
         },
         "branch_run_manifest": {
-          "finished_at_utc": "2026-11-07T21:01:13.158920+00:00",
+          "finished_at_utc": "2026-11-08T00:21:52.031847+00:00",
           "assembly": "GRCh38",
           "arguments": {
             "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\alpha_fold_dataset\\resolved_snvs.tsv",
@@ -1215,12 +1223,12 @@
         {
           "relative_path": "alpha_fold_dataset/dataset_manifest.json",
           "size_bytes": 16083,
-          "sha256": "ddb2dafa32115b9827369f4ec45e5d11a114dc2474a1b01252c0a4d580be52fc"
+          "sha256": "293f2c35909e649e1d0c6f35ff31035e06d26484191423792e81c691d82a3d25"
         },
         {
           "relative_path": "alpha_fold_dataset/run_manifest.json",
           "size_bytes": 38179,
-          "sha256": "23bcfb8599733f71402aec0eed0c76fae5cc9ac63cff7675b1cc2eec5c2baf07"
+          "sha256": "403918a22401bda2a35e0fda2001a9ec15814c4a5df1065f47a0194431fe040b"
         },
         {
           "relative_path": "alpha_fold_dataset/errors.json",
@@ -1258,7 +1266,7 @@
       "directory": "jaspar_dataset",
       "manifests": {
         "dataset_manifest": {
-          "finished_at_utc": "2026-11-07T21:02:05.966751+00:00",
+          "finished_at_utc": "2026-11-08T00:22:36.447129+00:00",
           "generator": "generate_jaspar_dataset.py",
           "dataset_type": "JASPAR allele-specific motif score changes",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
@@ -1597,7 +1605,7 @@
           ]
         },
         "branch_run_manifest": {
-          "finished_at_utc": "2026-11-07T21:02:05.954030+00:00",
+          "finished_at_utc": "2026-11-08T00:22:36.436344+00:00",
           "assembly": "GRCh38",
           "arguments": {
             "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\jaspar_dataset\\resolved_snvs.tsv",
@@ -1925,12 +1933,12 @@
         {
           "relative_path": "jaspar_dataset/dataset_manifest.json",
           "size_bytes": 16207,
-          "sha256": "3f64daee50869cfd6a44adec78d8590208eeb2d491e9e83191dc9d8481504235"
+          "sha256": "6d3deee36c47d793da8f199501fed4c3b4107c064282121a6286da49e5039e3b"
         },
         {
           "relative_path": "jaspar_dataset/run_manifest.json",
           "size_bytes": 16026,
-          "sha256": "bbc9e500d932e9801930bee1b5a789d73570df202a2577b54a028a92bde6e94e"
+          "sha256": "be637ca1637c3300273e289c743913f921d4b9b02349c461bdc7d10322fe681d"
         },
         {
           "relative_path": "jaspar_dataset/errors.json",
@@ -1973,7 +1981,7 @@
       "directory": "clinvar_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T21:00:16.928905+00:00",
+          "finished_at_utc": "2026-11-08T00:20:56.399465+00:00",
           "generator": "generate_clinvar_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2187,7 +2195,7 @@
         {
           "relative_path": "clinvar_dataset/run_manifest.json",
           "size_bytes": 11268,
-          "sha256": "54fa41e4a7027fc8f9210568f4aa5d855bc0696c66f5a9c15cf604cb92309826"
+          "sha256": "f87c3adf1fc88e1cf47fd47d955d373b4827484b8b83dd9daec4a87a2d7b570a"
         },
         {
           "relative_path": "clinvar_dataset/errors.json",
@@ -2235,7 +2243,7 @@
       "directory": "gwas_catalog_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T21:01:05.702850+00:00",
+          "finished_at_utc": "2026-11-08T00:21:44.182810+00:00",
           "generator": "generate_gwas_catalog_dataset.py",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
           "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
@@ -2340,7 +2348,7 @@
         {
           "relative_path": "gwas_catalog_dataset/run_manifest.json",
           "size_bytes": 4147,
-          "sha256": "a0176e4c150033d196bb7fe0ff416c10e9d15942814dbd4f0e584d6fa312aa1c"
+          "sha256": "2d491f16199b2db7b60f86dfc20e8be4067fdd872528c1597aa059ec41f4a717"
         },
         {
           "relative_path": "gwas_catalog_dataset/errors.json",
@@ -2378,7 +2386,7 @@
       "directory": "gnomad_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T21:01:08.299805+00:00",
+          "finished_at_utc": "2026-11-08T00:21:46.771834+00:00",
           "generator": "generate_gnomad_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2490,7 +2498,7 @@
         {
           "relative_path": "gnomad_dataset/run_manifest.json",
           "size_bytes": 1493,
-          "sha256": "fa22634f5baf2f61550f9c4b81f22320fc9050f7804471794e5883da1896cbfa"
+          "sha256": "d10661a19dd0028046beee081693ed5cc83fb4050bdeb52ba9377a13107a5984"
         },
         {
           "relative_path": "gnomad_dataset/source_provenance.json",
@@ -2543,7 +2551,7 @@
       "directory": "gtr_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T21:01:09.356333+00:00",
+          "finished_at_utc": "2026-11-08T00:21:47.913982+00:00",
           "generator": "generate_gtr_dataset.py",
           "source_databases": [
             "NCBI dbSNP",
@@ -2758,7 +2766,7 @@
         {
           "relative_path": "gtr_dataset/run_manifest.json",
           "size_bytes": 11585,
-          "sha256": "92e261ba8d1b8fe1bf557ae5a9f19d3612ff6671f4cb63daf28b2840f8cffcf7"
+          "sha256": "75c68e4b280a0b9a98c72aa4c72b18367a25aebbd46501d5c6a27187bd27372d"
         },
         {
           "relative_path": "gtr_dataset/errors.json",
@@ -2806,7 +2814,7 @@
       "directory": "phegeni_dataset",
       "manifests": {
         "run_manifest": {
-          "finished_at_utc": "2026-11-07T21:02:09.179970+00:00",
+          "finished_at_utc": "2026-11-08T00:22:39.482064+00:00",
           "generator": "generate_phegeni_dataset.py",
           "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
           "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
@@ -2891,7 +2899,7 @@
         {
           "relative_path": "phegeni_dataset/run_manifest.json",
           "size_bytes": 3011,
-          "sha256": "feb8ce550800ad06bc5bef09c07fe3d03cca89472c1827d93237b33e19fbf62b"
+          "sha256": "1425ebb2e2702445b89d6f8753688298970a13710dd869743c38b1030595deaf"
         },
         {
           "relative_path": "phegeni_dataset/errors.json",
@@ -2924,20 +2932,218 @@
           "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
         }
       ]
+    },
+    "pharmcat": {
+      "directory": "pharmcat_dataset",
+      "manifests": {
+        "run_manifest": {
+          "finished_at_utc": "2026-11-08T00:22:40.286963+00:00",
+          "generator": "generate_pharmcat_dataset.py",
+          "input": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\panel_input.tsv",
+          "input_sha256": "f53a156fc49618353bf74939c600d3fde172511640729638681204cb806d2f50",
+          "source_database": "PharmCAT reference positions",
+          "pharmcat_version": "3.4.0",
+          "pharmcat_tag": "v3.4.0",
+          "source_positions_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf",
+          "genome_assembly": "GRCh38",
+          "dbsnp_resolution_source": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\results\\qiagen_20_snp_dataset\\clinvar_dataset\\dbsnp_resolution.json",
+          "n_input_rsids": 20,
+          "n_merged_input_rsids": 1,
+          "n_source_rows_scanned": 1226,
+          "n_matched_source_rows": 2,
+          "n_position_match_relations": 2,
+          "n_rsids_with_position_matches": 2,
+          "n_allele_definition_position_relations": 2,
+          "n_position_of_interest_relations": 0,
+          "n_warnings": 0,
+          "source_header": [
+            "#CHROM",
+            "POS",
+            "ID",
+            "REF",
+            "ALT",
+            "QUAL",
+            "FILTER",
+            "INFO",
+            "FORMAT",
+            "PharmCAT"
+          ],
+          "source_provenance": {
+            "source_mode": "cache",
+            "requested_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf",
+            "resolved_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf",
+            "retrieved_at_utc": "2026-11-08T00:20:34.803753+00:00",
+            "downloaded_bytes": 64934,
+            "download_sha256": "63f49b9004b6a5ca921deebe8ec59f8e45f6990543e07b7890c0d6201f5e69fc",
+            "content_type": "text/plain; charset=utf-8",
+            "last_modified": null,
+            "etag": "W/\"e5a9b8bf7cf249435d6ca62976b16643b6d3c0a07614b3922ec0c31205129a14\"",
+            "positions_vcf_path": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\.cache\\pharmcat\\3.4.0\\pharmcat_positions.vcf",
+            "positions_vcf_bytes": 64934,
+            "positions_vcf_sha256": "63f49b9004b6a5ca921deebe8ec59f8e45f6990543e07b7890c0d6201f5e69fc",
+            "vcf_header": [
+              "#CHROM",
+              "POS",
+              "ID",
+              "REF",
+              "ALT",
+              "QUAL",
+              "FILTER",
+              "INFO",
+              "FORMAT",
+              "PharmCAT"
+            ],
+            "vcf_header_line_number": 22,
+            "vcf_metadata": [
+              "##fileformat=VCFv4.2",
+              "##source=PharmCAT allele definitions",
+              "##fileDate=2023-02-03T08:20:52.044-08:00",
+              "##contig=<ID=chr1,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr2,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr4,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr6,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr7,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr8,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr10,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr11,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr12,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr13,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr16,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr19,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chr22,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##contig=<ID=chrX,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+              "##FILTER=<ID=PASS,Description=\"All filters passed\">",
+              "##INFO=<ID=PX,Number=.,Type=String,Description=\"Gene\">",
+              "##INFO=<ID=POI,Number=0,Type=Flag,Description=\"Position of Interest but not part of an allele definition\">",
+              "##FORMAT=<ID=GT,Number=1,Type=String,Description=\"Genotype\">"
+            ],
+            "genome_assembly": "GRCh38",
+            "pharmcat_version": "3.4.0",
+            "pharmcat_tag": "v3.4.0",
+            "official_positions_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf"
+          },
+          "http_provenance": [],
+          "notes": [
+            "Exact supplied and current dbSNP identifiers are matched",
+            "PX and POI are retained from the pinned PharmCAT reference-position VCF",
+            "Matched VCF source lines and line endings are preserved losslessly",
+            "The PharmCAT template genotype column is never interpreted",
+            "An rsID list contains no patient genotype, phase, copy number, or quality",
+            "No star allele, diplotype, phenotype, or prescribing recommendation is inferred"
+          ]
+        },
+        "source_provenance": {
+          "source_mode": "cache",
+          "requested_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf",
+          "resolved_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf",
+          "retrieved_at_utc": "2026-11-08T00:20:34.803753+00:00",
+          "downloaded_bytes": 64934,
+          "download_sha256": "63f49b9004b6a5ca921deebe8ec59f8e45f6990543e07b7890c0d6201f5e69fc",
+          "content_type": "text/plain; charset=utf-8",
+          "last_modified": null,
+          "etag": "W/\"e5a9b8bf7cf249435d6ca62976b16643b6d3c0a07614b3922ec0c31205129a14\"",
+          "positions_vcf_path": "D:\\Biohack\\qiagen_biohack_20_rsids_v2\\biohack_snp_toolkit\\.cache\\pharmcat\\3.4.0\\pharmcat_positions.vcf",
+          "positions_vcf_bytes": 64934,
+          "positions_vcf_sha256": "63f49b9004b6a5ca921deebe8ec59f8e45f6990543e07b7890c0d6201f5e69fc",
+          "vcf_header": [
+            "#CHROM",
+            "POS",
+            "ID",
+            "REF",
+            "ALT",
+            "QUAL",
+            "FILTER",
+            "INFO",
+            "FORMAT",
+            "PharmCAT"
+          ],
+          "vcf_header_line_number": 22,
+          "vcf_metadata": [
+            "##fileformat=VCFv4.2",
+            "##source=PharmCAT allele definitions",
+            "##fileDate=2023-02-03T08:20:52.044-08:00",
+            "##contig=<ID=chr1,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr2,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr4,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr6,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr7,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr8,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr10,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr11,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr12,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr13,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr16,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr19,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chr22,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##contig=<ID=chrX,assembly=GRCh38.p14,species=\"Homo sapiens\">",
+            "##FILTER=<ID=PASS,Description=\"All filters passed\">",
+            "##INFO=<ID=PX,Number=.,Type=String,Description=\"Gene\">",
+            "##INFO=<ID=POI,Number=0,Type=Flag,Description=\"Position of Interest but not part of an allele definition\">",
+            "##FORMAT=<ID=GT,Number=1,Type=String,Description=\"Genotype\">"
+          ],
+          "genome_assembly": "GRCh38",
+          "pharmcat_version": "3.4.0",
+          "pharmcat_tag": "v3.4.0",
+          "official_positions_url": "https://raw.githubusercontent.com/PharmGKB/PharmCAT/v3.4.0/pharmcat_positions.vcf"
+        }
+      },
+      "reported_errors": [],
+      "input_files": [
+        {
+          "relative_path": "pharmcat_dataset/run_manifest.json",
+          "size_bytes": 4567,
+          "sha256": "d448987db0370aad965b7575b163c58a90d7cdf3af93984fd3594c37a0539560"
+        },
+        {
+          "relative_path": "pharmcat_dataset/source_provenance.json",
+          "size_bytes": 2721,
+          "sha256": "f39a7b69bd8252702b8e1f881e9c126f0c616735aad692b4b093d452cc8a161d"
+        },
+        {
+          "relative_path": "pharmcat_dataset/errors.json",
+          "size_bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "relative_path": "pharmcat_dataset/dbsnp_resolution.json",
+          "size_bytes": 7733,
+          "sha256": "4d1913accac1ebbe4d90db506bfc823e9f8cf3ba51bee99284f6ba40952351d3"
+        },
+        {
+          "relative_path": "pharmcat_dataset/panel_status.json",
+          "size_bytes": 7528,
+          "sha256": "4e577726e492853acdefd2ea63c21384b9306c7125aaba573b92ff496f9283f5"
+        },
+        {
+          "relative_path": "pharmcat_dataset/pharmcat_position_matches.json",
+          "size_bytes": 1513,
+          "sha256": "445eaa71fb90541782ea2ee9392891ce320acdc55fc575cf0979d3bd6073c983"
+        },
+        {
+          "relative_path": "pharmcat_dataset/matched_source_records.json",
+          "size_bytes": 1116,
+          "sha256": "676ec6e11424afab7a07f36a7e355fac332f280cf41332b291cf476445b23d10"
+        },
+        {
+          "relative_path": "pharmcat_dataset/dbsnp_gene_consequences.json",
+          "size_bytes": 17579,
+          "sha256": "fd8ce5fda2cb2017571294512049254b415670077903f3769ca1a23b42c6afa0"
+        }
+      ]
     }
   },
   "output_files": {
     "combined_data.json": {
-      "size_bytes": 25125818,
-      "sha256": "2720c0ac2330f35043f9b1d8c30c690f76de8570b74e2ad793ff760eb5a68661"
+      "size_bytes": 25149640,
+      "sha256": "b3462d7f5fb827e46ddce99f8294241d7dd4ad19dd779005292f817ab3ad6bdf"
     },
     "combined_summary.tsv": {
-      "size_bytes": 17719169,
-      "sha256": "05ca03e30d7733ea4a523714fe918751512fbf66ebf95296d842dbb5af1f6b13"
+      "size_bytes": 17737442,
+      "sha256": "888a632c8d5dbfc608f98041790381381f55405d4f5bfed0359ee3d257d82c71"
     },
     "combined_data.sqlite": {
-      "size_bytes": 30322688,
-      "sha256": "5daba1f77782cfa9d8c379f552b8e9afcf316beb46286280a88376282b459f32"
+      "size_bytes": 30359552,
+      "sha256": "32d56f55f126917aecc3b89b660f97dc258dec92d6593aab3857ba15df96174e"
     }
   }
 }
